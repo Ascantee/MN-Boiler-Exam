@@ -46,7 +46,7 @@ const QUESTIONS_2A = [
   {
     "id": 131,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "How many exam questions are on the 2nd Class A license examination?",
     "options": [
       "80",
@@ -60,7 +60,7 @@ const QUESTIONS_2A = [
   {
     "id": 132,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What experience is required for a 2nd Class A engineer license?",
     "options": [
       "1 year of boiler operation plus 1 year of turbine/engine experience",
@@ -74,7 +74,7 @@ const QUESTIONS_2A = [
   {
     "id": 133,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "As a 2nd Class A engineer, you can be in charge of a boiler plant up to what HP?",
     "options": [
       "100 BHP",
@@ -88,7 +88,7 @@ const QUESTIONS_2A = [
   {
     "id": 134,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the maximum pressure typically achievable with fire-tube boilers?",
     "options": [
       "100 psig",
@@ -102,7 +102,7 @@ const QUESTIONS_2A = [
   {
     "id": 135,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What component in a water-tube boiler raises steam temperature above saturation temperature?",
     "options": [
       "Economizer",
@@ -116,7 +116,7 @@ const QUESTIONS_2A = [
   {
     "id": 136,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the function of a reheater in a large power boiler system?",
     "options": [
       "Heats the feedwater before it enters the boiler",
@@ -130,7 +130,7 @@ const QUESTIONS_2A = [
   {
     "id": 137,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the purpose of a desuperheater (attemperator) in a boiler system?",
     "options": [
       "Reduces superheated steam temperature by spraying water into the steam",
@@ -144,7 +144,7 @@ const QUESTIONS_2A = [
   {
     "id": 138,
     "level": "2a",
-    "category": "Safety Valve Tolerances",
+    "category": "Safety Valves",
     "question": "A safety valve is set at 200 psig. What is the allowable tolerance per ASME code?",
     "options": [
       "±2 psi",
@@ -158,7 +158,7 @@ const QUESTIONS_2A = [
   {
     "id": 139,
     "level": "2a",
-    "category": "Safety Valve Tolerances",
+    "category": "Safety Valves",
     "question": "A safety valve is set at 500 psig. What is the allowable tolerance per ASME PG-72?",
     "options": [
       "±3% (±15 psi)",
@@ -172,7 +172,7 @@ const QUESTIONS_2A = [
   {
     "id": 140,
     "level": "2a",
-    "category": "Safety Valve Tolerances",
+    "category": "Safety Valves",
     "question": "When a power boiler has two or more safety valves, what is the rule for setting the additional valves?",
     "options": [
       "All valves must be set at the same pressure",
@@ -186,7 +186,7 @@ const QUESTIONS_2A = [
   {
     "id": 141,
     "level": "2a",
-    "category": "Safety Valve Tolerances",
+    "category": "Safety Valves",
     "question": "On a power boiler with a superheater, which safety valve must be set to open FIRST (lowest set pressure)?",
     "options": [
       "The main steam drum safety valve",
@@ -200,7 +200,7 @@ const QUESTIONS_2A = [
   {
     "id": 142,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the blowdown requirement for power boiler safety valves set above 100 psig per ASME PG-67.3?",
     "options": [
       "Maximum 2% of set pressure",
@@ -284,7 +284,7 @@ const QUESTIONS_2A = [
   {
     "id": 148,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What does a superheater add to the steam cycle efficiency?",
     "options": [
       "Reduces pressure losses in the turbine",
@@ -298,7 +298,7 @@ const QUESTIONS_2A = [
   {
     "id": 149,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is 'wet steam' and why is it undesirable for turbine operation?",
     "options": [
       "Steam at exactly 212°F at atmospheric pressure — ideal for turbines",
@@ -312,7 +312,7 @@ const QUESTIONS_2A = [
   {
     "id": 150,
     "level": "2a",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What does the Orsat analyzer measure in flue gas analysis?",
     "options": [
       "Only oxygen percentage",
@@ -326,7 +326,7 @@ const QUESTIONS_2A = [
   {
     "id": 151,
     "level": "2a",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What is the optimal flue gas oxygen percentage for natural gas combustion?",
     "options": [
       "3% O2 (approximately 15% excess air)",
@@ -340,7 +340,7 @@ const QUESTIONS_2A = [
   {
     "id": 152,
     "level": "2a",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What is the approximate stoichiometric air/fuel ratio for natural gas?",
     "options": [
       "17.2 lbs air per lb fuel",
@@ -354,7 +354,7 @@ const QUESTIONS_2A = [
   {
     "id": 153,
     "level": "2a",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What does an increasing stack temperature over time indicate in boiler operation?",
     "options": [
       "The boiler is operating more efficiently",
@@ -368,7 +368,7 @@ const QUESTIONS_2A = [
   {
     "id": 154,
     "level": "2a",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What is the Ringelmann Chart used for?",
     "options": [
       "Visual measurement of smoke opacity (scale 0-5)",
@@ -382,7 +382,7 @@ const QUESTIONS_2A = [
   {
     "id": 155,
     "level": "2a",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What is the approximate heating value per gallon for #6 fuel oil (Bunker C)?",
     "options": [
       "115,000 BTU/gallon",
@@ -396,7 +396,7 @@ const QUESTIONS_2A = [
   {
     "id": 156,
     "level": "2a",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "Why must #6 fuel oil be preheated before burning?",
     "options": [
       "To increase its BTU content",
@@ -452,7 +452,7 @@ const QUESTIONS_2A = [
   {
     "id": 160,
     "level": "2a",
-    "category": "CSD-1 Controls",
+    "category": "Controls & Instrumentation",
     "question": "What is ASME CSD-1?",
     "options": [
       "The ASME Code section for power boiler construction",
@@ -466,7 +466,7 @@ const QUESTIONS_2A = [
   {
     "id": 161,
     "level": "2a",
-    "category": "CSD-1 Controls",
+    "category": "Controls & Instrumentation",
     "question": "What does the 'combustion air proving switch' in a CSD-1 control system verify?",
     "options": [
       "That combustion air is actually flowing before the burner ignites",
@@ -480,7 +480,7 @@ const QUESTIONS_2A = [
   {
     "id": 162,
     "level": "2a",
-    "category": "CSD-1 Controls",
+    "category": "Controls & Instrumentation",
     "question": "In a CSD-1 firing sequence, what must be proven before the main fuel valve is energized?",
     "options": [
       "The boiler has reached 50% of its operating pressure",
@@ -494,7 +494,7 @@ const QUESTIONS_2A = [
   {
     "id": 163,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is 'critical speed' in reference to steam turbines?",
     "options": [
       "The maximum allowed operating speed",
@@ -508,7 +508,7 @@ const QUESTIONS_2A = [
   {
     "id": 164,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the overspeed trip setting for a steam turbine?",
     "options": [
       "105% of rated speed",
@@ -522,7 +522,7 @@ const QUESTIONS_2A = [
   {
     "id": 165,
     "level": "2a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What is the difference between an impulse turbine and a reaction turbine?",
     "options": [
       "Impulse turbines use water; reaction turbines use steam",
@@ -536,7 +536,7 @@ const QUESTIONS_2A = [
   {
     "id": 166,
     "level": "2a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "Which turbine type was the first successful single-stage impulse turbine, operating at very high speeds?",
     "options": [
       "Curtis turbine",
@@ -550,7 +550,7 @@ const QUESTIONS_2A = [
   {
     "id": 167,
     "level": "2a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "Which type of turbine is associated with the name 'Parsons'?",
     "options": [
       "Single-stage impulse turbine",
@@ -564,7 +564,7 @@ const QUESTIONS_2A = [
   {
     "id": 168,
     "level": "2a",
-    "category": "Bearings",
+    "category": "Bearings & Governors",
     "question": "What type of bearing supports the radial (side) loads on a turbine shaft?",
     "options": [
       "Journal (sleeve) bearing",
@@ -578,7 +578,7 @@ const QUESTIONS_2A = [
   {
     "id": 169,
     "level": "2a",
-    "category": "Bearings",
+    "category": "Bearings & Governors",
     "question": "What is the melting point range of Babbitt metal, and why is this significant?",
     "options": [
       "212-300°F — prevents boiling",
@@ -592,7 +592,7 @@ const QUESTIONS_2A = [
   {
     "id": 170,
     "level": "2a",
-    "category": "Bearings",
+    "category": "Bearings & Governors",
     "question": "What type of bearing handles axial (thrust) loads along the turbine shaft?",
     "options": [
       "Journal bearing (sleeve bearing)",
@@ -606,7 +606,7 @@ const QUESTIONS_2A = [
   {
     "id": 171,
     "level": "2a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What type of turbine governor uses centrifugal weights to control the steam admission valve?",
     "options": [
       "Flyball (mechanical) governor",
@@ -620,7 +620,7 @@ const QUESTIONS_2A = [
   {
     "id": 172,
     "level": "2a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What is 'speed droop' (regulation) in a turbine governor?",
     "options": [
       "The amount the turbine speed drops during an overspeed trip",
@@ -634,7 +634,7 @@ const QUESTIONS_2A = [
   {
     "id": 173,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What type of condenser has cooling water flowing through tubes while steam condenses on the outside, keeping steam and cooling water separate?",
     "options": [
       "Jet condenser (direct contact)",
@@ -648,7 +648,7 @@ const QUESTIONS_2A = [
   {
     "id": 174,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "Why is a jet condenser's condensate generally NOT reused as boiler feedwater?",
     "options": [
       "It is too hot to use as feedwater",
@@ -662,7 +662,7 @@ const QUESTIONS_2A = [
   {
     "id": 175,
     "level": "2a",
-    "category": "Boiler Piping",
+    "category": "Piping & Valves",
     "question": "For a steam boiler with two blowdown valves (required for boilers over 100 HP AND over 100 psig), what is the purpose of the slow-opening valve?",
     "options": [
       "Located nearest the boiler; provides fast isolation in emergencies",
@@ -676,7 +676,7 @@ const QUESTIONS_2A = [
   {
     "id": 176,
     "level": "2a",
-    "category": "Boiler Piping",
+    "category": "Piping & Valves",
     "question": "Which type of valve is required for boiler isolation valves greater than 2 inches?",
     "options": [
       "OS&Y (Outside Screw and Yoke) gate valve with rising stem",
@@ -690,7 +690,7 @@ const QUESTIONS_2A = [
   {
     "id": 177,
     "level": "2a",
-    "category": "Boiler Piping",
+    "category": "Piping & Valves",
     "question": "On a globe valve used for boiler feedwater, where should the inlet pressure be relative to the disc?",
     "options": [
       "Pressure should be above the disc",
@@ -704,7 +704,7 @@ const QUESTIONS_2A = [
   {
     "id": 178,
     "level": "2a",
-    "category": "Boiler Piping",
+    "category": "Piping & Valves",
     "question": "What type of valve is required on the steam outlet of a boiler when multiple boilers share a common steam header?",
     "options": [
       "Globe valve (for throttling)",
@@ -718,7 +718,7 @@ const QUESTIONS_2A = [
   {
     "id": 179,
     "level": "2a",
-    "category": "Boiler Piping",
+    "category": "Piping & Valves",
     "question": "What is the governing piping code for high-pressure steam piping in Minnesota?",
     "options": [
       "MN Rules Chapter 5225",
@@ -732,7 +732,7 @@ const QUESTIONS_2A = [
   {
     "id": 180,
     "level": "2a",
-    "category": "Flash Tanks",
+    "category": "Piping & Valves",
     "question": "What is a flash tank (flash vessel)?",
     "options": [
       "A storage vessel for fuel oil that requires preheating",
@@ -746,7 +746,7 @@ const QUESTIONS_2A = [
   {
     "id": 181,
     "level": "2a",
-    "category": "Flash Tanks",
+    "category": "Piping & Valves",
     "question": "What is the approximate percentage of flash steam generated when condensate at 150 psig flashes to 15 psig?",
     "options": [
       "2-4%",
@@ -760,7 +760,7 @@ const QUESTIONS_2A = [
   {
     "id": 182,
     "level": "2a",
-    "category": "Flash Tanks",
+    "category": "Piping & Valves",
     "question": "How much boiler fuel can be saved through flash steam recovery?",
     "options": [
       "1-3%",
@@ -774,7 +774,7 @@ const QUESTIONS_2A = [
   {
     "id": 183,
     "level": "2a",
-    "category": "Flash Tanks",
+    "category": "Piping & Valves",
     "question": "What safety equipment is required on a flash tank?",
     "options": [
       "Safety relief valve, pressure gauge, and drain connection; must be ASME coded",
@@ -788,7 +788,7 @@ const QUESTIONS_2A = [
   {
     "id": 184,
     "level": "2a",
-    "category": "Steam Traps",
+    "category": "Piping & Valves",
     "question": "What is the operating principle of a mechanical steam trap?",
     "options": [
       "Density difference between steam and condensate (float-based)",
@@ -802,7 +802,7 @@ const QUESTIONS_2A = [
   {
     "id": 185,
     "level": "2a",
-    "category": "Steam Traps",
+    "category": "Piping & Valves",
     "question": "What is the failure mode of an inverted bucket steam trap?",
     "options": [
       "Fails closed, backing up condensate",
@@ -816,7 +816,7 @@ const QUESTIONS_2A = [
   {
     "id": 186,
     "level": "2a",
-    "category": "Steam Traps",
+    "category": "Piping & Valves",
     "question": "What operating principle does a thermodynamic disc trap use?",
     "options": [
       "Flash steam creates a low-pressure zone above the disc, holding it closed; condensate lifts the disc to drain",
@@ -830,7 +830,7 @@ const QUESTIONS_2A = [
   {
     "id": 187,
     "level": "2a",
-    "category": "Steam Traps",
+    "category": "Piping & Valves",
     "question": "Which steam trap type is BEST for heat exchanger applications with continuously varying condensate loads?",
     "options": [
       "Inverted bucket trap",
@@ -844,7 +844,7 @@ const QUESTIONS_2A = [
   {
     "id": 188,
     "level": "2a",
-    "category": "Steam Traps",
+    "category": "Piping & Valves",
     "question": "What does steam blowing into the condensate tank indicate about a steam trap?",
     "options": [
       "The trap is working correctly at high load",
@@ -858,7 +858,7 @@ const QUESTIONS_2A = [
   {
     "id": 189,
     "level": "2a",
-    "category": "Steam Traps",
+    "category": "Piping & Valves",
     "question": "What problem does a FAILED CLOSED steam trap cause?",
     "options": [
       "Live steam passes into the condensate system",
@@ -872,7 +872,7 @@ const QUESTIONS_2A = [
   {
     "id": 190,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What type of pump is MOST commonly used for boiler feedwater service?",
     "options": [
       "Reciprocating piston pump",
@@ -886,7 +886,7 @@ const QUESTIONS_2A = [
   {
     "id": 191,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is 'cavitation' in a centrifugal pump?",
     "options": [
       "Air accumulation in the pump casing",
@@ -900,7 +900,7 @@ const QUESTIONS_2A = [
   {
     "id": 192,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is a 'steam-bound' pump and how is it corrected?",
     "options": [
       "A pump running too fast due to high steam pressure",
@@ -914,7 +914,7 @@ const QUESTIONS_2A = [
   {
     "id": 193,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "In the Rankine cycle, what happens during the 'expansion' process in the turbine?",
     "options": [
       "Liquid water pressure is raised by the feedwater pump",
@@ -928,7 +928,7 @@ const QUESTIONS_2A = [
   {
     "id": 194,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "In the Rankine cycle, what is the function of the condenser?",
     "options": [
       "Rejects heat by condensing exhaust steam back to liquid water for recirculation",
@@ -942,7 +942,7 @@ const QUESTIONS_2A = [
   {
     "id": 195,
     "level": "2a",
-    "category": "Boiler Layup",
+    "category": "Layup & Maintenance",
     "question": "What is the recommended layup method for short-term boiler shutdowns?",
     "options": [
       "Dry layup — drain completely and use desiccants",
@@ -956,7 +956,7 @@ const QUESTIONS_2A = [
   {
     "id": 196,
     "level": "2a",
-    "category": "Boiler Layup",
+    "category": "Layup & Maintenance",
     "question": "What is the recommended layup method for extended (long-term) boiler shutdowns?",
     "options": [
       "Dry layup — drain completely, dry thoroughly, place desiccant inside, seal all openings",
@@ -970,7 +970,7 @@ const QUESTIONS_2A = [
   {
     "id": 197,
     "level": "2a",
-    "category": "Boiler Layup",
+    "category": "Layup & Maintenance",
     "question": "During dry layup, at what boiler pressure and temperature should the boiler be drained?",
     "options": [
       "At 0 psig and below 140°F",
@@ -984,7 +984,7 @@ const QUESTIONS_2A = [
   {
     "id": 198,
     "level": "2a",
-    "category": "ASME Code",
+    "category": "ASME & Codes",
     "question": "What does the 'R' stamp on a repaired boiler signify?",
     "options": [
       "The boiler has been rated for higher pressure",
@@ -998,7 +998,7 @@ const QUESTIONS_2A = [
   {
     "id": 199,
     "level": "2a",
-    "category": "ASME Code",
+    "category": "ASME & Codes",
     "question": "What does ASME Section VI govern?",
     "options": [
       "Power boiler construction",
@@ -1012,7 +1012,7 @@ const QUESTIONS_2A = [
   {
     "id": 200,
     "level": "2a",
-    "category": "ASME Code",
+    "category": "ASME & Codes",
     "question": "What does ASME Section IX govern?",
     "options": [
       "Nondestructive examination methods",
@@ -1026,7 +1026,7 @@ const QUESTIONS_2A = [
   {
     "id": 201,
     "level": "2a",
-    "category": "Hydrostatic Testing",
+    "category": "Boiler Testing",
     "question": "What is the test pressure for a new boiler hydrostatic test per ASME Section I?",
     "options": [
       "Equal to MAWP",
@@ -1040,7 +1040,7 @@ const QUESTIONS_2A = [
   {
     "id": 202,
     "level": "2a",
-    "category": "Hydrostatic Testing",
+    "category": "Boiler Testing",
     "question": "What is the purpose of a hydrostatic test on a boiler?",
     "options": [
       "To detect leaks, cracks, and weaknesses using water pressure",
@@ -1054,7 +1054,7 @@ const QUESTIONS_2A = [
   {
     "id": 203,
     "level": "2a",
-    "category": "Hydrostatic Testing",
+    "category": "Boiler Testing",
     "question": "What is the acceptable water temperature range for hydrostatic testing of a firetube boiler?",
     "options": [
       "32-70°F (cold water required)",
@@ -1068,7 +1068,7 @@ const QUESTIONS_2A = [
   {
     "id": 204,
     "level": "2a",
-    "category": "Hydrostatic Testing",
+    "category": "Boiler Testing",
     "question": "What is the maximum rate of pressure increase during a hydrostatic test?",
     "options": [
       "50 psi per minute",
@@ -1082,7 +1082,7 @@ const QUESTIONS_2A = [
   {
     "id": 205,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is an HRSG (Heat Recovery Steam Generator)?",
     "options": [
       "A water-tube boiler that captures waste heat from gas turbines or other heat sources instead of direct combustion",
@@ -1138,7 +1138,7 @@ const QUESTIONS_2A = [
   {
     "id": 209,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "During normal boiler shutdown, what temperature should the boiler reach before draining?",
     "options": [
       "Below 212°F and at 0 psig",
@@ -1152,7 +1152,7 @@ const QUESTIONS_2A = [
   {
     "id": 210,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the function of an air ejector in a steam condenser system?",
     "options": [
       "Removes non-condensable gases (air, CO2) from the condenser to maintain vacuum",
@@ -1166,7 +1166,7 @@ const QUESTIONS_2A = [
   {
     "id": 211,
     "level": "2a",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What does 'pour point' mean when referring to fuel oil?",
     "options": [
       "The pressure at which fuel oil atomizes",
@@ -1180,7 +1180,7 @@ const QUESTIONS_2A = [
   {
     "id": 212,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the primary difference between a condensing boiler and a standard boiler?",
     "options": [
       "Condensing boilers generate more steam pressure",
@@ -1194,7 +1194,7 @@ const QUESTIONS_2A = [
   {
     "id": 213,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is 'factor of safety' in the context of boiler shell design?",
     "options": [
       "The percentage of excess pressure above MAWP that is allowed",
@@ -1264,7 +1264,7 @@ const QUESTIONS_2A = [
   {
     "id": 218,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What happens to the volume and latent heat of steam as pressure increases?",
     "options": [
       "Volume and latent heat both decrease; temperature increases",
@@ -1278,7 +1278,7 @@ const QUESTIONS_2A = [
   {
     "id": 219,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is a 'deaerator' and at what approximate pressure does it operate?",
     "options": [
       "A chemical dosing device operating at boiler pressure",
@@ -1292,7 +1292,7 @@ const QUESTIONS_2A = [
   {
     "id": 220,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What does an economizer add to the boiler system's overall efficiency?",
     "options": [
       "3-5% efficiency improvement",
@@ -1306,7 +1306,7 @@ const QUESTIONS_2A = [
   {
     "id": 221,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is a 'compound gauge' and when is it used?",
     "options": [
       "A gauge that reads two different pressures on the same dial",
@@ -1320,7 +1320,7 @@ const QUESTIONS_2A = [
   {
     "id": 222,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "For a boiler over 100 HP AND over 100 psig, how many blowdown valves are required?",
     "options": [
       "One valve is always sufficient",
@@ -1334,7 +1334,7 @@ const QUESTIONS_2A = [
   {
     "id": 223,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What type of valve is BEST for surface blowdown and instrument connections?",
     "options": [
       "Gate valve (OS&Y)",
@@ -1348,7 +1348,7 @@ const QUESTIONS_2A = [
   {
     "id": 224,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is 'surface blowdown' and how does it differ from 'bottom blowdown'?",
     "options": [
       "They are the same operation performed at different times",
@@ -1362,7 +1362,7 @@ const QUESTIONS_2A = [
   {
     "id": 225,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "On a boiler feed pump, which pipe should have the LARGER diameter — the suction or the discharge?",
     "options": [
       "The suction pipe should be the larger pipe",
@@ -1376,7 +1376,7 @@ const QUESTIONS_2A = [
   {
     "id": 226,
     "level": "2a",
-    "category": "Steam Traps",
+    "category": "Piping & Valves",
     "question": "Which steam trap type is BEST for superheated steam applications?",
     "options": [
       "Balanced pressure thermostatic trap",
@@ -1390,7 +1390,7 @@ const QUESTIONS_2A = [
   {
     "id": 227,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What does a 'high-limit pressuretrol' do on a steam boiler?",
     "options": [
       "Sets the normal operating pressure range",
@@ -1404,7 +1404,7 @@ const QUESTIONS_2A = [
   {
     "id": 228,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the typical boiler efficiency range for a well-maintained fire-tube boiler?",
     "options": [
       "80-85%",
@@ -1418,7 +1418,7 @@ const QUESTIONS_2A = [
   {
     "id": 229,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What does the 'factor of evaporation' measure?",
     "options": [
       "The percentage of water converted to steam",
@@ -1432,7 +1432,7 @@ const QUESTIONS_2A = [
   {
     "id": 230,
     "level": "2a",
-    "category": "CSD-1 Controls",
+    "category": "Controls & Instrumentation",
     "question": "What is a 'double block and bleed' system in a gas burner fuel train?",
     "options": [
       "Two pressure gauges on the fuel line for redundancy",
@@ -1446,7 +1446,7 @@ const QUESTIONS_2A = [
   {
     "id": 231,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What type of steam engine uses two cylinders in series to extract more energy from steam?",
     "options": [
       "Compound steam engine",
@@ -1460,7 +1460,7 @@ const QUESTIONS_2A = [
   {
     "id": 232,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the purpose of an intercooler on a multi-stage air compressor?",
     "options": [
       "Heats the air between stages for better compression",
@@ -1474,7 +1474,7 @@ const QUESTIONS_2A = [
   {
     "id": 233,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is 'wire drawing' in reference to a safety valve?",
     "options": [
       "Pulling wires to operate a remote safety valve",
@@ -1488,7 +1488,7 @@ const QUESTIONS_2A = [
   {
     "id": 234,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "For what maximum BTU/hr input does ASME CSD-1 apply to automatically fired boilers?",
     "options": [
       "1 million BTU/hr",
@@ -1502,7 +1502,7 @@ const QUESTIONS_2A = [
   {
     "id": 235,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the function of a 'flat gauge glass' vs. a standard round sight glass?",
     "options": [
       "Flat gauge glasses are for horizontal water columns; round are for vertical",
@@ -1516,7 +1516,7 @@ const QUESTIONS_2A = [
   {
     "id": 236,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is propane (LP gas) property that requires special ventilation considerations?",
     "options": [
       "Propane is lighter than air and rises",
@@ -1530,7 +1530,7 @@ const QUESTIONS_2A = [
   {
     "id": 237,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the approximate heating value of #2 fuel oil per gallon vs. natural gas per cubic foot?",
     "options": [
       "#2 oil ≈ 140,000 BTU/gal vs. gas ≈ 1,000 BTU/cf",
@@ -1544,7 +1544,7 @@ const QUESTIONS_2A = [
   {
     "id": 238,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is a 'Scotch Marine wet-back' vs. 'dry-back' boiler?",
     "options": [
       "Wet-back has more tubes; dry-back has fewer tubes",
@@ -1558,7 +1558,7 @@ const QUESTIONS_2A = [
   {
     "id": 239,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What atmospheric pressure value is used in boiler calculations?",
     "options": [
       "10 psi = 25.4 inches Hg",
@@ -1572,7 +1572,7 @@ const QUESTIONS_2A = [
   {
     "id": 240,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What type of heat transfer is primary in a furnace when hot gas flows over boiler tubes?",
     "options": [
       "Radiation from the flame",
@@ -1586,7 +1586,7 @@ const QUESTIONS_2A = [
   {
     "id": 241,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the function of waterwall tubes in a water-tube boiler furnace?",
     "options": [
       "Form the outer casing of the boiler",
@@ -1600,7 +1600,7 @@ const QUESTIONS_2A = [
   {
     "id": 242,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the minimum pipe size required for the feedwater check valve installation?",
     "options": [
       "The same size as the feedwater main",
@@ -1614,7 +1614,7 @@ const QUESTIONS_2A = [
   {
     "id": 243,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is a 'vacuum boiler' and how does it differ from standard boilers?",
     "options": [
       "A boiler that uses vacuum pressure to pull combustion air",
@@ -1628,7 +1628,7 @@ const QUESTIONS_2A = [
   {
     "id": 244,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the 'EDR' rating and how many BTU/hr does 1 sq ft of steam EDR represent?",
     "options": [
       "Equivalent Direct Radiation; 240 BTU/hr per sq ft steam",
@@ -1642,7 +1642,7 @@ const QUESTIONS_2A = [
   {
     "id": 245,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What does 1 mechanical horsepower (HP) equal in BTU/hr?",
     "options": [
       "746 BTU/hr",
@@ -1656,7 +1656,7 @@ const QUESTIONS_2A = [
   {
     "id": 246,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "When is an accumulation test performed and what does it verify?",
     "options": [
       "Daily — verifies LWCO operation",
@@ -1670,7 +1670,7 @@ const QUESTIONS_2A = [
   {
     "id": 247,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is 1 therm equal to in BTU?",
     "options": [
       "10,000 BTU",
@@ -1684,7 +1684,7 @@ const QUESTIONS_2A = [
   {
     "id": 248,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is 1 kWh equal to in BTU?",
     "options": [
       "3,412 BTU",
@@ -1698,7 +1698,7 @@ const QUESTIONS_2A = [
   {
     "id": 249,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "When must ASME Section I safety valves have stainless steel seats and discs?",
     "options": [
       "For all safety valves above 100 psig",
@@ -1712,7 +1712,7 @@ const QUESTIONS_2A = [
   {
     "id": 250,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the minimum discharge height required for safety valve discharge piping?",
     "options": [
       "3 feet above the boiler",
@@ -1726,7 +1726,7 @@ const QUESTIONS_2A = [
   {
     "id": 251,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What type of steam turbine is most commonly used in large base-load power generation?",
     "options": [
       "Single-stage impulse (De Laval) turbine",
@@ -1740,7 +1740,7 @@ const QUESTIONS_2A = [
   {
     "id": 252,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the Rateau turbine design?",
     "options": [
       "Pressure-compounded multi-stage impulse turbine",
@@ -1754,7 +1754,7 @@ const QUESTIONS_2A = [
   {
     "id": 253,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What does a 'split journal bearing' allow that a solid sleeve bearing does not?",
     "options": [
       "Higher loads than a solid bearing",
@@ -1768,7 +1768,7 @@ const QUESTIONS_2A = [
   {
     "id": 254,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "In boiler water chemistry, what is the relationship between 'grains per gallon' and parts per million (ppm)?",
     "options": [
       "1 grain per gallon = 100 ppm",
@@ -1782,7 +1782,7 @@ const QUESTIONS_2A = [
   {
     "id": 255,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the purpose of a 'vent valve' on a hot water boiler?",
     "options": [
       "To ensure water is inside the boiler and vent trapped air during filling",
@@ -1796,7 +1796,7 @@ const QUESTIONS_2A = [
   {
     "id": 256,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What does NFPA 85 govern?",
     "options": [
       "Electrical wiring in boiler rooms",
@@ -1810,7 +1810,7 @@ const QUESTIONS_2A = [
   {
     "id": 257,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What is the purpose of oil grooves on the inner surface of a journal bearing?",
     "options": [
       "To reduce friction by providing more contact area",
@@ -1824,7 +1824,7 @@ const QUESTIONS_2A = [
   {
     "id": 258,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What type of pump is classified as a 'positive displacement' pump?",
     "options": [
       "Centrifugal pump only",
@@ -1838,7 +1838,7 @@ const QUESTIONS_2A = [
   {
     "id": 259,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "An air compressor's single-stage version handles pressures up to approximately what limit?",
     "options": [
       "100 psi",
@@ -1852,7 +1852,7 @@ const QUESTIONS_2A = [
   {
     "id": 260,
     "level": "2a",
-    "category": "HP Boiler Operations",
+    "category": "Operating Procedures",
     "question": "What increases when outside air temperature rises in relation to an air compressor's performance?",
     "options": [
       "Compressor capacity increases",
@@ -1866,7 +1866,7 @@ const QUESTIONS_2A = [
   {
     "id": 551,
     "level": "2a",
-    "category": "Combustion Efficiency",
+    "category": "Combustion",
     "question": "What is the optimal flue gas O2 percentage for a natural gas-fired boiler operating at peak efficiency?",
     "options": [
       "Approximately 3% O2 (15% excess air)",
@@ -1880,7 +1880,7 @@ const QUESTIONS_2A = [
   {
     "id": 552,
     "level": "2a",
-    "category": "Combustion Efficiency",
+    "category": "Combustion",
     "question": "When flue gas O2 reads 10% on a natural gas boiler, approximately what percentage excess air is being supplied?",
     "options": [
       "Approximately 85% excess air",
@@ -1922,7 +1922,7 @@ const QUESTIONS_2A = [
   {
     "id": 555,
     "level": "2a",
-    "category": "ASME Code",
+    "category": "ASME & Codes",
     "question": "Which ASME BPVC section governs the construction of power boilers (steam >15 psig)?",
     "options": [
       "ASME Section I — Power Boilers",
@@ -1936,7 +1936,7 @@ const QUESTIONS_2A = [
   {
     "id": 556,
     "level": "2a",
-    "category": "CSD-1 Controls",
+    "category": "Controls & Instrumentation",
     "question": "ASME CSD-1 applies to automatically fired boilers up to what maximum BTU/hr heat input?",
     "options": [
       "12.5 million BTU/hr",
@@ -1950,7 +1950,7 @@ const QUESTIONS_2A = [
   {
     "id": 557,
     "level": "2a",
-    "category": "Stack Temperature",
+    "category": "Combustion",
     "question": "What does a RISING stack temperature over time on a fire-tube boiler most likely indicate?",
     "options": [
       "Fouling (soot or scale) on fire-side or water-side heating surfaces — insulating effect",
@@ -1964,7 +1964,7 @@ const QUESTIONS_2A = [
   {
     "id": 558,
     "level": "2a",
-    "category": "Condensate Return",
+    "category": "Piping & Valves",
     "question": "What is the primary advantage of maximizing condensate return to the boiler?",
     "options": [
       "The condensate is already hot and chemically treated, reducing makeup water, fuel, and chemical costs",
@@ -1978,7 +1978,7 @@ const QUESTIONS_2A = [
   {
     "id": 559,
     "level": "2a",
-    "category": "Blowdown Calculations",
+    "category": "Boiler Calculations",
     "question": "Feedwater TDS is 150 ppm and the maximum allowable boiler water TDS is 3,000 ppm. What is the required blowdown percentage?",
     "options": [
       "5.0%",
@@ -1992,7 +1992,7 @@ const QUESTIONS_2A = [
   {
     "id": 560,
     "level": "2a",
-    "category": "Economizer Operations",
+    "category": "Auxiliaries",
     "question": "What is the primary function of an economizer in a boiler system?",
     "options": [
       "Pre-heats feedwater using waste heat from flue gases, increasing overall boiler efficiency",
@@ -2006,7 +2006,7 @@ const QUESTIONS_2A = [
   {
     "id": 561,
     "level": "2a",
-    "category": "Desuperheater",
+    "category": "Steam Generation",
     "question": "What is the function of a desuperheater (attemperator)?",
     "options": [
       "Reduces superheated steam temperature to a lower, controlled level by injecting water or using a heat exchanger",
@@ -2020,7 +2020,7 @@ const QUESTIONS_2A = [
   {
     "id": 562,
     "level": "2a",
-    "category": "ASME Code",
+    "category": "ASME & Codes",
     "question": "Per ASME Section I, if a boiler has two or more safety valves, what set pressure requirement applies to the valves?",
     "options": [
       "One valve must be set at or below MAWP; others may be set up to 3% above MAWP",
@@ -2048,7 +2048,7 @@ const QUESTIONS_2A = [
   {
     "id": 564,
     "level": "2a",
-    "category": "Combustion Efficiency",
+    "category": "Combustion",
     "question": "At 3% O2 in the flue gas of a natural gas boiler, approximately what percentage of CO2 should be present?",
     "options": [
       "Approximately 14% CO2",
@@ -2062,7 +2062,7 @@ const QUESTIONS_2A = [
   {
     "id": 565,
     "level": "2a",
-    "category": "Stack Temperature",
+    "category": "Combustion",
     "question": "A very LOW stack temperature on a natural gas boiler may indicate what problem?",
     "options": [
       "Excellent efficiency — the boiler is recovering maximum heat",
@@ -2090,7 +2090,7 @@ const QUESTIONS_2A = [
   {
     "id": 567,
     "level": "2a",
-    "category": "Blowdown Calculations",
+    "category": "Boiler Calculations",
     "question": "Boiler water TDS is currently 4,500 ppm and the maximum allowable is 3,500 ppm. What should the operator do?",
     "options": [
       "Increase chemical treatment to neutralize the excess TDS",
@@ -2104,7 +2104,7 @@ const QUESTIONS_2A = [
   {
     "id": 568,
     "level": "2a",
-    "category": "Combustion Efficiency",
+    "category": "Combustion",
     "question": "For a #2 fuel oil-fired boiler operating at optimal efficiency, approximately what target excess air level is recommended?",
     "options": [
       "5–10% excess air",
@@ -2118,7 +2118,7 @@ const QUESTIONS_2A = [
   {
     "id": 569,
     "level": "2a",
-    "category": "ASME Code",
+    "category": "ASME & Codes",
     "question": "What does ASME Section IV govern?",
     "options": [
       "Power boilers operating at steam pressures above 15 psig",
@@ -2132,7 +2132,7 @@ const QUESTIONS_2A = [
   {
     "id": 570,
     "level": "2a",
-    "category": "CSD-1 Controls",
+    "category": "Controls & Instrumentation",
     "question": "Per ASME CSD-1, what is the maximum Flame Failure Response Time (FFRT) for an oil-fired burner?",
     "options": [
       "2 seconds",
@@ -2146,7 +2146,7 @@ const QUESTIONS_2A = [
   {
     "id": 571,
     "level": "2a",
-    "category": "Economizer Operations",
+    "category": "Auxiliaries",
     "question": "An economizer tube failure would most likely be detected by which symptom?",
     "options": [
       "Sudden increase in steam pressure",
@@ -2174,7 +2174,7 @@ const QUESTIONS_2A = [
   {
     "id": 573,
     "level": "2a",
-    "category": "Desuperheater",
+    "category": "Steam Generation",
     "question": "What is the quality of water injected into a direct-contact desuperheater?",
     "options": [
       "Any available water source, including raw makeup water",
@@ -2188,7 +2188,7 @@ const QUESTIONS_2A = [
   {
     "id": 574,
     "level": "2a",
-    "category": "Blowdown Calculations",
+    "category": "Boiler Calculations",
     "question": "What is the maximum allowable pipe size for bottom blowdown piping on a boiler?",
     "options": [
       "1 inch",
@@ -2202,7 +2202,7 @@ const QUESTIONS_2A = [
   {
     "id": 575,
     "level": "2a",
-    "category": "ASME Code",
+    "category": "ASME & Codes",
     "question": "What is the purpose of ASME Section VII?",
     "options": [
       "Mandatory construction requirements for power boilers",
@@ -2216,7 +2216,7 @@ const QUESTIONS_2A = [
   {
     "id": 576,
     "level": "2a",
-    "category": "Combustion Efficiency",
+    "category": "Combustion",
     "question": "If O2 in the flue gas drops from 5% to 1%, what happens to combustion efficiency and safety?",
     "options": [
       "Efficiency improves significantly with no safety concerns",
@@ -2244,7 +2244,7 @@ const QUESTIONS_2A = [
   {
     "id": 578,
     "level": "2a",
-    "category": "CSD-1 Controls",
+    "category": "Controls & Instrumentation",
     "question": "Per ASME CSD-1, what is the minimum number of air changes required during pre-purge before a burner can be ignited?",
     "options": [
       "2 air changes",
@@ -2258,7 +2258,7 @@ const QUESTIONS_2A = [
   {
     "id": 579,
     "level": "2a",
-    "category": "Combustion Efficiency",
+    "category": "Combustion",
     "question": "What is the formula for approximating combustion efficiency?",
     "options": [
       "Combustion Efficiency = Heat Input / Heat Output × 100",
@@ -2286,7 +2286,7 @@ const QUESTIONS_2A = [
   {
     "id": 581,
     "level": "2a",
-    "category": "ASME Code",
+    "category": "ASME & Codes",
     "question": "What ASME code section covers NDE (non-destructive examination) methods like radiographic, ultrasonic, and magnetic particle testing?",
     "options": [
       "ASME Section I",
@@ -2300,7 +2300,7 @@ const QUESTIONS_2A = [
   {
     "id": 582,
     "level": "2a",
-    "category": "Economizer Operations",
+    "category": "Auxiliaries",
     "question": "A condensing economizer recovers latent heat from flue gases. What is the primary design concern with this type of economizer?",
     "options": [
       "Condensing economizers are too expensive for any industrial application",
@@ -2314,7 +2314,7 @@ const QUESTIONS_2A = [
   {
     "id": 583,
     "level": "2a",
-    "category": "Blowdown Calculations",
+    "category": "Boiler Calculations",
     "question": "The 'Cycles of Concentration' (CoC) in a boiler water system represents what?",
     "options": [
       "The number of times the boiler has been blown down in a 24-hour period",
@@ -2328,7 +2328,7 @@ const QUESTIONS_2A = [
   {
     "id": 584,
     "level": "2a",
-    "category": "Combustion Efficiency",
+    "category": "Combustion",
     "question": "What instrument is used in the field to perform a quick, portable measurement of CO2 or O2 in flue gases?",
     "options": [
       "Orsat analyzer — the standard field instrument for all boilers",
@@ -2342,7 +2342,7 @@ const QUESTIONS_2A = [
   {
     "id": 585,
     "level": "2a",
-    "category": "Condensate Return",
+    "category": "Piping & Valves",
     "question": "Flash steam is generated when high-pressure condensate is released to a lower pressure. Which formula calculates the percentage of flash steam?",
     "options": [
       "% Flash = (P_high - P_low) / P_high × 100",
@@ -2370,7 +2370,7 @@ const QUESTIONS_2A = [
   {
     "id": 587,
     "level": "2a",
-    "category": "CSD-1 Controls",
+    "category": "Controls & Instrumentation",
     "question": "ASME CSD-1 requires what type of gas pressure switches on gas-fired burners?",
     "options": [
       "A single high-pressure switch only",
@@ -2384,7 +2384,7 @@ const QUESTIONS_2A = [
   {
     "id": 588,
     "level": "2a",
-    "category": "ASME Code",
+    "category": "ASME & Codes",
     "question": "What is the ASME stamp for a safety valve designed for use on Section I power boilers?",
     "options": [
       "SV stamp",
@@ -2398,7 +2398,7 @@ const QUESTIONS_2A = [
   {
     "id": 589,
     "level": "2a",
-    "category": "Combustion Efficiency",
+    "category": "Combustion",
     "question": "When a boiler's flue gas O2 reading is 0%, what does this theoretically represent?",
     "options": [
       "Perfect combustion with maximum efficiency and no risks",
@@ -2426,7 +2426,7 @@ const QUESTIONS_2A = [
   {
     "id": 591,
     "level": "2a",
-    "category": "Condensate Return",
+    "category": "Piping & Valves",
     "question": "Steam blowing into the condensate return tank most likely indicates what problem?",
     "options": [
       "Excessive condensate return — the tank is overloaded",
@@ -2440,7 +2440,7 @@ const QUESTIONS_2A = [
   {
     "id": 592,
     "level": "2a",
-    "category": "ASME Code",
+    "category": "ASME & Codes",
     "question": "What is the ASME Section VIII accumulation limit for pressure vessels with a single safety relief valve?",
     "options": [
       "3% above MAWP",
@@ -2454,7 +2454,7 @@ const QUESTIONS_2A = [
   {
     "id": 593,
     "level": "2a",
-    "category": "Blowdown Calculations",
+    "category": "Boiler Calculations",
     "question": "What is the maximum temperature allowed for boiler blowdown water before it can be discharged to a public sewer system?",
     "options": [
       "100°F",
@@ -2468,7 +2468,7 @@ const QUESTIONS_2A = [
   {
     "id": 594,
     "level": "2a",
-    "category": "Combustion Efficiency",
+    "category": "Combustion",
     "question": "Approximately how much efficiency is lost for every 1% increase in O2 above the optimal level in a natural gas boiler?",
     "options": [
       "0.1% efficiency loss per 1% O2 increase",
@@ -2496,7 +2496,7 @@ const QUESTIONS_2A = [
   {
     "id": 596,
     "level": "2a",
-    "category": "Desuperheater",
+    "category": "Steam Generation",
     "question": "In a steam distribution system with a desuperheater, where should the desuperheater ideally be located?",
     "options": [
       "Upstream of the superheater to pre-condition steam",
@@ -2510,7 +2510,7 @@ const QUESTIONS_2A = [
   {
     "id": 597,
     "level": "2a",
-    "category": "CSD-1 Controls",
+    "category": "Controls & Instrumentation",
     "question": "Under ASME CSD-1, which control must be proven BEFORE the main fuel valve can be opened?",
     "options": [
       "The combustion air proving switch only",
@@ -2538,7 +2538,7 @@ const QUESTIONS_2A = [
   {
     "id": 599,
     "level": "2a",
-    "category": "Economizer Operations",
+    "category": "Auxiliaries",
     "question": "Approximately how much boiler efficiency improvement can an economizer provide?",
     "options": [
       "Less than 1% — economizers have minimal impact",
@@ -2552,7 +2552,7 @@ const QUESTIONS_2A = [
   {
     "id": 600,
     "level": "2a",
-    "category": "Condensate Return",
+    "category": "Piping & Valves",
     "question": "In a flash tank system, where does the recovered flash steam typically go after separation?",
     "options": [
       "Discharged to the atmosphere as low-value waste heat",
@@ -2562,109 +2562,1408 @@ const QUESTIONS_2A = [
     ],
     "correct": 3,
     "explanation": "Flash steam from a flash tank is routed to a LOW-PRESSURE steam header (to serve LP process equipment), to the DEAERATOR (which can use LP steam for heating/stripping), or to a FEEDWATER HEATER to pre-heat feedwater. This recovers the latent heat in the flash steam (970.2 BTU/lb) that would otherwise be wasted if the flash tank is simply vented to atmosphere. Proper flash steam recovery can save 10–15% of boiler fuel costs."
+  },
+  {
+    "id": 2001,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is the purpose of an economizer in a boiler system?",
+    "options": [
+      "To preheat feedwater using waste heat from flue gases before it enters the boiler",
+      "To preheat combustion air using flue gas heat",
+      "To reduce steam pressure for process use",
+      "To remove dissolved gases from feedwater"
+    ],
+    "correct": 0,
+    "explanation": "An economizer preheats feedwater by recovering heat from flue gases leaving the boiler. This reduces stack temperature and improves overall boiler efficiency by 3-5%."
+  },
+  {
+    "id": 2002,
+    "level": "2a",
+    "category": "Boiler Types",
+    "question": "What are the two drums in a typical two-drum water-tube boiler?",
+    "options": [
+      "A steam drum (upper) and a mud drum (lower)",
+      "A fire drum and a smoke drum",
+      "A feedwater drum and a blowdown drum",
+      "A condensate drum and a flash drum"
+    ],
+    "correct": 0,
+    "explanation": "A two-drum water-tube boiler has a steam drum (upper) where steam-water separation occurs, and a mud drum (lower) where sediment collects and blowdown is taken. Water tubes connect the two drums."
+  },
+  {
+    "id": 2003,
+    "level": "2a",
+    "category": "Combustion",
+    "question": "For natural gas combustion, what is the optimal O2 percentage in flue gas?",
+    "options": [
+      "0% — all oxygen should be consumed",
+      "8-10% O2",
+      "2-3% O2",
+      "15% O2"
+    ],
+    "correct": 2,
+    "explanation": "Optimal O2 for natural gas is approximately 2-3% (about 10-15% excess air). Below 2%, incomplete combustion and CO formation increase. Above 3%, excess air wastes heat."
+  },
+  {
+    "id": 2004,
+    "level": "2a",
+    "category": "Safety Valves",
+    "question": "A safety valve is set at 400 psig. What is the ASME allowable tolerance?",
+    "options": [
+      "±2 psi",
+      "±3%",
+      "±10 psi (390-410 psig)",
+      "±1%"
+    ],
+    "correct": 2,
+    "explanation": "For set pressures 301-1000 psig, ASME tolerance is ±10 psi. At 400 psig: the valve must open between 390 and 410 psig."
+  },
+  {
+    "id": 2005,
+    "level": "2a",
+    "category": "Controls & Instrumentation",
+    "question": "What is the difference between the operating control and the high limit control on a boiler?",
+    "options": [
+      "The operating control cycles the burner during normal operation; the high limit is a safety device requiring manual reset",
+      "They are the same device with different names",
+      "The operating control handles water level; the high limit handles pressure",
+      "The high limit cycles the burner; the operating control is the safety backup"
+    ],
+    "correct": 0,
+    "explanation": "The operating control (pressuretrol/aquastat) cycles the burner on/off during normal operation and auto-resets. The high limit is a SAFETY device that shuts off the burner at a higher setpoint and requires MANUAL RESET to prevent restart without investigation."
+  },
+  {
+    "id": 2006,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "What is the purpose of phosphate treatment in boiler water?",
+    "options": [
+      "To convert hardness minerals to soft, non-adherent sludge that can be removed by blowdown",
+      "To remove dissolved oxygen",
+      "To increase the pH above 14",
+      "To prevent foaming in the steam drum"
+    ],
+    "correct": 0,
+    "explanation": "Phosphate reacts with calcium hardness to form calcium phosphate — a soft, non-adherent sludge (rather than hard scale) that can be removed by bottom blowdown. This is the most common internal treatment for hardness control."
+  },
+  {
+    "id": 2007,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is the purpose of a steam drum internals package (baffles, chevron dryers, cyclone separators)?",
+    "options": [
+      "To separate water droplets from steam to produce dry, high-quality steam",
+      "To increase the steam pressure",
+      "To mix feedwater and boiler water thoroughly",
+      "To prevent corrosion of the drum shell"
+    ],
+    "correct": 0,
+    "explanation": "Steam drum internals (cyclone separators, chevron dryers, scrubber screens) separate water droplets from steam before it exits the drum. This produces dry steam with minimal moisture carryover, protecting superheaters and turbines."
+  },
+  {
+    "id": 2008,
+    "level": "2a",
+    "category": "ASME & Codes",
+    "question": "ASME Section V covers what subject?",
+    "options": [
+      "Power boiler construction",
+      "Heating boiler construction",
+      "Nondestructive Examination (NDE) methods and standards",
+      "Welding qualifications"
+    ],
+    "correct": 2,
+    "explanation": "ASME Section V covers Nondestructive Examination (NDE) — the methods and standards for UT, RT, MT, PT, VT, and other examination techniques used to inspect boiler and pressure vessel components."
+  },
+  {
+    "id": 2009,
+    "level": "2a",
+    "category": "Steam Generation",
+    "question": "Why must a superheater be protected from overheating during boiler startup?",
+    "options": [
+      "Because the superheater tubes are made of cast iron",
+      "Because superheater tubes have no steam flow to cool them until the boiler is producing steam",
+      "Because the superheater is located in the coldest part of the boiler",
+      "Because overheating the superheater reduces fuel efficiency"
+    ],
+    "correct": 1,
+    "explanation": "During startup, superheater tubes have no steam flow for cooling but are exposed to hot flue gases. Without cooling flow, tubes can overheat and fail. Startup procedures must limit firing rate until adequate steam flow is established through the superheater."
+  },
+  {
+    "id": 2010,
+    "level": "2a",
+    "category": "Turbines & Engines",
+    "question": "What is the purpose of a steam turbine governor?",
+    "options": [
+      "To control the turbine speed by regulating steam flow to the turbine",
+      "To control the steam temperature",
+      "To control the boiler pressure",
+      "To control the condenser vacuum"
+    ],
+    "correct": 0,
+    "explanation": "The governor controls turbine speed by regulating the amount of steam admitted to the turbine. As load changes, the governor adjusts steam flow to maintain the desired speed (RPM), which is critical for generator frequency control."
+  },
+  {
+    "id": 2011,
+    "level": "2a",
+    "category": "Combustion",
+    "question": "What is the relationship between excess air and stack temperature in terms of efficiency?",
+    "options": [
+      "More excess air raises stack temperature and reduces efficiency — heat is wasted heating unnecessary air",
+      "More excess air lowers stack temperature and improves efficiency",
+      "Excess air has no effect on stack temperature",
+      "Less excess air always improves efficiency regardless of combustion quality"
+    ],
+    "correct": 0,
+    "explanation": "Excess air raises stack temperature because additional air must be heated from ambient to stack temperature, absorbing heat energy. Each 1% increase in O2 above optimal wastes approximately 1% of fuel energy."
+  },
+  {
+    "id": 2012,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "What is the function of sodium sulfite in boiler water treatment?",
+    "options": [
+      "To increase water hardness for better heat transfer",
+      "To scavenge dissolved oxygen by reacting with it chemically",
+      "To lower the pH to prevent caustic embrittlement",
+      "To remove silica from the boiler water"
+    ],
+    "correct": 1,
+    "explanation": "Sodium sulfite is a chemical oxygen scavenger: 2Na₂SO₃ + O₂ → 2Na₂SO₄. It reacts with dissolved oxygen remaining after deaeration. A residual of 20-30 ppm sodium sulfite is maintained. Not used above 600 psig."
+  },
+  {
+    "id": 2013,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is a waterwall in a water-tube boiler?",
+    "options": [
+      "A wall of water surrounding the entire boiler for cooling",
+      "A water barrier between the boiler and the building wall",
+      "Tubes lining the furnace walls that absorb radiant heat from the flame and contain boiler water",
+      "A dam inside the steam drum"
+    ],
+    "correct": 2,
+    "explanation": "Waterwalls are tubes lining the furnace walls that absorb radiant heat directly from the flame. They contain boiler water/steam mixture and are the primary heat absorption surface in modern water-tube boilers. They also protect refractory from direct flame exposure."
+  },
+  {
+    "id": 2014,
+    "level": "2a",
+    "category": "Safety Valves",
+    "question": "What is the blowdown of a safety valve?",
+    "options": [
+      "The process of testing the low water cutoff",
+      "The amount of steam released during a pop test",
+      "The difference between the set (opening) pressure and the closing (reseating) pressure",
+      "The pressure drop across the valve during normal operation"
+    ],
+    "correct": 2,
+    "explanation": "Blowdown is the pressure difference between when a safety valve opens (set pressure) and when it reseats (closes). For example, a valve that opens at 150 psig and reseats at 143 psig has a blowdown of 7 psi. Excessive blowdown wastes steam; insufficient blowdown causes chattering."
+  },
+  {
+    "id": 2015,
+    "level": "2a",
+    "category": "Auxiliaries",
+    "question": "What is a steaming economizer and why is it dangerous?",
+    "options": [
+      "An economizer that produces steam for process use — it is safe and efficient",
+      "An economizer where feedwater reaches boiling temperature, producing steam that can cause water hammer and tube failure",
+      "An economizer heated by live steam rather than flue gas",
+      "A type of flash tank connected to the economizer"
+    ],
+    "correct": 1,
+    "explanation": "A steaming economizer occurs when feedwater temperature exceeds saturation temperature inside the economizer tubes, generating steam. This can cause water hammer, tube erosion, flow instability, and tube failure. A recirculation line or bypass prevents this condition."
+  },
+  {
+    "id": 2016,
+    "level": "2a",
+    "category": "Controls & Instrumentation",
+    "question": "Under CSD-1, what is required if a burner fails to light during the trial for ignition period?",
+    "options": [
+      "Immediately retry ignition without purging",
+      "Wait 10 seconds and retry automatically",
+      "The system must complete a full pre-purge cycle before any reignition attempt",
+      "Manually override the controls and force ignition"
+    ],
+    "correct": 2,
+    "explanation": "If ignition fails during the trial for ignition, the system must lockout and complete a FULL pre-purge (minimum 4 air changes) before any reignition attempt. This prevents accumulated unburned fuel from causing a furnace explosion on the next ignition attempt."
+  },
+  {
+    "id": 2017,
+    "level": "2a",
+    "category": "ASME & Codes",
+    "question": "What does the ASME 'H' stamp signify?",
+    "options": [
+      "High-pressure boiler manufacturing",
+      "Heating boiler manufacturing — ASME Section IV cast iron and steel boilers",
+      "Hydrostatic test certification",
+      "Heat exchanger manufacturing"
+    ],
+    "correct": 1,
+    "explanation": "The ASME 'H' stamp authorizes manufacture of HEATING BOILERS to ASME Section IV — low-pressure steam (≤15 psig) and hot water (≤160 psig/250°F) boilers including cast iron and steel designs."
+  },
+  {
+    "id": 2018,
+    "level": "2a",
+    "category": "Boiler Types",
+    "question": "What is the function of downcomers in a water-tube boiler?",
+    "options": [
+      "To carry steam from the drum to the turbine",
+      "To carry cooler, denser water from the steam drum down to the lower headers/mud drum, completing the circulation loop",
+      "To drain condensate from the superheater",
+      "To provide emergency water supply to the boiler"
+    ],
+    "correct": 1,
+    "explanation": "Downcomers carry cooler, denser water from the steam drum downward to the lower headers or mud drum. This water then flows through the heated riser tubes where it absorbs heat and rises back to the steam drum, completing the natural circulation loop."
+  },
+  {
+    "id": 2019,
+    "level": "2a",
+    "category": "Combustion",
+    "question": "What instrument is used to measure O2 and CO in flue gas for combustion analysis?",
+    "options": [
+      "A manometer",
+      "A flue gas analyzer (combustion analyzer)",
+      "A hydrometer",
+      "A calorimeter"
+    ],
+    "correct": 1,
+    "explanation": "A flue gas analyzer (combustion analyzer) measures O2, CO, CO2, NOx, and stack temperature. It calculates combustion efficiency and helps optimize the fuel-air ratio. Regular analysis is essential for maintaining peak efficiency."
+  },
+  {
+    "id": 2020,
+    "level": "2a",
+    "category": "Turbines & Engines",
+    "question": "What is the difference between an impulse turbine and a reaction turbine?",
+    "options": [
+      "Impulse turbines are larger than reaction turbines",
+      "In an impulse turbine, steam pressure drops across the nozzle only; in a reaction turbine, pressure drops across both the fixed and moving blades",
+      "Impulse turbines use gas; reaction turbines use steam",
+      "There is no significant difference"
+    ],
+    "correct": 1,
+    "explanation": "In an IMPULSE turbine (De Laval, Curtis, Rateau), steam expands and accelerates through fixed nozzles, then pushes the moving blades (no pressure drop across moving blades). In a REACTION turbine (Parsons), pressure drops across BOTH fixed and moving blades — the moving blades act as nozzles too."
+  },
+  {
+    "id": 2021,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is the purpose of a soot blower?",
+    "options": [
+      "To blow soot into the furnace for additional fuel",
+      "To remove soot and ash deposits from boiler heating surfaces to maintain heat transfer efficiency",
+      "To blow soot out the stack for disposal",
+      "To test the draft system operation"
+    ],
+    "correct": 3,
+    "explanation": "Soot blowers use steam or compressed air jets to remove soot, ash, and slag deposits from boiler tube surfaces. Soot buildup insulates tubes, reduces heat transfer, raises stack temperature, and reduces efficiency. Soot blowing is done on a regular schedule during operation."
+  },
+  {
+    "id": 2022,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "What causes caustic embrittlement (caustic cracking) in boilers?",
+    "options": [
+      "High dissolved oxygen levels attacking tube walls",
+      "Concentrated sodium hydroxide (caustic) under deposits or at leaking joints, causing intergranular stress corrosion cracking",
+      "High calcium levels causing hard scale",
+      "Low pH water dissolving the boiler metal"
+    ],
+    "correct": 1,
+    "explanation": "Caustic embrittlement occurs when concentrated NaOH (caustic) collects under deposits or at tube-to-sheet joints. The concentrated caustic attacks grain boundaries in the steel, causing intergranular cracking under stress. Coordinated phosphate treatment helps prevent this."
+  },
+  {
+    "id": 2023,
+    "level": "2a",
+    "category": "Steam Generation",
+    "question": "Where is a convection superheater located relative to the furnace?",
+    "options": [
+      "Inside the furnace in direct view of the flame",
+      "In the convection section — downstream of the furnace where flue gas temperature is lower",
+      "On top of the steam drum",
+      "Outside the boiler casing in ambient air"
+    ],
+    "correct": 3,
+    "explanation": "A convection superheater is located in the CONVECTION SECTION — downstream of the furnace in the cooler gas passages. Its steam temperature INCREASES with load (more gas flow = more heat transfer). A radiant superheater, by contrast, is in the furnace area and its output decreases with load."
+  },
+  {
+    "id": 2024,
+    "level": "2a",
+    "category": "Safety Valves",
+    "question": "For a safety valve set at 1,200 psig, what is the ASME tolerance?",
+    "options": [
+      "±2 psi",
+      "±3%",
+      "±10 psi",
+      "±1% (±12 psi)"
+    ],
+    "correct": 3,
+    "explanation": "For set pressures above 1,000 psig, the ASME tolerance is ±1%. At 1,200 psig: 1,200 × 0.01 = 12 psi. The valve must open between 1,188 and 1,212 psig."
+  },
+  {
+    "id": 2025,
+    "level": "2a",
+    "category": "Controls & Instrumentation",
+    "question": "What is the maximum trial for ignition time for a gas pilot on an automatically fired boiler per CSD-1?",
+    "options": [
+      "4 seconds",
+      "10 seconds",
+      "15 seconds",
+      "90 seconds"
+    ],
+    "correct": 2,
+    "explanation": "Per CSD-1, the maximum trial for ignition for a gas pilot is typically 15 seconds. If the pilot does not prove within this time, the system must lockout and require a full pre-purge before retrying."
+  },
+  {
+    "id": 2026,
+    "level": "2a",
+    "category": "ASME & Codes",
+    "question": "What does ASME Section VII cover?",
+    "options": [
+      "Recommended Guidelines for the Care of Power Boilers",
+      "Pressure vessel design",
+      "Nuclear power plant components",
+      "Welding rod specifications"
+    ],
+    "correct": 0,
+    "explanation": "ASME Section VII provides Recommended Guidelines for the Care of Power Boilers. It covers operating procedures, maintenance, water treatment, and general care practices. It is a guideline document, not a mandatory construction code."
+  },
+  {
+    "id": 2027,
+    "level": "2a",
+    "category": "Boiler Types",
+    "question": "What is a bent-tube boiler?",
+    "options": [
+      "A fire-tube boiler with curved tubes for thermal expansion",
+      "A boiler with intentionally damaged tubes",
+      "A water-tube boiler with tubes bent into curves to connect upper and lower drums at different positions",
+      "A type of condensing boiler"
+    ],
+    "correct": 2,
+    "explanation": "A bent-tube (or stirling-type) water-tube boiler has tubes bent into curves connecting the steam drum and mud drum(s). The bends allow thermal expansion without stress and permit various drum arrangements for different furnace configurations."
+  },
+  {
+    "id": 2028,
+    "level": "2a",
+    "category": "Combustion",
+    "question": "What does a high stack temperature indicate about boiler efficiency?",
+    "options": [
+      "The boiler is operating at peak efficiency",
+      "Heat is being wasted — high stack temperature means combustion gases are leaving the boiler without transferring sufficient heat",
+      "The fuel quality is excellent",
+      "The forced draft fan is operating too slowly"
+    ],
+    "correct": 3,
+    "explanation": "High stack temperature indicates that heat energy is escaping up the stack instead of being transferred to the water/steam. Causes include fouled heating surfaces (scale/soot), excess air, short-circuiting of gases, or failed baffles. Every 40°F reduction in stack temperature improves efficiency by approximately 1%."
+  },
+  {
+    "id": 2029,
+    "level": "2a",
+    "category": "Turbines & Engines",
+    "question": "What is the purpose of the condenser in a steam turbine power cycle?",
+    "options": [
+      "To store condensate for reuse",
+      "To condense exhaust steam back to water, creating a vacuum that increases turbine efficiency and recovers condensate",
+      "To cool the turbine bearings",
+      "To generate additional power from waste heat"
+    ],
+    "correct": 3,
+    "explanation": "The condenser condenses turbine exhaust steam back to water. The vacuum created (typically 28-29 in. Hg) increases the pressure differential across the turbine, extracting more work. The condensate is recovered as pure, hot feedwater — saving water treatment and heating costs."
+  },
+  {
+    "id": 2030,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is the function of a steam separator (moisture separator) in a boiler system?",
+    "options": [
+      "To remove moisture (water droplets) from steam to improve steam quality",
+      "To separate different grades of steam",
+      "To separate oil from condensate",
+      "To separate air from feedwater"
+    ],
+    "correct": 0,
+    "explanation": "A steam/moisture separator removes water droplets from steam using centrifugal force, impingement, or direction changes. This improves steam quality (dryness fraction) and protects downstream equipment like superheaters and turbines from water damage."
+  },
+  {
+    "id": 2031,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "What is the cycles of concentration (CoC) in a boiler?",
+    "options": [
+      "The ratio of boiler water TDS to feedwater TDS — indicating how many times dissolved solids have concentrated",
+      "The number of times feedwater is recirculated through the economizer",
+      "The number of blowdown cycles per day",
+      "The time in minutes for one complete water circulation through the boiler"
+    ],
+    "correct": 0,
+    "explanation": "Cycles of concentration = Boiler water TDS ÷ Feedwater TDS. If feedwater is 100 ppm TDS and boiler water is 1,000 ppm, CoC = 10. Higher CoC means less blowdown (water savings) but risks scale and carryover if TDS exceeds limits."
+  },
+  {
+    "id": 2032,
+    "level": "2a",
+    "category": "Auxiliaries",
+    "question": "An economizer should NOT heat feedwater above what temperature relative to the boiler's saturation temperature?",
+    "options": [
+      "It can heat to any temperature safely",
+      "Feedwater should stay below 100°F",
+      "Feedwater should stay below saturation temperature to prevent steaming in the economizer",
+      "Feedwater should not exceed 150°F"
+    ],
+    "correct": 2,
+    "explanation": "Economizer outlet water temperature must stay below the saturation temperature at the economizer pressure to prevent steaming (steam generation in the economizer). Steaming causes water hammer, flow instability, and potential tube damage."
+  },
+  {
+    "id": 2033,
+    "level": "2a",
+    "category": "Safety Valves",
+    "question": "What is accumulation in the context of safety valve testing?",
+    "options": [
+      "The amount of scale accumulated on valve seats",
+      "The total number of safety valve lifts over time",
+      "The pressure increase above MAWP when all safety valves are relieving at maximum boiler steaming capacity",
+      "The time required for the safety valve to reseat"
+    ],
+    "correct": 2,
+    "explanation": "Accumulation is the maximum pressure increase above MAWP allowed when the boiler fires at maximum capacity with all steam outlets closed and safety valves relieving. For power boilers (Section I): maximum 6% above MAWP."
+  },
+  {
+    "id": 2034,
+    "level": "2a",
+    "category": "Controls & Instrumentation",
+    "question": "What does a combustion air proving switch verify?",
+    "options": [
+      "That the fuel supply is adequate for combustion",
+      "That the combustion air fan is running and providing adequate airflow before ignition is permitted",
+      "That the stack damper is closed",
+      "That the pilot flame is established"
+    ],
+    "correct": 1,
+    "explanation": "The combustion air proving switch (airflow switch) verifies that the combustion air fan is operating and providing adequate airflow BEFORE the burner management system permits ignition. Without proven airflow, fuel cannot be introduced safely."
+  },
+  {
+    "id": 2035,
+    "level": "2a",
+    "category": "ASME & Codes",
+    "question": "What is the purpose of ASME Section VIII?",
+    "options": [
+      "Construction of power boilers",
+      "Construction of heating boilers",
+      "Construction of unfired pressure vessels",
+      "Welding procedure qualification"
+    ],
+    "correct": 2,
+    "explanation": "ASME Section VIII covers the design, construction, and inspection of unfired pressure vessels — tanks, heat exchangers, deaerators, and other vessels not directly fired. Division 1 covers standard vessels; Division 2 covers alternative rules for high-pressure/precision designs."
+  },
+  {
+    "id": 2036,
+    "level": "2a",
+    "category": "Boiler Types",
+    "question": "What is an HRSG (Heat Recovery Steam Generator)?",
+    "options": [
+      "A type of fire-tube boiler",
+      "A water-tube boiler that generates steam using hot exhaust gases from a gas turbine or other process",
+      "A high-resistance steam gauge",
+      "A steam generator powered by hydroelectric turbines"
+    ],
+    "correct": 3,
+    "explanation": "An HRSG (Heat Recovery Steam Generator) is a water-tube boiler that recovers waste heat from gas turbine exhaust (typically 900-1,100°F) to generate steam. Used in combined cycle power plants, HRSGs significantly improve overall plant efficiency from ~35% to ~55-60%."
+  },
+  {
+    "id": 2037,
+    "level": "2a",
+    "category": "Combustion",
+    "question": "What is the purpose of an air preheater in a boiler system?",
+    "options": [
+      "To cool the combustion air before it enters the furnace",
+      "To heat combustion air using waste heat from flue gases, improving combustion efficiency",
+      "To filter combustion air",
+      "To pressurize combustion air to high pressure"
+    ],
+    "correct": 1,
+    "explanation": "An air preheater recovers heat from flue gases to preheat combustion air. Hotter combustion air improves combustion efficiency, lowers the ignition delay, and reduces fuel consumption. Types include tubular, plate, and regenerative (Ljungstrom)."
+  },
+  {
+    "id": 2038,
+    "level": "2a",
+    "category": "Turbines & Engines",
+    "question": "What is the critical speed of a turbine rotor?",
+    "options": [
+      "The maximum safe operating speed",
+      "The speed at which the rotor's natural vibration frequency matches the rotational frequency, causing excessive vibration",
+      "The minimum speed needed to generate electricity",
+      "The speed at which the governor takes control"
+    ],
+    "correct": 3,
+    "explanation": "Critical speed is the rotational speed where the rotor's natural frequency matches the rotational frequency, causing resonance and potentially destructive vibration. Turbines must pass through critical speed quickly during startup and never operate at critical speed continuously."
+  },
+  {
+    "id": 2039,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is the purpose of continuous blowdown versus bottom blowdown?",
+    "options": [
+      "Continuous blowdown controls dissolved solids at the water surface; bottom blowdown removes settled sludge from the lowest point",
+      "They serve the same purpose",
+      "Continuous blowdown removes sludge; bottom blowdown controls TDS",
+      "Continuous blowdown is for HP boilers only; bottom blowdown is for LP boilers only"
+    ],
+    "correct": 0,
+    "explanation": "Continuous (surface) blowdown skims the highest-TDS water from near the water surface to control dissolved solids. Bottom blowdown is done intermittently (typically once per shift) to remove settled sludge and sediment from the lowest point of the boiler."
+  },
+  {
+    "id": 2040,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "What is chelant treatment in boiler water chemistry?",
+    "options": [
+      "A method to increase water hardness",
+      "A treatment using chelating agents (like EDTA) that keep hardness minerals in solution to prevent scale",
+      "A way to remove silica from steam",
+      "A method to lower pH for corrosion control"
+    ],
+    "correct": 1,
+    "explanation": "Chelant treatment uses chelating agents like EDTA that form soluble complexes with calcium and magnesium, keeping them dissolved in the water so they can be removed by blowdown rather than depositing as scale. Used in boilers up to about 1,500 psig."
+  },
+  {
+    "id": 2041,
+    "level": "2a",
+    "category": "Steam Generation",
+    "question": "What type of superheater increases output temperature as load decreases?",
+    "options": [
+      "Convection superheater",
+      "Radiant superheater — located in the furnace where radiant heat per pound of steam increases at lower loads",
+      "Desuperheater",
+      "Economizer"
+    ],
+    "correct": 1,
+    "explanation": "A RADIANT superheater is in the furnace area. At lower loads, less steam flows through but the furnace is still hot — so each pound of steam absorbs MORE heat, increasing outlet temperature. Convection superheaters behave oppositely. Combining both types provides more stable temperature."
+  },
+  {
+    "id": 2042,
+    "level": "2a",
+    "category": "Controls & Instrumentation",
+    "question": "What is a main fuel safety shutoff valve (MFSSV)?",
+    "options": [
+      "A manual valve the operator uses to control fuel flow",
+      "An automatically operated, fast-closing valve that shuts off all fuel to the burner on a safety trip",
+      "A pressure reducing valve on the fuel supply",
+      "A valve that controls fuel flow rate for modulation"
+    ],
+    "correct": 3,
+    "explanation": "The MFSSV is an automatic, fast-closing valve in the main fuel line that shuts off all fuel to the burner upon any safety trip (flame failure, low water, high pressure, air failure, etc.). CSD-1 requires two safety shutoff valves in series (double block) for reliability."
+  },
+  {
+    "id": 2043,
+    "level": "2a",
+    "category": "ASME & Codes",
+    "question": "What is the ASME 'U' stamp?",
+    "options": [
+      "A stamp for used/refurbished boilers",
+      "Authorizes manufacture of unfired pressure vessels to ASME Section VIII",
+      "A stamp for utility-grade power boilers",
+      "Authorizes boiler inspections"
+    ],
+    "correct": 3,
+    "explanation": "The ASME 'U' stamp authorizes organizations to manufacture unfired pressure vessels to ASME Section VIII, Division 1. This includes deaerators, heat exchangers, flash tanks, and other non-fired vessels used in boiler plant systems."
+  },
+  {
+    "id": 2044,
+    "level": "2a",
+    "category": "Boiler Types",
+    "question": "What is the advantage of a membrane wall (fin tube wall) construction in a water-tube boiler?",
+    "options": [
+      "It reduces the number of tubes needed",
+      "It increases the drum size",
+      "Fins welded between adjacent tubes create a continuous gas-tight wall, eliminating the need for refractory and preventing gas bypass",
+      "It allows higher firing rates"
+    ],
+    "correct": 2,
+    "explanation": "Membrane wall construction welds flat steel fins (membranes) between adjacent waterwall tubes, creating a continuous gas-tight enclosure. This eliminates refractory lining, prevents hot gas bypass, provides maximum radiant heat absorption, and reduces boiler weight."
+  },
+  {
+    "id": 2045,
+    "level": "2a",
+    "category": "Combustion",
+    "question": "What is the effect of too little excess air on combustion?",
+    "options": [
+      "Incomplete combustion producing CO, soot, and unburned hydrocarbons — fire hazard and efficiency loss",
+      "Perfect combustion with maximum efficiency",
+      "Lower stack temperature and higher efficiency",
+      "No effect on combustion quality"
+    ],
+    "correct": 0,
+    "explanation": "Insufficient air causes incomplete combustion: CO production (toxic, flammable), soot/smoke (unburned carbon), unburned hydrocarbons, fouled heating surfaces, and potential for furnace explosion if unburned fuel accumulates. Proper excess air ensures complete combustion."
+  },
+  {
+    "id": 2046,
+    "level": "2a",
+    "category": "Turbines & Engines",
+    "question": "What is governor droop (speed droop)?",
+    "options": [
+      "The physical sag of the governor mechanism",
+      "The decrease in turbine speed from no-load to full-load that causes the governor to increase steam flow",
+      "A malfunction where the governor fails to respond",
+      "The time delay in governor response"
+    ],
+    "correct": 3,
+    "explanation": "Speed droop is the designed decrease in speed from no-load to full-load. Typical droop is 3-5%. A governor with 5% droop at 3,600 RPM no-load would allow speed to drop to 3,420 RPM at full load. Droop is essential for stable load sharing between parallel generators."
+  },
+  {
+    "id": 2047,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is the function of a boiler feedwater regulator (feedwater control valve)?",
+    "options": [
+      "To regulate the fuel flow to the burner",
+      "To maintain the proper water level in the boiler by controlling feedwater flow",
+      "To regulate the blowdown rate",
+      "To control the steam pressure"
+    ],
+    "correct": 3,
+    "explanation": "The feedwater regulator automatically controls the flow of feedwater into the boiler to maintain the proper water level. Three-element control uses drum level, steam flow, and feedwater flow signals for the most stable water level control."
+  },
+  {
+    "id": 2048,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "What is alkalinity in boiler water and why is it important?",
+    "options": [
+      "The amount of chlorine in the water",
+      "The temperature of the water",
+      "The ability of the water to neutralize acids — expressed as ppm CaCO3 and important for pH control and corrosion prevention",
+      "The hardness level of the water"
+    ],
+    "correct": 2,
+    "explanation": "Alkalinity is the water's ability to neutralize acids, expressed as ppm of CaCO3. Proper alkalinity maintains boiler water pH in the 8.5-12.5 range, preventing acidic corrosion. Excessive alkalinity can cause foaming and carryover."
+  },
+  {
+    "id": 2049,
+    "level": "2a",
+    "category": "Auxiliaries",
+    "question": "What is a condensing economizer?",
+    "options": [
+      "An economizer that condenses steam back to water",
+      "An economizer designed to cool flue gases below the dew point, recovering both sensible and latent heat from water vapor in the flue gas",
+      "An economizer used only in condensing boilers",
+      "A device that condenses air for combustion"
+    ],
+    "correct": 3,
+    "explanation": "A condensing economizer cools flue gases below the water vapor dew point (~130°F for natural gas), recovering latent heat from condensing water vapor. This can boost overall system efficiency to 95%+ for natural gas boilers. The condensate is acidic and must be drained properly."
+  },
+  {
+    "id": 2050,
+    "level": "2a",
+    "category": "Safety Valves",
+    "question": "What is the maximum accumulation for a power boiler with a single safety valve?",
+    "options": [
+      "3% above MAWP",
+      "10% above MAWP",
+      "6% above MAWP",
+      "No limit — the valve must relieve whatever is needed"
+    ],
+    "correct": 2,
+    "explanation": "For power boilers (ASME Section I), the maximum accumulation is 6% above MAWP, whether one or multiple safety valves are installed. For example, a 200 psig MAWP boiler cannot exceed 212 psig during an accumulation test."
+  },
+  {
+    "id": 2051,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is the purpose of the air vent on a boiler during startup?",
+    "options": [
+      "To supply combustion air to the burner",
+      "To vent air trapped in the boiler as it is filled and heated, preventing air pockets that impede circulation and cause corrosion",
+      "To vent excess steam during operation",
+      "To allow the boiler inspector to look inside"
+    ],
+    "correct": 1,
+    "explanation": "During startup, the air vent is opened to release trapped air as the boiler heats. Air pockets reduce heat transfer, impede circulation, and concentrated oxygen causes pitting corrosion. The vent is closed once steam begins to discharge steadily."
+  },
+  {
+    "id": 2052,
+    "level": "2a",
+    "category": "Controls & Instrumentation",
+    "question": "What is the purpose of a post-purge on a burner?",
+    "options": [
+      "To purge fuel lines before ignition",
+      "To continue airflow after burner shutdown to clear residual combustion products from the fireside",
+      "To cool the burner flame detector",
+      "To test the safety shutoff valves"
+    ],
+    "correct": 2,
+    "explanation": "Post-purge continues fan operation after the burner shuts off, clearing the furnace and flue passages of any residual combustion products. This reduces the risk of gas accumulation and potential explosion on the next ignition cycle."
+  },
+  {
+    "id": 2053,
+    "level": "2a",
+    "category": "Boiler Types",
+    "question": "What is a D-type water-tube boiler?",
+    "options": [
+      "A boiler with a D-shaped cross-section when viewed from the front — one steam drum, one mud drum, and tubes on one side",
+      "A boiler with two drums shaped like the letter D",
+      "A diesel-fired water-tube boiler",
+      "A boiler designed for domestic hot water only"
+    ],
+    "correct": 0,
+    "explanation": "A D-type boiler has a D-shaped profile when viewed from the front: one steam drum on top, one mud drum on the bottom, connected by tubes on one side, with the furnace on the open side of the 'D'. This is a very common industrial water-tube boiler configuration."
+  },
+  {
+    "id": 2054,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "What is the purpose of a conductivity meter in boiler water monitoring?",
+    "options": [
+      "To measure water flow rate",
+      "To measure the concentration of dissolved solids indirectly — higher conductivity indicates higher TDS",
+      "To measure water temperature",
+      "To detect leaks in the boiler"
+    ],
+    "correct": 3,
+    "explanation": "A conductivity meter measures the electrical conductivity of boiler water, which is directly proportional to the concentration of dissolved solids (TDS). It is used to control blowdown — when conductivity exceeds the setpoint, blowdown is initiated to reduce TDS."
+  },
+  {
+    "id": 2055,
+    "level": "2a",
+    "category": "Turbines & Engines",
+    "question": "What is a De Laval turbine?",
+    "options": [
+      "A single-stage impulse turbine with one set of nozzles and one wheel — simple but high-speed",
+      "A large multi-stage reaction turbine",
+      "A type of steam engine",
+      "A hydraulic turbine for water power"
+    ],
+    "correct": 0,
+    "explanation": "The De Laval turbine is a SINGLE-STAGE IMPULSE turbine — steam expands through a single set of converging-diverging nozzles and hits one row of buckets on a single wheel. It is simple but operates at very high speed (up to 30,000 RPM). Used for small auxiliary drives."
+  },
+  {
+    "id": 2056,
+    "level": "2a",
+    "category": "ASME & Codes",
+    "question": "What is the difference between ASME Section I and Section IV regarding safety valve requirements?",
+    "options": [
+      "Section I requires pop-action safety valves; Section IV allows spring-loaded relief valves for hot water boilers",
+      "There is no difference",
+      "Section I requires more frequent testing",
+      "Section IV requires larger safety valves"
+    ],
+    "correct": 0,
+    "explanation": "Section I (power boilers) requires pop-action safety valves. Section IV (heating boilers) allows ASME-rated pressure relief valves on hot water boilers, which open proportionally. Section IV steam boilers (≤15 psig) still require safety valves set at ≤15 psig with max 5 psi accumulation."
+  },
+  {
+    "id": 2057,
+    "level": "2a",
+    "category": "Steam Generation",
+    "question": "What damage can water carryover cause to a superheater?",
+    "options": [
+      "No damage — superheaters are designed for wet steam",
+      "Thermal shock, tube failure, and deposit buildup from dissolved solids in the carried-over water",
+      "It improves superheater efficiency by cooling the tubes",
+      "It causes the superheater to produce more superheat"
+    ],
+    "correct": 1,
+    "explanation": "Water carryover into the superheater causes: (1) Thermal shock from cold water hitting hot tubes, (2) Deposits as dissolved solids in the water are baked onto tube surfaces, (3) Potential tube failure from overheating under deposits, (4) Reduced steam quality downstream."
+  },
+  {
+    "id": 2058,
+    "level": "2a",
+    "category": "Combustion",
+    "question": "What is CO2 in flue gas analysis used to indicate?",
+    "options": [
+      "The amount of excess air — higher CO2 generally indicates less excess air and more complete use of combustion air",
+      "The toxicity level of the flue gas",
+      "The fuel heating value",
+      "The amount of moisture in the fuel"
+    ],
+    "correct": 0,
+    "explanation": "CO2 percentage in flue gas is inversely related to excess air — as excess air increases, CO2 decreases (diluted by nitrogen). Maximum CO2 occurs at theoretical (stoichiometric) combustion. For natural gas, maximum CO2 is about 11.7%. Typical operating CO2 is 8-10%."
+  },
+  {
+    "id": 2059,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is the function of a boiler blowoff (blowdown) tank?",
+    "options": [
+      "To store feedwater before it enters the boiler",
+      "To receive and cool hot blowdown water/steam discharge, reducing it to safe temperature before sewer discharge",
+      "To collect condensate from steam traps",
+      "To store fuel oil"
+    ],
+    "correct": 1,
+    "explanation": "A blowdown tank receives high-temperature, high-pressure blowdown discharge. It flashes the pressurized water, separates steam (vented safely), and cools the remaining water to ≤150°F before discharge to the sewer."
+  },
+  {
+    "id": 2060,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "At what boiler operating pressure should sodium sulfite be replaced with hydrazine or other volatile oxygen scavenger?",
+    "options": [
+      "Above 150 psig",
+      "Above 300 psig",
+      "Above 600 psig",
+      "Above 1,000 psig"
+    ],
+    "correct": 2,
+    "explanation": "Above 600 psig, sodium sulfite decomposes and contributes to dissolved solids. Hydrazine (N₂H₄) or other volatile oxygen scavengers (DEHA, carbohydrazide) are used instead because they decompose cleanly without adding solids. Hydrazine: N₂H₄ + O₂ → 2H₂O + N₂."
+  },
+  {
+    "id": 2061,
+    "level": "2a",
+    "category": "Controls & Instrumentation",
+    "question": "How many fuel safety shutoff valves are required in series on the main fuel supply per CSD-1?",
+    "options": [
+      "One",
+      "Two (double block arrangement)",
+      "Three",
+      "Depends on boiler size"
+    ],
+    "correct": 3,
+    "explanation": "CSD-1 requires TWO fuel safety shutoff valves in series (double block) on the main fuel supply for boilers over 400,000 BTU/hr input. This provides redundancy — if one valve fails to close, the second valve still prevents fuel from reaching the burner."
+  },
+  {
+    "id": 2062,
+    "level": "2a",
+    "category": "ASME & Codes",
+    "question": "ASME Section VI covers what subject?",
+    "options": [
+      "Power boiler construction",
+      "Heating boiler construction",
+      "Recommended Rules for the Care and Operation of Heating Boilers",
+      "Pressure vessel fabrication"
+    ],
+    "correct": 2,
+    "explanation": "ASME Section VI covers Recommended Rules for the Care and Operation of Heating Boilers (low-pressure steam and hot water). It provides guidelines for operation, maintenance, and safety of boilers built to Section IV."
+  },
+  {
+    "id": 2063,
+    "level": "2a",
+    "category": "Boiler Types",
+    "question": "What is the purpose of baffles in a boiler?",
+    "options": [
+      "To support the boiler tubes structurally",
+      "To direct the flow of combustion gases across the tube surfaces for maximum heat transfer",
+      "To control water flow inside the tubes",
+      "To reduce noise levels"
+    ],
+    "correct": 3,
+    "explanation": "Baffles direct combustion gases to flow across tube surfaces in multiple passes, maximizing contact time and heat transfer. Without baffles, gases would short-circuit directly to the stack with minimal heat absorption. Damaged or missing baffles significantly reduce efficiency."
+  },
+  {
+    "id": 2064,
+    "level": "2a",
+    "category": "Turbines & Engines",
+    "question": "What is the overspeed trip setpoint for a steam turbine?",
+    "options": [
+      "100% of rated speed",
+      "105% of rated speed",
+      "110% of rated speed",
+      "120% of rated speed"
+    ],
+    "correct": 2,
+    "explanation": "The overspeed trip is set at approximately 110% of rated speed. It mechanically or electronically trips the turbine if speed exceeds this limit, typically by closing the emergency stop valve. Overspeed can cause catastrophic rotor failure due to centrifugal forces."
+  },
+  {
+    "id": 2065,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is the purpose of a mud drum (lower drum) in a water-tube boiler?",
+    "options": [
+      "To collect sediment, sludge, and precipitated solids from the boiler water for removal by blowdown",
+      "To generate steam at a lower pressure",
+      "To store extra feedwater",
+      "To provide a mounting location for the superheater"
+    ],
+    "correct": 0,
+    "explanation": "The mud drum collects sediment, sludge, and precipitated solids that settle due to gravity. Bottom blowdown is taken from the mud drum to remove these accumulated solids. The mud drum also serves as the lower connection point for the water circulation tubes."
+  },
+  {
+    "id": 2066,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "What is the purpose of filming amines in condensate treatment?",
+    "options": [
+      "To increase condensate pH",
+      "To form a thin protective film on condensate pipe walls that prevents both CO2 and oxygen corrosion",
+      "To remove dissolved solids from condensate",
+      "To increase conductivity for monitoring purposes"
+    ],
+    "correct": 3,
+    "explanation": "Filming amines (like octadecylamine) form a thin, non-wettable film on internal pipe surfaces. This film acts as a barrier between the pipe metal and the corrosive condensate, preventing both carbonic acid (CO2) and oxygen corrosion. Unlike neutralizing amines, filming amines protect against oxygen corrosion too."
+  },
+  {
+    "id": 2067,
+    "level": "2a",
+    "category": "Auxiliaries",
+    "question": "What is an integral economizer versus a separate economizer?",
+    "options": [
+      "An integral economizer is built into the boiler as part of the convection section; a separate economizer is a standalone heat exchanger",
+      "They are the same thing",
+      "An integral economizer uses steam; a separate economizer uses flue gas",
+      "An integral economizer is for HP boilers only"
+    ],
+    "correct": 0,
+    "explanation": "An INTEGRAL economizer is built into the boiler's convection section (common in packaged boilers). A SEPARATE economizer is a standalone unit installed in the flue gas ductwork between the boiler and the stack. Both recover flue gas heat to preheat feedwater."
+  },
+  {
+    "id": 2068,
+    "level": "2a",
+    "category": "Safety Valves",
+    "question": "What is the purpose of the huddling chamber in a safety valve?",
+    "options": [
+      "To collect condensate from the valve discharge",
+      "To allow the operator to manually lift the valve",
+      "To muffle the sound of the valve discharging",
+      "To create additional lifting force once the valve begins to open, producing the characteristic 'pop' action"
+    ],
+    "correct": 3,
+    "explanation": "The huddling chamber is the annular area between the disc and the valve body. When the valve begins to open, steam enters this chamber and acts on a larger disc area, creating additional upward force that snaps the valve fully open — the 'pop' action characteristic of safety valves."
+  },
+  {
+    "id": 2069,
+    "level": "2a",
+    "category": "Combustion",
+    "question": "What is the flash point of fuel oil?",
+    "options": [
+      "The temperature at which fuel oil ignites spontaneously",
+      "The lowest temperature at which fuel oil vapors will ignite when exposed to an ignition source",
+      "The temperature at which fuel oil boils",
+      "The temperature at which fuel oil becomes liquid"
+    ],
+    "correct": 1,
+    "explanation": "Flash point is the LOWEST temperature at which fuel oil produces sufficient vapors to ignite momentarily when exposed to a spark or flame. It is a key safety parameter — fuel oil must be stored and handled below its flash point to prevent fires. #2 fuel oil flash point is typically 130-150°F."
+  },
+  {
+    "id": 2070,
+    "level": "2a",
+    "category": "Turbines & Engines",
+    "question": "What is a Curtis stage turbine?",
+    "options": [
+      "A reaction turbine with many stages",
+      "A velocity-compounded impulse turbine — steam passes through one set of nozzles then multiple rows of moving and stationary blades",
+      "A single-stage turbine like the De Laval",
+      "A type of gas turbine"
+    ],
+    "correct": 1,
+    "explanation": "A Curtis stage is a VELOCITY-COMPOUNDED impulse turbine. Steam expands through one set of nozzles, then passes through alternating rows of moving blades (on the rotor) and stationary (reversing) blades. This extracts energy in multiple steps from one pressure drop, allowing lower wheel speeds than a De Laval."
+  },
+  {
+    "id": 2071,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is meant by 'boiler turndown ratio'?",
+    "options": [
+      "The number of boilers shut down during low demand",
+      "The ratio of maximum firing rate to minimum stable firing rate — indicating the boiler's load range",
+      "The ratio of water to steam in the boiler",
+      "The ratio of stack height to boiler height"
+    ],
+    "correct": 3,
+    "explanation": "Turndown ratio = Maximum firing rate ÷ Minimum stable firing rate. A boiler with 4:1 turndown can operate from 25% to 100% of rated capacity. Higher turndown ratios provide better load-following capability and reduce boiler cycling."
+  },
+  {
+    "id": 2072,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "What is reverse osmosis (RO) in water treatment?",
+    "options": [
+      "A process that uses gravity to filter water",
+      "A membrane process that removes 95-99% of dissolved solids by forcing water through a semi-permeable membrane under pressure",
+      "A chemical process that reverses the effects of hard water",
+      "A process that adds minerals to water"
+    ],
+    "correct": 1,
+    "explanation": "Reverse osmosis forces water through a semi-permeable membrane at high pressure (150-600 psi). The membrane rejects 95-99% of dissolved solids, producing very pure permeate water. RO is used as pretreatment for high-pressure boiler feedwater systems."
+  },
+  {
+    "id": 2073,
+    "level": "2a",
+    "category": "Controls & Instrumentation",
+    "question": "What is a safety interlock on a burner control system?",
+    "options": [
+      "A condition that must be satisfied before the burner can fire — if the condition is lost, the burner shuts down",
+      "A physical lock on the burner",
+      "A backup fuel supply",
+      "A timer that limits firing duration"
+    ],
+    "correct": 0,
+    "explanation": "Safety interlocks are conditions that must be TRUE for the burner to operate: adequate water level, proper air flow, fuel pressure within range, no flame failure, pressure below high limit, etc. If ANY interlock condition is lost, the burner immediately shuts down."
+  },
+  {
+    "id": 2074,
+    "level": "2a",
+    "category": "ASME & Codes",
+    "question": "What is a National Board number on a boiler?",
+    "options": [
+      "The serial number assigned by the manufacturer",
+      "The inspection report number",
+      "A unique registration number assigned by the National Board of Boiler and Pressure Vessel Inspectors when the boiler is registered at manufacture",
+      "The insurance policy number"
+    ],
+    "correct": 2,
+    "explanation": "The National Board number is a unique registration number assigned when a boiler or pressure vessel is registered with the National Board at the time of manufacture. It appears on the nameplate along with the ASME stamp. The National Board maintains records of all registered boilers."
+  },
+  {
+    "id": 2075,
+    "level": "2a",
+    "category": "Steam Generation",
+    "question": "What is a pendant superheater?",
+    "options": [
+      "A superheater mounted on a pendant chain for vibration isolation",
+      "Superheater tubes that hang vertically (like pendants) from headers at the top of the furnace or in the convection pass",
+      "A portable superheater unit",
+      "A superheater used only for pendant lights in the boiler room"
+    ],
+    "correct": 3,
+    "explanation": "A pendant superheater has tubes that hang vertically from upper headers, typically in the furnace exit area or upper convection pass. The vertical orientation allows drainage of condensate during startup and shutdown, and accommodates thermal expansion. Common in large utility and industrial boilers."
+  },
+  {
+    "id": 2076,
+    "level": "2a",
+    "category": "Combustion",
+    "question": "What is the purpose of fuel oil atomization?",
+    "options": [
+      "To mix fuel with water for efficiency",
+      "To break fuel oil into very fine droplets, maximizing surface area for rapid and complete combustion",
+      "To cool the fuel before it enters the furnace",
+      "To remove impurities from the fuel"
+    ],
+    "correct": 3,
+    "explanation": "Atomization breaks fuel oil into a fine mist of tiny droplets, dramatically increasing the surface area for combustion. Better atomization = faster, more complete combustion = less smoke, less soot, higher efficiency. Methods include pressure (mechanical), steam, and air atomization."
+  },
+  {
+    "id": 2077,
+    "level": "2a",
+    "category": "Turbines & Engines",
+    "question": "What type of turbine seal prevents steam leakage along the turbine shaft?",
+    "options": [
+      "O-ring seals",
+      "Mechanical face seals",
+      "Labyrinth seals — a series of thin fins that create a tortuous path to minimize steam leakage",
+      "Hydraulic seals"
+    ],
+    "correct": 2,
+    "explanation": "Labyrinth seals use a series of thin fins (teeth) machined on the shaft or casing that create a tortuous path for steam. At each fin, the steam pressure drops slightly. No physical contact occurs between the rotating and stationary parts, eliminating wear. Carbon ring seals are also used at shaft ends."
+  },
+  {
+    "id": 2078,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is the difference between a fire-tube and water-tube boiler regarding pressure limitations?",
+    "options": [
+      "Fire-tube boilers can handle higher pressure",
+      "Both have the same pressure limitations",
+      "Water-tube boilers can handle much higher pressures because water is inside small tubes; fire-tube boilers are limited to approximately 300 psig",
+      "Neither has pressure limitations"
+    ],
+    "correct": 2,
+    "explanation": "Water-tube boilers can handle much higher pressures (up to supercritical levels) because the high-pressure water/steam is contained in small-diameter tubes that resist pressure efficiently. Fire-tube boilers have the high-pressure water/steam in the large shell, limiting them to approximately 300 psig."
+  },
+  {
+    "id": 2079,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "What is foaming in a boiler and what causes it?",
+    "options": [
+      "Bubbles forming in the feedwater tank from aeration",
+      "Formation of stable foam on the boiler water surface caused by high TDS, oil contamination, or excessive alkalinity — leading to carryover",
+      "Ice crystals forming in the economizer",
+      "Bubbles in the sight glass from incorrect installation"
+    ],
+    "correct": 1,
+    "explanation": "Foaming is the formation of stable foam on the boiler water surface. Causes: high TDS concentration, oil/grease contamination, high alkalinity/organics, and certain dissolved solids that act as surfactants. Foaming causes severe carryover of water into the steam, contaminating the steam and potentially damaging equipment."
+  },
+  {
+    "id": 2080,
+    "level": "2a",
+    "category": "Auxiliaries",
+    "question": "What material concern exists with condensing economizers on natural gas boilers?",
+    "options": [
+      "The economizer tubes corrode from the acidic condensate (carbonic acid) — corrosion-resistant materials like stainless steel must be used",
+      "No material concerns exist",
+      "The tubes expand too much from heat",
+      "The insulation melts at high temperatures"
+    ],
+    "correct": 0,
+    "explanation": "When flue gas cools below the dew point, water condenses and absorbs CO2 forming carbonic acid (H2CO3), with pH around 3-4. Standard carbon steel corrodes rapidly. Condensing economizers must use corrosion-resistant materials: stainless steel, aluminum, or polymer-coated tubes."
+  },
+  {
+    "id": 2081,
+    "level": "2a",
+    "category": "Turbines & Engines",
+    "question": "What is a Rateau stage turbine?",
+    "options": [
+      "A velocity-compounded impulse turbine",
+      "A pressure-compounded impulse turbine — multiple stages each with their own set of nozzles and blades, with pressure dropping in each stage",
+      "A type of reaction turbine",
+      "A single-stage turbine for small applications"
+    ],
+    "correct": 1,
+    "explanation": "A Rateau stage is a PRESSURE-COMPOUNDED impulse turbine. Total steam expansion is divided among multiple stages, each having its own set of nozzles and moving blades. Pressure drops incrementally across each nozzle set. This reduces blade speed requirements and improves efficiency."
+  },
+  {
+    "id": 2082,
+    "level": "2a",
+    "category": "Controls & Instrumentation",
+    "question": "What is a flame safeguard system (flame relay)?",
+    "options": [
+      "A backup flame in case the pilot goes out",
+      "The complete burner management system that monitors flame presence, controls the ignition sequence, and ensures safe shutdown on flame failure",
+      "A fire suppression system for the boiler room",
+      "A thermal overload relay on the burner motor"
+    ],
+    "correct": 3,
+    "explanation": "The flame safeguard system (also called the burner management system or programmer) controls the entire burner startup sequence: pre-purge → pilot ignition → pilot proving → main flame → operation, and ensures safe shutdown on any safety fault. Common types: Honeywell, Fireye, Siemens."
+  },
+  {
+    "id": 2083,
+    "level": "2a",
+    "category": "Boiler Types",
+    "question": "What is a forced circulation boiler?",
+    "options": [
+      "A boiler that uses pumps to circulate water through the tubes instead of relying on natural density differences",
+      "A boiler with extra-large downcomers",
+      "A boiler with forced draft fans",
+      "A boiler with pressurized feedwater"
+    ],
+    "correct": 0,
+    "explanation": "A forced circulation boiler uses circulation pumps to move water through the tubes. This is necessary at very high pressures (above about 2,000 psig) where the density difference between hot and cold water is too small for adequate natural circulation. Once-through (supercritical) boilers are the extreme case."
+  },
+  {
+    "id": 2084,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "What is the purpose of maintaining a sodium sulfite residual of 20-30 ppm in boiler water?",
+    "options": [
+      "To keep the water soft",
+      "To ensure enough oxygen scavenger is present to react with any incoming dissolved oxygen — the residual proves adequate dosing",
+      "To lower the pH",
+      "To prevent foaming"
+    ],
+    "correct": 1,
+    "explanation": "A sulfite residual of 20-30 ppm proves that more than enough sodium sulfite is present to react with all dissolved oxygen. If the residual drops to zero, oxygen may be present and causing corrosion. The residual is measured by testing and adjusting chemical feed rates."
+  },
+  {
+    "id": 2085,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is the purpose of a steam desuperheater spray water control?",
+    "options": [
+      "To add more heat to the steam",
+      "To precisely control final steam temperature by regulating the amount of spray water injected into superheated steam",
+      "To control the feedwater temperature",
+      "To regulate the boiler water level"
+    ],
+    "correct": 3,
+    "explanation": "A desuperheater spray control valve regulates the quantity of feedwater sprayed into the superheated steam to control the final steam temperature precisely. This is critical for protecting turbine blades from excessive temperature while maintaining rated conditions."
+  },
+  {
+    "id": 2086,
+    "level": "2a",
+    "category": "Combustion",
+    "question": "What is stoichiometric combustion?",
+    "options": [
+      "Combustion with maximum excess air for safety",
+      "Combustion using stored thermal energy",
+      "Combustion at the maximum firing rate",
+      "Theoretically perfect combustion — exactly the right amount of air to completely burn the fuel with no excess"
+    ],
+    "correct": 3,
+    "explanation": "Stoichiometric (theoretical) combustion uses exactly the minimum air required for complete combustion — no excess, no deficiency. In practice, stoichiometric combustion is impossible because of imperfect mixing. Some excess air (typically 10-20% for gas) is always required."
+  },
+  {
+    "id": 2087,
+    "level": "2a",
+    "category": "ASME & Codes",
+    "question": "What is the purpose of NFPA 85?",
+    "options": [
+      "To regulate fire extinguisher placement in boiler rooms",
+      "To provide the Boiler and Combustion Systems Hazards Code — standards for preventing furnace explosions and implosions",
+      "To set standards for electrical wiring in boiler rooms",
+      "To regulate fuel storage tank design"
+    ],
+    "correct": 1,
+    "explanation": "NFPA 85 (Boiler and Combustion Systems Hazards Code) establishes requirements to prevent furnace explosions and implosions. It covers purge requirements, fuel safety shutoff valves, flame detection, burner management systems, and safe startup/shutdown procedures for boilers and HRSGs."
+  },
+  {
+    "id": 2088,
+    "level": "2a",
+    "category": "Steam Generation",
+    "question": "During boiler startup, when should the superheater drains be open?",
+    "options": [
+      "Only during shutdown",
+      "Only when the boiler is at full load",
+      "During the entire startup period until adequate steam flow is established through the superheater to prevent condensate accumulation and thermal shock",
+      "Superheater drains should never be opened"
+    ],
+    "correct": 2,
+    "explanation": "Superheater drains must be OPEN during startup to drain condensate that forms as the boiler heats up. If condensate accumulates in superheater tubes and is suddenly hit by hot gas, thermal shock can crack tubes. Drains are closed once steady steam flow provides adequate cooling."
+  },
+  {
+    "id": 2089,
+    "level": "2a",
+    "category": "Turbines & Engines",
+    "question": "What is a Parsons turbine?",
+    "options": [
+      "A single-stage impulse turbine",
+      "A multi-stage REACTION turbine where steam expands through both fixed and moving blades, with a pressure drop across each row",
+      "A type of steam engine",
+      "A gas turbine design"
+    ],
+    "correct": 1,
+    "explanation": "The Parsons turbine is a MULTI-STAGE REACTION design. Steam expands through alternating rows of fixed (stator) and moving (rotor) blades, with a pressure drop across each row. Both fixed and moving blades act as nozzles. Parsons turbines are very efficient for large power generation applications."
+  },
+  {
+    "id": 2090,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is shrinkage and swell in boiler water level?",
+    "options": [
+      "Shrinkage is the apparent drop in water level when load decreases (fewer steam bubbles); swell is the apparent rise when load increases (more steam bubbles)",
+      "Physical damage to the boiler drum",
+      "Shrinkage is water loss; swell is water gain",
+      "Terms describing scale buildup"
+    ],
+    "correct": 0,
+    "explanation": "SWELL: When firing rate increases, more steam bubbles form below the water surface, making the water appear to rise temporarily. SHRINKAGE: When firing rate decreases, fewer bubbles form and level appears to drop. These are temporary effects that can cause false water level readings."
+  },
+  {
+    "id": 2091,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "What is ion exchange in water treatment?",
+    "options": [
+      "A process where undesirable ions (Ca, Mg) in water are exchanged for less harmful ions (Na, H) by passing through a resin bed",
+      "Adding ions to the water to improve taste",
+      "Electrically charging the water to remove particles",
+      "A chemical reaction that creates new ions"
+    ],
+    "correct": 0,
+    "explanation": "Ion exchange passes water through a resin bed that exchanges undesirable ions for less harmful ones. In sodium-cycle softening, Ca²⁺ and Mg²⁺ are exchanged for Na⁺ (which doesn't form hard scale). In demineralization, cation and anion resins remove virtually all dissolved minerals."
+  },
+  {
+    "id": 2092,
+    "level": "2a",
+    "category": "Controls & Instrumentation",
+    "question": "What does a fuel pressure switch (low fuel pressure cutoff) do?",
+    "options": [
+      "Controls the operating fuel pressure",
+      "Increases fuel pressure during startup",
+      "Shuts off the burner if fuel pressure drops below the minimum required for proper atomization and safe combustion",
+      "Measures fuel consumption"
+    ],
+    "correct": 2,
+    "explanation": "The low fuel pressure switch is a safety interlock that prevents burner operation if fuel supply pressure is too low. Insufficient fuel pressure causes poor atomization (oil) or inadequate gas flow, resulting in unstable flame, incomplete combustion, or flame failure."
+  },
+  {
+    "id": 2093,
+    "level": "2a",
+    "category": "Combustion",
+    "question": "What is the purpose of secondary air in a combustion system?",
+    "options": [
+      "Additional air supplied beyond the primary air stream to ensure complete mixing and combustion of fuel",
+      "To cool the furnace walls",
+      "Emergency backup air supply",
+      "Air used for post-purge only"
+    ],
+    "correct": 0,
+    "explanation": "Secondary air is supplied downstream of the primary combustion zone to ensure complete mixing and combustion. Primary air provides initial combustion; secondary air ensures remaining fuel particles or gases are fully burned. In some designs, tertiary air is also used for NOx control."
+  },
+  {
+    "id": 2094,
+    "level": "2a",
+    "category": "Boiler Types",
+    "question": "What is the purpose of a steam drum baffle plate?",
+    "options": [
+      "To separate the incoming feedwater/chemical injection area from the steam-water separation area, preventing short-circuiting",
+      "To strengthen the drum structurally",
+      "To create turbulence for better mixing",
+      "To support the safety valve connections"
+    ],
+    "correct": 0,
+    "explanation": "Drum baffle plates separate the feedwater inlet zone from the steam separation zone. Without baffles, cold feedwater could short-circuit directly to the downcomers without mixing, or disturb the steam-water separation process, degrading steam quality."
+  },
+  {
+    "id": 2095,
+    "level": "2a",
+    "category": "Turbines & Engines",
+    "question": "What is the purpose of turbine gland sealing steam?",
+    "options": [
+      "To heat the turbine casing during startup",
+      "To cool the turbine blades",
+      "To seal the shaft glands (at the point where the shaft exits the casing) to prevent air leakage into the low-pressure sections",
+      "To lubricate the turbine bearings"
+    ],
+    "correct": 2,
+    "explanation": "Gland sealing steam is supplied to the labyrinth seals where the shaft exits the turbine casing. At the HP end, it prevents steam leakage out. At the LP end (below atmospheric pressure), it prevents air leakage IN, which would reduce condenser vacuum and turbine efficiency."
+  },
+  {
+    "id": 2096,
+    "level": "2a",
+    "category": "Operating Procedures",
+    "question": "What is a hot well in a boiler plant?",
+    "options": [
+      "A well that supplies hot groundwater to the boiler",
+      "The collection tank that receives condensate from the condenser before it is pumped back to the boiler as feedwater",
+      "A heating system for the boiler room",
+      "A storage tank for hot fuel oil"
+    ],
+    "correct": 3,
+    "explanation": "The hot well is a tank (often integral to the condenser) that collects condensate from the turbine condenser. Hot well water is typically 100-120°F. From the hot well, condensate pumps send the water to the deaerator and eventually back to the boiler as feedwater."
+  },
+  {
+    "id": 2097,
+    "level": "2a",
+    "category": "Water Treatment",
+    "question": "What is silica and why is it a concern in high-pressure boilers?",
+    "options": [
+      "Silica is harmless in all boiler systems",
+      "Silica is a dissolved mineral (SiO2) that can volatilize with steam at high pressures and deposit on turbine blades as hard, glassy scale",
+      "Silica only affects low-pressure boilers",
+      "Silica improves heat transfer"
+    ],
+    "correct": 3,
+    "explanation": "Silica (SiO2) becomes volatile (carries over with steam) at pressures above about 400 psig. It deposits as hard, glassy scale on turbine blades that is extremely difficult to remove. Silica in boiler water must be carefully controlled, especially in HP systems, through makeup water treatment and blowdown."
+  },
+  {
+    "id": 2098,
+    "level": "2a",
+    "category": "Auxiliaries",
+    "question": "What is a bypass damper on an economizer used for?",
+    "options": [
+      "To bypass the economizer during emergencies only",
+      "To allow flue gases to bypass the economizer during low-load conditions to prevent the economizer from cooling flue gas below the acid dew point",
+      "To increase economizer efficiency at high loads",
+      "To bypass feedwater around the economizer"
+    ],
+    "correct": 1,
+    "explanation": "The bypass damper diverts flue gases around the economizer during low-load operation. At low load, flue gas temperatures may drop below the acid dew point in the economizer, causing corrosive condensation on tube surfaces. The bypass maintains tube wall temperature above dew point."
+  },
+  {
+    "id": 2099,
+    "level": "2a",
+    "category": "ASME & Codes",
+    "question": "What does the ASME 'E' stamp signify?",
+    "options": [
+      "Emergency boiler repairs",
+      "Electric boiler manufacturing to ASME Section I",
+      "Economizer manufacturing",
+      "Equipment rental certification"
+    ],
+    "correct": 1,
+    "explanation": "The ASME 'E' stamp authorizes the manufacture of ELECTRIC BOILERS to ASME Section I. Electric boilers (resistance element or electrode type) still require ASME code construction and stamping, just like fuel-fired power boilers."
+  },
+  {
+    "id": 2100,
+    "level": "2a",
+    "category": "Safety Valves",
+    "question": "When gagging (blocking) safety valves for a hydrostatic test, what critical step must be done after the test?",
+    "options": [
+      "The gags can remain in place permanently",
+      "Only one gag needs to be removed",
+      "ALL gags must be removed and each valve verified free to operate BEFORE the boiler is returned to service",
+      "Gags are automatically released when pressure drops"
+    ],
+    "correct": 2,
+    "explanation": "ALL safety valve gags MUST be removed and each valve verified free to operate BEFORE returning the boiler to service. A gagged safety valve cannot protect the boiler from overpressure. Failing to remove gags after a hydrostatic test has caused fatal boiler explosions."
   }
-,
-  {"id": 2001, "level": "2a", "category": "HP Boiler Operations", "question": "What is the purpose of an economizer in a boiler system?", "options": ["To preheat feedwater using waste heat from flue gases before it enters the boiler", "To preheat combustion air using flue gas heat", "To reduce steam pressure for process use", "To remove dissolved gases from feedwater"], "correct": 0, "explanation": "An economizer preheats feedwater by recovering heat from flue gases leaving the boiler. This reduces stack temperature and improves overall boiler efficiency by 3-5%."},
-  {"id": 2002, "level": "2a", "category": "Water-Tube Boilers", "question": "What are the two drums in a typical two-drum water-tube boiler?", "options": ["A steam drum (upper) and a mud drum (lower)", "A fire drum and a smoke drum", "A feedwater drum and a blowdown drum", "A condensate drum and a flash drum"], "correct": 0, "explanation": "A two-drum water-tube boiler has a steam drum (upper) where steam-water separation occurs, and a mud drum (lower) where sediment collects and blowdown is taken. Water tubes connect the two drums."},
-  {"id": 2003, "level": "2a", "category": "Combustion Optimization", "question": "For natural gas combustion, what is the optimal O2 percentage in flue gas?", "options": ["0% — all oxygen should be consumed", "8-10% O2", "2-3% O2", "15% O2"], "correct": 2, "explanation": "Optimal O2 for natural gas is approximately 2-3% (about 10-15% excess air). Below 2%, incomplete combustion and CO formation increase. Above 3%, excess air wastes heat."},
-  {"id": 2004, "level": "2a", "category": "Safety Valve Tolerances", "question": "A safety valve is set at 400 psig. What is the ASME allowable tolerance?", "options": ["±2 psi", "±3%", "±10 psi (390-410 psig)", "±1%"], "correct": 2, "explanation": "For set pressures 301-1000 psig, ASME tolerance is ±10 psi. At 400 psig: the valve must open between 390 and 410 psig."},
-  {"id": 2005, "level": "2a", "category": "CSD-1 Controls", "question": "What is the difference between the operating control and the high limit control on a boiler?", "options": ["The operating control cycles the burner during normal operation; the high limit is a safety device requiring manual reset", "They are the same device with different names", "The operating control handles water level; the high limit handles pressure", "The high limit cycles the burner; the operating control is the safety backup"], "correct": 0, "explanation": "The operating control (pressuretrol/aquastat) cycles the burner on/off during normal operation and auto-resets. The high limit is a SAFETY device that shuts off the burner at a higher setpoint and requires MANUAL RESET to prevent restart without investigation."},
-  {"id": 2006, "level": "2a", "category": "Water Treatment", "question": "What is the purpose of phosphate treatment in boiler water?", "options": ["To convert hardness minerals to soft, non-adherent sludge that can be removed by blowdown", "To remove dissolved oxygen", "To increase the pH above 14", "To prevent foaming in the steam drum"], "correct": 0, "explanation": "Phosphate reacts with calcium hardness to form calcium phosphate — a soft, non-adherent sludge (rather than hard scale) that can be removed by bottom blowdown. This is the most common internal treatment for hardness control."},
-  {"id": 2007, "level": "2a", "category": "HP Boiler Operations", "question": "What is the purpose of a steam drum internals package (baffles, chevron dryers, cyclone separators)?", "options": ["To separate water droplets from steam to produce dry, high-quality steam", "To increase the steam pressure", "To mix feedwater and boiler water thoroughly", "To prevent corrosion of the drum shell"], "correct": 0, "explanation": "Steam drum internals (cyclone separators, chevron dryers, scrubber screens) separate water droplets from steam before it exits the drum. This produces dry steam with minimal moisture carryover, protecting superheaters and turbines."},
-  {"id": 2008, "level": "2a", "category": "ASME Code", "question": "ASME Section V covers what subject?", "options": ["Power boiler construction", "Heating boiler construction", "Nondestructive Examination (NDE) methods and standards", "Welding qualifications"], "correct": 2, "explanation": "ASME Section V covers Nondestructive Examination (NDE) — the methods and standards for UT, RT, MT, PT, VT, and other examination techniques used to inspect boiler and pressure vessel components."},
-  {"id": 2009, "level": "2a", "category": "Superheater Operations", "question": "Why must a superheater be protected from overheating during boiler startup?", "options": ["Because the superheater tubes are made of cast iron", "Because superheater tubes have no steam flow to cool them until the boiler is producing steam", "Because the superheater is located in the coldest part of the boiler", "Because overheating the superheater reduces fuel efficiency"], "correct": 1, "explanation": "During startup, superheater tubes have no steam flow for cooling but are exposed to hot flue gases. Without cooling flow, tubes can overheat and fail. Startup procedures must limit firing rate until adequate steam flow is established through the superheater."},
-  {"id": 2010, "level": "2a", "category": "Turbines & Engines", "question": "What is the purpose of a steam turbine governor?", "options": ["To control the turbine speed by regulating steam flow to the turbine", "To control the steam temperature", "To control the boiler pressure", "To control the condenser vacuum"], "correct": 0, "explanation": "The governor controls turbine speed by regulating the amount of steam admitted to the turbine. As load changes, the governor adjusts steam flow to maintain the desired speed (RPM), which is critical for generator frequency control."},
-  {"id": 2011, "level": "2a", "category": "Combustion Optimization", "question": "What is the relationship between excess air and stack temperature in terms of efficiency?", "options": ["More excess air raises stack temperature and reduces efficiency — heat is wasted heating unnecessary air", "More excess air lowers stack temperature and improves efficiency", "Excess air has no effect on stack temperature", "Less excess air always improves efficiency regardless of combustion quality"], "correct": 0, "explanation": "Excess air raises stack temperature because additional air must be heated from ambient to stack temperature, absorbing heat energy. Each 1% increase in O2 above optimal wastes approximately 1% of fuel energy."},
-  {"id": 2012, "level": "2a", "category": "Water Treatment", "question": "What is the function of sodium sulfite in boiler water treatment?", "options": ["To increase water hardness for better heat transfer", "To scavenge dissolved oxygen by reacting with it chemically", "To lower the pH to prevent caustic embrittlement", "To remove silica from the boiler water"], "correct": 1, "explanation": "Sodium sulfite is a chemical oxygen scavenger: 2Na₂SO₃ + O₂ → 2Na₂SO₄. It reacts with dissolved oxygen remaining after deaeration. A residual of 20-30 ppm sodium sulfite is maintained. Not used above 600 psig."},
-  {"id": 2013, "level": "2a", "category": "HP Boiler Operations", "question": "What is a waterwall in a water-tube boiler?", "options": ["A wall of water surrounding the entire boiler for cooling", "A water barrier between the boiler and the building wall", "Tubes lining the furnace walls that absorb radiant heat from the flame and contain boiler water", "A dam inside the steam drum"], "correct": 2, "explanation": "Waterwalls are tubes lining the furnace walls that absorb radiant heat directly from the flame. They contain boiler water/steam mixture and are the primary heat absorption surface in modern water-tube boilers. They also protect refractory from direct flame exposure."},
-  {"id": 2014, "level": "2a", "category": "Safety Valve Tolerances", "question": "What is the blowdown of a safety valve?", "options": ["The process of testing the low water cutoff", "The amount of steam released during a pop test", "The difference between the set (opening) pressure and the closing (reseating) pressure", "The pressure drop across the valve during normal operation"], "correct": 2, "explanation": "Blowdown is the pressure difference between when a safety valve opens (set pressure) and when it reseats (closes). For example, a valve that opens at 150 psig and reseats at 143 psig has a blowdown of 7 psi. Excessive blowdown wastes steam; insufficient blowdown causes chattering."},
-  {"id": 2015, "level": "2a", "category": "Economizer Operations", "question": "What is a steaming economizer and why is it dangerous?", "options": ["An economizer that produces steam for process use — it is safe and efficient", "An economizer where feedwater reaches boiling temperature, producing steam that can cause water hammer and tube failure", "An economizer heated by live steam rather than flue gas", "A type of flash tank connected to the economizer"], "correct": 1, "explanation": "A steaming economizer occurs when feedwater temperature exceeds saturation temperature inside the economizer tubes, generating steam. This can cause water hammer, tube erosion, flow instability, and tube failure. A recirculation line or bypass prevents this condition."},
-  {"id": 2016, "level": "2a", "category": "CSD-1 Controls", "question": "Under CSD-1, what is required if a burner fails to light during the trial for ignition period?", "options": ["Immediately retry ignition without purging", "Wait 10 seconds and retry automatically", "The system must complete a full pre-purge cycle before any reignition attempt", "Manually override the controls and force ignition"], "correct": 2, "explanation": "If ignition fails during the trial for ignition, the system must lockout and complete a FULL pre-purge (minimum 4 air changes) before any reignition attempt. This prevents accumulated unburned fuel from causing a furnace explosion on the next ignition attempt."},
-  {"id": 2017, "level": "2a", "category": "ASME Code", "question": "What does the ASME 'H' stamp signify?", "options": ["High-pressure boiler manufacturing", "Heating boiler manufacturing — ASME Section IV cast iron and steel boilers", "Hydrostatic test certification", "Heat exchanger manufacturing"], "correct": 1, "explanation": "The ASME 'H' stamp authorizes manufacture of HEATING BOILERS to ASME Section IV — low-pressure steam (≤15 psig) and hot water (≤160 psig/250°F) boilers including cast iron and steel designs."},
-  {"id": 2018, "level": "2a", "category": "Water-Tube Boilers", "question": "What is the function of downcomers in a water-tube boiler?", "options": ["To carry steam from the drum to the turbine", "To carry cooler, denser water from the steam drum down to the lower headers/mud drum, completing the circulation loop", "To drain condensate from the superheater", "To provide emergency water supply to the boiler"], "correct": 1, "explanation": "Downcomers carry cooler, denser water from the steam drum downward to the lower headers or mud drum. This water then flows through the heated riser tubes where it absorbs heat and rises back to the steam drum, completing the natural circulation loop."},
-  {"id": 2019, "level": "2a", "category": "Combustion Optimization", "question": "What instrument is used to measure O2 and CO in flue gas for combustion analysis?", "options": ["A manometer", "A flue gas analyzer (combustion analyzer)", "A hydrometer", "A calorimeter"], "correct": 1, "explanation": "A flue gas analyzer (combustion analyzer) measures O2, CO, CO2, NOx, and stack temperature. It calculates combustion efficiency and helps optimize the fuel-air ratio. Regular analysis is essential for maintaining peak efficiency."},
-  {"id": 2020, "level": "2a", "category": "Turbines & Engines", "question": "What is the difference between an impulse turbine and a reaction turbine?", "options": ["Impulse turbines are larger than reaction turbines", "In an impulse turbine, steam pressure drops across the nozzle only; in a reaction turbine, pressure drops across both the fixed and moving blades", "Impulse turbines use gas; reaction turbines use steam", "There is no significant difference"], "correct": 1, "explanation": "In an IMPULSE turbine (De Laval, Curtis, Rateau), steam expands and accelerates through fixed nozzles, then pushes the moving blades (no pressure drop across moving blades). In a REACTION turbine (Parsons), pressure drops across BOTH fixed and moving blades — the moving blades act as nozzles too."},
-  {"id": 2021, "level": "2a", "category": "HP Boiler Operations", "question": "What is the purpose of a soot blower?", "options": ["To blow soot into the furnace for additional fuel", "To remove soot and ash deposits from boiler heating surfaces to maintain heat transfer efficiency", "To blow soot out the stack for disposal", "To test the draft system operation"], "correct": 3, "explanation": "Soot blowers use steam or compressed air jets to remove soot, ash, and slag deposits from boiler tube surfaces. Soot buildup insulates tubes, reduces heat transfer, raises stack temperature, and reduces efficiency. Soot blowing is done on a regular schedule during operation."},
-  {"id": 2022, "level": "2a", "category": "Water Treatment", "question": "What causes caustic embrittlement (caustic cracking) in boilers?", "options": ["High dissolved oxygen levels attacking tube walls", "Concentrated sodium hydroxide (caustic) under deposits or at leaking joints, causing intergranular stress corrosion cracking", "High calcium levels causing hard scale", "Low pH water dissolving the boiler metal"], "correct": 1, "explanation": "Caustic embrittlement occurs when concentrated NaOH (caustic) collects under deposits or at tube-to-sheet joints. The concentrated caustic attacks grain boundaries in the steel, causing intergranular cracking under stress. Coordinated phosphate treatment helps prevent this."},
-  {"id": 2023, "level": "2a", "category": "Superheater Operations", "question": "Where is a convection superheater located relative to the furnace?", "options": ["Inside the furnace in direct view of the flame", "In the convection section — downstream of the furnace where flue gas temperature is lower", "On top of the steam drum", "Outside the boiler casing in ambient air"], "correct": 3, "explanation": "A convection superheater is located in the CONVECTION SECTION — downstream of the furnace in the cooler gas passages. Its steam temperature INCREASES with load (more gas flow = more heat transfer). A radiant superheater, by contrast, is in the furnace area and its output decreases with load."},
-  {"id": 2024, "level": "2a", "category": "Safety Valve Tolerances", "question": "For a safety valve set at 1,200 psig, what is the ASME tolerance?", "options": ["±2 psi", "±3%", "±10 psi", "±1% (±12 psi)"], "correct": 3, "explanation": "For set pressures above 1,000 psig, the ASME tolerance is ±1%. At 1,200 psig: 1,200 × 0.01 = 12 psi. The valve must open between 1,188 and 1,212 psig."},
-  {"id": 2025, "level": "2a", "category": "CSD-1 Controls", "question": "What is the maximum trial for ignition time for a gas pilot on an automatically fired boiler per CSD-1?", "options": ["4 seconds", "10 seconds", "15 seconds", "90 seconds"], "correct": 2, "explanation": "Per CSD-1, the maximum trial for ignition for a gas pilot is typically 15 seconds. If the pilot does not prove within this time, the system must lockout and require a full pre-purge before retrying."},
-  {"id": 2026, "level": "2a", "category": "ASME Code", "question": "What does ASME Section VII cover?", "options": ["Recommended Guidelines for the Care of Power Boilers", "Pressure vessel design", "Nuclear power plant components", "Welding rod specifications"], "correct": 0, "explanation": "ASME Section VII provides Recommended Guidelines for the Care of Power Boilers. It covers operating procedures, maintenance, water treatment, and general care practices. It is a guideline document, not a mandatory construction code."},
-  {"id": 2027, "level": "2a", "category": "Water-Tube Boilers", "question": "What is a bent-tube boiler?", "options": ["A fire-tube boiler with curved tubes for thermal expansion", "A boiler with intentionally damaged tubes", "A water-tube boiler with tubes bent into curves to connect upper and lower drums at different positions", "A type of condensing boiler"], "correct": 2, "explanation": "A bent-tube (or stirling-type) water-tube boiler has tubes bent into curves connecting the steam drum and mud drum(s). The bends allow thermal expansion without stress and permit various drum arrangements for different furnace configurations."},
-  {"id": 2028, "level": "2a", "category": "Combustion Optimization", "question": "What does a high stack temperature indicate about boiler efficiency?", "options": ["The boiler is operating at peak efficiency", "Heat is being wasted — high stack temperature means combustion gases are leaving the boiler without transferring sufficient heat", "The fuel quality is excellent", "The forced draft fan is operating too slowly"], "correct": 3, "explanation": "High stack temperature indicates that heat energy is escaping up the stack instead of being transferred to the water/steam. Causes include fouled heating surfaces (scale/soot), excess air, short-circuiting of gases, or failed baffles. Every 40°F reduction in stack temperature improves efficiency by approximately 1%."},
-  {"id": 2029, "level": "2a", "category": "Turbines & Engines", "question": "What is the purpose of the condenser in a steam turbine power cycle?", "options": ["To store condensate for reuse", "To condense exhaust steam back to water, creating a vacuum that increases turbine efficiency and recovers condensate", "To cool the turbine bearings", "To generate additional power from waste heat"], "correct": 3, "explanation": "The condenser condenses turbine exhaust steam back to water. The vacuum created (typically 28-29 in. Hg) increases the pressure differential across the turbine, extracting more work. The condensate is recovered as pure, hot feedwater — saving water treatment and heating costs."},
-  {"id": 2030, "level": "2a", "category": "HP Boiler Operations", "question": "What is the function of a steam separator (moisture separator) in a boiler system?", "options": ["To remove moisture (water droplets) from steam to improve steam quality", "To separate different grades of steam", "To separate oil from condensate", "To separate air from feedwater"], "correct": 0, "explanation": "A steam/moisture separator removes water droplets from steam using centrifugal force, impingement, or direction changes. This improves steam quality (dryness fraction) and protects downstream equipment like superheaters and turbines from water damage."},
-  {"id": 2031, "level": "2a", "category": "Water Treatment", "question": "What is the cycles of concentration (CoC) in a boiler?", "options": ["The ratio of boiler water TDS to feedwater TDS — indicating how many times dissolved solids have concentrated", "The number of times feedwater is recirculated through the economizer", "The number of blowdown cycles per day", "The time in minutes for one complete water circulation through the boiler"], "correct": 0, "explanation": "Cycles of concentration = Boiler water TDS ÷ Feedwater TDS. If feedwater is 100 ppm TDS and boiler water is 1,000 ppm, CoC = 10. Higher CoC means less blowdown (water savings) but risks scale and carryover if TDS exceeds limits."},
-  {"id": 2032, "level": "2a", "category": "Economizer Operations", "question": "An economizer should NOT heat feedwater above what temperature relative to the boiler's saturation temperature?", "options": ["It can heat to any temperature safely", "Feedwater should stay below 100°F", "Feedwater should stay below saturation temperature to prevent steaming in the economizer", "Feedwater should not exceed 150°F"], "correct": 2, "explanation": "Economizer outlet water temperature must stay below the saturation temperature at the economizer pressure to prevent steaming (steam generation in the economizer). Steaming causes water hammer, flow instability, and potential tube damage."},
-  {"id": 2033, "level": "2a", "category": "Safety Valve Tolerances", "question": "What is accumulation in the context of safety valve testing?", "options": ["The amount of scale accumulated on valve seats", "The total number of safety valve lifts over time", "The pressure increase above MAWP when all safety valves are relieving at maximum boiler steaming capacity", "The time required for the safety valve to reseat"], "correct": 2, "explanation": "Accumulation is the maximum pressure increase above MAWP allowed when the boiler fires at maximum capacity with all steam outlets closed and safety valves relieving. For power boilers (Section I): maximum 6% above MAWP."},
-  {"id": 2034, "level": "2a", "category": "CSD-1 Controls", "question": "What does a combustion air proving switch verify?", "options": ["That the fuel supply is adequate for combustion", "That the combustion air fan is running and providing adequate airflow before ignition is permitted", "That the stack damper is closed", "That the pilot flame is established"], "correct": 1, "explanation": "The combustion air proving switch (airflow switch) verifies that the combustion air fan is operating and providing adequate airflow BEFORE the burner management system permits ignition. Without proven airflow, fuel cannot be introduced safely."},
-  {"id": 2035, "level": "2a", "category": "ASME Code", "question": "What is the purpose of ASME Section VIII?", "options": ["Construction of power boilers", "Construction of heating boilers", "Construction of unfired pressure vessels", "Welding procedure qualification"], "correct": 2, "explanation": "ASME Section VIII covers the design, construction, and inspection of unfired pressure vessels — tanks, heat exchangers, deaerators, and other vessels not directly fired. Division 1 covers standard vessels; Division 2 covers alternative rules for high-pressure/precision designs."},
-  {"id": 2036, "level": "2a", "category": "Water-Tube Boilers", "question": "What is an HRSG (Heat Recovery Steam Generator)?", "options": ["A type of fire-tube boiler", "A water-tube boiler that generates steam using hot exhaust gases from a gas turbine or other process", "A high-resistance steam gauge", "A steam generator powered by hydroelectric turbines"], "correct": 3, "explanation": "An HRSG (Heat Recovery Steam Generator) is a water-tube boiler that recovers waste heat from gas turbine exhaust (typically 900-1,100°F) to generate steam. Used in combined cycle power plants, HRSGs significantly improve overall plant efficiency from ~35% to ~55-60%."},
-  {"id": 2037, "level": "2a", "category": "Combustion Optimization", "question": "What is the purpose of an air preheater in a boiler system?", "options": ["To cool the combustion air before it enters the furnace", "To heat combustion air using waste heat from flue gases, improving combustion efficiency", "To filter combustion air", "To pressurize combustion air to high pressure"], "correct": 1, "explanation": "An air preheater recovers heat from flue gases to preheat combustion air. Hotter combustion air improves combustion efficiency, lowers the ignition delay, and reduces fuel consumption. Types include tubular, plate, and regenerative (Ljungstrom)."},
-  {"id": 2038, "level": "2a", "category": "Turbines & Engines", "question": "What is the critical speed of a turbine rotor?", "options": ["The maximum safe operating speed", "The speed at which the rotor's natural vibration frequency matches the rotational frequency, causing excessive vibration", "The minimum speed needed to generate electricity", "The speed at which the governor takes control"], "correct": 3, "explanation": "Critical speed is the rotational speed where the rotor's natural frequency matches the rotational frequency, causing resonance and potentially destructive vibration. Turbines must pass through critical speed quickly during startup and never operate at critical speed continuously."},
-  {"id": 2039, "level": "2a", "category": "HP Boiler Operations", "question": "What is the purpose of continuous blowdown versus bottom blowdown?", "options": ["Continuous blowdown controls dissolved solids at the water surface; bottom blowdown removes settled sludge from the lowest point", "They serve the same purpose", "Continuous blowdown removes sludge; bottom blowdown controls TDS", "Continuous blowdown is for HP boilers only; bottom blowdown is for LP boilers only"], "correct": 0, "explanation": "Continuous (surface) blowdown skims the highest-TDS water from near the water surface to control dissolved solids. Bottom blowdown is done intermittently (typically once per shift) to remove settled sludge and sediment from the lowest point of the boiler."},
-  {"id": 2040, "level": "2a", "category": "Water Treatment", "question": "What is chelant treatment in boiler water chemistry?", "options": ["A method to increase water hardness", "A treatment using chelating agents (like EDTA) that keep hardness minerals in solution to prevent scale", "A way to remove silica from steam", "A method to lower pH for corrosion control"], "correct": 1, "explanation": "Chelant treatment uses chelating agents like EDTA that form soluble complexes with calcium and magnesium, keeping them dissolved in the water so they can be removed by blowdown rather than depositing as scale. Used in boilers up to about 1,500 psig."},
-  {"id": 2041, "level": "2a", "category": "Superheater Operations", "question": "What type of superheater increases output temperature as load decreases?", "options": ["Convection superheater", "Radiant superheater — located in the furnace where radiant heat per pound of steam increases at lower loads", "Desuperheater", "Economizer"], "correct": 1, "explanation": "A RADIANT superheater is in the furnace area. At lower loads, less steam flows through but the furnace is still hot — so each pound of steam absorbs MORE heat, increasing outlet temperature. Convection superheaters behave oppositely. Combining both types provides more stable temperature."},
-  {"id": 2042, "level": "2a", "category": "CSD-1 Controls", "question": "What is a main fuel safety shutoff valve (MFSSV)?", "options": ["A manual valve the operator uses to control fuel flow", "An automatically operated, fast-closing valve that shuts off all fuel to the burner on a safety trip", "A pressure reducing valve on the fuel supply", "A valve that controls fuel flow rate for modulation"], "correct": 3, "explanation": "The MFSSV is an automatic, fast-closing valve in the main fuel line that shuts off all fuel to the burner upon any safety trip (flame failure, low water, high pressure, air failure, etc.). CSD-1 requires two safety shutoff valves in series (double block) for reliability."},
-  {"id": 2043, "level": "2a", "category": "ASME Code", "question": "What is the ASME 'U' stamp?", "options": ["A stamp for used/refurbished boilers", "Authorizes manufacture of unfired pressure vessels to ASME Section VIII", "A stamp for utility-grade power boilers", "Authorizes boiler inspections"], "correct": 3, "explanation": "The ASME 'U' stamp authorizes organizations to manufacture unfired pressure vessels to ASME Section VIII, Division 1. This includes deaerators, heat exchangers, flash tanks, and other non-fired vessels used in boiler plant systems."},
-  {"id": 2044, "level": "2a", "category": "Water-Tube Boilers", "question": "What is the advantage of a membrane wall (fin tube wall) construction in a water-tube boiler?", "options": ["It reduces the number of tubes needed", "It increases the drum size", "Fins welded between adjacent tubes create a continuous gas-tight wall, eliminating the need for refractory and preventing gas bypass", "It allows higher firing rates"], "correct": 2, "explanation": "Membrane wall construction welds flat steel fins (membranes) between adjacent waterwall tubes, creating a continuous gas-tight enclosure. This eliminates refractory lining, prevents hot gas bypass, provides maximum radiant heat absorption, and reduces boiler weight."},
-  {"id": 2045, "level": "2a", "category": "Combustion Optimization", "question": "What is the effect of too little excess air on combustion?", "options": ["Incomplete combustion producing CO, soot, and unburned hydrocarbons — fire hazard and efficiency loss", "Perfect combustion with maximum efficiency", "Lower stack temperature and higher efficiency", "No effect on combustion quality"], "correct": 0, "explanation": "Insufficient air causes incomplete combustion: CO production (toxic, flammable), soot/smoke (unburned carbon), unburned hydrocarbons, fouled heating surfaces, and potential for furnace explosion if unburned fuel accumulates. Proper excess air ensures complete combustion."},
-  {"id": 2046, "level": "2a", "category": "Turbines & Engines", "question": "What is governor droop (speed droop)?", "options": ["The physical sag of the governor mechanism", "The decrease in turbine speed from no-load to full-load that causes the governor to increase steam flow", "A malfunction where the governor fails to respond", "The time delay in governor response"], "correct": 3, "explanation": "Speed droop is the designed decrease in speed from no-load to full-load. Typical droop is 3-5%. A governor with 5% droop at 3,600 RPM no-load would allow speed to drop to 3,420 RPM at full load. Droop is essential for stable load sharing between parallel generators."},
-  {"id": 2047, "level": "2a", "category": "HP Boiler Operations", "question": "What is the function of a boiler feedwater regulator (feedwater control valve)?", "options": ["To regulate the fuel flow to the burner", "To maintain the proper water level in the boiler by controlling feedwater flow", "To regulate the blowdown rate", "To control the steam pressure"], "correct": 3, "explanation": "The feedwater regulator automatically controls the flow of feedwater into the boiler to maintain the proper water level. Three-element control uses drum level, steam flow, and feedwater flow signals for the most stable water level control."},
-  {"id": 2048, "level": "2a", "category": "Water Treatment", "question": "What is alkalinity in boiler water and why is it important?", "options": ["The amount of chlorine in the water", "The temperature of the water", "The ability of the water to neutralize acids — expressed as ppm CaCO3 and important for pH control and corrosion prevention", "The hardness level of the water"], "correct": 2, "explanation": "Alkalinity is the water's ability to neutralize acids, expressed as ppm of CaCO3. Proper alkalinity maintains boiler water pH in the 8.5-12.5 range, preventing acidic corrosion. Excessive alkalinity can cause foaming and carryover."},
-  {"id": 2049, "level": "2a", "category": "Economizer Operations", "question": "What is a condensing economizer?", "options": ["An economizer that condenses steam back to water", "An economizer designed to cool flue gases below the dew point, recovering both sensible and latent heat from water vapor in the flue gas", "An economizer used only in condensing boilers", "A device that condenses air for combustion"], "correct": 3, "explanation": "A condensing economizer cools flue gases below the water vapor dew point (~130°F for natural gas), recovering latent heat from condensing water vapor. This can boost overall system efficiency to 95%+ for natural gas boilers. The condensate is acidic and must be drained properly."},
-  {"id": 2050, "level": "2a", "category": "Safety Valve Tolerances", "question": "What is the maximum accumulation for a power boiler with a single safety valve?", "options": ["3% above MAWP", "10% above MAWP", "6% above MAWP", "No limit — the valve must relieve whatever is needed"], "correct": 2, "explanation": "For power boilers (ASME Section I), the maximum accumulation is 6% above MAWP, whether one or multiple safety valves are installed. For example, a 200 psig MAWP boiler cannot exceed 212 psig during an accumulation test."},
-  {"id": 2051, "level": "2a", "category": "HP Boiler Operations", "question": "What is the purpose of the air vent on a boiler during startup?", "options": ["To supply combustion air to the burner", "To vent air trapped in the boiler as it is filled and heated, preventing air pockets that impede circulation and cause corrosion", "To vent excess steam during operation", "To allow the boiler inspector to look inside"], "correct": 1, "explanation": "During startup, the air vent is opened to release trapped air as the boiler heats. Air pockets reduce heat transfer, impede circulation, and concentrated oxygen causes pitting corrosion. The vent is closed once steam begins to discharge steadily."},
-  {"id": 2052, "level": "2a", "category": "CSD-1 Controls", "question": "What is the purpose of a post-purge on a burner?", "options": ["To purge fuel lines before ignition", "To continue airflow after burner shutdown to clear residual combustion products from the fireside", "To cool the burner flame detector", "To test the safety shutoff valves"], "correct": 2, "explanation": "Post-purge continues fan operation after the burner shuts off, clearing the furnace and flue passages of any residual combustion products. This reduces the risk of gas accumulation and potential explosion on the next ignition cycle."},
-  {"id": 2053, "level": "2a", "category": "Water-Tube Boilers", "question": "What is a D-type water-tube boiler?", "options": ["A boiler with a D-shaped cross-section when viewed from the front — one steam drum, one mud drum, and tubes on one side", "A boiler with two drums shaped like the letter D", "A diesel-fired water-tube boiler", "A boiler designed for domestic hot water only"], "correct": 0, "explanation": "A D-type boiler has a D-shaped profile when viewed from the front: one steam drum on top, one mud drum on the bottom, connected by tubes on one side, with the furnace on the open side of the 'D'. This is a very common industrial water-tube boiler configuration."},
-  {"id": 2054, "level": "2a", "category": "Water Treatment", "question": "What is the purpose of a conductivity meter in boiler water monitoring?", "options": ["To measure water flow rate", "To measure the concentration of dissolved solids indirectly — higher conductivity indicates higher TDS", "To measure water temperature", "To detect leaks in the boiler"], "correct": 3, "explanation": "A conductivity meter measures the electrical conductivity of boiler water, which is directly proportional to the concentration of dissolved solids (TDS). It is used to control blowdown — when conductivity exceeds the setpoint, blowdown is initiated to reduce TDS."},
-  {"id": 2055, "level": "2a", "category": "Turbines & Engines", "question": "What is a De Laval turbine?", "options": ["A single-stage impulse turbine with one set of nozzles and one wheel — simple but high-speed", "A large multi-stage reaction turbine", "A type of steam engine", "A hydraulic turbine for water power"], "correct": 0, "explanation": "The De Laval turbine is a SINGLE-STAGE IMPULSE turbine — steam expands through a single set of converging-diverging nozzles and hits one row of buckets on a single wheel. It is simple but operates at very high speed (up to 30,000 RPM). Used for small auxiliary drives."},
-  {"id": 2056, "level": "2a", "category": "ASME Code", "question": "What is the difference between ASME Section I and Section IV regarding safety valve requirements?", "options": ["Section I requires pop-action safety valves; Section IV allows spring-loaded relief valves for hot water boilers", "There is no difference", "Section I requires more frequent testing", "Section IV requires larger safety valves"], "correct": 0, "explanation": "Section I (power boilers) requires pop-action safety valves. Section IV (heating boilers) allows ASME-rated pressure relief valves on hot water boilers, which open proportionally. Section IV steam boilers (≤15 psig) still require safety valves set at ≤15 psig with max 5 psi accumulation."},
-  {"id": 2057, "level": "2a", "category": "Superheater Operations", "question": "What damage can water carryover cause to a superheater?", "options": ["No damage — superheaters are designed for wet steam", "Thermal shock, tube failure, and deposit buildup from dissolved solids in the carried-over water", "It improves superheater efficiency by cooling the tubes", "It causes the superheater to produce more superheat"], "correct": 1, "explanation": "Water carryover into the superheater causes: (1) Thermal shock from cold water hitting hot tubes, (2) Deposits as dissolved solids in the water are baked onto tube surfaces, (3) Potential tube failure from overheating under deposits, (4) Reduced steam quality downstream."},
-  {"id": 2058, "level": "2a", "category": "Combustion Optimization", "question": "What is CO2 in flue gas analysis used to indicate?", "options": ["The amount of excess air — higher CO2 generally indicates less excess air and more complete use of combustion air", "The toxicity level of the flue gas", "The fuel heating value", "The amount of moisture in the fuel"], "correct": 0, "explanation": "CO2 percentage in flue gas is inversely related to excess air — as excess air increases, CO2 decreases (diluted by nitrogen). Maximum CO2 occurs at theoretical (stoichiometric) combustion. For natural gas, maximum CO2 is about 11.7%. Typical operating CO2 is 8-10%."},
-  {"id": 2059, "level": "2a", "category": "HP Boiler Operations", "question": "What is the function of a boiler blowoff (blowdown) tank?", "options": ["To store feedwater before it enters the boiler", "To receive and cool hot blowdown water/steam discharge, reducing it to safe temperature before sewer discharge", "To collect condensate from steam traps", "To store fuel oil"], "correct": 1, "explanation": "A blowdown tank receives high-temperature, high-pressure blowdown discharge. It flashes the pressurized water, separates steam (vented safely), and cools the remaining water to ≤150°F before discharge to the sewer."},
-  {"id": 2060, "level": "2a", "category": "Water Treatment", "question": "At what boiler operating pressure should sodium sulfite be replaced with hydrazine or other volatile oxygen scavenger?", "options": ["Above 150 psig", "Above 300 psig", "Above 600 psig", "Above 1,000 psig"], "correct": 2, "explanation": "Above 600 psig, sodium sulfite decomposes and contributes to dissolved solids. Hydrazine (N₂H₄) or other volatile oxygen scavengers (DEHA, carbohydrazide) are used instead because they decompose cleanly without adding solids. Hydrazine: N₂H₄ + O₂ → 2H₂O + N₂."},
-  {"id": 2061, "level": "2a", "category": "CSD-1 Controls", "question": "How many fuel safety shutoff valves are required in series on the main fuel supply per CSD-1?", "options": ["One", "Two (double block arrangement)", "Three", "Depends on boiler size"], "correct": 3, "explanation": "CSD-1 requires TWO fuel safety shutoff valves in series (double block) on the main fuel supply for boilers over 400,000 BTU/hr input. This provides redundancy — if one valve fails to close, the second valve still prevents fuel from reaching the burner."},
-  {"id": 2062, "level": "2a", "category": "ASME Code", "question": "ASME Section VI covers what subject?", "options": ["Power boiler construction", "Heating boiler construction", "Recommended Rules for the Care and Operation of Heating Boilers", "Pressure vessel fabrication"], "correct": 2, "explanation": "ASME Section VI covers Recommended Rules for the Care and Operation of Heating Boilers (low-pressure steam and hot water). It provides guidelines for operation, maintenance, and safety of boilers built to Section IV."},
-  {"id": 2063, "level": "2a", "category": "Water-Tube Boilers", "question": "What is the purpose of baffles in a boiler?", "options": ["To support the boiler tubes structurally", "To direct the flow of combustion gases across the tube surfaces for maximum heat transfer", "To control water flow inside the tubes", "To reduce noise levels"], "correct": 3, "explanation": "Baffles direct combustion gases to flow across tube surfaces in multiple passes, maximizing contact time and heat transfer. Without baffles, gases would short-circuit directly to the stack with minimal heat absorption. Damaged or missing baffles significantly reduce efficiency."},
-  {"id": 2064, "level": "2a", "category": "Turbines & Engines", "question": "What is the overspeed trip setpoint for a steam turbine?", "options": ["100% of rated speed", "105% of rated speed", "110% of rated speed", "120% of rated speed"], "correct": 2, "explanation": "The overspeed trip is set at approximately 110% of rated speed. It mechanically or electronically trips the turbine if speed exceeds this limit, typically by closing the emergency stop valve. Overspeed can cause catastrophic rotor failure due to centrifugal forces."},
-  {"id": 2065, "level": "2a", "category": "HP Boiler Operations", "question": "What is the purpose of a mud drum (lower drum) in a water-tube boiler?", "options": ["To collect sediment, sludge, and precipitated solids from the boiler water for removal by blowdown", "To generate steam at a lower pressure", "To store extra feedwater", "To provide a mounting location for the superheater"], "correct": 0, "explanation": "The mud drum collects sediment, sludge, and precipitated solids that settle due to gravity. Bottom blowdown is taken from the mud drum to remove these accumulated solids. The mud drum also serves as the lower connection point for the water circulation tubes."},
-  {"id": 2066, "level": "2a", "category": "Water Treatment", "question": "What is the purpose of filming amines in condensate treatment?", "options": ["To increase condensate pH", "To form a thin protective film on condensate pipe walls that prevents both CO2 and oxygen corrosion", "To remove dissolved solids from condensate", "To increase conductivity for monitoring purposes"], "correct": 3, "explanation": "Filming amines (like octadecylamine) form a thin, non-wettable film on internal pipe surfaces. This film acts as a barrier between the pipe metal and the corrosive condensate, preventing both carbonic acid (CO2) and oxygen corrosion. Unlike neutralizing amines, filming amines protect against oxygen corrosion too."},
-  {"id": 2067, "level": "2a", "category": "Economizer Operations", "question": "What is an integral economizer versus a separate economizer?", "options": ["An integral economizer is built into the boiler as part of the convection section; a separate economizer is a standalone heat exchanger", "They are the same thing", "An integral economizer uses steam; a separate economizer uses flue gas", "An integral economizer is for HP boilers only"], "correct": 0, "explanation": "An INTEGRAL economizer is built into the boiler's convection section (common in packaged boilers). A SEPARATE economizer is a standalone unit installed in the flue gas ductwork between the boiler and the stack. Both recover flue gas heat to preheat feedwater."},
-  {"id": 2068, "level": "2a", "category": "Safety Valve Tolerances", "question": "What is the purpose of the huddling chamber in a safety valve?", "options": ["To collect condensate from the valve discharge", "To allow the operator to manually lift the valve", "To muffle the sound of the valve discharging", "To create additional lifting force once the valve begins to open, producing the characteristic 'pop' action"], "correct": 3, "explanation": "The huddling chamber is the annular area between the disc and the valve body. When the valve begins to open, steam enters this chamber and acts on a larger disc area, creating additional upward force that snaps the valve fully open — the 'pop' action characteristic of safety valves."},
-  {"id": 2069, "level": "2a", "category": "Combustion Optimization", "question": "What is the flash point of fuel oil?", "options": ["The temperature at which fuel oil ignites spontaneously", "The lowest temperature at which fuel oil vapors will ignite when exposed to an ignition source", "The temperature at which fuel oil boils", "The temperature at which fuel oil becomes liquid"], "correct": 1, "explanation": "Flash point is the LOWEST temperature at which fuel oil produces sufficient vapors to ignite momentarily when exposed to a spark or flame. It is a key safety parameter — fuel oil must be stored and handled below its flash point to prevent fires. #2 fuel oil flash point is typically 130-150°F."},
-  {"id": 2070, "level": "2a", "category": "Turbines & Engines", "question": "What is a Curtis stage turbine?", "options": ["A reaction turbine with many stages", "A velocity-compounded impulse turbine — steam passes through one set of nozzles then multiple rows of moving and stationary blades", "A single-stage turbine like the De Laval", "A type of gas turbine"], "correct": 1, "explanation": "A Curtis stage is a VELOCITY-COMPOUNDED impulse turbine. Steam expands through one set of nozzles, then passes through alternating rows of moving blades (on the rotor) and stationary (reversing) blades. This extracts energy in multiple steps from one pressure drop, allowing lower wheel speeds than a De Laval."},
-  {"id": 2071, "level": "2a", "category": "HP Boiler Operations", "question": "What is meant by 'boiler turndown ratio'?", "options": ["The number of boilers shut down during low demand", "The ratio of maximum firing rate to minimum stable firing rate — indicating the boiler's load range", "The ratio of water to steam in the boiler", "The ratio of stack height to boiler height"], "correct": 3, "explanation": "Turndown ratio = Maximum firing rate ÷ Minimum stable firing rate. A boiler with 4:1 turndown can operate from 25% to 100% of rated capacity. Higher turndown ratios provide better load-following capability and reduce boiler cycling."},
-  {"id": 2072, "level": "2a", "category": "Water Treatment", "question": "What is reverse osmosis (RO) in water treatment?", "options": ["A process that uses gravity to filter water", "A membrane process that removes 95-99% of dissolved solids by forcing water through a semi-permeable membrane under pressure", "A chemical process that reverses the effects of hard water", "A process that adds minerals to water"], "correct": 1, "explanation": "Reverse osmosis forces water through a semi-permeable membrane at high pressure (150-600 psi). The membrane rejects 95-99% of dissolved solids, producing very pure permeate water. RO is used as pretreatment for high-pressure boiler feedwater systems."},
-  {"id": 2073, "level": "2a", "category": "CSD-1 Controls", "question": "What is a safety interlock on a burner control system?", "options": ["A condition that must be satisfied before the burner can fire — if the condition is lost, the burner shuts down", "A physical lock on the burner", "A backup fuel supply", "A timer that limits firing duration"], "correct": 0, "explanation": "Safety interlocks are conditions that must be TRUE for the burner to operate: adequate water level, proper air flow, fuel pressure within range, no flame failure, pressure below high limit, etc. If ANY interlock condition is lost, the burner immediately shuts down."},
-  {"id": 2074, "level": "2a", "category": "ASME Code", "question": "What is a National Board number on a boiler?", "options": ["The serial number assigned by the manufacturer", "The inspection report number", "A unique registration number assigned by the National Board of Boiler and Pressure Vessel Inspectors when the boiler is registered at manufacture", "The insurance policy number"], "correct": 2, "explanation": "The National Board number is a unique registration number assigned when a boiler or pressure vessel is registered with the National Board at the time of manufacture. It appears on the nameplate along with the ASME stamp. The National Board maintains records of all registered boilers."},
-  {"id": 2075, "level": "2a", "category": "Superheater Operations", "question": "What is a pendant superheater?", "options": ["A superheater mounted on a pendant chain for vibration isolation", "Superheater tubes that hang vertically (like pendants) from headers at the top of the furnace or in the convection pass", "A portable superheater unit", "A superheater used only for pendant lights in the boiler room"], "correct": 3, "explanation": "A pendant superheater has tubes that hang vertically from upper headers, typically in the furnace exit area or upper convection pass. The vertical orientation allows drainage of condensate during startup and shutdown, and accommodates thermal expansion. Common in large utility and industrial boilers."},
-  {"id": 2076, "level": "2a", "category": "Combustion Optimization", "question": "What is the purpose of fuel oil atomization?", "options": ["To mix fuel with water for efficiency", "To break fuel oil into very fine droplets, maximizing surface area for rapid and complete combustion", "To cool the fuel before it enters the furnace", "To remove impurities from the fuel"], "correct": 3, "explanation": "Atomization breaks fuel oil into a fine mist of tiny droplets, dramatically increasing the surface area for combustion. Better atomization = faster, more complete combustion = less smoke, less soot, higher efficiency. Methods include pressure (mechanical), steam, and air atomization."},
-  {"id": 2077, "level": "2a", "category": "Turbines & Engines", "question": "What type of turbine seal prevents steam leakage along the turbine shaft?", "options": ["O-ring seals", "Mechanical face seals", "Labyrinth seals — a series of thin fins that create a tortuous path to minimize steam leakage", "Hydraulic seals"], "correct": 2, "explanation": "Labyrinth seals use a series of thin fins (teeth) machined on the shaft or casing that create a tortuous path for steam. At each fin, the steam pressure drops slightly. No physical contact occurs between the rotating and stationary parts, eliminating wear. Carbon ring seals are also used at shaft ends."},
-  {"id": 2078, "level": "2a", "category": "HP Boiler Operations", "question": "What is the difference between a fire-tube and water-tube boiler regarding pressure limitations?", "options": ["Fire-tube boilers can handle higher pressure", "Both have the same pressure limitations", "Water-tube boilers can handle much higher pressures because water is inside small tubes; fire-tube boilers are limited to approximately 300 psig", "Neither has pressure limitations"], "correct": 2, "explanation": "Water-tube boilers can handle much higher pressures (up to supercritical levels) because the high-pressure water/steam is contained in small-diameter tubes that resist pressure efficiently. Fire-tube boilers have the high-pressure water/steam in the large shell, limiting them to approximately 300 psig."},
-  {"id": 2079, "level": "2a", "category": "Water Treatment", "question": "What is foaming in a boiler and what causes it?", "options": ["Bubbles forming in the feedwater tank from aeration", "Formation of stable foam on the boiler water surface caused by high TDS, oil contamination, or excessive alkalinity — leading to carryover", "Ice crystals forming in the economizer", "Bubbles in the sight glass from incorrect installation"], "correct": 1, "explanation": "Foaming is the formation of stable foam on the boiler water surface. Causes: high TDS concentration, oil/grease contamination, high alkalinity/organics, and certain dissolved solids that act as surfactants. Foaming causes severe carryover of water into the steam, contaminating the steam and potentially damaging equipment."},
-  {"id": 2080, "level": "2a", "category": "Economizer Operations", "question": "What material concern exists with condensing economizers on natural gas boilers?", "options": ["The economizer tubes corrode from the acidic condensate (carbonic acid) — corrosion-resistant materials like stainless steel must be used", "No material concerns exist", "The tubes expand too much from heat", "The insulation melts at high temperatures"], "correct": 0, "explanation": "When flue gas cools below the dew point, water condenses and absorbs CO2 forming carbonic acid (H2CO3), with pH around 3-4. Standard carbon steel corrodes rapidly. Condensing economizers must use corrosion-resistant materials: stainless steel, aluminum, or polymer-coated tubes."},
-  {"id": 2081, "level": "2a", "category": "Turbines & Engines", "question": "What is a Rateau stage turbine?", "options": ["A velocity-compounded impulse turbine", "A pressure-compounded impulse turbine — multiple stages each with their own set of nozzles and blades, with pressure dropping in each stage", "A type of reaction turbine", "A single-stage turbine for small applications"], "correct": 1, "explanation": "A Rateau stage is a PRESSURE-COMPOUNDED impulse turbine. Total steam expansion is divided among multiple stages, each having its own set of nozzles and moving blades. Pressure drops incrementally across each nozzle set. This reduces blade speed requirements and improves efficiency."},
-  {"id": 2082, "level": "2a", "category": "CSD-1 Controls", "question": "What is a flame safeguard system (flame relay)?", "options": ["A backup flame in case the pilot goes out", "The complete burner management system that monitors flame presence, controls the ignition sequence, and ensures safe shutdown on flame failure", "A fire suppression system for the boiler room", "A thermal overload relay on the burner motor"], "correct": 3, "explanation": "The flame safeguard system (also called the burner management system or programmer) controls the entire burner startup sequence: pre-purge → pilot ignition → pilot proving → main flame → operation, and ensures safe shutdown on any safety fault. Common types: Honeywell, Fireye, Siemens."},
-  {"id": 2083, "level": "2a", "category": "Water-Tube Boilers", "question": "What is a forced circulation boiler?", "options": ["A boiler that uses pumps to circulate water through the tubes instead of relying on natural density differences", "A boiler with extra-large downcomers", "A boiler with forced draft fans", "A boiler with pressurized feedwater"], "correct": 0, "explanation": "A forced circulation boiler uses circulation pumps to move water through the tubes. This is necessary at very high pressures (above about 2,000 psig) where the density difference between hot and cold water is too small for adequate natural circulation. Once-through (supercritical) boilers are the extreme case."},
-  {"id": 2084, "level": "2a", "category": "Water Treatment", "question": "What is the purpose of maintaining a sodium sulfite residual of 20-30 ppm in boiler water?", "options": ["To keep the water soft", "To ensure enough oxygen scavenger is present to react with any incoming dissolved oxygen — the residual proves adequate dosing", "To lower the pH", "To prevent foaming"], "correct": 1, "explanation": "A sulfite residual of 20-30 ppm proves that more than enough sodium sulfite is present to react with all dissolved oxygen. If the residual drops to zero, oxygen may be present and causing corrosion. The residual is measured by testing and adjusting chemical feed rates."},
-  {"id": 2085, "level": "2a", "category": "HP Boiler Operations", "question": "What is the purpose of a steam desuperheater spray water control?", "options": ["To add more heat to the steam", "To precisely control final steam temperature by regulating the amount of spray water injected into superheated steam", "To control the feedwater temperature", "To regulate the boiler water level"], "correct": 3, "explanation": "A desuperheater spray control valve regulates the quantity of feedwater sprayed into the superheated steam to control the final steam temperature precisely. This is critical for protecting turbine blades from excessive temperature while maintaining rated conditions."},
-  {"id": 2086, "level": "2a", "category": "Combustion Optimization", "question": "What is stoichiometric combustion?", "options": ["Combustion with maximum excess air for safety", "Combustion using stored thermal energy", "Combustion at the maximum firing rate", "Theoretically perfect combustion — exactly the right amount of air to completely burn the fuel with no excess"], "correct": 3, "explanation": "Stoichiometric (theoretical) combustion uses exactly the minimum air required for complete combustion — no excess, no deficiency. In practice, stoichiometric combustion is impossible because of imperfect mixing. Some excess air (typically 10-20% for gas) is always required."},
-  {"id": 2087, "level": "2a", "category": "ASME Code", "question": "What is the purpose of NFPA 85?", "options": ["To regulate fire extinguisher placement in boiler rooms", "To provide the Boiler and Combustion Systems Hazards Code — standards for preventing furnace explosions and implosions", "To set standards for electrical wiring in boiler rooms", "To regulate fuel storage tank design"], "correct": 1, "explanation": "NFPA 85 (Boiler and Combustion Systems Hazards Code) establishes requirements to prevent furnace explosions and implosions. It covers purge requirements, fuel safety shutoff valves, flame detection, burner management systems, and safe startup/shutdown procedures for boilers and HRSGs."},
-  {"id": 2088, "level": "2a", "category": "Superheater Operations", "question": "During boiler startup, when should the superheater drains be open?", "options": ["Only during shutdown", "Only when the boiler is at full load", "During the entire startup period until adequate steam flow is established through the superheater to prevent condensate accumulation and thermal shock", "Superheater drains should never be opened"], "correct": 2, "explanation": "Superheater drains must be OPEN during startup to drain condensate that forms as the boiler heats up. If condensate accumulates in superheater tubes and is suddenly hit by hot gas, thermal shock can crack tubes. Drains are closed once steady steam flow provides adequate cooling."},
-  {"id": 2089, "level": "2a", "category": "Turbines & Engines", "question": "What is a Parsons turbine?", "options": ["A single-stage impulse turbine", "A multi-stage REACTION turbine where steam expands through both fixed and moving blades, with a pressure drop across each row", "A type of steam engine", "A gas turbine design"], "correct": 1, "explanation": "The Parsons turbine is a MULTI-STAGE REACTION design. Steam expands through alternating rows of fixed (stator) and moving (rotor) blades, with a pressure drop across each row. Both fixed and moving blades act as nozzles. Parsons turbines are very efficient for large power generation applications."},
-  {"id": 2090, "level": "2a", "category": "HP Boiler Operations", "question": "What is shrinkage and swell in boiler water level?", "options": ["Shrinkage is the apparent drop in water level when load decreases (fewer steam bubbles); swell is the apparent rise when load increases (more steam bubbles)", "Physical damage to the boiler drum", "Shrinkage is water loss; swell is water gain", "Terms describing scale buildup"], "correct": 0, "explanation": "SWELL: When firing rate increases, more steam bubbles form below the water surface, making the water appear to rise temporarily. SHRINKAGE: When firing rate decreases, fewer bubbles form and level appears to drop. These are temporary effects that can cause false water level readings."},
-  {"id": 2091, "level": "2a", "category": "Water Treatment", "question": "What is ion exchange in water treatment?", "options": ["A process where undesirable ions (Ca, Mg) in water are exchanged for less harmful ions (Na, H) by passing through a resin bed", "Adding ions to the water to improve taste", "Electrically charging the water to remove particles", "A chemical reaction that creates new ions"], "correct": 0, "explanation": "Ion exchange passes water through a resin bed that exchanges undesirable ions for less harmful ones. In sodium-cycle softening, Ca²⁺ and Mg²⁺ are exchanged for Na⁺ (which doesn't form hard scale). In demineralization, cation and anion resins remove virtually all dissolved minerals."},
-  {"id": 2092, "level": "2a", "category": "CSD-1 Controls", "question": "What does a fuel pressure switch (low fuel pressure cutoff) do?", "options": ["Controls the operating fuel pressure", "Increases fuel pressure during startup", "Shuts off the burner if fuel pressure drops below the minimum required for proper atomization and safe combustion", "Measures fuel consumption"], "correct": 2, "explanation": "The low fuel pressure switch is a safety interlock that prevents burner operation if fuel supply pressure is too low. Insufficient fuel pressure causes poor atomization (oil) or inadequate gas flow, resulting in unstable flame, incomplete combustion, or flame failure."},
-  {"id": 2093, "level": "2a", "category": "Combustion Optimization", "question": "What is the purpose of secondary air in a combustion system?", "options": ["Additional air supplied beyond the primary air stream to ensure complete mixing and combustion of fuel", "To cool the furnace walls", "Emergency backup air supply", "Air used for post-purge only"], "correct": 0, "explanation": "Secondary air is supplied downstream of the primary combustion zone to ensure complete mixing and combustion. Primary air provides initial combustion; secondary air ensures remaining fuel particles or gases are fully burned. In some designs, tertiary air is also used for NOx control."},
-  {"id": 2094, "level": "2a", "category": "Water-Tube Boilers", "question": "What is the purpose of a steam drum baffle plate?", "options": ["To separate the incoming feedwater/chemical injection area from the steam-water separation area, preventing short-circuiting", "To strengthen the drum structurally", "To create turbulence for better mixing", "To support the safety valve connections"], "correct": 0, "explanation": "Drum baffle plates separate the feedwater inlet zone from the steam separation zone. Without baffles, cold feedwater could short-circuit directly to the downcomers without mixing, or disturb the steam-water separation process, degrading steam quality."},
-  {"id": 2095, "level": "2a", "category": "Turbines & Engines", "question": "What is the purpose of turbine gland sealing steam?", "options": ["To heat the turbine casing during startup", "To cool the turbine blades", "To seal the shaft glands (at the point where the shaft exits the casing) to prevent air leakage into the low-pressure sections", "To lubricate the turbine bearings"], "correct": 2, "explanation": "Gland sealing steam is supplied to the labyrinth seals where the shaft exits the turbine casing. At the HP end, it prevents steam leakage out. At the LP end (below atmospheric pressure), it prevents air leakage IN, which would reduce condenser vacuum and turbine efficiency."},
-  {"id": 2096, "level": "2a", "category": "HP Boiler Operations", "question": "What is a hot well in a boiler plant?", "options": ["A well that supplies hot groundwater to the boiler", "The collection tank that receives condensate from the condenser before it is pumped back to the boiler as feedwater", "A heating system for the boiler room", "A storage tank for hot fuel oil"], "correct": 3, "explanation": "The hot well is a tank (often integral to the condenser) that collects condensate from the turbine condenser. Hot well water is typically 100-120°F. From the hot well, condensate pumps send the water to the deaerator and eventually back to the boiler as feedwater."},
-  {"id": 2097, "level": "2a", "category": "Water Treatment", "question": "What is silica and why is it a concern in high-pressure boilers?", "options": ["Silica is harmless in all boiler systems", "Silica is a dissolved mineral (SiO2) that can volatilize with steam at high pressures and deposit on turbine blades as hard, glassy scale", "Silica only affects low-pressure boilers", "Silica improves heat transfer"], "correct": 3, "explanation": "Silica (SiO2) becomes volatile (carries over with steam) at pressures above about 400 psig. It deposits as hard, glassy scale on turbine blades that is extremely difficult to remove. Silica in boiler water must be carefully controlled, especially in HP systems, through makeup water treatment and blowdown."},
-  {"id": 2098, "level": "2a", "category": "Economizer Operations", "question": "What is a bypass damper on an economizer used for?", "options": ["To bypass the economizer during emergencies only", "To allow flue gases to bypass the economizer during low-load conditions to prevent the economizer from cooling flue gas below the acid dew point", "To increase economizer efficiency at high loads", "To bypass feedwater around the economizer"], "correct": 1, "explanation": "The bypass damper diverts flue gases around the economizer during low-load operation. At low load, flue gas temperatures may drop below the acid dew point in the economizer, causing corrosive condensation on tube surfaces. The bypass maintains tube wall temperature above dew point."},
-  {"id": 2099, "level": "2a", "category": "ASME Code", "question": "What does the ASME 'E' stamp signify?", "options": ["Emergency boiler repairs", "Electric boiler manufacturing to ASME Section I", "Economizer manufacturing", "Equipment rental certification"], "correct": 1, "explanation": "The ASME 'E' stamp authorizes the manufacture of ELECTRIC BOILERS to ASME Section I. Electric boilers (resistance element or electrode type) still require ASME code construction and stamping, just like fuel-fired power boilers."},
-  {"id": 2100, "level": "2a", "category": "Safety Valve Tolerances", "question": "When gagging (blocking) safety valves for a hydrostatic test, what critical step must be done after the test?", "options": ["The gags can remain in place permanently", "Only one gag needs to be removed", "ALL gags must be removed and each valve verified free to operate BEFORE the boiler is returned to service", "Gags are automatically released when pressure drops"], "correct": 2, "explanation": "ALL safety valve gags MUST be removed and each valve verified free to operate BEFORE returning the boiler to service. A gagged safety valve cannot protect the boiler from overpressure. Failing to remove gags after a hydrostatic test has caused fatal boiler explosions."}
 ];
 
-// Total questions in this file: 281
-// Answer distribution — A:72  B:71  C:69  D:69
+// Total questions in this file: 280
+// Answer distribution — A:71  B:71  C:69  D:69

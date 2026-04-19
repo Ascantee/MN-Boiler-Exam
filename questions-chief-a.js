@@ -46,7 +46,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 381,
     "level": "chief_a",
-    "category": "Chief A Licensing",
+    "category": "MN Statutes & Rules",
     "question": "What are the experience requirements for the Chief A engineer license?",
     "options": [
       "5 years boiler only",
@@ -60,7 +60,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 382,
     "level": "chief_a",
-    "category": "Chief A Licensing",
+    "category": "MN Statutes & Rules",
     "question": "How many exam questions are on the Chief A license examination?",
     "options": [
       "115",
@@ -74,7 +74,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 383,
     "level": "chief_a",
-    "category": "Chief A Licensing",
+    "category": "MN Statutes & Rules",
     "question": "What is the minimum time a candidate must hold a 1st Class license before applying for Chief Class?",
     "options": [
       "No time requirement — just meet the experience total",
@@ -88,7 +88,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 384,
     "level": "chief_a",
-    "category": "Electrical Fundamentals",
+    "category": "Electrical",
     "question": "What is Ohm's Law?",
     "options": [
       "V = I × R (Voltage = Current × Resistance)",
@@ -102,7 +102,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 385,
     "level": "chief_a",
-    "category": "Electrical Fundamentals",
+    "category": "Electrical",
     "question": "What is the generator frequency formula?",
     "options": [
       "Hz = RPM × Poles",
@@ -116,7 +116,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 386,
     "level": "chief_a",
-    "category": "Electrical Fundamentals",
+    "category": "Electrical",
     "question": "A generator has 4 poles and must produce 60 Hz. At what RPM must it operate?",
     "options": [
       "900 RPM",
@@ -130,7 +130,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 387,
     "level": "chief_a",
-    "category": "Electrical Fundamentals",
+    "category": "Electrical",
     "question": "What is the relationship between HP and watts in electrical systems?",
     "options": [
       "1 HP = 550 watts",
@@ -144,7 +144,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 388,
     "level": "chief_a",
-    "category": "Electrical Fundamentals",
+    "category": "Electrical",
     "question": "How does a transformer work, and what type of current can it transform?",
     "options": [
       "Uses magnetic induction between primary and secondary coils to step voltage up or down; works on AC ONLY, not DC",
@@ -158,7 +158,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 389,
     "level": "chief_a",
-    "category": "Electrical Fundamentals",
+    "category": "Electrical",
     "question": "What is the transformer voltage and current ratio formula?",
     "options": [
       "Vp/Vs = Ip/Is",
@@ -172,7 +172,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 390,
     "level": "chief_a",
-    "category": "Electrical Fundamentals",
+    "category": "Electrical",
     "question": "What is 'motor slip' in an induction motor?",
     "options": [
       "The difference between supply voltage and motor voltage",
@@ -186,7 +186,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 391,
     "level": "chief_a",
-    "category": "Electrical Fundamentals",
+    "category": "Electrical",
     "question": "What is 'Lockout/Tagout' (LOTO) and when is it required for boiler plant work?",
     "options": [
       "A procedure for locking boiler room doors during non-operating hours",
@@ -200,7 +200,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 392,
     "level": "chief_a",
-    "category": "Electrical Fundamentals",
+    "category": "Electrical",
     "question": "What is the motor HP formula for calculating AC motor horsepower?",
     "options": [
       "HP = V × I / 746",
@@ -214,7 +214,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 393,
     "level": "chief_a",
-    "category": "Electrical Fundamentals",
+    "category": "Electrical",
     "question": "What is 'power factor' in an AC electrical circuit?",
     "options": [
       "The ratio of current to voltage in the circuit",
@@ -284,7 +284,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 398,
     "level": "chief_a",
-    "category": "Advanced Thermodynamics",
+    "category": "Laws of Thermodynamics",
     "question": "What is the Carnot efficiency of a heat engine operating between a high temperature of 1,000°R and low temperature of 500°R?",
     "options": [
       "30%",
@@ -298,7 +298,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 399,
     "level": "chief_a",
-    "category": "Advanced Thermodynamics",
+    "category": "Laws of Thermodynamics",
     "question": "In the Rankine cycle, increasing the condenser pressure (back pressure) has what effect on cycle efficiency?",
     "options": [
       "Increases efficiency because of higher back pressure",
@@ -312,7 +312,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 400,
     "level": "chief_a",
-    "category": "Advanced Thermodynamics",
+    "category": "Laws of Thermodynamics",
     "question": "What is 'regenerative feedwater heating' and how does it improve the Rankine cycle efficiency?",
     "options": [
       "Extracting steam at intermediate turbine stages to preheat feedwater in feedwater heaters, raising the average temperature of heat addition and improving efficiency",
@@ -326,7 +326,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 401,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "Calculate the BHP of an electric boiler with a 300 kW electrical input.",
     "options": [
       "30 BHP",
@@ -340,7 +340,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 402,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "A boiler shell has: tensile strength 55,000 psi, shell thickness 0.5 inch, joint efficiency 0.85, radius 18 inches, factor of safety 5. Calculate the Safe Working Pressure.",
     "options": [
       "230 psig",
@@ -354,7 +354,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 403,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "Calculate the force required to hold a 3-inch safety valve closed against 100 psig boiler pressure.",
     "options": [
       "314 lbs",
@@ -368,7 +368,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 404,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "If feedwater TDS is 150 ppm and maximum allowable boiler TDS is 3,000 ppm, what is the required blowdown percentage?",
     "options": [
       "3%",
@@ -382,7 +382,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 405,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "A 4-pole, 60 Hz induction motor has 2% slip at full load. What is its actual full-load RPM?",
     "options": [
       "1,680 RPM",
@@ -396,7 +396,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 406,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "What is the absolute pressure of steam measured at 85 psig?",
     "options": [
       "70.3 psia",
@@ -410,7 +410,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 407,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "A steam boiler produces 1,725 lbs of steam per hour. What is its output in Boiler Horsepower?",
     "options": [
       "25 BHP",
@@ -424,7 +424,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 408,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "How many feet of water head corresponds to 75 psi?",
     "options": [
       "32 feet",
@@ -438,7 +438,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 409,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "What volume of water (in cubic feet) does 500 gallons represent?",
     "options": [
       "37.4 cubic feet",
@@ -452,7 +452,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 410,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What is the role of an 'Authorized Inspector' (AI) under ASME code?",
     "options": [
       "Any licensed engineer who performs safety checks",
@@ -466,7 +466,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 411,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What is the 'PP' code stamp on piping?",
     "options": [
       "Power Plant designation",
@@ -480,7 +480,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 412,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What is the difference between the National Board 'NB' mark and the 'R' stamp?",
     "options": [
       "They are the same",
@@ -494,7 +494,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 413,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What does MN Rule 5230.0295 specifically prohibit in steam piping?",
     "options": [
       "Carbon steel pipe in steam service",
@@ -508,7 +508,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 414,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "Per ASME Section I (PG-67), when a superheater is present, which safety valve must have the LOWEST set pressure?",
     "options": [
       "The drum (boiler) safety valve",
@@ -522,7 +522,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 415,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What is the 'MINN. SPC.' stamp found on some boilers in Minnesota?",
     "options": [
       "A special permit for non-ASME equipment used in Minnesota",
@@ -592,7 +592,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 420,
     "level": "chief_a",
-    "category": "Advanced Water Treatment",
+    "category": "Water Treatment",
     "question": "What is 'all-volatile treatment' (AVT) in high-pressure boiler water chemistry?",
     "options": [
       "Treatment using only solid chemicals",
@@ -606,7 +606,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 421,
     "level": "chief_a",
-    "category": "Advanced Water Treatment",
+    "category": "Water Treatment",
     "question": "What is 'oxygenated treatment' (OT) and when is it used?",
     "options": [
       "A method of adding more oxygen to the feedwater to improve combustion",
@@ -620,7 +620,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 422,
     "level": "chief_a",
-    "category": "Advanced Water Treatment",
+    "category": "Water Treatment",
     "question": "What are 'filming amines' in condensate treatment?",
     "options": [
       "Amines that form a thin hydrophobic (water-repelling) molecular film on metal surfaces in condensate lines, physically blocking acid and corrosive moisture contact",
@@ -634,7 +634,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 423,
     "level": "chief_a",
-    "category": "Advanced Water Treatment",
+    "category": "Water Treatment",
     "question": "What is 'total dissolved solids' (TDS) and how is it practically controlled in a boiler?",
     "options": [
       "TDS is controlled only by water softening",
@@ -648,7 +648,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 424,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What does 'MN Statute 326B.99 — Reciprocity' allow?",
     "options": [
       "Minnesota may recognize boiler operator licenses from other states under certain conditions, allowing out-of-state engineers to work in Minnesota plants",
@@ -662,7 +662,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 425,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "Under MN Statute 326B.986, what enforcement powers does the DLI have regarding unsafe boilers?",
     "options": [
       "DLI can only issue recommendations, not orders",
@@ -676,7 +676,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 426,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "Under what ASME code section is a 'miniature boiler' specifically defined?",
     "options": [
       "ASME Section IV",
@@ -732,7 +732,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 430,
     "level": "chief_a",
-    "category": "Advanced Electrical",
+    "category": "Electrical",
     "question": "What is 'three-phase power' and what advantage does it offer over single-phase power?",
     "options": [
       "Three-phase uses three times as much electricity",
@@ -746,7 +746,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 431,
     "level": "chief_a",
-    "category": "Advanced Electrical",
+    "category": "Electrical",
     "question": "What is an 'overload protection' device on an electric motor, and why is it important for boiler plant motors?",
     "options": [
       "Protects against voltage that is too high",
@@ -760,7 +760,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 432,
     "level": "chief_a",
-    "category": "Advanced Electrical",
+    "category": "Electrical",
     "question": "What is the significance of 'grounding' electrical equipment in a boiler room?",
     "options": [
       "Provides a low-resistance path for fault current to flow safely to ground, protecting personnel from electric shock and enabling overcurrent devices to trip quickly",
@@ -774,7 +774,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 433,
     "level": "chief_a",
-    "category": "Advanced Electrical",
+    "category": "Electrical",
     "question": "What is a 'variable frequency drive' (VFD) and how does it benefit boiler plant pumps and fans?",
     "options": [
       "A device that varies the boiler firing frequency",
@@ -844,7 +844,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 438,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "A boiler is rated at 100 BHP. How many pounds of steam per hour should it produce at standard conditions (from and at 212°F)?",
     "options": [
       "1,000 lbs/hr",
@@ -858,7 +858,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 439,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "What is the heating value per pound for coal compared to oil, and which has the higher BTU/lb?",
     "options": [
       "Coal: 18,000-19,500 BTU/lb; Oil: 6,900-12,910 BTU/lb — coal is higher",
@@ -872,7 +872,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 440,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "Calculate the plant HP for licensing for: 2 × fire-tube boilers with 800 sq ft heating surface each, and 1 electric boiler with 150 kW input.",
     "options": [
       "175 BHP total: (800/10) + (800/10) + (150/10) = 80 + 80 + 15 = 175 BHP",
@@ -886,7 +886,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 441,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "What is the 'factor of evaporation' for a boiler generating steam at 200 psig with feedwater at 180°F? (Use: enthalpy of steam at 200 psig ≈ 1,199 BTU/lb; feedwater enthalpy at 180°F ≈ 148 BTU/lb)",
     "options": [
       "0.95",
@@ -900,7 +900,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 442,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "A transformer has 240V primary and 480V secondary. If primary current is 10A, what is the secondary current?",
     "options": [
       "5A",
@@ -914,7 +914,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 443,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What does 'ASME Section II — Materials' provide for boiler construction?",
     "options": [
       "Boiler operating procedures",
@@ -928,7 +928,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 444,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What is 'ASME Section VII — Care of Power Boilers' and is it mandatory?",
     "options": [
       "Guidelines for the operation and maintenance of power boilers — it is NON-MANDATORY as written but may become mandatory if adopted by reference in state rules",
@@ -970,7 +970,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 447,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What is the significance of 'ASME Section I PG-67' for multiple-boiler power plants?",
     "options": [
       "Sets the construction requirements for steam drums",
@@ -998,7 +998,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 449,
     "level": "chief_a",
-    "category": "Advanced Electrical",
+    "category": "Electrical",
     "question": "A circuit has 120V and a resistance of 24 ohms. Calculate the current flowing and the power consumed.",
     "options": [
       "5A and 600W",
@@ -1026,7 +1026,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 451,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "A steam boiler has an input of 5,000,000 BTU/hr and produces steam that carries 4,000,000 BTU/hr from feedwater. What is the boiler's approximate thermal efficiency?",
     "options": [
       "80%",
@@ -1068,7 +1068,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 454,
     "level": "chief_a",
-    "category": "Advanced Thermodynamics",
+    "category": "Laws of Thermodynamics",
     "question": "What is the 'superheat' temperature of steam at 100 psig if the actual steam temperature is 420°F? (Saturation temperature at 100 psig ≈ 338°F)",
     "options": [
       "Degrees of superheat = 82°F; the steam is superheated",
@@ -1110,7 +1110,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 457,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What does 'ASME Section I PG-70 — Blowback' require for power boiler safety valves?",
     "options": [
       "Sets requirements for safety valve blowdown (blowback): minimum 2% of set pressure; maximum 4% of set pressure (when above 100 psig); ensures clean reseating without chattering",
@@ -1138,7 +1138,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 459,
     "level": "chief_a",
-    "category": "Advanced Electrical",
+    "category": "Electrical",
     "question": "What is 'DC vs. AC electricity' and which is used in most industrial boiler control systems?",
     "options": [
       "DC is always used in boiler controls; AC is for power only",
@@ -1152,7 +1152,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 460,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "A hot water system has 30 GPM flow with a 25°F temperature drop across the heating load. What is the heat delivered in BTU/hr?",
     "options": [
       "3,000,000 BTU/hr",
@@ -1166,7 +1166,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 461,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What must a 'Manufacturer's Data Report' contain for a new ASME-coded boiler?",
     "options": [
       "Only the boiler model number and serial number",
@@ -1194,7 +1194,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 463,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "What is the maximum allowable accumulation pressure for a power boiler set at 150 psig MAWP?",
     "options": [
       "159 psig (6% above MAWP)",
@@ -1222,7 +1222,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 465,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What is the Chief Engineer's responsibility when a boiler alteration is planned?",
     "options": [
       "Alterations can be made by any qualified mechanic",
@@ -1236,7 +1236,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 466,
     "level": "chief_a",
-    "category": "Advanced Thermodynamics",
+    "category": "Laws of Thermodynamics",
     "question": "What does the 'Third Law of Thermodynamics' state?",
     "options": [
       "Energy is always conserved in a closed system",
@@ -1264,7 +1264,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 468,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What ASME code requirements apply to the 'spring compression' of a safety valve?",
     "options": [
       "At full lift, spring compression must not exceed 80% of nominal solid deflection; permanent spring set must not exceed 0.5% of free height after testing",
@@ -1292,7 +1292,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 470,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "A 2-pole generator at 60 Hz produces 480V at 100A three-phase output. What is its apparent power in kVA?",
     "options": [
       "48 kVA",
@@ -1306,7 +1306,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 471,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What distinguishes 'emergency repair' from 'standard repair' under NBIC Part 3?",
     "options": [
       "Emergency repairs are temporary fixes to maintain service until proper R-stamp repair can be performed; must be reported to the AHJ; a full R-stamp repair must follow as soon as practicable; documented and reported on forms",
@@ -1320,7 +1320,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 472,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What is the difference between 'alterations' and 'repairs' under NBIC Part 3?",
     "options": [
       "They are the same thing",
@@ -1348,7 +1348,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 474,
     "level": "chief_a",
-    "category": "Advanced Thermodynamics",
+    "category": "Laws of Thermodynamics",
     "question": "How does increasing the boiler pressure affect the steam/water properties and Rankine cycle efficiency?",
     "options": [
       "Higher pressure decreases saturation temperature and increases latent heat",
@@ -1376,7 +1376,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 476,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "A safety valve is set at 600 psig. What is the allowable tolerance? What is the maximum blowdown?",
     "options": [
       "±3% tolerance; 4% blowdown maximum",
@@ -1390,7 +1390,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 477,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What is the 'MN Special' designation (MINN. SPC.) and when would a boiler bear this marking instead of a National Board registration number?",
     "options": [
       "MINN. SPC. is an alternative to the NB registration number for ASME-stamped boilers specifically constructed for and registered in Minnesota — used when the owner chooses to register with the state rather than the National Board",
@@ -1432,7 +1432,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 480,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "If a boiler has 5,000 square feet of heating surface and is a conventional boiler, how many BHP is it rated? What is the minimum license required to be in charge?",
     "options": [
       "250 BHP — 2nd Class engineer",
@@ -1460,7 +1460,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 482,
     "level": "chief_a",
-    "category": "Advanced Electrical",
+    "category": "Electrical",
     "question": "What is 'ground fault protection' and why is it particularly important in boiler rooms?",
     "options": [
       "Protection against high voltage only",
@@ -1502,7 +1502,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 485,
     "level": "chief_a",
-    "category": "Advanced Water Treatment",
+    "category": "Water Treatment",
     "question": "What is the Chief Engineer's role in managing a water treatment program including specialist oversight?",
     "options": [
       "Just add chemicals when the boiler color changes",
@@ -1530,7 +1530,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 487,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "A new boiler has a MAWP of 150 psig. Calculate the hydrostatic test pressure required for new construction per ASME Section I.",
     "options": [
       "150 psig (same as MAWP)",
@@ -1558,7 +1558,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 489,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "What is the NBIC's three-part structure and what does each part cover?",
     "options": [
       "Part 1 = design, Part 2 = construction, Part 3 = testing",
@@ -1586,7 +1586,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 491,
     "level": "chief_a",
-    "category": "Advanced Calculations",
+    "category": "Boiler Calculations",
     "question": "A gas-fired boiler has an input of 10,000,000 BTU/hr. How many BHP does this represent?",
     "options": [
       "100 BHP",
@@ -1614,7 +1614,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 493,
     "level": "chief_a",
-    "category": "Advanced Electrical",
+    "category": "Electrical",
     "question": "What is a 'potentiometer' in a boiler combustion control system?",
     "options": [
       "A variable resistance device used to set or adjust the firing rate control signal — allows the operator to manually adjust burner firing rate between low and high fire",
@@ -1642,7 +1642,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 495,
     "level": "chief_a",
-    "category": "Advanced Thermodynamics",
+    "category": "Laws of Thermodynamics",
     "question": "What is 'enthalpy' and how is it calculated for steam in practical engineering?",
     "options": [
       "The temperature of steam in degrees Fahrenheit",
@@ -1670,7 +1670,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 497,
     "level": "chief_a",
-    "category": "Advanced Code Compliance",
+    "category": "ASME & Codes",
     "question": "Under MN Statute 326B.964, what engineering standards govern boiler construction in Minnesota?",
     "options": [
       "Only MN Rules Chapter 5225",
@@ -1726,7 +1726,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 651,
     "level": "chief_a",
-    "category": "Electrical Calculations",
+    "category": "Boiler Calculations",
     "question": "A three-phase electrical system uses the √3 (1.732) factor. What is the formula for three-phase power (watts)?",
     "options": [
       "P = √3 × V_line × I_line × Power Factor",
@@ -1740,7 +1740,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 652,
     "level": "chief_a",
-    "category": "Electrical Calculations",
+    "category": "Boiler Calculations",
     "question": "A generator has 2 poles and must produce power at 60 Hz. At what rotational speed (RPM) must it operate?",
     "options": [
       "3,600 RPM",
@@ -1754,7 +1754,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 653,
     "level": "chief_a",
-    "category": "Motor Starting Methods",
+    "category": "Electrical",
     "question": "In an across-the-line (full-voltage) motor starter, what starting current does the motor draw compared to full-load current?",
     "options": [
       "Approximately 6-8 times the full-load current (locked rotor current)",
@@ -1768,7 +1768,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 654,
     "level": "chief_a",
-    "category": "Power Factor Correction",
+    "category": "Electrical",
     "question": "Power factor is defined as the ratio of what two quantities?",
     "options": [
       "True (real) power (kW) ÷ Apparent power (kVA)",
@@ -1782,7 +1782,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 655,
     "level": "chief_a",
-    "category": "Transformer Calculations",
+    "category": "Boiler Calculations",
     "question": "A transformer has a primary winding of 4,800 turns and a secondary winding of 480 turns. If primary voltage is 2,400V, what is the secondary voltage?",
     "options": [
       "240V (turns ratio = 10:1, voltage steps down by factor of 10)",
@@ -1796,7 +1796,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 656,
     "level": "chief_a",
-    "category": "Plant Heat Rate",
+    "category": "Boiler Calculations",
     "question": "Plant heat rate is expressed in what units and represents what concept?",
     "options": [
       "BTU/kWh — the amount of fuel energy input required to produce one kilowatt-hour of electrical output",
@@ -1810,7 +1810,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 657,
     "level": "chief_a",
-    "category": "Safe Working Pressure",
+    "category": "Boiler Calculations",
     "question": "The SWP formula for a cylindrical boiler shell is: SWP = (T × t × E) ÷ (R × FS). What does 'E' represent?",
     "options": [
       "Joint Efficiency — the decimal efficiency of the longitudinal seam (riveted or welded joint)",
@@ -1824,7 +1824,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 658,
     "level": "chief_a",
-    "category": "Make-up Water",
+    "category": "Water Treatment",
     "question": "A boiler plant produces 10,000 lbs/hr of steam. The system returns 7,000 lbs/hr of condensate. What is the make-up water percentage?",
     "options": [
       "30% make-up (3,000 lbs/hr make-up ÷ 10,000 lbs/hr steam)",
@@ -1838,7 +1838,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 659,
     "level": "chief_a",
-    "category": "Cycles of Concentration",
+    "category": "Water Treatment",
     "question": "Feedwater TDS is 200 ppm. Boiler water TDS is 5,000 ppm. What are the Cycles of Concentration (CoC)?",
     "options": [
       "25 cycles (5,000 ÷ 200 = 25)",
@@ -1852,7 +1852,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 660,
     "level": "chief_a",
-    "category": "Safe Working Pressure",
+    "category": "Boiler Calculations",
     "question": "A boiler shell has: inside radius = 18 inches, thickness = 0.5 inch, tensile strength = 60,000 psi, joint efficiency = 0.85, factor of safety = 5. Calculate the Safe Working Pressure (SWP).",
     "options": [
       "SWP = (60,000 × 0.5 × 0.85) ÷ (18 × 5) = 25,500 ÷ 90 = 283.3 psig",
@@ -1866,7 +1866,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 661,
     "level": "chief_a",
-    "category": "Carnot Efficiency",
+    "category": "Boiler Calculations",
     "question": "A steam plant receives heat at 700°F and rejects heat to a condenser at 120°F. What is the maximum theoretical Carnot efficiency?",
     "options": [
       "Carnot efficiency = 1 − (580°R ÷ 1,160°R) = 1 − 0.500 = 50.0%",
@@ -1880,7 +1880,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 662,
     "level": "chief_a",
-    "category": "NDE Methods",
+    "category": "Boiler Testing",
     "question": "Liquid Penetrant Testing (PT) can be used on what range of materials?",
     "options": [
       "Any solid, non-porous material — both ferrous and non-ferrous metals, as well as some ceramics and plastics",
@@ -1908,7 +1908,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 664,
     "level": "chief_a",
-    "category": "Electrical Calculations",
+    "category": "Boiler Calculations",
     "question": "Using Ohm's Law, if a circuit has a resistance of 24 ohms and draws 5 amperes, what is the voltage?",
     "options": [
       "4.8 volts",
@@ -1922,7 +1922,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 665,
     "level": "chief_a",
-    "category": "Motor Starting Methods",
+    "category": "Electrical",
     "question": "Wye-delta (Y-Δ) motor starting reduces starting current to what fraction of across-the-line starting current?",
     "options": [
       "1/2 (50%) of across-the-line starting current",
@@ -1936,7 +1936,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 666,
     "level": "chief_a",
-    "category": "Transformer Calculations",
+    "category": "Boiler Calculations",
     "question": "A single-phase step-down transformer has a primary voltage of 2,400V and a secondary voltage of 240V. If the secondary current is 50A, what is the primary current (ignoring losses)?",
     "options": [
       "500A",
@@ -1950,7 +1950,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 667,
     "level": "chief_a",
-    "category": "Plant Heat Rate",
+    "category": "Boiler Calculations",
     "question": "A plant burns 50,000 lbs/hr of coal with a heating value of 12,000 BTU/lb and produces 50 MW of electricity. What is the plant heat rate?",
     "options": [
       "6,000 BTU/kWh",
@@ -1964,7 +1964,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 668,
     "level": "chief_a",
-    "category": "Power Factor Correction",
+    "category": "Electrical",
     "question": "A facility's electrical load has a power factor of 0.75. Adding capacitor banks raises the power factor to 0.95. What is the primary benefit?",
     "options": [
       "The facility generates its own power from the capacitor energy storage",
@@ -1978,7 +1978,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 669,
     "level": "chief_a",
-    "category": "Safe Working Pressure",
+    "category": "Boiler Calculations",
     "question": "What factor of safety (FS) does ASME Section I specify for modern welded power boiler construction?",
     "options": [
       "Factor of Safety = 5 (the same as older riveted boilers)",
@@ -1992,7 +1992,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 670,
     "level": "chief_a",
-    "category": "Electrical Calculations",
+    "category": "Boiler Calculations",
     "question": "A three-phase 480V motor draws 30A per phase at a power factor of 0.90. What is the motor's power consumption in kilowatts?",
     "options": [
       "43.2 kW",
@@ -2006,7 +2006,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 671,
     "level": "chief_a",
-    "category": "NDE Methods",
+    "category": "Boiler Testing",
     "question": "When should Radiographic Testing (RT) be used instead of Ultrasonic Testing (UT) for examining boiler welds?",
     "options": [
       "RT should always be used — it provides better information than UT for all weld types",
@@ -2020,7 +2020,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 672,
     "level": "chief_a",
-    "category": "Make-up Water",
+    "category": "Water Treatment",
     "question": "A boiler plant has 90% condensate return. What percentage of steam flow must be supplied as make-up water?",
     "options": [
       "90% make-up",
@@ -2034,7 +2034,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 673,
     "level": "chief_a",
-    "category": "Advanced ASME Code",
+    "category": "ASME & Codes",
     "question": "An ASME Code repair to a high-pressure boiler must be documented on what National Board form?",
     "options": [
       "R-3 form for all pressure boundary repairs",
@@ -2048,7 +2048,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 674,
     "level": "chief_a",
-    "category": "Cycles of Concentration",
+    "category": "Water Treatment",
     "question": "A cooling tower blowdown calculation uses cycles of concentration. If feedwater conductivity is 200 μS/cm and maximum allowable boiler water conductivity is 3,000 μS/cm, what blowdown percentage is required?",
     "options": [
       "1.5% blowdown",
@@ -2076,7 +2076,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 676,
     "level": "chief_a",
-    "category": "Electrical Calculations",
+    "category": "Boiler Calculations",
     "question": "A single-phase 240V electric boiler draws 50A. What is its power consumption and equivalent boiler horsepower?",
     "options": [
       "P = 6,000W = 6 kW = 0.6 BHP",
@@ -2090,7 +2090,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 677,
     "level": "chief_a",
-    "category": "Electrical Calculations",
+    "category": "Boiler Calculations",
     "question": "Using the power formula P = V²/R, what is the power dissipated in a 48-ohm resistor connected to a 120V supply?",
     "options": [
       "5,760 watts",
@@ -2104,7 +2104,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 678,
     "level": "chief_a",
-    "category": "Motor Starting Methods",
+    "category": "Electrical",
     "question": "A soft starter for a motor gradually increases voltage during startup. What is the primary advantage over across-the-line starting?",
     "options": [
       "Soft starters increase starting torque above across-the-line levels",
@@ -2118,7 +2118,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 679,
     "level": "chief_a",
-    "category": "Safe Working Pressure",
+    "category": "Boiler Calculations",
     "question": "A boiler is repaired and its SWP must be recalculated. The new welded repair area has a joint efficiency of 0.95 versus the original 0.90 for other seams. Which efficiency governs?",
     "options": [
       "Use 0.95 — the repair area is stronger than the original",
@@ -2132,7 +2132,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 680,
     "level": "chief_a",
-    "category": "Carnot Efficiency",
+    "category": "Boiler Calculations",
     "question": "A Rankine cycle steam plant achieves 32% thermal efficiency. The Carnot limit for the same temperature range is 45%. What is the ratio of actual to Carnot efficiency?",
     "options": [
       "100% — the plant operates at theoretical maximum",
@@ -2160,7 +2160,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 682,
     "level": "chief_a",
-    "category": "Transformer Calculations",
+    "category": "Boiler Calculations",
     "question": "A 500 kVA transformer has a primary voltage of 13,800V and is used to supply 480V three-phase service. What is the full-load current on the secondary side?",
     "options": [
       "Approximately 36.2A",
@@ -2174,7 +2174,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 683,
     "level": "chief_a",
-    "category": "NDE Methods",
+    "category": "Boiler Testing",
     "question": "What is the primary advantage of Ultrasonic Testing (UT) for monitoring boiler tube wall thickness?",
     "options": [
       "UT can detect surface cracks better than any other method",
@@ -2188,7 +2188,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 684,
     "level": "chief_a",
-    "category": "Advanced ASME Code",
+    "category": "ASME & Codes",
     "question": "What is the hydrostatic test pressure for a newly constructed ASME Section I power boiler?",
     "options": [
       "Equal to MAWP",
@@ -2202,7 +2202,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 685,
     "level": "chief_a",
-    "category": "Make-up Water",
+    "category": "Water Treatment",
     "question": "A boiler produces 8,000 lbs/hr of steam. Blowdown is 5% of feedwater. Condensate return is 75%. How much total feedwater (lbs/hr) must the feedwater system supply?",
     "options": [
       "8,000 lbs/hr — equal to steam output only",
@@ -2230,7 +2230,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 687,
     "level": "chief_a",
-    "category": "Advanced ASME Code",
+    "category": "ASME & Codes",
     "question": "What is the minimum hydrostatic test pressure for in-service NBIC boiler repairs?",
     "options": [
       "1.0 times MAWP — operating pressure is sufficient",
@@ -2244,7 +2244,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 688,
     "level": "chief_a",
-    "category": "Electrical Calculations",
+    "category": "Boiler Calculations",
     "question": "A 480V, three-phase motor has a nameplate efficiency of 95% and draws 75 kW of real power. What is the motor's output mechanical power in horsepower?",
     "options": [
       "100 HP",
@@ -2258,7 +2258,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 689,
     "level": "chief_a",
-    "category": "Electrical Calculations",
+    "category": "Boiler Calculations",
     "question": "A generator produces power at 3,600 RPM with 2 poles. Frequency in Hz is calculated how?",
     "options": [
       "Frequency = RPM × Poles (no division factor needed)",
@@ -2272,7 +2272,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 690,
     "level": "chief_a",
-    "category": "Motor Starting Methods",
+    "category": "Electrical",
     "question": "A Variable Frequency Drive (VFD) provides what advantage over all other motor starting methods?",
     "options": [
       "VFDs eliminate the need for motor protection devices entirely",
@@ -2286,7 +2286,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 691,
     "level": "chief_a",
-    "category": "Plant Heat Rate",
+    "category": "Boiler Calculations",
     "question": "A plant wants to reduce its heat rate from 12,000 BTU/kWh to 10,000 BTU/kWh. If it produces 50,000 kWh/day, what is the daily fuel savings at $5/million BTU?",
     "options": [
       "$100 per day",
@@ -2300,7 +2300,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 692,
     "level": "chief_a",
-    "category": "Transformer Calculations",
+    "category": "Boiler Calculations",
     "question": "A 100 kVA single-phase transformer has a turns ratio of 20:1 (primary:secondary). Primary voltage is 2,400V. What are the full-load currents on primary and secondary?",
     "options": [
       "Primary = 2,400A; Secondary = 120A",
@@ -2314,7 +2314,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 693,
     "level": "chief_a",
-    "category": "NDE Methods",
+    "category": "Boiler Testing",
     "question": "During an annual boiler inspection, the inspector finds weld cracking in the boiler shell. Which sequence of NDE methods should be used to fully characterize the defect?",
     "options": [
       "Visual Testing (VT) only — if a crack is visible it needs no further characterization",
@@ -2328,7 +2328,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 694,
     "level": "chief_a",
-    "category": "Power Factor Correction",
+    "category": "Electrical",
     "question": "A 480V three-phase system has a measured PF of 0.70. The real power load is 100 kW. What capacitor bank size (in kVAR) is needed to bring PF to 0.95?",
     "options": [
       "100 kVAR capacitors needed",
@@ -2342,7 +2342,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 695,
     "level": "chief_a",
-    "category": "Advanced ASME Code",
+    "category": "ASME & Codes",
     "question": "What distinguishes the ASME 'PP' stamp from the 'S' and 'U' stamps?",
     "options": [
       "The 'PP' stamp is for portable boilers used in construction",
@@ -2370,7 +2370,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 697,
     "level": "chief_a",
-    "category": "Carnot Efficiency",
+    "category": "Boiler Calculations",
     "question": "A steam plant upgrades its steam conditions from 600°F to 900°F while maintaining the same 120°F condenser temperature. By how much does the theoretical Carnot efficiency increase?",
     "options": [
       "No increase — condenser temperature determines Carnot efficiency",
@@ -2384,7 +2384,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 698,
     "level": "chief_a",
-    "category": "Advanced ASME Code",
+    "category": "ASME & Codes",
     "question": "What is the National Board 'VR' stamp and who needs it?",
     "options": [
       "It authorizes repair of pressure vessels (similar to 'R' but for vessels only)",
@@ -2412,7 +2412,7 @@ const QUESTIONS_CHIEF_A = [
   {
     "id": 700,
     "level": "chief_a",
-    "category": "Cycles of Concentration",
+    "category": "Water Treatment",
     "question": "A boiler operator is trying to optimize CoC from 15 to 25 cycles. Feedwater TDS is 100 ppm. How does blowdown rate change, and what is the water savings?",
     "options": [
       "Blowdown stays the same regardless of CoC changes",
@@ -2422,110 +2422,1422 @@ const QUESTIONS_CHIEF_A = [
     ],
     "correct": 3,
     "explanation": "At 15 CoC: max boiler TDS = 15 × 100 = 1,500 ppm; Blowdown % = 100/1,500 × 100 = 6.67%. At 25 CoC: max boiler TDS = 25 × 100 = 2,500 ppm; Blowdown % = 100/2,500 × 100 = 4.00%. Reduction = 6.67% − 4.00% = 2.67% of feedwater saved. For a plant using 10,000 lbs/hr of feedwater, this saves 267 lbs/hr of water, heat, and chemical treatment. However, higher CoC risks scale and carryover — the maximum allowable boiler water TDS from the manufacturer governs the practical CoC limit."
+  },
+  {
+    "id": 4001,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "A 3-phase, 480V motor has a rated full-load current of 100 amps and a power factor of 0.85. What is the real power consumption in kW?",
+    "options": [
+      "48 kW",
+      "70.7 kW",
+      "40.8 kW",
+      "83.1 kW"
+    ],
+    "correct": 1,
+    "explanation": "P = √3 × V × I × PF = 1.732 × 480 × 100 × 0.85 = 70,685 W = 70.7 kW."
+  },
+  {
+    "id": 4002,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "A Chief Engineer is developing a preventive maintenance (PM) program. What is the MOST important element?",
+    "options": [
+      "A comprehensive schedule of inspections, tests, and maintenance tasks based on manufacturer recommendations, code requirements, and operating experience — documented and tracked",
+      "Performing maintenance only when equipment fails",
+      "Hiring additional staff to watch equipment constantly",
+      "Purchasing the most expensive equipment available"
+    ],
+    "correct": 0,
+    "explanation": "A PM program should include: scheduled inspections based on manufacturer's recommendations, code-required tests, operating experience, equipment history, task procedures, frequency schedules, and documentation/tracking systems."
+  },
+  {
+    "id": 4003,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "A step-down transformer has a turns ratio of 10:1 with 4,160V primary. What is the secondary voltage?",
+    "options": [
+      "416V",
+      "41,600V",
+      "41.6V",
+      "4,160V"
+    ],
+    "correct": 0,
+    "explanation": "V_secondary = V_primary ÷ turns ratio = 4,160 ÷ 10 = 416V. A step-down transformer reduces voltage by a factor equal to the turns ratio."
+  },
+  {
+    "id": 4004,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "Two generators are operating in parallel. Generator A picks up more than its share of the load. What should be adjusted?",
+    "options": [
+      "Increase Generator A's governor speed setting to shed load",
+      "Decrease Generator A's governor speed setting (lower its droop curve) so it produces less power, while increasing Generator B's speed setting",
+      "Disconnect Generator B from the bus",
+      "Change Generator A's voltage regulator"
+    ],
+    "correct": 1,
+    "explanation": "To redistribute load between parallel generators, adjust governor speed settings. Lowering Gen A's speed setting reduces its power output. Raising Gen B's compensates. The droop characteristics determine how load is shared."
+  },
+  {
+    "id": 4005,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "What is the purpose of a jurisdictional inspection of a boiler?",
+    "options": [
+      "To check operator licenses only",
+      "An inspection conducted under the authority of the state/jurisdiction (MN DLI) to verify the boiler meets code requirements and is safe to operate — required annually for HP boilers in Minnesota",
+      "To inspect the boiler room cleanliness",
+      "To verify fuel supply contracts"
+    ],
+    "correct": 1,
+    "explanation": "Jurisdictional inspections are conducted by or on behalf of the MN DLI Chief Boiler Inspector to verify boilers are safe, code-compliant, and properly maintained. HP boilers require annual internal and external inspection."
+  },
+  {
+    "id": 4006,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "A combined cycle power plant achieves 58% thermal efficiency. The theoretical Carnot efficiency for its temperature range is 70%. What is the plant's second-law efficiency?",
+    "options": [
+      "58%",
+      "70%",
+      "82.9% (actual/Carnot = 58/70)",
+      "12%"
+    ],
+    "correct": 2,
+    "explanation": "Second-law efficiency = actual efficiency ÷ Carnot efficiency = 0.58 ÷ 0.70 = 0.829 = 82.9%. This measures how close the actual plant comes to the theoretical maximum for its operating temperatures."
+  },
+  {
+    "id": 4007,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is power factor and why does a low power factor cause problems?",
+    "options": [
+      "Power factor is the ratio of resistance to impedance",
+      "Power factor is the ratio of real power (kW) to apparent power (kVA) — low PF means the system draws more current than necessary, increasing losses, requiring larger conductors, and incurring utility penalties",
+      "Power factor is the frequency of the power supply",
+      "Power factor is the voltage regulation of the system"
+    ],
+    "correct": 1,
+    "explanation": "PF = kW/kVA = cos(θ). At PF=0.7, the system draws 43% more current than at PF=1.0 for the same real power. This extra current causes I²R losses in conductors, requires larger transformers/cables, and utilities charge penalties for PF below 0.90-0.95."
+  },
+  {
+    "id": 4008,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "Under MN rules, what are the Chief Engineer's administrative responsibilities?",
+    "options": [
+      "Operating the boiler during all shifts",
+      "Ensuring proper licensed coverage at all times, maintaining operating procedures, supervising shift engineers, ensuring code compliance, coordinating inspections, and maintaining records",
+      "Only hiring and firing operators",
+      "Only ordering fuel and supplies"
+    ],
+    "correct": 1,
+    "explanation": "The Chief Engineer's responsibilities include: staffing with properly licensed operators, maintaining written procedures, supervising all shift engineers, ensuring code compliance, coordinating with inspectors, maintaining boiler logs and records, managing water treatment, and overseeing maintenance programs."
+  },
+  {
+    "id": 4009,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "A transformer with 240V primary and 120V secondary has a primary current of 10A. What is the secondary current (assuming ideal transformer)?",
+    "options": [
+      "5A",
+      "10A",
+      "20A",
+      "40A"
+    ],
+    "correct": 2,
+    "explanation": "Turns ratio = 240/120 = 2:1. Current is inversely proportional to voltage: I_secondary = I_primary × turns ratio = 10 × 2 = 20A. Power is conserved: 240×10 = 2,400 VA = 120×20."
+  },
+  {
+    "id": 4010,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is synchronizing a generator to the power grid?",
+    "options": [
+      "Starting the generator at any speed and connecting it",
+      "Matching the generator's voltage, frequency, phase angle, and phase sequence to the grid BEFORE closing the breaker to connect",
+      "Setting the generator to maximum output",
+      "Disconnecting the generator from all loads"
+    ],
+    "correct": 1,
+    "explanation": "Synchronizing requires matching: (1) Voltage magnitude, (2) Frequency (speed), (3) Phase angle (in-phase), (4) Phase sequence (ABC rotation). A synchroscope indicates when conditions are met. Closing the breaker out of synchronization causes severe mechanical and electrical damage."
+  },
+  {
+    "id": 4011,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "Which NDE method is best for detecting surface and near-surface defects in ferromagnetic steel boiler components?",
+    "options": [
+      "Radiographic Testing (RT)",
+      "Liquid Penetrant Testing (PT)",
+      "Magnetic Particle Testing (MT) — it detects surface and slightly subsurface defects in ferromagnetic materials",
+      "Acoustic Emission Testing (AET)"
+    ],
+    "correct": 2,
+    "explanation": "MT is best for surface and NEAR-SURFACE defects in ferromagnetic materials. It can detect defects slightly below the surface that PT would miss. MT uses a magnetic field and iron particles — defects disrupt the field, causing particles to gather visibly at the defect."
+  },
+  {
+    "id": 4012,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "Why can a real power plant never achieve Carnot efficiency?",
+    "options": [
+      "Because the fuel is not pure enough",
+      "Because of irreversibilities: friction, heat transfer across temperature differences, pressure drops, mixing losses, and turbine/pump inefficiencies",
+      "Because the condenser is too large",
+      "Because the boiler is too small"
+    ],
+    "correct": 1,
+    "explanation": "Real cycles have irreversibilities (entropy-generating processes): friction in bearings/piping, heat transfer across finite temperature differences, pressure drops through valves/piping, mixing of streams at different temperatures, and turbine/pump mechanical losses. These all reduce actual efficiency below Carnot maximum."
+  },
+  {
+    "id": 4013,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the purpose of a motor starter?",
+    "options": [
+      "To provide continuous power to the motor",
+      "To limit inrush current during motor starting — across-the-line starters are simplest but cause the highest inrush; reduced-voltage starters (wye-delta, autotransformer, soft start, VFD) reduce starting current",
+      "To stop the motor in an emergency",
+      "To reverse the motor direction"
+    ],
+    "correct": 1,
+    "explanation": "Motor starters limit inrush current (typically 6-8× full load for across-the-line starting). Methods: across-the-line (full voltage, simplest), wye-delta (reduces to 33%), autotransformer (variable reduction), soft start (electronic ramp), VFD (variable frequency — most flexible and efficient)."
+  },
+  {
+    "id": 4014,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "What is a boiler incident investigation procedure?",
+    "options": [
+      "Only reporting the incident to the insurance company",
+      "A systematic process: secure the scene, document evidence, interview witnesses, determine root cause, implement corrective actions, and report to authorities as required",
+      "Blaming the shift operator",
+      "Ignoring minor incidents if no injury occurred"
+    ],
+    "correct": 1,
+    "explanation": "Proper incident investigation: (1) Secure scene and ensure safety; (2) Preserve evidence; (3) Document conditions; (4) Interview witnesses; (5) Perform root cause analysis; (6) Determine contributing factors; (7) Implement corrective/preventive actions; (8) Report to DLI as required; (9) Document lessons learned."
+  },
+  {
+    "id": 4015,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "What is a fitness-for-service (FFS) evaluation?",
+    "options": [
+      "A physical fitness test for boiler operators",
+      "An engineering assessment to determine if a boiler or pressure vessel with a known flaw or degradation can continue to safely operate at current or reduced conditions — per API 579-1/ASME FFS-1",
+      "A test of fuel quality for the boiler",
+      "An evaluation of the boiler room layout"
+    ],
+    "correct": 1,
+    "explanation": "Fitness-for-service evaluates whether equipment with known flaws (corrosion, cracking, bulging, dents) can continue safe operation. API 579-1/ASME FFS-1 provides standardized assessment methods: Level 1 (simple screening), Level 2 (detailed analysis), Level 3 (advanced numerical analysis). May allow continued operation at reduced conditions rather than immediate repair."
+  },
+  {
+    "id": 4016,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "Three single-phase 100 kVA transformers are connected in delta-wye configuration. What is the total three-phase capacity?",
+    "options": [
+      "100 kVA",
+      "200 kVA",
+      "300 kVA",
+      "173 kVA"
+    ],
+    "correct": 2,
+    "explanation": "Three single-phase transformers in a three-phase bank: Total capacity = 3 × individual capacity = 3 × 100 = 300 kVA. In delta-wye configuration, line voltage on the wye side = phase voltage × √3."
+  },
+  {
+    "id": 4017,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is reactive power (kVAR) and why is it important?",
+    "options": [
+      "Power consumed by resistance heating elements",
+      "The component of apparent power that does no real work but is required to maintain electromagnetic fields in motors and transformers — it circulates between source and load",
+      "Power lost in the generator windings",
+      "Power consumed by the governor"
+    ],
+    "correct": 1,
+    "explanation": "Reactive power (kVAR) maintains the magnetic fields needed for motors, transformers, and other inductive loads to function. It does no useful work but increases total current flow. Generator excitation (field current) controls reactive power output. Capacitors provide reactive power locally, reducing the need for generator reactive output."
+  },
+  {
+    "id": 4018,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "Liquid Penetrant Testing (PT) can be used on what types of materials?",
+    "options": [
+      "Only ferromagnetic metals",
+      "Only non-metallic materials",
+      "Any non-porous material — metals (ferrous and non-ferrous), ceramics, glass, and some plastics",
+      "Only aluminum alloys"
+    ],
+    "correct": 2,
+    "explanation": "PT can be used on ANY non-porous material: all metals (including aluminum, stainless steel, titanium — where MT cannot be used), ceramics, and glass. It detects SURFACE-BREAKING defects only (not subsurface). PT is simpler and more portable than MT or UT but limited to surface defects."
+  },
+  {
+    "id": 4019,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What is the Kelvin-Planck statement of the Second Law?",
+    "options": [
+      "Energy is always conserved",
+      "It is impossible for any heat engine operating in a cycle to convert 100% of heat input to work — some heat must always be rejected to a low-temperature sink",
+      "Heat always flows from cold to hot",
+      "Pressure and temperature are directly proportional"
+    ],
+    "correct": 1,
+    "explanation": "The Kelvin-Planck statement: No heat engine operating in a cycle can convert ALL heat input to work. Some heat must always be rejected to a cold reservoir. This is equivalent to the Clausius statement and explains why power plant condensers are necessary — even a perfect engine cannot avoid heat rejection."
+  },
+  {
+    "id": 4020,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is a Variable Frequency Drive (VFD) and what are its advantages?",
+    "options": [
+      "A drive that varies the fuel supply frequency",
+      "An electronic device that controls motor speed by varying the frequency and voltage supplied to an AC motor — providing soft starting, precise speed control, and significant energy savings on variable-load applications",
+      "A type of diesel engine",
+      "A variable-speed governor for turbines"
+    ],
+    "correct": 1,
+    "explanation": "A VFD converts fixed-frequency AC to variable-frequency AC, controlling motor speed. Benefits: (1) Soft start (no inrush), (2) Precise speed control, (3) Energy savings proportional to speed reduction cubed on fans/pumps (affinity laws), (4) Reduced mechanical stress. On a boiler FD fan, a VFD can save 30-50% of fan energy."
+  },
+  {
+    "id": 4021,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "A Chief Engineer is implementing a confined space entry program for boiler inspections. What are the key elements?",
+    "options": [
+      "Just send workers in with a flashlight",
+      "Written permit, atmospheric testing (O2, LEL, toxics), ventilation, attendant stationed outside, rescue plan, training, and personal protective equipment",
+      "Only a verbal permission is needed",
+      "The inspector handles all safety"
+    ],
+    "correct": 1,
+    "explanation": "Confined space entry (boiler drums, shells, flues) requires: written entry permit, atmospheric testing (O2 19.5-23.5%, LEL <10%, CO <25 ppm, H2S <10 ppm), continuous ventilation, trained attendant at entry point, rescue plan and equipment, entrant training, lockout/tagout of energy sources, and PPE."
+  },
+  {
+    "id": 4022,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "What is the difference between an ASME 'R' stamp and an ASME 'S' stamp?",
+    "options": [
+      "They are the same certification",
+      "'R' authorizes REPAIRS AND ALTERATIONS to existing boilers (NBIC Part 3); 'S' authorizes NEW CONSTRUCTION of power boilers (ASME Section I)",
+      "'R' is for research; 'S' is for safety",
+      "'R' is for residential; 'S' is for commercial"
+    ],
+    "correct": 1,
+    "explanation": "'S' stamp: authorizes manufacture of NEW power boilers to ASME Section I. 'R' stamp (National Board): authorizes REPAIRS AND ALTERATIONS to existing boilers and pressure vessels per NBIC Part 3. Different organizations hold each — a boiler manufacturer may hold 'S'; a repair contractor holds 'R'."
+  },
+  {
+    "id": 4023,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What is the impedance voltage of a transformer and why does it matter?",
+    "options": [
+      "The maximum voltage the transformer can handle",
+      "The percentage of rated voltage that must be applied to the primary to circulate rated current through a short-circuited secondary — it determines fault current magnitude",
+      "The voltage drop under no-load conditions",
+      "The voltage required to magnetize the core"
+    ],
+    "correct": 1,
+    "explanation": "Impedance voltage (Z%) is typically 4-8%. It limits fault (short-circuit) current: I_fault = I_rated ÷ (Z%/100). A 5% impedance transformer has maximum fault current of 20× rated. Higher impedance = lower fault current but more voltage regulation (voltage drop under load). Critical for electrical system design and protection."
+  },
+  {
+    "id": 4024,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the purpose of the generator exciter?",
+    "options": [
+      "To excite the operators during generator maintenance",
+      "To provide DC current to the generator field winding, controlling the generator's output voltage and reactive power",
+      "To start the generator from rest",
+      "To provide emergency backup power"
+    ],
+    "correct": 1,
+    "explanation": "The exciter provides DC current to the rotor field winding, creating the magnetic field. Increasing excitation increases generator voltage and reactive power output. Modern generators use static (electronic) or brushless exciters. The automatic voltage regulator (AVR) controls excitation to maintain voltage."
+  },
+  {
+    "id": 4025,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "When is Radiographic Testing (RT) preferred over Ultrasonic Testing (UT)?",
+    "options": [
+      "RT is always preferred",
+      "RT provides a permanent visual record (film/digital image) of internal weld quality — preferred for production weld quality verification and new construction; UT is preferred for in-service thickness measurement and flaw sizing",
+      "UT is always preferred over RT",
+      "RT is only used on plastics"
+    ],
+    "correct": 1,
+    "explanation": "RT advantages: permanent visual record of internal weld quality (film/digital), can detect volumetric defects (porosity, inclusions), widely accepted for new construction weld verification. UT advantages: better for crack detection and sizing, real-time results, thickness measurement, no radiation hazard, more portable. They complement each other."
+  },
+  {
+    "id": 4026,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is ground fault protection and why is it critical in a boiler plant?",
+    "options": [
+      "Protection against earthquakes",
+      "Protection that detects current flowing to ground through an unintended path (fault) and disconnects the circuit — critical because boiler rooms have wet/conductive environments",
+      "Protection against power surges from lightning",
+      "Grounding of the boiler shell for cathodic protection"
+    ],
+    "correct": 1,
+    "explanation": "Ground fault protection detects unintended current flow to ground through a fault (damaged insulation, wet connections). In boiler rooms with wet floors, steam, and conductive pipes, the risk of ground faults and electrocution is elevated. Ground fault circuit interrupters (GFCI) and ground fault relays protect personnel and equipment."
+  },
+  {
+    "id": 4027,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "What is a Management of Change (MOC) procedure?",
+    "options": [
+      "Changing the plant manager",
+      "A formal process for evaluating and managing any changes to equipment, procedures, materials, or personnel that could affect safety — ensuring hazards are identified and controlled before implementation",
+      "Changing the boiler water treatment vendor",
+      "Updating the employee phone directory"
+    ],
+    "correct": 1,
+    "explanation": "MOC ensures that any change (equipment modification, process change, material substitution, procedure revision) is formally evaluated for safety impact BEFORE implementation. Steps: describe change, evaluate hazards, review by qualified personnel, implement controls, update procedures/training, and document."
+  },
+  {
+    "id": 4028,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "For a cogeneration plant producing both electricity and process steam, how is the overall thermal utilization efficiency calculated?",
+    "options": [
+      "Same as Carnot efficiency",
+      "(Electrical output + Useful thermal output) ÷ Fuel input × 100% — typically 70-85% for cogeneration vs. 30-40% for power-only plants",
+      "Electrical output ÷ Fuel input only",
+      "Steam output ÷ Electrical output"
+    ],
+    "correct": 1,
+    "explanation": "Cogeneration efficiency = (Electrical kW + Useful thermal kW) ÷ Fuel input kW × 100%. By using 'waste' heat for process/heating, cogeneration achieves 70-85% overall thermal utilization, far exceeding the 30-40% of power-only plants. This is why cogeneration is favored for facilities with both electrical and thermal loads."
+  },
+  {
+    "id": 4029,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "What is the maximum interval between internal inspections for HP boilers in Minnesota?",
+    "options": [
+      "6 months",
+      "12 months (annual) — MN requires annual inspection of HP boilers, with internal inspection at intervals set by the chief boiler inspector",
+      "5 years",
+      "Only when a problem is suspected"
+    ],
+    "correct": 1,
+    "explanation": "Minnesota requires annual inspection of HP boilers. The chief boiler inspector sets the schedule and may require internal inspection annually or at extended intervals based on boiler condition, operating history, and type. The owner/operator is responsible for providing access and preparing the boiler for inspection."
+  },
+  {
+    "id": 4030,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "A transformer bank steps 13,800V down to 480V. What is the turns ratio?",
+    "options": [
+      "28.75:1",
+      "0.0348:1",
+      "2.875:1",
+      "13.8:1"
+    ],
+    "correct": 0,
+    "explanation": "Turns ratio = Primary voltage ÷ Secondary voltage = 13,800 ÷ 480 = 28.75:1. For every 28.75 turns on the primary, there is 1 turn on the secondary."
+  },
+  {
+    "id": 4031,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What causes generator hunting (oscillation)?",
+    "options": [
+      "Insufficient lubrication",
+      "Periodic speed/power oscillations caused by governor instability, mismatched droop settings between parallel units, or sudden load changes — can be corrected by adjusting governor damping",
+      "Excessive generator voltage",
+      "High ambient temperature"
+    ],
+    "correct": 1,
+    "explanation": "Hunting is governor instability causing the generator speed/power to oscillate around the setpoint. Causes: insufficient governor damping, mismatched droop settings between parallel generators, sensitive load-frequency response, or mechanical resonance. Corrected by adjusting governor damping and droop settings."
+  },
+  {
+    "id": 4032,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "What is phased array ultrasonic testing (PAUT) and what advantage does it offer?",
+    "options": [
+      "Testing at different phases of the moon",
+      "An advanced UT technique using multiple ultrasonic elements that can be electronically steered and focused to create detailed cross-sectional images of welds and components — faster and more detailed than conventional UT",
+      "Testing at different phases of boiler operation",
+      "A method of testing electrical phase rotation"
+    ],
+    "correct": 1,
+    "explanation": "PAUT uses an array of small UT elements that can be individually timed (phased) to steer and focus the ultrasonic beam electronically. This allows: rapid scanning of welds, multiple angle inspections in one pass, detailed cross-sectional images (similar to medical ultrasound), and superior defect sizing. Increasingly used for ASME code inspections."
+  },
+  {
+    "id": 4033,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the formula for three-phase power?",
+    "options": [
+      "P = V × I",
+      "P = V × I × PF",
+      "P = √3 × V × I × PF",
+      "P = 3 × V × I"
+    ],
+    "correct": 2,
+    "explanation": "Three-phase power: P = √3 × V_line × I_line × PF. The √3 (1.732) factor accounts for the phase relationship between the three voltages. For balanced three-phase loads, this formula gives total real power in watts."
+  },
+  {
+    "id": 4034,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "What is lockout/tagout (LOTO) and when is it required?",
+    "options": [
+      "Locking the boiler room door at night",
+      "A safety procedure that isolates all energy sources (electrical, steam, fuel, compressed air, stored mechanical energy) before maintenance — required whenever personnel could be exposed to unexpected energization or release of stored energy",
+      "Locking up the tool crib",
+      "Tagging equipment for inventory purposes"
+    ],
+    "correct": 1,
+    "explanation": "LOTO isolates ALL energy sources before maintenance: electrical (breakers locked open), steam (valves locked closed), fuel (valves locked closed), compressed air, hydraulic pressure, and stored mechanical energy (springs, elevated loads). Each worker applies their own lock. Required by OSHA 29 CFR 1910.147."
+  },
+  {
+    "id": 4035,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "A steam plant operates between 1,000°F steam inlet and 101°F condenser outlet. What is the Carnot efficiency?",
+    "options": [
+      "Approximately 61.6%",
+      "Approximately 89.9%",
+      "Approximately 38.4%",
+      "Approximately 10.1%"
+    ],
+    "correct": 0,
+    "explanation": "T_hot = 1,000 + 459.67 = 1,459.67°R. T_cold = 101 + 459.67 = 560.67°R. η = 1 - (560.67/1,459.67) = 1 - 0.384 = 0.616 = 61.6%. This is the maximum theoretical efficiency. Actual efficiency would be 35-45% for a modern steam plant."
+  },
+  {
+    "id": 4036,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "What is the significance of the 'V' stamp vs the 'VR' stamp?",
+    "options": [
+      "They are the same stamp",
+      "'V' is voluntary; 'VR' is required",
+      "'V' is for vessels; 'VR' is for vessel repairs",
+      "'V' is for new manufacture of safety/relief valves; 'VR' is for repair and recertification of existing safety/relief valves"
+    ],
+    "correct": 3,
+    "explanation": "'V' stamp: authorizes MANUFACTURE of new ASME-certified safety and relief valves. 'VR' stamp: authorizes REPAIR and RECERTIFICATION of existing safety/relief valves. After repair by a VR shop, valves are retested to set pressure and receive a new VR certification tag."
+  },
+  {
+    "id": 4037,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What is the purpose of transformer taps?",
+    "options": [
+      "Physical mounting brackets for the transformer",
+      "Drain valves for transformer oil",
+      "Test points for measuring transformer temperature",
+      "Connections at different points on the winding that allow voltage ratio adjustment to compensate for supply voltage variations — typically ±2.5% or ±5% in 2.5% steps"
+    ],
+    "correct": 3,
+    "explanation": "Taps are connections at different points on the transformer winding (usually the HV winding) that allow adjusting the voltage ratio. This compensates for voltage variations in the supply or adjusts output voltage. Load tap changers (LTC) adjust taps under load; no-load tap changers (NLTC) require de-energizing."
+  },
+  {
+    "id": 4038,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the frequency formula for a synchronous generator?",
+    "options": [
+      "f = RPM ÷ Poles",
+      "f = RPM × Poles",
+      "f = (RPM × Number of pole pairs) ÷ 60, or equivalently (RPM × Poles) ÷ 120",
+      "f = 120 ÷ (RPM × Poles)"
+    ],
+    "correct": 2,
+    "explanation": "f = (RPM × Poles) ÷ 120. For 60 Hz: 2-pole at 3,600 RPM; 4-pole at 1,800 RPM; 6-pole at 1,200 RPM. This relationship is fundamental to power generation — generator speed MUST match the required frequency for grid connection."
+  },
+  {
+    "id": 4039,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "What are the five basic NDE methods covered in ASME Section V?",
+    "options": [
+      "Weighing, measuring, timing, counting, and photographing",
+      "Chemical analysis, hardness testing, impact testing, tensile testing, and fatigue testing",
+      "Destructive testing, bending, breaking, pulling, and compressing",
+      "Visual Testing (VT), Magnetic Particle Testing (MT), Liquid Penetrant Testing (PT), Ultrasonic Testing (UT), and Radiographic Testing (RT)"
+    ],
+    "correct": 3,
+    "explanation": "The five basic NDE methods: (1) VT — visual examination; (2) MT — magnetic particle for ferromagnetic surface/near-surface defects; (3) PT — liquid penetrant for surface defects on all non-porous materials; (4) UT — ultrasonic for internal/subsurface defects and thickness; (5) RT — radiographic for internal weld quality. Each has specific applications and limitations."
+  },
+  {
+    "id": 4040,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the difference between a wye (Y) and delta (Δ) motor connection?",
+    "options": [
+      "They produce the same voltage and current",
+      "Wye motors are larger than delta motors",
+      "Wye is for DC motors; delta is for AC motors",
+      "In wye, phase voltage = line voltage ÷ √3 and phase current = line current; in delta, phase voltage = line voltage and phase current = line current ÷ √3 — wye-delta starting reduces starting current to 33% of direct-on-line"
+    ],
+    "correct": 3,
+    "explanation": "WYE: V_phase = V_line/√3; I_phase = I_line. DELTA: V_phase = V_line; I_phase = I_line/√3. Wye-delta starting: motor starts in wye (reduced voltage/current = 33% of delta values), then switches to delta for full-speed operation. This limits starting current to 1/3 of across-the-line delta starting current."
+  },
+  {
+    "id": 4041,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "What factors should a Chief Engineer consider when developing a boiler plant energy management plan?",
+    "options": [
+      "Only fuel cost",
+      "Only the age of the equipment",
+      "Only the number of operators needed",
+      "Boiler efficiency optimization, load management, heat recovery, condensate return, steam trap maintenance, insulation, VFDs on motors, power factor correction, demand limiting, and fuel procurement strategy"
+    ],
+    "correct": 3,
+    "explanation": "A comprehensive energy management plan includes: combustion optimization, economizer/air heater performance, load scheduling, heat recovery systems, condensate return maximization, steam trap maintenance program, insulation surveys, VFDs on variable-load equipment, power factor correction, demand limiting, fuel purchasing strategy, and ongoing monitoring."
+  },
+  {
+    "id": 4042,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "What is a pressure-temperature (P-T) rating for valves and fittings?",
+    "options": [
+      "The maximum pressure at maximum temperature",
+      "The design pressure at ambient temperature only",
+      "The minimum pressure at minimum temperature",
+      "The maximum allowable working pressure at a specific temperature — as temperature increases, the allowable pressure decreases because material strength decreases with temperature"
+    ],
+    "correct": 3,
+    "explanation": "P-T ratings define maximum allowable pressure at specific temperatures. As temperature increases, material strength decreases, so allowable pressure also decreases. For example, a Class 300 valve rated at 720 psig at 100°F might be rated at only 515 psig at 500°F. Always check P-T ratings for the actual operating temperature."
+  },
+  {
+    "id": 4043,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What is the thermodynamic advantage of a combined cycle power plant?",
+    "options": [
+      "It uses two types of fuel",
+      "It combines AC and DC power generation",
+      "It combines heating and cooling",
+      "It uses the gas turbine exhaust heat (which would be wasted) to generate steam in an HRSG for a steam turbine — combining two cycles achieves 55-63% efficiency vs. 33-40% for either cycle alone"
+    ],
+    "correct": 3,
+    "explanation": "Combined cycle: Gas turbine (Brayton cycle, ~35% efficiency) exhaust heat (~1,000°F) generates steam in an HRSG for a steam turbine (Rankine cycle). The 'waste' heat from the gas turbine becomes input for the steam cycle. Overall efficiency: 55-63% — substantially better than either cycle alone."
+  },
+  {
+    "id": 4044,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What causes transformer humming and what does excessive humming indicate?",
+    "options": [
+      "Normal operation — all transformers are silent",
+      "The secondary is open-circuited",
+      "The cooling fans are running",
+      "Magnetostriction — the core laminations expand/contract at twice the line frequency; excessive humming may indicate loose laminations, core damage, or overloading"
+    ],
+    "correct": 3,
+    "explanation": "Transformer hum is caused by magnetostriction — the physical expansion/contraction of core laminations in the alternating magnetic field, producing a 120 Hz hum (twice the 60 Hz line frequency). Normal hum is acceptable. Excessive or changing hum indicates loose laminations, core bolt loosening, overloading, or DC offset in the supply."
+  },
+  {
+    "id": 4045,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is a generator protection relay system?",
+    "options": [
+      "A comprehensive set of protective relays that detect abnormal conditions (overcurrent, overvoltage, reverse power, loss of field, overfrequency, differential faults, ground faults) and trip the generator to prevent damage",
+      "A system of locks on the generator enclosure",
+      "A system that protects the generator from weather",
+      "A backup generator"
+    ],
+    "correct": 0,
+    "explanation": "Generator protection includes: overcurrent (51), differential (87), reverse power (32), loss of field (40), overvoltage (59), overfrequency (81O), underfrequency (81U), ground fault (64), negative sequence (46), and stator ground (59N). Each relay detects a specific abnormal condition and initiates appropriate protective action (trip, alarm, or load reduction)."
+  },
+  {
+    "id": 4046,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is a soft starter and how does it differ from a VFD?",
+    "options": [
+      "They are identical devices",
+      "A soft starter is more expensive than a VFD",
+      "A soft starter is for DC motors; VFD is for AC motors",
+      "A soft starter reduces starting voltage using thyristors to limit inrush current during starting, then bypasses to full voltage at full speed — unlike a VFD, it does NOT provide variable speed control during operation"
+    ],
+    "correct": 3,
+    "explanation": "A soft starter uses thyristors to gradually increase voltage during motor starting, reducing inrush current. Once at full speed, it bypasses to full voltage. Unlike a VFD, the soft starter provides NO speed control during operation — motor runs at full speed. Soft starters are simpler and less expensive than VFDs but offer fewer benefits."
+  },
+  {
+    "id": 4047,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "What is a Critical Equipment List and why should a Chief Engineer maintain one?",
+    "options": [
+      "A list of the most expensive equipment",
+      "A list of equipment past its warranty",
+      "A prioritized list of equipment whose failure would significantly impact plant safety or operation — used to focus maintenance resources, spare parts inventory, and contingency planning",
+      "A list of equipment that needs painting"
+    ],
+    "correct": 2,
+    "explanation": "A Critical Equipment List identifies equipment whose failure causes: safety hazards, production loss, environmental impact, or regulatory non-compliance. Each item gets priority maintenance, predictive monitoring, maintained spare parts, and a contingency plan for failure. This risk-based approach focuses limited maintenance resources on the highest-impact equipment."
+  },
+  {
+    "id": 4048,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "What is time-of-flight diffraction (TOFD) in ultrasonic testing?",
+    "options": [
+      "An advanced UT technique that uses diffracted signals from defect tips to accurately size cracks — provides precise depth measurement and is increasingly accepted for ASME code inspection",
+      "Measuring the time it takes sound to travel through a pipe",
+      "Measuring the flight time of X-rays",
+      "Testing the diffraction of light through glass"
+    ],
+    "correct": 0,
+    "explanation": "TOFD uses paired UT transducers: one sends, one receives. Diffracted signals from crack tips arrive at precise time delays that reveal exact crack depth and length. TOFD provides more accurate sizing than conventional UT and is increasingly accepted for code inspection as an alternative to RT for weld examination."
+  },
+  {
+    "id": 4049,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "If a supercritical power plant operates at 1,100°F steam temperature and 100°F condenser temperature, what is its Carnot efficiency?",
+    "options": [
+      "Approximately 64.1%",
+      "Approximately 90.9%",
+      "Approximately 35.9%",
+      "Approximately 50.0%"
+    ],
+    "correct": 0,
+    "explanation": "T_hot = 1,100 + 459.67 = 1,559.67°R. T_cold = 100 + 459.67 = 559.67°R. η = 1 - (559.67/1,559.67) = 1 - 0.359 = 0.641 = 64.1%. Supercritical plants achieve higher actual efficiency (42-47%) by operating at higher temperatures and pressures."
+  },
+  {
+    "id": 4050,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "What is the ASME 'M' stamp?",
+    "options": [
+      "A stamp for marine boilers",
+      "A stamp for material testing laboratories",
+      "A stamp for maintenance organizations",
+      "Authorizes manufacture of miniature boilers to ASME Section I — boilers with ≤16 in. inside diameter, ≤20 sq ft heating surface, and ≤100 psig MAWP"
+    ],
+    "correct": 3,
+    "explanation": "The 'M' stamp authorizes manufacture of MINIATURE boilers to ASME Section I. Miniature boilers have specific size limitations (≤16 in. ID, ≤20 sq ft heating surface, ≤5 cu ft gross volume, ≤100 psig). Despite their small size, they must still meet ASME code construction requirements."
+  },
+  {
+    "id": 4051,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is electrical impedance?",
+    "options": [
+      "The total opposition to current flow in an AC circuit — it combines resistance (R) and reactance (X) as Z = √(R² + X²)",
+      "The speed of electrical current",
+      "The voltage at which a circuit trips",
+      "The capacity of a battery"
+    ],
+    "correct": 0,
+    "explanation": "Impedance (Z) is the total opposition to AC current: Z = √(R² + X²), where R is resistance and X is reactance (inductive XL and capacitive XC). Impedance is measured in ohms. In purely resistive circuits, Z = R. In circuits with motors/transformers, reactance adds to impedance."
+  },
+  {
+    "id": 4052,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "Under what conditions can a Chief Engineer authorize a hot repair on a boiler?",
+    "options": [
+      "Any time a repair is needed",
+      "When the boiler is at full load for fastest results",
+      "Only for minor external repairs that do not affect the pressure boundary — any pressure boundary repair requires the boiler to be cooled, depressurized, and properly prepared per NBIC Part 3 with R-stamp contractor",
+      "When the DLI is unavailable for consultation"
+    ],
+    "correct": 2,
+    "explanation": "Hot repairs on operating boilers are extremely limited. PRESSURE BOUNDARY repairs always require: shutdown, cool-down, lockout, drainage, and preparation per NBIC Part 3. Only minor external/non-pressure-boundary repairs (refractory, insulation, packing) may be done while operating. A Chief Engineer must never authorize unsafe repair conditions."
+  },
+  {
+    "id": 4053,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What is the efficiency of a transformer with 500 kW output, 5 kW core (iron) losses, and 8 kW copper (load) losses?",
+    "options": [
+      "Approximately 97.5%",
+      "Approximately 100%",
+      "Approximately 90%",
+      "Approximately 85%"
+    ],
+    "correct": 0,
+    "explanation": "Efficiency = Output ÷ Input × 100%. Input = Output + Losses = 500 + 5 + 8 = 513 kW. η = 500 ÷ 513 × 100% = 97.5%. Transformers are very efficient (96-99%). Core losses are constant regardless of load; copper losses vary with load squared."
+  },
+  {
+    "id": 4054,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is islanding of a generator and why is it dangerous?",
+    "options": [
+      "A generator continuing to power a section of the grid after the utility connection is lost — dangerous because voltage/frequency are uncontrolled and line workers may encounter energized lines they believe are dead",
+      "Placing the generator on an island for safety",
+      "Running the generator at no load",
+      "Operating the generator in a standalone mode intentionally"
+    ],
+    "correct": 0,
+    "explanation": "Islanding occurs when a distributed generator continues powering a local section after grid disconnection. Dangers: (1) Voltage/frequency drift (no grid to stabilize), (2) Line workers may contact energized lines believed dead, (3) Out-of-phase reconnection when grid returns. Anti-islanding protection (relay 27/81) detects loss of grid and trips the generator."
+  },
+  {
+    "id": 4055,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "What is eddy current testing (ET) used for in boiler plants?",
+    "options": [
+      "Testing electrical current in boiler controls",
+      "Measuring air current in the combustion chamber",
+      "Testing water current flow patterns in the boiler",
+      "Detecting surface and near-surface defects in non-ferromagnetic heat exchanger and condenser tubes — particularly effective for tubing inspection"
+    ],
+    "correct": 3,
+    "explanation": "Eddy current testing uses electromagnetic induction to detect flaws in conductive materials. In boiler plants, ET is primarily used for rapid inspection of condenser tubes, feedwater heater tubes, and heat exchanger tubes. A probe is pulled through each tube, detecting wall thinning, pitting, cracking, and deposits."
+  },
+  {
+    "id": 4056,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the purpose of a power factor correction capacitor bank?",
+    "options": [
+      "To store energy for backup power",
+      "To increase voltage for motor starting",
+      "To provide leading reactive power (kVAR) that offsets the lagging reactive power of inductive loads, bringing the overall power factor closer to unity — reducing current, losses, and utility penalties",
+      "To filter electrical noise"
+    ],
+    "correct": 2,
+    "explanation": "Capacitor banks supply leading reactive power that cancels the lagging reactive power from motors and transformers. This improves PF toward 1.0, reducing total current, I²R losses, transformer/cable loading, and utility power factor penalties. Capacitors may be fixed or automatically switched based on PF measurement."
+  },
+  {
+    "id": 4057,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "What records must a Chief Engineer maintain per Minnesota boiler regulations?",
+    "options": [
+      "Boiler logs, inspection reports, repair records, water treatment logs, safety device test records, insurance certificates, maintenance records, and operator license records",
+      "Only the boiler operator's license",
+      "Only fuel purchase receipts",
+      "Only the original boiler purchase documents"
+    ],
+    "correct": 0,
+    "explanation": "Required records include: daily operating logs, annual inspection reports, repair/alteration documentation (R-forms), water treatment test logs, safety valve test records, LWCO test records, insurance certificates, equipment maintenance records, operator license copies, and emergency procedure documentation."
+  },
+  {
+    "id": 4058,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "Why does increasing boiler pressure improve the thermal efficiency of a Rankine cycle?",
+    "options": [
+      "Higher pressure makes the boiler smaller",
+      "Higher pressure reduces friction losses in piping",
+      "Higher pressure increases fuel combustion efficiency",
+      "Higher pressure increases the average temperature of heat addition, bringing it closer to the maximum temperature — reducing the fraction of heat rejected in the condenser"
+    ],
+    "correct": 3,
+    "explanation": "Higher boiler pressure raises the saturation temperature and increases the average temperature at which heat is added to the cycle. Per Carnot principles, higher average heat addition temperature (with the same heat rejection temperature) increases cycle efficiency. This is why modern plants use supercritical pressures (above 3,206 psia)."
+  },
+  {
+    "id": 4059,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "What is a re-rating of a boiler and when is it done?",
+    "options": [
+      "Giving the boiler a customer satisfaction rating",
+      "Rating the boiler operator's performance",
+      "Changing the MAWP of a boiler (up or down) through engineering analysis per NBIC Part 3 — typically done when conditions change or when reducing MAWP to extend service life of a degraded boiler",
+      "Changing the boiler's fuel type"
+    ],
+    "correct": 2,
+    "explanation": "Re-rating changes the MAWP (maximum allowable working pressure) of a boiler. Uprating increases MAWP (requires engineering analysis, possible modifications, and hydrostatic test). Downrating reduces MAWP (often done to extend service life of boilers with wall thinning or other degradation). Both require NBIC Part 3 procedures and Authorized Inspector involvement."
+  },
+  {
+    "id": 4060,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What is the voltage regulation of a transformer?",
+    "options": [
+      "The percentage change in secondary voltage from no-load to full-load: VR% = (V_no-load - V_full-load) ÷ V_full-load × 100% — lower is better",
+      "The transformer's ability to regulate utility grid voltage",
+      "The input voltage required for the transformer to operate",
+      "The voltage at which the transformer overheats"
+    ],
+    "correct": 0,
+    "explanation": "Voltage regulation = (V_NL - V_FL)/V_FL × 100%. Typical: 2-5%. Lower regulation means more stable output voltage under varying loads. Regulation depends on transformer impedance, load magnitude, and power factor. Lagging loads increase regulation; leading loads decrease it."
+  },
+  {
+    "id": 4061,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the purpose of protective relaying scheme 87 (differential protection)?",
+    "options": [
+      "To protect against overtemperature",
+      "To protect against low oil pressure",
+      "To protect against overspeed",
+      "To detect internal faults by comparing current entering and leaving the protected zone — if they differ, an internal fault exists and the relay trips immediately"
+    ],
+    "correct": 3,
+    "explanation": "Relay 87 (differential) compares current in and out of a protected zone (generator, transformer, motor, or bus). Under normal conditions, current in = current out. If an internal fault occurs, the difference triggers an instantaneous trip. Very fast and sensitive — the primary protection for generators and transformers."
+  },
+  {
+    "id": 4062,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "What is the purpose of a mock-up or reference standard in NDE?",
+    "options": [
+      "A decorative display for visitors",
+      "A sample of the best weld in the shop",
+      "A test specimen with known artificial defects used to calibrate NDE equipment and verify inspector technique — ensures the examination can detect the types and sizes of defects required by the code",
+      "A standard operating procedure document"
+    ],
+    "correct": 2,
+    "explanation": "Reference standards contain artificial defects (drilled holes, notches, flat-bottom holes) of known dimensions used to calibrate NDE instruments and verify detection capability. Before examining a boiler component, the NDE technician calibrates on the reference standard to ensure the equipment can detect the minimum defect size required by the applicable code."
+  },
+  {
+    "id": 4063,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is a CT (current transformer) and a PT (potential transformer)?",
+    "options": [
+      "Instrument transformers: CTs step down current for metering/protection; PTs step down voltage for metering/protection — allowing standard instruments to safely measure high currents and voltages",
+      "Types of motor starters",
+      "Current tester and power tester — handheld instruments",
+      "Capacitor and transformer types"
+    ],
+    "correct": 0,
+    "explanation": "CTs transform high primary current (hundreds/thousands of amps) to standard 5A secondary for meters and relays. PTs transform high voltage (thousands of volts) to standard 120V secondary. Both provide isolation and allow standard instruments to safely measure high-power circuits. Never open-circuit a CT secondary (dangerous voltage)."
+  },
+  {
+    "id": 4064,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "What is a boiler plant emergency action plan?",
+    "options": [
+      "A plan for what to do after the emergency is over",
+      "A plan for emergency overtime scheduling",
+      "A plan for ordering emergency parts",
+      "A written plan covering all foreseeable emergencies: boiler overpressure, low water, furnace explosion, fuel leak, steam line rupture, electrical failure, fire, and natural disaster — with specific actions, responsibilities, and communication procedures"
+    ],
+    "correct": 3,
+    "explanation": "An emergency action plan covers: specific emergency scenarios, immediate actions for each, personnel responsibilities, communication chain, evacuation procedures, emergency contacts (DLI, fire department, utility companies), emergency equipment locations, training requirements, and periodic drill schedules. The Chief Engineer is responsible for developing, maintaining, and training all personnel on this plan."
+  },
+  {
+    "id": 4065,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "What are the ASME BPVC code editions and addenda, and how do they apply?",
+    "options": [
+      "Only the latest edition applies at all times",
+      "The oldest edition always applies",
+      "The code edition and addenda in effect at the time of ORIGINAL CONSTRUCTION govern the boiler for its lifetime, unless re-stamped — newer editions apply only to new construction or alterations",
+      "Any edition can be used at the owner's choice"
+    ],
+    "correct": 2,
+    "explanation": "The ASME code edition in effect at the time of original manufacture governs the boiler's construction standards. Newer editions apply to NEW construction or when alterations are made (alteration is performed to current code). This prevents retroactive application of new requirements to existing equipment. Minnesota accepts the edition specified in state rules."
+  },
+  {
+    "id": 4066,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What is transformer polarity and why does it matter?",
+    "options": [
+      "The relative direction of primary and secondary voltage pulsations — critical for parallel operation of transformers and proper CT/PT connections; mismatched polarity causes short circuits",
+      "Whether the transformer uses AC or DC",
+      "The positive or negative terminal of a battery",
+      "The magnetic north/south orientation of the core"
+    ],
+    "correct": 0,
+    "explanation": "Transformer polarity indicates the relative instantaneous direction of voltage on primary and secondary windings. Subtractive (same polarity) and additive (opposite polarity) affect how transformers can be paralleled. Incorrect polarity connection causes a short circuit. Polarity must be verified before paralleling transformers."
+  },
+  {
+    "id": 4067,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is VAR (volt-ampere reactive) and how does generator excitation control it?",
+    "options": [
+      "VAR has no practical significance",
+      "VAR is determined by the turbine steam flow",
+      "VAR is controlled by the governor",
+      "Increasing generator field excitation increases reactive power (VAR) output (lagging); decreasing excitation decreases VAR output or makes it leading — the AVR controls excitation to maintain voltage and reactive power targets"
+    ],
+    "correct": 3,
+    "explanation": "VAR (reactive power) is controlled by generator excitation: more field current = more VAR output (overexcited/lagging) = higher terminal voltage. Less field current = less VAR or leading VAR (underexcited) = lower terminal voltage. The Automatic Voltage Regulator (AVR) controls excitation to maintain set voltage or power factor."
+  },
+  {
+    "id": 4068,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "What is the principal limitation of Magnetic Particle Testing (MT)?",
+    "options": [
+      "It is too expensive for routine use",
+      "MT can only detect internal defects",
+      "MT can ONLY be used on ferromagnetic materials — it cannot inspect non-ferrous metals (aluminum, copper, austenitic stainless steel, titanium)",
+      "MT requires radiation safety precautions"
+    ],
+    "correct": 2,
+    "explanation": "MT's primary limitation: it works ONLY on ferromagnetic materials that can be magnetized (carbon steel, low-alloy steel, some nickel alloys). Non-ferrous and austenitic stainless steel cannot be magnetized and must use PT or UT instead. MT is also limited to surface and near-surface defects (typically within 1/4 inch of surface)."
+  },
+  {
+    "id": 4069,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the difference between kW and kVA?",
+    "options": [
+      "kW is REAL power (does actual work); kVA is APPARENT power (the total power the system must handle, including reactive component) — kW = kVA × Power Factor",
+      "They are the same unit",
+      "kVA is larger than kW only in DC circuits",
+      "kW is for motors; kVA is for generators"
+    ],
+    "correct": 0,
+    "explanation": "kW (real power) = actual work done (heat, motion, light). kVA (apparent power) = total power the electrical system must supply and distribute. kVA = kW/PF. At PF=1.0: kW = kVA. At PF=0.8: 100 kW load requires 125 kVA of system capacity. Equipment (transformers, cables, generators) must be sized for kVA, not just kW."
+  },
+  {
+    "id": 4070,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "What is a risk-based inspection (RBI) program?",
+    "options": [
+      "Inspecting only when there is an obvious problem",
+      "A program where inspectors rate their personal risk level",
+      "Inspecting all equipment equally regardless of risk",
+      "A systematic approach that prioritizes inspection activities based on the risk (probability of failure × consequence of failure) of each piece of equipment — focusing resources on the highest-risk items"
+    ],
+    "correct": 3,
+    "explanation": "RBI assesses each piece of equipment for: probability of failure (based on deterioration mechanisms, service history, inspection results) and consequence of failure (safety, environmental, economic). Equipment with highest risk score gets most frequent/detailed inspection. This optimizes inspection resources and improves safety more effectively than calendar-based inspection."
+  },
+  {
+    "id": 4071,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What is the thermal efficiency of a boiler that produces 40,000,000 BTU/hr of useful steam heat from 48,000,000 BTU/hr of fuel input?",
+    "options": [
+      "120%",
+      "48%",
+      "83.3%",
+      "40%"
+    ],
+    "correct": 2,
+    "explanation": "η = Output ÷ Input × 100% = 40,000,000 ÷ 48,000,000 × 100% = 83.3%. This is the boiler's combustion/thermal efficiency — the percentage of fuel energy successfully transferred to the steam. Stack losses, radiation losses, and blowdown losses account for the remaining 16.7%."
+  },
+  {
+    "id": 4072,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "Under ASME Section I, what is the maximum time for an accumulation test on a water-tube boiler?",
+    "options": [
+      "7 minutes",
+      "5 minutes",
+      "15 minutes",
+      "30 minutes"
+    ],
+    "correct": 0,
+    "explanation": "ASME Section I limits accumulation test duration to 7 minutes for water-tube boilers and 15 minutes for fire-tube boilers. During this time, the boiler fires at maximum capacity with the main steam stop closed. Pressure must not exceed MAWP + 6%. These time limits protect the boiler from excessive thermal stress."
+  },
+  {
+    "id": 4073,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What causes transformer oil to degrade and how is its condition monitored?",
+    "options": [
+      "Oil never degrades",
+      "Oil condition doesn't matter for transformer operation",
+      "Only age causes oil degradation",
+      "Heat, moisture, and oxygen cause oil breakdown — monitored by dissolved gas analysis (DGA), dielectric breakdown voltage test, acidity test, and moisture content test"
+    ],
+    "correct": 3,
+    "explanation": "Transformer oil degrades from: heat (accelerates aging), moisture (reduces dielectric strength), oxygen (causes oxidation/sludge). DGA detects dissolved gases (H2, CH4, C2H2, CO) that indicate internal faults (arcing, overheating). Regular oil testing is essential for predicting transformer problems before failure."
+  },
+  {
+    "id": 4074,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the significance of generator capability curves?",
+    "options": [
+      "They show the generator's maintenance schedule",
+      "They plot generator age vs. efficiency",
+      "They define the safe operating envelope of a generator — showing the maximum real power (MW) and reactive power (MVAR) output at various power factors, limited by field current heating, armature current heating, and stability limits",
+      "They show the generator's fuel consumption"
+    ],
+    "correct": 2,
+    "explanation": "Capability curves plot the generator's safe operating limits: field heating limit (overexcited), armature heating limit, and steady-state stability limit (underexcited). Operating outside these curves risks overheating windings, loss of synchronism, or equipment damage. The Chief Engineer must ensure operators understand and respect capability limits."
+  },
+  {
+    "id": 4075,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "What is the acceptance criteria for a radiographic examination of a boiler weld per ASME Section I?",
+    "options": [
+      "Defects must meet the acceptance criteria in ASME Section I, which references Section V for NDE procedures — typical rejectable indications include cracks, incomplete fusion, incomplete penetration, and slag inclusions exceeding specified size limits",
+      "Any defect is acceptable as long as it is small",
+      "There are no acceptance criteria — the inspector decides",
+      "All welds with any indication must be cut out and re-welded"
+    ],
+    "correct": 0,
+    "explanation": "ASME Section I references specific acceptance criteria: NO cracks, NO incomplete fusion, NO incomplete penetration. Slag inclusions, porosity, and other indications have maximum size and distribution limits. The radiographer evaluates the film per these criteria and reports accept/reject. Rejected welds must be repaired and re-examined."
+  },
+  {
+    "id": 4076,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is a megger (insulation resistance tester) used for?",
+    "options": [
+      "Measuring motor speed in megahertz",
+      "Testing circuit breaker speed",
+      "Measuring power consumption in megawatts",
+      "Applying a high DC voltage (typically 500-5000V) to measure the insulation resistance of electrical equipment (motors, cables, transformers) in megohms — low readings indicate deteriorating insulation"
+    ],
+    "correct": 3,
+    "explanation": "A megger applies high DC voltage and measures the resulting leakage current to determine insulation resistance in megohms. Good insulation: >1 megohm per kV of rating. Low readings indicate moisture, contamination, or insulation deterioration. Regular megger testing of boiler plant motors and cables detects insulation problems before failure."
+  },
+  {
+    "id": 4077,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "What is the Chief Engineer's role in managing contractors working in the boiler plant?",
+    "options": [
+      "No responsibility — contractors manage themselves",
+      "Only signing the contract",
+      "Ensuring contractors follow plant safety rules, hold appropriate licenses/certifications, work under proper permits, coordinate with plant operations, and their work does not create hazards for plant personnel",
+      "Only providing parking for contractor vehicles"
+    ],
+    "correct": 2,
+    "explanation": "The Chief Engineer must: verify contractor qualifications and licenses, ensure contractor compliance with plant safety rules, issue/coordinate work permits, ensure LOTO procedures are followed, coordinate contractor activities with plant operations, verify R-stamp for pressure boundary work, and ensure work quality meets code requirements."
+  },
+  {
+    "id": 4078,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What is exergy (available work) in thermodynamics?",
+    "options": [
+      "The maximum useful work obtainable from a system as it reaches equilibrium with its surroundings — exergy analysis identifies where the greatest thermodynamic losses occur in a plant",
+      "The external energy of a system",
+      "The kinetic energy of rotating equipment",
+      "The energy stored in chemical bonds"
+    ],
+    "correct": 0,
+    "explanation": "Exergy is the maximum useful work that can be extracted as a system reaches equilibrium with the environment. Unlike energy (always conserved), exergy is destroyed by irreversibilities (friction, heat transfer across ΔT, mixing). Exergy analysis identifies where the greatest losses occur, guiding efficiency improvement efforts."
+  },
+  {
+    "id": 4079,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "What is the role of the Authorized Inspection Agency (AIA) in Minnesota boiler regulation?",
+    "options": [
+      "The AIA manufactures boilers",
+      "The AIA sells boiler parts",
+      "The AIA trains boiler operators",
+      "The AIA (typically the boiler insurance company) employs Authorized Inspectors who conduct code inspections on behalf of the jurisdiction — MN DLI accepts inspections by AIA inspectors for insured boilers"
+    ],
+    "correct": 3,
+    "explanation": "AIAs (Authorized Inspection Agencies) are organizations accredited by ASME to employ Authorized Inspectors. In Minnesota, boiler insurance companies serve as AIAs, and their inspectors conduct inspections accepted by the DLI. Uninsured boilers are inspected by DLI staff inspectors. The AIA/AI system ensures independent inspection by qualified personnel."
+  },
+  {
+    "id": 4080,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "A 13.8kV/480V, 1000 kVA three-phase transformer has 5.5% impedance. What is the maximum symmetrical fault current on the secondary?",
+    "options": [
+      "1,203A",
+      "2,406A",
+      "21,870A",
+      "120,300A"
+    ],
+    "correct": 2,
+    "explanation": "Full-load secondary current = 1000×1000/(√3×480) = 1,203A. Max fault current = FLA ÷ (Z%/100) = 1,203 ÷ 0.055 = 21,873A ≈ 21,870A. This is the maximum symmetrical fault current the secondary bus and protective devices must be rated to handle."
+  },
+  {
+    "id": 4081,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the purpose of a neutral grounding resistor (NGR) on a generator?",
+    "options": [
+      "To improve generator efficiency",
+      "To increase generator output voltage",
+      "To limit ground fault current to a safe level by inserting resistance between the generator neutral and ground — preventing damage from high fault currents while still allowing ground fault detection",
+      "To improve power factor"
+    ],
+    "correct": 2,
+    "explanation": "An NGR limits ground fault current (typically to 5-400A depending on design) by adding resistance in the neutral-to-ground path. Without it, a ground fault could produce thousands of amps, causing severe damage. The NGR limits current while still providing enough signal for protective relays (relay 64) to detect the fault and trip the generator."
+  },
+  {
+    "id": 4082,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "What is the Chief Engineer's responsibility regarding boiler water treatment?",
+    "options": [
+      "Ensuring an effective water treatment program is in place, monitoring results, adjusting treatment as needed, maintaining records, and understanding the chemistry — even if a vendor provides service, the Chief Engineer is ultimately responsible",
+      "Water treatment is entirely the chemical vendor's responsibility",
+      "Only ordering chemicals when the vendor says to",
+      "Testing water quality once per year"
+    ],
+    "correct": 0,
+    "explanation": "The Chief Engineer must understand water treatment chemistry, ensure proper testing frequency, review and interpret test results, adjust treatment programs as conditions change, maintain testing records, verify chemical feed equipment operation, and hold the water treatment vendor accountable for results. Water treatment failures lead to scale, corrosion, and boiler damage."
+  },
+  {
+    "id": 4083,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "What safety precautions are required for Radiographic Testing (RT) in a boiler plant?",
+    "options": [
+      "No special precautions needed",
+      "Turning off the lights in the area",
+      "Only wearing safety glasses",
+      "Radiation safety program: restricted access area, radiation survey before/during/after, dosimetry badges for personnel, lead shielding, warning signs and lights, trained radiation safety officer, compliance with NRC/state radiation regulations"
+    ],
+    "correct": 3,
+    "explanation": "RT uses ionizing radiation (X-rays or gamma rays) requiring: exclusion zone with barriers and warning signs/lights, radiation survey with calibrated instruments, personal dosimetry (film badges/TLDs), lead shielding, trained RSO, compliance with 10 CFR 20 and state regulations, equipment licensing, and emergency procedures for source loss or overexposure."
+  },
+  {
+    "id": 4084,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the nameplate rating of a motor and what do the main parameters mean?",
+    "options": [
+      "Only the manufacturer's name matters",
+      "Only the horsepower rating matters",
+      "HP (mechanical output), voltage, full-load amps, RPM, service factor, efficiency, frame size, insulation class, and duty cycle — these define the motor's safe operating limits and electrical requirements",
+      "The nameplate shows the purchase price"
+    ],
+    "correct": 2,
+    "explanation": "Motor nameplate parameters: HP (output power), Voltage (supply voltage), FLA (full-load amps), RPM (full-load speed), Service Factor (allowable continuous overload, e.g., 1.15 = 15% overload), Efficiency (%), Frame (physical dimensions), Insulation Class (temperature rating: B=130°C, F=155°C, H=180°C), Duty (continuous, intermittent)."
+  },
+  {
+    "id": 4085,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "What is the purpose of a plant efficiency audit?",
+    "options": [
+      "A systematic evaluation of all energy inputs and outputs to identify losses, inefficiencies, and opportunities for improvement — covering boilers, turbines, auxiliary equipment, steam distribution, condensate return, and electrical systems",
+      "To audit the financial records",
+      "To count the number of employees",
+      "To measure the plant's physical dimensions"
+    ],
+    "correct": 0,
+    "explanation": "An efficiency audit examines: combustion efficiency (O2, CO, stack temp), boiler heat losses (radiation, blowdown, stack), steam system losses (leaks, failed traps, poor insulation), condensate return rate, auxiliary power consumption, electrical losses, and compares results to design/benchmark values. Identifies specific improvement opportunities with cost-benefit analysis."
+  },
+  {
+    "id": 4086,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What is the difference between gross and net plant efficiency?",
+    "options": [
+      "They are the same thing",
+      "Gross is theoretical; net is actual",
+      "Gross is for large plants; net is for small plants",
+      "Gross efficiency includes all heat output; net efficiency = (Gross power output minus station service/auxiliary power consumption) ÷ Heat input — net is always lower than gross"
+    ],
+    "correct": 3,
+    "explanation": "Gross efficiency = Total generator output ÷ Fuel input. Net efficiency = (Generator output - Station service power) ÷ Fuel input. Station service (auxiliary power for pumps, fans, controls, lighting) typically consumes 5-10% of gross output. Net efficiency is the true measure of power available for sale/use."
+  },
+  {
+    "id": 4087,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "What is the purpose of ASME Section XI?",
+    "options": [
+      "Safety valve specifications",
+      "Boiler operator training standards",
+      "Rules for In-Service Inspection of Nuclear Power Plant Components — providing inspection standards for nuclear-class boilers and pressure vessels",
+      "Fuel system design standards"
+    ],
+    "correct": 2,
+    "explanation": "ASME Section XI covers rules for in-service inspection of nuclear power plant components (reactor vessels, piping, pumps, valves). While most MN boiler operators work with conventional (non-nuclear) equipment governed by NBIC, Section XI provides the most rigorous in-service inspection framework and influences inspection practices industry-wide."
+  },
+  {
+    "id": 4088,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the difference between base load, intermediate load, and peaking operation of a power plant?",
+    "options": [
+      "Base load runs continuously at high output (most efficient); intermediate follows daily load patterns; peaking runs only during peak demand periods (least efficient but can start quickly)",
+      "There is no difference — all plants operate the same way",
+      "Base load is the smallest plant; peaking is the largest",
+      "Base load uses coal; peaking uses natural gas"
+    ],
+    "correct": 0,
+    "explanation": "BASE LOAD: Runs 24/7 at high, steady output — optimized for efficiency (nuclear, large coal/gas). INTERMEDIATE (cycling): Follows daily demand patterns — starts and stops daily. PEAKING: Runs only during highest demand periods — gas turbines or engines that start quickly but are less efficient. The Chief Engineer plans maintenance outages during low-demand periods."
+  },
+  {
+    "id": 4089,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "What documentation is required for NDE performed on ASME code boiler repairs?",
+    "options": [
+      "No documentation needed",
+      "A verbal report to the inspector",
+      "Only a pass/fail checkbox",
+      "Complete NDE reports including: procedure used, examiner qualifications, equipment calibration records, examination results, acceptance criteria applied, and disposition (accept/reject) — filed with the R-form repair documentation"
+    ],
+    "correct": 3,
+    "explanation": "NDE documentation for code repairs must include: NDE procedure identification, examiner name and qualification level (ASNT Level II or III), equipment serial numbers and calibration records, reference standard identification, examination area mapping, all indications found, acceptance criteria applied, final disposition, examiner signature, and date. This becomes part of the permanent repair record."
+  },
+  {
+    "id": 4090,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the purpose of a circuit breaker coordination study?",
+    "options": [
+      "To coordinate the installation schedule of circuit breakers",
+      "To standardize all breakers to the same size",
+      "To ensure protective devices trip in the correct sequence — the device nearest the fault trips first, isolating only the faulted section while keeping the rest of the system energized",
+      "To test breakers annually"
+    ],
+    "correct": 2,
+    "explanation": "Coordination ensures selective tripping: the breaker nearest the fault clears first, isolating only the affected section. Without coordination, an upstream main breaker might trip before the branch breaker, blacking out the entire plant for a fault in one circuit. Time-current curves of all devices are plotted to verify proper coordination."
+  },
+  {
+    "id": 4091,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "What is a steam balance diagram and how does the Chief Engineer use it?",
+    "options": [
+      "A diagram showing all steam generation, consumption, and losses in the plant — used for load planning, efficiency analysis, identifying losses, and optimizing boiler operations",
+      "A diagram showing how steam distribution piping is physically supported",
+      "A balance sheet for steam-related expenses",
+      "A diagram showing the balance between steam and condensate"
+    ],
+    "correct": 0,
+    "explanation": "A steam balance shows: all steam sources (each boiler, HRSG), all steam consumers (turbines, process, heating, deaerator), all losses (traps, leaks, vents, blowdown), and condensate return flows — all at their actual flow rates, pressures, and temperatures. The Chief Engineer uses it for: load optimization, loss identification, capacity planning, and energy budgeting."
+  },
+  {
+    "id": 4092,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "A boiler plant burns natural gas with a higher heating value of 1,020 BTU/ft³. The boiler is 84% efficient. How many cubic feet of gas are needed to produce 1,000 BHP output?",
+    "options": [
+      "32,838 ft³/hr",
+      "33,479 ft³/hr",
+      "28,392 ft³/hr",
+      "39,093 ft³/hr"
+    ],
+    "correct": 3,
+    "explanation": "Steam output = 1,000 BHP × 33,479 BTU/hr = 33,479,000 BTU/hr. Fuel input = 33,479,000 ÷ 0.84 = 39,856,000 BTU/hr. Gas volume = 39,856,000 ÷ 1,020 = 39,075 ft³/hr ≈ 39,093 ft³/hr."
+  },
+  {
+    "id": 4093,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "What is the difference between a repair and a routine maintenance activity on a boiler?",
+    "options": [
+      "There is no difference",
+      "Maintenance requires an R-stamp; repair does not",
+      "A REPAIR restores a pressure-retaining item to safe operating condition (requires R-stamp, NBIC Part 3, AI involvement); ROUTINE MAINTENANCE includes activities like replacing gaskets, packing, refractory, cleaning tubes, and adjusting controls — which do NOT require R-stamp",
+      "Both require the same level of documentation"
+    ],
+    "correct": 2,
+    "explanation": "REPAIR: Any work on PRESSURE-RETAINING components (welding on shell, tubes, nozzles, headers) — requires R-stamp holder, NBIC Part 3 procedures, and AI involvement. ROUTINE MAINTENANCE: Non-pressure-boundary work (replacing gaskets, packing, refractory, cleaning tubes, replacing safety valves with code valves, adjusting controls) — does NOT require R-stamp but should still be documented."
+  },
+  {
+    "id": 4094,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What is the purpose of delta-wye transformer connections in industrial power distribution?",
+    "options": [
+      "Delta primary/wye secondary provides: (1) a neutral point on the secondary for grounding and single-phase loads, (2) isolation of third-harmonic currents in the delta primary, (3) continued operation if one phase is lost on the primary (open-delta)",
+      "Purely aesthetic — they look different on diagrams",
+      "Delta is for high voltage; wye is for low voltage",
+      "Delta is for 3-phase; wye is for single-phase"
+    ],
+    "correct": 0,
+    "explanation": "Delta-wye (Δ-Y) is the most common industrial configuration. Benefits: (1) Wye secondary provides a neutral for grounding and 277V single-phase loads (in a 480Y/277V system); (2) Third-harmonic currents circulate in the delta winding, not in the lines; (3) Some continued operation if a primary phase is lost."
+  },
+  {
+    "id": 4095,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the consequence of losing generator excitation (loss of field)?",
+    "options": [
+      "Nothing — the generator continues to operate normally",
+      "The generator speeds up",
+      "The generator voltage increases",
+      "The generator becomes an induction generator, drawing reactive power from the system, potentially overheating the rotor and risking instability — loss-of-field relay (40) should trip the generator"
+    ],
+    "correct": 3,
+    "explanation": "Loss of excitation means loss of the rotor magnetic field. The generator transitions to induction generator mode, drawing reactive power from the grid instead of supplying it. This overheats the rotor (induced currents in non-designed paths) and can cause system voltage collapse. Relay 40 (loss of field) detects this condition and trips the unit."
+  },
+  {
+    "id": 4096,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "How should a Chief Engineer approach succession planning for the boiler plant?",
+    "options": [
+      "No planning needed — someone will always be available",
+      "Only hire people with the exact same experience",
+      "Develop a plan that includes: cross-training operators on all systems, maintaining current license records, identifying and mentoring potential supervisors, documenting institutional knowledge, and ensuring adequate staffing depth",
+      "Wait until someone leaves to think about replacement"
+    ],
+    "correct": 2,
+    "explanation": "Succession planning ensures continuity: cross-train operators across all boiler systems and license levels, document critical institutional knowledge (system peculiarities, vendor contacts, maintenance history), mentor promising operators for advancement, maintain a staffing depth that allows for absences/vacancies, and encourage continuing education and license upgrades."
+  },
+  {
+    "id": 4097,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "What is availability in power plant operations?",
+    "options": [
+      "The percentage of time a plant is capable of generating power over a given period — Availability = (Total hours - Forced outage hours - Planned outage hours) ÷ Total hours × 100%",
+      "Whether the plant is available for tours",
+      "The availability of spare parts",
+      "The availability of fuel supply"
+    ],
+    "correct": 0,
+    "explanation": "Plant availability measures the percentage of time the plant CAN operate. Availability = (Period hours - Outage hours) ÷ Period hours × 100%. Forced outage factor (unplanned downtime) is tracked separately from planned maintenance outages. Target availability for well-maintained plants: 90-95%. The Chief Engineer's maintenance program directly impacts availability."
+  },
+  {
+    "id": 4098,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "What is the role of an ASNT Level III in an NDE program?",
+    "options": [
+      "A Level III is an entry-level technician",
+      "A Level III is a management title with no technical requirements",
+      "A Level III only performs administrative tasks",
+      "An ASNT Level III is the highest NDE certification — responsible for establishing NDE procedures, selecting methods, interpreting codes and standards, training and qualifying Level I and II personnel, and making final disposition decisions on complex indications"
+    ],
+    "correct": 3,
+    "explanation": "ASNT Level III is the highest NDE certification. Responsibilities: develop and qualify NDE procedures, select appropriate methods for each application, interpret code requirements, train and examine Level I/II technicians, resolve complex or disputed indications, and manage the NDE program. Level III certification requires extensive experience, examination, and demonstrated competence."
+  },
+  {
+    "id": 4099,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "What is the significance of the √3 factor in three-phase calculations?",
+    "options": [
+      "It is an arbitrary constant",
+      "It is used only for voltage calculations",
+      "√3 (1.732) arises from the 120° phase displacement between the three phases — it relates line voltage to phase voltage in wye connections (V_line = √3 × V_phase) and line current to phase current in delta connections (I_line = √3 × I_phase)",
+      "It applies only to generators, not motors"
+    ],
+    "correct": 2,
+    "explanation": "In balanced three-phase systems with 120° phase displacement: WYE — V_line = √3 × V_phase (e.g., 480V line = √3 × 277V phase); DELTA — I_line = √3 × I_phase. The √3 factor appears in all three-phase power calculations: P = √3 × V_L × I_L × PF. It is fundamental to three-phase electrical engineering."
+  },
+  {
+    "id": 4100,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "What is the Chief Engineer's ultimate legal responsibility for the boiler plant?",
+    "options": [
+      "The Chief Engineer is legally responsible for the safe operation of the boiler plant, compliance with MN statutes and rules, proper licensing of all operators, and ensuring all boilers are maintained in safe operating condition — this responsibility cannot be delegated",
+      "No legal responsibility — that belongs to the building owner",
+      "Only responsible during their scheduled shift",
+      "Only responsible for the largest boiler in the plant"
+    ],
+    "correct": 0,
+    "explanation": "Under MN law, the Chief Engineer is the designated responsible person for the entire boiler plant operation. This includes: ensuring code compliance, maintaining proper licensed coverage, safe operating procedures, maintenance programs, water treatment, inspection cooperation, emergency preparedness, and documentation. While tasks can be delegated, RESPONSIBILITY cannot be."
+  },
+  {
+    "id": 4101,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "A three-phase motor draws 50 amps at 480 volts. What is the apparent power in kVA?",
+    "options": [
+      "24 kVA",
+      "83.1 kVA",
+      "48 kVA",
+      "41.6 kVA"
+    ],
+    "correct": 3,
+    "explanation": "Three-phase apparent power: S = √3 × V × I = 1.732 × 480 × 50 = 41,569 VA = 41.6 kVA. Note the √3 factor is required for three-phase calculations. Real power (kW) = kVA × power factor."
   }
-,
-  {"id": 4001, "level": "chief_a", "category": "Electrical Fundamentals", "question": "A 3-phase, 480V motor has a rated full-load current of 100 amps and a power factor of 0.85. What is the real power consumption in kW?", "options": ["48 kW", "70.7 kW", "40.8 kW", "83.1 kW"], "correct": 1, "explanation": "P = √3 × V × I × PF = 1.732 × 480 × 100 × 0.85 = 70,685 W = 70.7 kW."},
-  {"id": 4002, "level": "chief_a", "category": "Plant Management", "question": "A Chief Engineer is developing a preventive maintenance (PM) program. What is the MOST important element?", "options": ["A comprehensive schedule of inspections, tests, and maintenance tasks based on manufacturer recommendations, code requirements, and operating experience — documented and tracked", "Performing maintenance only when equipment fails", "Hiring additional staff to watch equipment constantly", "Purchasing the most expensive equipment available"], "correct": 0, "explanation": "A PM program should include: scheduled inspections based on manufacturer's recommendations, code-required tests, operating experience, equipment history, task procedures, frequency schedules, and documentation/tracking systems."},
-  {"id": 4003, "level": "chief_a", "category": "Transformer Calculations", "question": "A step-down transformer has a turns ratio of 10:1 with 4,160V primary. What is the secondary voltage?", "options": ["416V", "41,600V", "41.6V", "4,160V"], "correct": 0, "explanation": "V_secondary = V_primary ÷ turns ratio = 4,160 ÷ 10 = 416V. A step-down transformer reduces voltage by a factor equal to the turns ratio."},
-  {"id": 4004, "level": "chief_a", "category": "Generator Operations", "question": "Two generators are operating in parallel. Generator A picks up more than its share of the load. What should be adjusted?", "options": ["Increase Generator A's governor speed setting to shed load", "Decrease Generator A's governor speed setting (lower its droop curve) so it produces less power, while increasing Generator B's speed setting", "Disconnect Generator B from the bus", "Change Generator A's voltage regulator"], "correct": 1, "explanation": "To redistribute load between parallel generators, adjust governor speed settings. Lowering Gen A's speed setting reduces its power output. Raising Gen B's compensates. The droop characteristics determine how load is shared."},
-  {"id": 4005, "level": "chief_a", "category": "Advanced ASME Code", "question": "What is the purpose of a jurisdictional inspection of a boiler?", "options": ["To check operator licenses only", "An inspection conducted under the authority of the state/jurisdiction (MN DLI) to verify the boiler meets code requirements and is safe to operate — required annually for HP boilers in Minnesota", "To inspect the boiler room cleanliness", "To verify fuel supply contracts"], "correct": 1, "explanation": "Jurisdictional inspections are conducted by or on behalf of the MN DLI Chief Boiler Inspector to verify boilers are safe, code-compliant, and properly maintained. HP boilers require annual internal and external inspection."},
-  {"id": 4006, "level": "chief_a", "category": "Carnot Efficiency", "question": "A combined cycle power plant achieves 58% thermal efficiency. The theoretical Carnot efficiency for its temperature range is 70%. What is the plant's second-law efficiency?", "options": ["58%", "70%", "82.9% (actual/Carnot = 58/70)", "12%"], "correct": 2, "explanation": "Second-law efficiency = actual efficiency ÷ Carnot efficiency = 0.58 ÷ 0.70 = 0.829 = 82.9%. This measures how close the actual plant comes to the theoretical maximum for its operating temperatures."},
-  {"id": 4007, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is power factor and why does a low power factor cause problems?", "options": ["Power factor is the ratio of resistance to impedance", "Power factor is the ratio of real power (kW) to apparent power (kVA) — low PF means the system draws more current than necessary, increasing losses, requiring larger conductors, and incurring utility penalties", "Power factor is the frequency of the power supply", "Power factor is the voltage regulation of the system"], "correct": 1, "explanation": "PF = kW/kVA = cos(θ). At PF=0.7, the system draws 43% more current than at PF=1.0 for the same real power. This extra current causes I²R losses in conductors, requires larger transformers/cables, and utilities charge penalties for PF below 0.90-0.95."},
-  {"id": 4008, "level": "chief_a", "category": "Plant Management", "question": "Under MN rules, what are the Chief Engineer's administrative responsibilities?", "options": ["Operating the boiler during all shifts", "Ensuring proper licensed coverage at all times, maintaining operating procedures, supervising shift engineers, ensuring code compliance, coordinating inspections, and maintaining records", "Only hiring and firing operators", "Only ordering fuel and supplies"], "correct": 1, "explanation": "The Chief Engineer's responsibilities include: staffing with properly licensed operators, maintaining written procedures, supervising all shift engineers, ensuring code compliance, coordinating with inspectors, maintaining boiler logs and records, managing water treatment, and overseeing maintenance programs."},
-  {"id": 4009, "level": "chief_a", "category": "Transformer Calculations", "question": "A transformer with 240V primary and 120V secondary has a primary current of 10A. What is the secondary current (assuming ideal transformer)?", "options": ["5A", "10A", "20A", "40A"], "correct": 2, "explanation": "Turns ratio = 240/120 = 2:1. Current is inversely proportional to voltage: I_secondary = I_primary × turns ratio = 10 × 2 = 20A. Power is conserved: 240×10 = 2,400 VA = 120×20."},
-  {"id": 4010, "level": "chief_a", "category": "Generator Operations", "question": "What is synchronizing a generator to the power grid?", "options": ["Starting the generator at any speed and connecting it", "Matching the generator's voltage, frequency, phase angle, and phase sequence to the grid BEFORE closing the breaker to connect", "Setting the generator to maximum output", "Disconnecting the generator from all loads"], "correct": 1, "explanation": "Synchronizing requires matching: (1) Voltage magnitude, (2) Frequency (speed), (3) Phase angle (in-phase), (4) Phase sequence (ABC rotation). A synchroscope indicates when conditions are met. Closing the breaker out of synchronization causes severe mechanical and electrical damage."},
-  {"id": 4011, "level": "chief_a", "category": "NDE Methods", "question": "Which NDE method is best for detecting surface and near-surface defects in ferromagnetic steel boiler components?", "options": ["Radiographic Testing (RT)", "Liquid Penetrant Testing (PT)", "Magnetic Particle Testing (MT) — it detects surface and slightly subsurface defects in ferromagnetic materials", "Acoustic Emission Testing (AET)"], "correct": 2, "explanation": "MT is best for surface and NEAR-SURFACE defects in ferromagnetic materials. It can detect defects slightly below the surface that PT would miss. MT uses a magnetic field and iron particles — defects disrupt the field, causing particles to gather visibly at the defect."},
-  {"id": 4012, "level": "chief_a", "category": "Carnot Efficiency", "question": "Why can a real power plant never achieve Carnot efficiency?", "options": ["Because the fuel is not pure enough", "Because of irreversibilities: friction, heat transfer across temperature differences, pressure drops, mixing losses, and turbine/pump inefficiencies", "Because the condenser is too large", "Because the boiler is too small"], "correct": 1, "explanation": "Real cycles have irreversibilities (entropy-generating processes): friction in bearings/piping, heat transfer across finite temperature differences, pressure drops through valves/piping, mixing of streams at different temperatures, and turbine/pump mechanical losses. These all reduce actual efficiency below Carnot maximum."},
-  {"id": 4013, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is the purpose of a motor starter?", "options": ["To provide continuous power to the motor", "To limit inrush current during motor starting — across-the-line starters are simplest but cause the highest inrush; reduced-voltage starters (wye-delta, autotransformer, soft start, VFD) reduce starting current", "To stop the motor in an emergency", "To reverse the motor direction"], "correct": 1, "explanation": "Motor starters limit inrush current (typically 6-8× full load for across-the-line starting). Methods: across-the-line (full voltage, simplest), wye-delta (reduces to 33%), autotransformer (variable reduction), soft start (electronic ramp), VFD (variable frequency — most flexible and efficient)."},
-  {"id": 4014, "level": "chief_a", "category": "Plant Management", "question": "What is a boiler incident investigation procedure?", "options": ["Only reporting the incident to the insurance company", "A systematic process: secure the scene, document evidence, interview witnesses, determine root cause, implement corrective actions, and report to authorities as required", "Blaming the shift operator", "Ignoring minor incidents if no injury occurred"], "correct": 1, "explanation": "Proper incident investigation: (1) Secure scene and ensure safety; (2) Preserve evidence; (3) Document conditions; (4) Interview witnesses; (5) Perform root cause analysis; (6) Determine contributing factors; (7) Implement corrective/preventive actions; (8) Report to DLI as required; (9) Document lessons learned."},
-  {"id": 4015, "level": "chief_a", "category": "Advanced ASME Code", "question": "What is a fitness-for-service (FFS) evaluation?", "options": ["A physical fitness test for boiler operators", "An engineering assessment to determine if a boiler or pressure vessel with a known flaw or degradation can continue to safely operate at current or reduced conditions — per API 579-1/ASME FFS-1", "A test of fuel quality for the boiler", "An evaluation of the boiler room layout"], "correct": 1, "explanation": "Fitness-for-service evaluates whether equipment with known flaws (corrosion, cracking, bulging, dents) can continue safe operation. API 579-1/ASME FFS-1 provides standardized assessment methods: Level 1 (simple screening), Level 2 (detailed analysis), Level 3 (advanced numerical analysis). May allow continued operation at reduced conditions rather than immediate repair."},
-  {"id": 4016, "level": "chief_a", "category": "Transformer Calculations", "question": "Three single-phase 100 kVA transformers are connected in delta-wye configuration. What is the total three-phase capacity?", "options": ["100 kVA", "200 kVA", "300 kVA", "173 kVA"], "correct": 2, "explanation": "Three single-phase transformers in a three-phase bank: Total capacity = 3 × individual capacity = 3 × 100 = 300 kVA. In delta-wye configuration, line voltage on the wye side = phase voltage × √3."},
-  {"id": 4017, "level": "chief_a", "category": "Generator Operations", "question": "What is reactive power (kVAR) and why is it important?", "options": ["Power consumed by resistance heating elements", "The component of apparent power that does no real work but is required to maintain electromagnetic fields in motors and transformers — it circulates between source and load", "Power lost in the generator windings", "Power consumed by the governor"], "correct": 1, "explanation": "Reactive power (kVAR) maintains the magnetic fields needed for motors, transformers, and other inductive loads to function. It does no useful work but increases total current flow. Generator excitation (field current) controls reactive power output. Capacitors provide reactive power locally, reducing the need for generator reactive output."},
-  {"id": 4018, "level": "chief_a", "category": "NDE Methods", "question": "Liquid Penetrant Testing (PT) can be used on what types of materials?", "options": ["Only ferromagnetic metals", "Only non-metallic materials", "Any non-porous material — metals (ferrous and non-ferrous), ceramics, glass, and some plastics", "Only aluminum alloys"], "correct": 2, "explanation": "PT can be used on ANY non-porous material: all metals (including aluminum, stainless steel, titanium — where MT cannot be used), ceramics, and glass. It detects SURFACE-BREAKING defects only (not subsurface). PT is simpler and more portable than MT or UT but limited to surface defects."},
-  {"id": 4019, "level": "chief_a", "category": "Carnot Efficiency", "question": "What is the Kelvin-Planck statement of the Second Law?", "options": ["Energy is always conserved", "It is impossible for any heat engine operating in a cycle to convert 100% of heat input to work — some heat must always be rejected to a low-temperature sink", "Heat always flows from cold to hot", "Pressure and temperature are directly proportional"], "correct": 1, "explanation": "The Kelvin-Planck statement: No heat engine operating in a cycle can convert ALL heat input to work. Some heat must always be rejected to a cold reservoir. This is equivalent to the Clausius statement and explains why power plant condensers are necessary — even a perfect engine cannot avoid heat rejection."},
-  {"id": 4020, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is a Variable Frequency Drive (VFD) and what are its advantages?", "options": ["A drive that varies the fuel supply frequency", "An electronic device that controls motor speed by varying the frequency and voltage supplied to an AC motor — providing soft starting, precise speed control, and significant energy savings on variable-load applications", "A type of diesel engine", "A variable-speed governor for turbines"], "correct": 1, "explanation": "A VFD converts fixed-frequency AC to variable-frequency AC, controlling motor speed. Benefits: (1) Soft start (no inrush), (2) Precise speed control, (3) Energy savings proportional to speed reduction cubed on fans/pumps (affinity laws), (4) Reduced mechanical stress. On a boiler FD fan, a VFD can save 30-50% of fan energy."},
-  {"id": 4021, "level": "chief_a", "category": "Plant Management", "question": "A Chief Engineer is implementing a confined space entry program for boiler inspections. What are the key elements?", "options": ["Just send workers in with a flashlight", "Written permit, atmospheric testing (O2, LEL, toxics), ventilation, attendant stationed outside, rescue plan, training, and personal protective equipment", "Only a verbal permission is needed", "The inspector handles all safety"], "correct": 1, "explanation": "Confined space entry (boiler drums, shells, flues) requires: written entry permit, atmospheric testing (O2 19.5-23.5%, LEL <10%, CO <25 ppm, H2S <10 ppm), continuous ventilation, trained attendant at entry point, rescue plan and equipment, entrant training, lockout/tagout of energy sources, and PPE."},
-  {"id": 4022, "level": "chief_a", "category": "Advanced ASME Code", "question": "What is the difference between an ASME 'R' stamp and an ASME 'S' stamp?", "options": ["They are the same certification", "'R' authorizes REPAIRS AND ALTERATIONS to existing boilers (NBIC Part 3); 'S' authorizes NEW CONSTRUCTION of power boilers (ASME Section I)", "'R' is for research; 'S' is for safety", "'R' is for residential; 'S' is for commercial"], "correct": 1, "explanation": "'S' stamp: authorizes manufacture of NEW power boilers to ASME Section I. 'R' stamp (National Board): authorizes REPAIRS AND ALTERATIONS to existing boilers and pressure vessels per NBIC Part 3. Different organizations hold each — a boiler manufacturer may hold 'S'; a repair contractor holds 'R'."},
-  {"id": 4023, "level": "chief_a", "category": "Transformer Calculations", "question": "What is the impedance voltage of a transformer and why does it matter?", "options": ["The maximum voltage the transformer can handle", "The percentage of rated voltage that must be applied to the primary to circulate rated current through a short-circuited secondary — it determines fault current magnitude", "The voltage drop under no-load conditions", "The voltage required to magnetize the core"], "correct": 1, "explanation": "Impedance voltage (Z%) is typically 4-8%. It limits fault (short-circuit) current: I_fault = I_rated ÷ (Z%/100). A 5% impedance transformer has maximum fault current of 20× rated. Higher impedance = lower fault current but more voltage regulation (voltage drop under load). Critical for electrical system design and protection."},
-  {"id": 4024, "level": "chief_a", "category": "Generator Operations", "question": "What is the purpose of the generator exciter?", "options": ["To excite the operators during generator maintenance", "To provide DC current to the generator field winding, controlling the generator's output voltage and reactive power", "To start the generator from rest", "To provide emergency backup power"], "correct": 1, "explanation": "The exciter provides DC current to the rotor field winding, creating the magnetic field. Increasing excitation increases generator voltage and reactive power output. Modern generators use static (electronic) or brushless exciters. The automatic voltage regulator (AVR) controls excitation to maintain voltage."},
-  {"id": 4025, "level": "chief_a", "category": "NDE Methods", "question": "When is Radiographic Testing (RT) preferred over Ultrasonic Testing (UT)?", "options": ["RT is always preferred", "RT provides a permanent visual record (film/digital image) of internal weld quality — preferred for production weld quality verification and new construction; UT is preferred for in-service thickness measurement and flaw sizing", "UT is always preferred over RT", "RT is only used on plastics"], "correct": 1, "explanation": "RT advantages: permanent visual record of internal weld quality (film/digital), can detect volumetric defects (porosity, inclusions), widely accepted for new construction weld verification. UT advantages: better for crack detection and sizing, real-time results, thickness measurement, no radiation hazard, more portable. They complement each other."},
-  {"id": 4026, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is ground fault protection and why is it critical in a boiler plant?", "options": ["Protection against earthquakes", "Protection that detects current flowing to ground through an unintended path (fault) and disconnects the circuit — critical because boiler rooms have wet/conductive environments", "Protection against power surges from lightning", "Grounding of the boiler shell for cathodic protection"], "correct": 1, "explanation": "Ground fault protection detects unintended current flow to ground through a fault (damaged insulation, wet connections). In boiler rooms with wet floors, steam, and conductive pipes, the risk of ground faults and electrocution is elevated. Ground fault circuit interrupters (GFCI) and ground fault relays protect personnel and equipment."},
-  {"id": 4027, "level": "chief_a", "category": "Plant Management", "question": "What is a Management of Change (MOC) procedure?", "options": ["Changing the plant manager", "A formal process for evaluating and managing any changes to equipment, procedures, materials, or personnel that could affect safety — ensuring hazards are identified and controlled before implementation", "Changing the boiler water treatment vendor", "Updating the employee phone directory"], "correct": 1, "explanation": "MOC ensures that any change (equipment modification, process change, material substitution, procedure revision) is formally evaluated for safety impact BEFORE implementation. Steps: describe change, evaluate hazards, review by qualified personnel, implement controls, update procedures/training, and document."},
-  {"id": 4028, "level": "chief_a", "category": "Carnot Efficiency", "question": "For a cogeneration plant producing both electricity and process steam, how is the overall thermal utilization efficiency calculated?", "options": ["Same as Carnot efficiency", "(Electrical output + Useful thermal output) ÷ Fuel input × 100% — typically 70-85% for cogeneration vs. 30-40% for power-only plants", "Electrical output ÷ Fuel input only", "Steam output ÷ Electrical output"], "correct": 1, "explanation": "Cogeneration efficiency = (Electrical kW + Useful thermal kW) ÷ Fuel input kW × 100%. By using 'waste' heat for process/heating, cogeneration achieves 70-85% overall thermal utilization, far exceeding the 30-40% of power-only plants. This is why cogeneration is favored for facilities with both electrical and thermal loads."},
-  {"id": 4029, "level": "chief_a", "category": "Advanced ASME Code", "question": "What is the maximum interval between internal inspections for HP boilers in Minnesota?", "options": ["6 months", "12 months (annual) — MN requires annual inspection of HP boilers, with internal inspection at intervals set by the chief boiler inspector", "5 years", "Only when a problem is suspected"], "correct": 1, "explanation": "Minnesota requires annual inspection of HP boilers. The chief boiler inspector sets the schedule and may require internal inspection annually or at extended intervals based on boiler condition, operating history, and type. The owner/operator is responsible for providing access and preparing the boiler for inspection."},
-  {"id": 4030, "level": "chief_a", "category": "Transformer Calculations", "question": "A transformer bank steps 13,800V down to 480V. What is the turns ratio?", "options": ["28.75:1", "0.0348:1", "2.875:1", "13.8:1"], "correct": 0, "explanation": "Turns ratio = Primary voltage ÷ Secondary voltage = 13,800 ÷ 480 = 28.75:1. For every 28.75 turns on the primary, there is 1 turn on the secondary."},
-  {"id": 4031, "level": "chief_a", "category": "Generator Operations", "question": "What causes generator hunting (oscillation)?", "options": ["Insufficient lubrication", "Periodic speed/power oscillations caused by governor instability, mismatched droop settings between parallel units, or sudden load changes — can be corrected by adjusting governor damping", "Excessive generator voltage", "High ambient temperature"], "correct": 1, "explanation": "Hunting is governor instability causing the generator speed/power to oscillate around the setpoint. Causes: insufficient governor damping, mismatched droop settings between parallel generators, sensitive load-frequency response, or mechanical resonance. Corrected by adjusting governor damping and droop settings."},
-  {"id": 4032, "level": "chief_a", "category": "NDE Methods", "question": "What is phased array ultrasonic testing (PAUT) and what advantage does it offer?", "options": ["Testing at different phases of the moon", "An advanced UT technique using multiple ultrasonic elements that can be electronically steered and focused to create detailed cross-sectional images of welds and components — faster and more detailed than conventional UT", "Testing at different phases of boiler operation", "A method of testing electrical phase rotation"], "correct": 1, "explanation": "PAUT uses an array of small UT elements that can be individually timed (phased) to steer and focus the ultrasonic beam electronically. This allows: rapid scanning of welds, multiple angle inspections in one pass, detailed cross-sectional images (similar to medical ultrasound), and superior defect sizing. Increasingly used for ASME code inspections."},
-  {"id": 4033, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is the formula for three-phase power?", "options": ["P = V × I", "P = V × I × PF", "P = √3 × V × I × PF", "P = 3 × V × I"], "correct": 2, "explanation": "Three-phase power: P = √3 × V_line × I_line × PF. The √3 (1.732) factor accounts for the phase relationship between the three voltages. For balanced three-phase loads, this formula gives total real power in watts."},
-  {"id": 4034, "level": "chief_a", "category": "Plant Management", "question": "What is lockout/tagout (LOTO) and when is it required?", "options": ["Locking the boiler room door at night", "A safety procedure that isolates all energy sources (electrical, steam, fuel, compressed air, stored mechanical energy) before maintenance — required whenever personnel could be exposed to unexpected energization or release of stored energy", "Locking up the tool crib", "Tagging equipment for inventory purposes"], "correct": 1, "explanation": "LOTO isolates ALL energy sources before maintenance: electrical (breakers locked open), steam (valves locked closed), fuel (valves locked closed), compressed air, hydraulic pressure, and stored mechanical energy (springs, elevated loads). Each worker applies their own lock. Required by OSHA 29 CFR 1910.147."},
-  {"id": 4035, "level": "chief_a", "category": "Carnot Efficiency", "question": "A steam plant operates between 1,000°F steam inlet and 101°F condenser outlet. What is the Carnot efficiency?", "options": ["Approximately 61.6%", "Approximately 89.9%", "Approximately 38.4%", "Approximately 10.1%"], "correct": 0, "explanation": "T_hot = 1,000 + 459.67 = 1,459.67°R. T_cold = 101 + 459.67 = 560.67°R. η = 1 - (560.67/1,459.67) = 1 - 0.384 = 0.616 = 61.6%. This is the maximum theoretical efficiency. Actual efficiency would be 35-45% for a modern steam plant."},
-  {"id": 4036, "level": "chief_a", "category": "Advanced ASME Code", "question": "What is the significance of the 'V' stamp vs the 'VR' stamp?", "options": ["They are the same stamp", "'V' is voluntary; 'VR' is required", "'V' is for vessels; 'VR' is for vessel repairs", "'V' is for new manufacture of safety/relief valves; 'VR' is for repair and recertification of existing safety/relief valves"], "correct": 3, "explanation": "'V' stamp: authorizes MANUFACTURE of new ASME-certified safety and relief valves. 'VR' stamp: authorizes REPAIR and RECERTIFICATION of existing safety/relief valves. After repair by a VR shop, valves are retested to set pressure and receive a new VR certification tag."},
-  {"id": 4037, "level": "chief_a", "category": "Transformer Calculations", "question": "What is the purpose of transformer taps?", "options": ["Physical mounting brackets for the transformer", "Drain valves for transformer oil", "Test points for measuring transformer temperature", "Connections at different points on the winding that allow voltage ratio adjustment to compensate for supply voltage variations — typically ±2.5% or ±5% in 2.5% steps"], "correct": 3, "explanation": "Taps are connections at different points on the transformer winding (usually the HV winding) that allow adjusting the voltage ratio. This compensates for voltage variations in the supply or adjusts output voltage. Load tap changers (LTC) adjust taps under load; no-load tap changers (NLTC) require de-energizing."},
-  {"id": 4038, "level": "chief_a", "category": "Generator Operations", "question": "What is the frequency formula for a synchronous generator?", "options": ["f = RPM ÷ Poles", "f = RPM × Poles", "f = (RPM × Number of pole pairs) ÷ 60, or equivalently (RPM × Poles) ÷ 120", "f = 120 ÷ (RPM × Poles)"], "correct": 2, "explanation": "f = (RPM × Poles) ÷ 120. For 60 Hz: 2-pole at 3,600 RPM; 4-pole at 1,800 RPM; 6-pole at 1,200 RPM. This relationship is fundamental to power generation — generator speed MUST match the required frequency for grid connection."},
-  {"id": 4039, "level": "chief_a", "category": "NDE Methods", "question": "What are the five basic NDE methods covered in ASME Section V?", "options": ["Weighing, measuring, timing, counting, and photographing", "Chemical analysis, hardness testing, impact testing, tensile testing, and fatigue testing", "Destructive testing, bending, breaking, pulling, and compressing", "Visual Testing (VT), Magnetic Particle Testing (MT), Liquid Penetrant Testing (PT), Ultrasonic Testing (UT), and Radiographic Testing (RT)"], "correct": 3, "explanation": "The five basic NDE methods: (1) VT — visual examination; (2) MT — magnetic particle for ferromagnetic surface/near-surface defects; (3) PT — liquid penetrant for surface defects on all non-porous materials; (4) UT — ultrasonic for internal/subsurface defects and thickness; (5) RT — radiographic for internal weld quality. Each has specific applications and limitations."},
-  {"id": 4040, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is the difference between a wye (Y) and delta (Δ) motor connection?", "options": ["They produce the same voltage and current", "Wye motors are larger than delta motors", "Wye is for DC motors; delta is for AC motors", "In wye, phase voltage = line voltage ÷ √3 and phase current = line current; in delta, phase voltage = line voltage and phase current = line current ÷ √3 — wye-delta starting reduces starting current to 33% of direct-on-line"], "correct": 3, "explanation": "WYE: V_phase = V_line/√3; I_phase = I_line. DELTA: V_phase = V_line; I_phase = I_line/√3. Wye-delta starting: motor starts in wye (reduced voltage/current = 33% of delta values), then switches to delta for full-speed operation. This limits starting current to 1/3 of across-the-line delta starting current."},
-  {"id": 4041, "level": "chief_a", "category": "Plant Management", "question": "What factors should a Chief Engineer consider when developing a boiler plant energy management plan?", "options": ["Only fuel cost", "Only the age of the equipment", "Only the number of operators needed", "Boiler efficiency optimization, load management, heat recovery, condensate return, steam trap maintenance, insulation, VFDs on motors, power factor correction, demand limiting, and fuel procurement strategy"], "correct": 3, "explanation": "A comprehensive energy management plan includes: combustion optimization, economizer/air heater performance, load scheduling, heat recovery systems, condensate return maximization, steam trap maintenance program, insulation surveys, VFDs on variable-load equipment, power factor correction, demand limiting, fuel purchasing strategy, and ongoing monitoring."},
-  {"id": 4042, "level": "chief_a", "category": "Advanced ASME Code", "question": "What is a pressure-temperature (P-T) rating for valves and fittings?", "options": ["The maximum pressure at maximum temperature", "The design pressure at ambient temperature only", "The minimum pressure at minimum temperature", "The maximum allowable working pressure at a specific temperature — as temperature increases, the allowable pressure decreases because material strength decreases with temperature"], "correct": 3, "explanation": "P-T ratings define maximum allowable pressure at specific temperatures. As temperature increases, material strength decreases, so allowable pressure also decreases. For example, a Class 300 valve rated at 720 psig at 100°F might be rated at only 515 psig at 500°F. Always check P-T ratings for the actual operating temperature."},
-  {"id": 4043, "level": "chief_a", "category": "Carnot Efficiency", "question": "What is the thermodynamic advantage of a combined cycle power plant?", "options": ["It uses two types of fuel", "It combines AC and DC power generation", "It combines heating and cooling", "It uses the gas turbine exhaust heat (which would be wasted) to generate steam in an HRSG for a steam turbine — combining two cycles achieves 55-63% efficiency vs. 33-40% for either cycle alone"], "correct": 3, "explanation": "Combined cycle: Gas turbine (Brayton cycle, ~35% efficiency) exhaust heat (~1,000°F) generates steam in an HRSG for a steam turbine (Rankine cycle). The 'waste' heat from the gas turbine becomes input for the steam cycle. Overall efficiency: 55-63% — substantially better than either cycle alone."},
-  {"id": 4044, "level": "chief_a", "category": "Transformer Calculations", "question": "What causes transformer humming and what does excessive humming indicate?", "options": ["Normal operation — all transformers are silent", "The secondary is open-circuited", "The cooling fans are running", "Magnetostriction — the core laminations expand/contract at twice the line frequency; excessive humming may indicate loose laminations, core damage, or overloading"], "correct": 3, "explanation": "Transformer hum is caused by magnetostriction — the physical expansion/contraction of core laminations in the alternating magnetic field, producing a 120 Hz hum (twice the 60 Hz line frequency). Normal hum is acceptable. Excessive or changing hum indicates loose laminations, core bolt loosening, overloading, or DC offset in the supply."},
-  {"id": 4045, "level": "chief_a", "category": "Generator Operations", "question": "What is a generator protection relay system?", "options": ["A comprehensive set of protective relays that detect abnormal conditions (overcurrent, overvoltage, reverse power, loss of field, overfrequency, differential faults, ground faults) and trip the generator to prevent damage", "A system of locks on the generator enclosure", "A system that protects the generator from weather", "A backup generator"], "correct": 0, "explanation": "Generator protection includes: overcurrent (51), differential (87), reverse power (32), loss of field (40), overvoltage (59), overfrequency (81O), underfrequency (81U), ground fault (64), negative sequence (46), and stator ground (59N). Each relay detects a specific abnormal condition and initiates appropriate protective action (trip, alarm, or load reduction)."},
-  {"id": 4046, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is a soft starter and how does it differ from a VFD?", "options": ["They are identical devices", "A soft starter is more expensive than a VFD", "A soft starter is for DC motors; VFD is for AC motors", "A soft starter reduces starting voltage using thyristors to limit inrush current during starting, then bypasses to full voltage at full speed — unlike a VFD, it does NOT provide variable speed control during operation"], "correct": 3, "explanation": "A soft starter uses thyristors to gradually increase voltage during motor starting, reducing inrush current. Once at full speed, it bypasses to full voltage. Unlike a VFD, the soft starter provides NO speed control during operation — motor runs at full speed. Soft starters are simpler and less expensive than VFDs but offer fewer benefits."},
-  {"id": 4047, "level": "chief_a", "category": "Plant Management", "question": "What is a Critical Equipment List and why should a Chief Engineer maintain one?", "options": ["A list of the most expensive equipment", "A list of equipment past its warranty", "A prioritized list of equipment whose failure would significantly impact plant safety or operation — used to focus maintenance resources, spare parts inventory, and contingency planning", "A list of equipment that needs painting"], "correct": 2, "explanation": "A Critical Equipment List identifies equipment whose failure causes: safety hazards, production loss, environmental impact, or regulatory non-compliance. Each item gets priority maintenance, predictive monitoring, maintained spare parts, and a contingency plan for failure. This risk-based approach focuses limited maintenance resources on the highest-impact equipment."},
-  {"id": 4048, "level": "chief_a", "category": "NDE Methods", "question": "What is time-of-flight diffraction (TOFD) in ultrasonic testing?", "options": ["An advanced UT technique that uses diffracted signals from defect tips to accurately size cracks — provides precise depth measurement and is increasingly accepted for ASME code inspection", "Measuring the time it takes sound to travel through a pipe", "Measuring the flight time of X-rays", "Testing the diffraction of light through glass"], "correct": 0, "explanation": "TOFD uses paired UT transducers: one sends, one receives. Diffracted signals from crack tips arrive at precise time delays that reveal exact crack depth and length. TOFD provides more accurate sizing than conventional UT and is increasingly accepted for code inspection as an alternative to RT for weld examination."},
-  {"id": 4049, "level": "chief_a", "category": "Carnot Efficiency", "question": "If a supercritical power plant operates at 1,100°F steam temperature and 100°F condenser temperature, what is its Carnot efficiency?", "options": ["Approximately 64.1%", "Approximately 90.9%", "Approximately 35.9%", "Approximately 50.0%"], "correct": 0, "explanation": "T_hot = 1,100 + 459.67 = 1,559.67°R. T_cold = 100 + 459.67 = 559.67°R. η = 1 - (559.67/1,559.67) = 1 - 0.359 = 0.641 = 64.1%. Supercritical plants achieve higher actual efficiency (42-47%) by operating at higher temperatures and pressures."},
-  {"id": 4050, "level": "chief_a", "category": "Advanced ASME Code", "question": "What is the ASME 'M' stamp?", "options": ["A stamp for marine boilers", "A stamp for material testing laboratories", "A stamp for maintenance organizations", "Authorizes manufacture of miniature boilers to ASME Section I — boilers with ≤16 in. inside diameter, ≤20 sq ft heating surface, and ≤100 psig MAWP"], "correct": 3, "explanation": "The 'M' stamp authorizes manufacture of MINIATURE boilers to ASME Section I. Miniature boilers have specific size limitations (≤16 in. ID, ≤20 sq ft heating surface, ≤5 cu ft gross volume, ≤100 psig). Despite their small size, they must still meet ASME code construction requirements."},
-  {"id": 4051, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is electrical impedance?", "options": ["The total opposition to current flow in an AC circuit — it combines resistance (R) and reactance (X) as Z = √(R² + X²)", "The speed of electrical current", "The voltage at which a circuit trips", "The capacity of a battery"], "correct": 0, "explanation": "Impedance (Z) is the total opposition to AC current: Z = √(R² + X²), where R is resistance and X is reactance (inductive XL and capacitive XC). Impedance is measured in ohms. In purely resistive circuits, Z = R. In circuits with motors/transformers, reactance adds to impedance."},
-  {"id": 4052, "level": "chief_a", "category": "Plant Management", "question": "Under what conditions can a Chief Engineer authorize a hot repair on a boiler?", "options": ["Any time a repair is needed", "When the boiler is at full load for fastest results", "Only for minor external repairs that do not affect the pressure boundary — any pressure boundary repair requires the boiler to be cooled, depressurized, and properly prepared per NBIC Part 3 with R-stamp contractor", "When the DLI is unavailable for consultation"], "correct": 2, "explanation": "Hot repairs on operating boilers are extremely limited. PRESSURE BOUNDARY repairs always require: shutdown, cool-down, lockout, drainage, and preparation per NBIC Part 3. Only minor external/non-pressure-boundary repairs (refractory, insulation, packing) may be done while operating. A Chief Engineer must never authorize unsafe repair conditions."},
-  {"id": 4053, "level": "chief_a", "category": "Transformer Calculations", "question": "What is the efficiency of a transformer with 500 kW output, 5 kW core (iron) losses, and 8 kW copper (load) losses?", "options": ["Approximately 97.5%", "Approximately 100%", "Approximately 90%", "Approximately 85%"], "correct": 0, "explanation": "Efficiency = Output ÷ Input × 100%. Input = Output + Losses = 500 + 5 + 8 = 513 kW. η = 500 ÷ 513 × 100% = 97.5%. Transformers are very efficient (96-99%). Core losses are constant regardless of load; copper losses vary with load squared."},
-  {"id": 4054, "level": "chief_a", "category": "Generator Operations", "question": "What is islanding of a generator and why is it dangerous?", "options": ["A generator continuing to power a section of the grid after the utility connection is lost — dangerous because voltage/frequency are uncontrolled and line workers may encounter energized lines they believe are dead", "Placing the generator on an island for safety", "Running the generator at no load", "Operating the generator in a standalone mode intentionally"], "correct": 0, "explanation": "Islanding occurs when a distributed generator continues powering a local section after grid disconnection. Dangers: (1) Voltage/frequency drift (no grid to stabilize), (2) Line workers may contact energized lines believed dead, (3) Out-of-phase reconnection when grid returns. Anti-islanding protection (relay 27/81) detects loss of grid and trips the generator."},
-  {"id": 4055, "level": "chief_a", "category": "NDE Methods", "question": "What is eddy current testing (ET) used for in boiler plants?", "options": ["Testing electrical current in boiler controls", "Measuring air current in the combustion chamber", "Testing water current flow patterns in the boiler", "Detecting surface and near-surface defects in non-ferromagnetic heat exchanger and condenser tubes — particularly effective for tubing inspection"], "correct": 3, "explanation": "Eddy current testing uses electromagnetic induction to detect flaws in conductive materials. In boiler plants, ET is primarily used for rapid inspection of condenser tubes, feedwater heater tubes, and heat exchanger tubes. A probe is pulled through each tube, detecting wall thinning, pitting, cracking, and deposits."},
-  {"id": 4056, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is the purpose of a power factor correction capacitor bank?", "options": ["To store energy for backup power", "To increase voltage for motor starting", "To provide leading reactive power (kVAR) that offsets the lagging reactive power of inductive loads, bringing the overall power factor closer to unity — reducing current, losses, and utility penalties", "To filter electrical noise"], "correct": 2, "explanation": "Capacitor banks supply leading reactive power that cancels the lagging reactive power from motors and transformers. This improves PF toward 1.0, reducing total current, I²R losses, transformer/cable loading, and utility power factor penalties. Capacitors may be fixed or automatically switched based on PF measurement."},
-  {"id": 4057, "level": "chief_a", "category": "Plant Management", "question": "What records must a Chief Engineer maintain per Minnesota boiler regulations?", "options": ["Boiler logs, inspection reports, repair records, water treatment logs, safety device test records, insurance certificates, maintenance records, and operator license records", "Only the boiler operator's license", "Only fuel purchase receipts", "Only the original boiler purchase documents"], "correct": 0, "explanation": "Required records include: daily operating logs, annual inspection reports, repair/alteration documentation (R-forms), water treatment test logs, safety valve test records, LWCO test records, insurance certificates, equipment maintenance records, operator license copies, and emergency procedure documentation."},
-  {"id": 4058, "level": "chief_a", "category": "Carnot Efficiency", "question": "Why does increasing boiler pressure improve the thermal efficiency of a Rankine cycle?", "options": ["Higher pressure makes the boiler smaller", "Higher pressure reduces friction losses in piping", "Higher pressure increases fuel combustion efficiency", "Higher pressure increases the average temperature of heat addition, bringing it closer to the maximum temperature — reducing the fraction of heat rejected in the condenser"], "correct": 3, "explanation": "Higher boiler pressure raises the saturation temperature and increases the average temperature at which heat is added to the cycle. Per Carnot principles, higher average heat addition temperature (with the same heat rejection temperature) increases cycle efficiency. This is why modern plants use supercritical pressures (above 3,206 psia)."},
-  {"id": 4059, "level": "chief_a", "category": "Advanced ASME Code", "question": "What is a re-rating of a boiler and when is it done?", "options": ["Giving the boiler a customer satisfaction rating", "Rating the boiler operator's performance", "Changing the MAWP of a boiler (up or down) through engineering analysis per NBIC Part 3 — typically done when conditions change or when reducing MAWP to extend service life of a degraded boiler", "Changing the boiler's fuel type"], "correct": 2, "explanation": "Re-rating changes the MAWP (maximum allowable working pressure) of a boiler. Uprating increases MAWP (requires engineering analysis, possible modifications, and hydrostatic test). Downrating reduces MAWP (often done to extend service life of boilers with wall thinning or other degradation). Both require NBIC Part 3 procedures and Authorized Inspector involvement."},
-  {"id": 4060, "level": "chief_a", "category": "Transformer Calculations", "question": "What is the voltage regulation of a transformer?", "options": ["The percentage change in secondary voltage from no-load to full-load: VR% = (V_no-load - V_full-load) ÷ V_full-load × 100% — lower is better", "The transformer's ability to regulate utility grid voltage", "The input voltage required for the transformer to operate", "The voltage at which the transformer overheats"], "correct": 0, "explanation": "Voltage regulation = (V_NL - V_FL)/V_FL × 100%. Typical: 2-5%. Lower regulation means more stable output voltage under varying loads. Regulation depends on transformer impedance, load magnitude, and power factor. Lagging loads increase regulation; leading loads decrease it."},
-  {"id": 4061, "level": "chief_a", "category": "Generator Operations", "question": "What is the purpose of protective relaying scheme 87 (differential protection)?", "options": ["To protect against overtemperature", "To protect against low oil pressure", "To protect against overspeed", "To detect internal faults by comparing current entering and leaving the protected zone — if they differ, an internal fault exists and the relay trips immediately"], "correct": 3, "explanation": "Relay 87 (differential) compares current in and out of a protected zone (generator, transformer, motor, or bus). Under normal conditions, current in = current out. If an internal fault occurs, the difference triggers an instantaneous trip. Very fast and sensitive — the primary protection for generators and transformers."},
-  {"id": 4062, "level": "chief_a", "category": "NDE Methods", "question": "What is the purpose of a mock-up or reference standard in NDE?", "options": ["A decorative display for visitors", "A sample of the best weld in the shop", "A test specimen with known artificial defects used to calibrate NDE equipment and verify inspector technique — ensures the examination can detect the types and sizes of defects required by the code", "A standard operating procedure document"], "correct": 2, "explanation": "Reference standards contain artificial defects (drilled holes, notches, flat-bottom holes) of known dimensions used to calibrate NDE instruments and verify detection capability. Before examining a boiler component, the NDE technician calibrates on the reference standard to ensure the equipment can detect the minimum defect size required by the applicable code."},
-  {"id": 4063, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is a CT (current transformer) and a PT (potential transformer)?", "options": ["Instrument transformers: CTs step down current for metering/protection; PTs step down voltage for metering/protection — allowing standard instruments to safely measure high currents and voltages", "Types of motor starters", "Current tester and power tester — handheld instruments", "Capacitor and transformer types"], "correct": 0, "explanation": "CTs transform high primary current (hundreds/thousands of amps) to standard 5A secondary for meters and relays. PTs transform high voltage (thousands of volts) to standard 120V secondary. Both provide isolation and allow standard instruments to safely measure high-power circuits. Never open-circuit a CT secondary (dangerous voltage)."},
-  {"id": 4064, "level": "chief_a", "category": "Plant Management", "question": "What is a boiler plant emergency action plan?", "options": ["A plan for what to do after the emergency is over", "A plan for emergency overtime scheduling", "A plan for ordering emergency parts", "A written plan covering all foreseeable emergencies: boiler overpressure, low water, furnace explosion, fuel leak, steam line rupture, electrical failure, fire, and natural disaster — with specific actions, responsibilities, and communication procedures"], "correct": 3, "explanation": "An emergency action plan covers: specific emergency scenarios, immediate actions for each, personnel responsibilities, communication chain, evacuation procedures, emergency contacts (DLI, fire department, utility companies), emergency equipment locations, training requirements, and periodic drill schedules. The Chief Engineer is responsible for developing, maintaining, and training all personnel on this plan."},
-  {"id": 4065, "level": "chief_a", "category": "Advanced ASME Code", "question": "What are the ASME BPVC code editions and addenda, and how do they apply?", "options": ["Only the latest edition applies at all times", "The oldest edition always applies", "The code edition and addenda in effect at the time of ORIGINAL CONSTRUCTION govern the boiler for its lifetime, unless re-stamped — newer editions apply only to new construction or alterations", "Any edition can be used at the owner's choice"], "correct": 2, "explanation": "The ASME code edition in effect at the time of original manufacture governs the boiler's construction standards. Newer editions apply to NEW construction or when alterations are made (alteration is performed to current code). This prevents retroactive application of new requirements to existing equipment. Minnesota accepts the edition specified in state rules."},
-  {"id": 4066, "level": "chief_a", "category": "Transformer Calculations", "question": "What is transformer polarity and why does it matter?", "options": ["The relative direction of primary and secondary voltage pulsations — critical for parallel operation of transformers and proper CT/PT connections; mismatched polarity causes short circuits", "Whether the transformer uses AC or DC", "The positive or negative terminal of a battery", "The magnetic north/south orientation of the core"], "correct": 0, "explanation": "Transformer polarity indicates the relative instantaneous direction of voltage on primary and secondary windings. Subtractive (same polarity) and additive (opposite polarity) affect how transformers can be paralleled. Incorrect polarity connection causes a short circuit. Polarity must be verified before paralleling transformers."},
-  {"id": 4067, "level": "chief_a", "category": "Generator Operations", "question": "What is VAR (volt-ampere reactive) and how does generator excitation control it?", "options": ["VAR has no practical significance", "VAR is determined by the turbine steam flow", "VAR is controlled by the governor", "Increasing generator field excitation increases reactive power (VAR) output (lagging); decreasing excitation decreases VAR output or makes it leading — the AVR controls excitation to maintain voltage and reactive power targets"], "correct": 3, "explanation": "VAR (reactive power) is controlled by generator excitation: more field current = more VAR output (overexcited/lagging) = higher terminal voltage. Less field current = less VAR or leading VAR (underexcited) = lower terminal voltage. The Automatic Voltage Regulator (AVR) controls excitation to maintain set voltage or power factor."},
-  {"id": 4068, "level": "chief_a", "category": "NDE Methods", "question": "What is the principal limitation of Magnetic Particle Testing (MT)?", "options": ["It is too expensive for routine use", "MT can only detect internal defects", "MT can ONLY be used on ferromagnetic materials — it cannot inspect non-ferrous metals (aluminum, copper, austenitic stainless steel, titanium)", "MT requires radiation safety precautions"], "correct": 2, "explanation": "MT's primary limitation: it works ONLY on ferromagnetic materials that can be magnetized (carbon steel, low-alloy steel, some nickel alloys). Non-ferrous and austenitic stainless steel cannot be magnetized and must use PT or UT instead. MT is also limited to surface and near-surface defects (typically within 1/4 inch of surface)."},
-  {"id": 4069, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is the difference between kW and kVA?", "options": ["kW is REAL power (does actual work); kVA is APPARENT power (the total power the system must handle, including reactive component) — kW = kVA × Power Factor", "They are the same unit", "kVA is larger than kW only in DC circuits", "kW is for motors; kVA is for generators"], "correct": 0, "explanation": "kW (real power) = actual work done (heat, motion, light). kVA (apparent power) = total power the electrical system must supply and distribute. kVA = kW/PF. At PF=1.0: kW = kVA. At PF=0.8: 100 kW load requires 125 kVA of system capacity. Equipment (transformers, cables, generators) must be sized for kVA, not just kW."},
-  {"id": 4070, "level": "chief_a", "category": "Plant Management", "question": "What is a risk-based inspection (RBI) program?", "options": ["Inspecting only when there is an obvious problem", "A program where inspectors rate their personal risk level", "Inspecting all equipment equally regardless of risk", "A systematic approach that prioritizes inspection activities based on the risk (probability of failure × consequence of failure) of each piece of equipment — focusing resources on the highest-risk items"], "correct": 3, "explanation": "RBI assesses each piece of equipment for: probability of failure (based on deterioration mechanisms, service history, inspection results) and consequence of failure (safety, environmental, economic). Equipment with highest risk score gets most frequent/detailed inspection. This optimizes inspection resources and improves safety more effectively than calendar-based inspection."},
-  {"id": 4071, "level": "chief_a", "category": "Carnot Efficiency", "question": "What is the thermal efficiency of a boiler that produces 40,000,000 BTU/hr of useful steam heat from 48,000,000 BTU/hr of fuel input?", "options": ["120%", "48%", "83.3%", "40%"], "correct": 2, "explanation": "η = Output ÷ Input × 100% = 40,000,000 ÷ 48,000,000 × 100% = 83.3%. This is the boiler's combustion/thermal efficiency — the percentage of fuel energy successfully transferred to the steam. Stack losses, radiation losses, and blowdown losses account for the remaining 16.7%."},
-  {"id": 4072, "level": "chief_a", "category": "Advanced ASME Code", "question": "Under ASME Section I, what is the maximum time for an accumulation test on a water-tube boiler?", "options": ["7 minutes", "5 minutes", "15 minutes", "30 minutes"], "correct": 0, "explanation": "ASME Section I limits accumulation test duration to 7 minutes for water-tube boilers and 15 minutes for fire-tube boilers. During this time, the boiler fires at maximum capacity with the main steam stop closed. Pressure must not exceed MAWP + 6%. These time limits protect the boiler from excessive thermal stress."},
-  {"id": 4073, "level": "chief_a", "category": "Transformer Calculations", "question": "What causes transformer oil to degrade and how is its condition monitored?", "options": ["Oil never degrades", "Oil condition doesn't matter for transformer operation", "Only age causes oil degradation", "Heat, moisture, and oxygen cause oil breakdown — monitored by dissolved gas analysis (DGA), dielectric breakdown voltage test, acidity test, and moisture content test"], "correct": 3, "explanation": "Transformer oil degrades from: heat (accelerates aging), moisture (reduces dielectric strength), oxygen (causes oxidation/sludge). DGA detects dissolved gases (H2, CH4, C2H2, CO) that indicate internal faults (arcing, overheating). Regular oil testing is essential for predicting transformer problems before failure."},
-  {"id": 4074, "level": "chief_a", "category": "Generator Operations", "question": "What is the significance of generator capability curves?", "options": ["They show the generator's maintenance schedule", "They plot generator age vs. efficiency", "They define the safe operating envelope of a generator — showing the maximum real power (MW) and reactive power (MVAR) output at various power factors, limited by field current heating, armature current heating, and stability limits", "They show the generator's fuel consumption"], "correct": 2, "explanation": "Capability curves plot the generator's safe operating limits: field heating limit (overexcited), armature heating limit, and steady-state stability limit (underexcited). Operating outside these curves risks overheating windings, loss of synchronism, or equipment damage. The Chief Engineer must ensure operators understand and respect capability limits."},
-  {"id": 4075, "level": "chief_a", "category": "NDE Methods", "question": "What is the acceptance criteria for a radiographic examination of a boiler weld per ASME Section I?", "options": ["Defects must meet the acceptance criteria in ASME Section I, which references Section V for NDE procedures — typical rejectable indications include cracks, incomplete fusion, incomplete penetration, and slag inclusions exceeding specified size limits", "Any defect is acceptable as long as it is small", "There are no acceptance criteria — the inspector decides", "All welds with any indication must be cut out and re-welded"], "correct": 0, "explanation": "ASME Section I references specific acceptance criteria: NO cracks, NO incomplete fusion, NO incomplete penetration. Slag inclusions, porosity, and other indications have maximum size and distribution limits. The radiographer evaluates the film per these criteria and reports accept/reject. Rejected welds must be repaired and re-examined."},
-  {"id": 4076, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is a megger (insulation resistance tester) used for?", "options": ["Measuring motor speed in megahertz", "Testing circuit breaker speed", "Measuring power consumption in megawatts", "Applying a high DC voltage (typically 500-5000V) to measure the insulation resistance of electrical equipment (motors, cables, transformers) in megohms — low readings indicate deteriorating insulation"], "correct": 3, "explanation": "A megger applies high DC voltage and measures the resulting leakage current to determine insulation resistance in megohms. Good insulation: >1 megohm per kV of rating. Low readings indicate moisture, contamination, or insulation deterioration. Regular megger testing of boiler plant motors and cables detects insulation problems before failure."},
-  {"id": 4077, "level": "chief_a", "category": "Plant Management", "question": "What is the Chief Engineer's role in managing contractors working in the boiler plant?", "options": ["No responsibility — contractors manage themselves", "Only signing the contract", "Ensuring contractors follow plant safety rules, hold appropriate licenses/certifications, work under proper permits, coordinate with plant operations, and their work does not create hazards for plant personnel", "Only providing parking for contractor vehicles"], "correct": 2, "explanation": "The Chief Engineer must: verify contractor qualifications and licenses, ensure contractor compliance with plant safety rules, issue/coordinate work permits, ensure LOTO procedures are followed, coordinate contractor activities with plant operations, verify R-stamp for pressure boundary work, and ensure work quality meets code requirements."},
-  {"id": 4078, "level": "chief_a", "category": "Carnot Efficiency", "question": "What is exergy (available work) in thermodynamics?", "options": ["The maximum useful work obtainable from a system as it reaches equilibrium with its surroundings — exergy analysis identifies where the greatest thermodynamic losses occur in a plant", "The external energy of a system", "The kinetic energy of rotating equipment", "The energy stored in chemical bonds"], "correct": 0, "explanation": "Exergy is the maximum useful work that can be extracted as a system reaches equilibrium with the environment. Unlike energy (always conserved), exergy is destroyed by irreversibilities (friction, heat transfer across ΔT, mixing). Exergy analysis identifies where the greatest losses occur, guiding efficiency improvement efforts."},
-  {"id": 4079, "level": "chief_a", "category": "Advanced ASME Code", "question": "What is the role of the Authorized Inspection Agency (AIA) in Minnesota boiler regulation?", "options": ["The AIA manufactures boilers", "The AIA sells boiler parts", "The AIA trains boiler operators", "The AIA (typically the boiler insurance company) employs Authorized Inspectors who conduct code inspections on behalf of the jurisdiction — MN DLI accepts inspections by AIA inspectors for insured boilers"], "correct": 3, "explanation": "AIAs (Authorized Inspection Agencies) are organizations accredited by ASME to employ Authorized Inspectors. In Minnesota, boiler insurance companies serve as AIAs, and their inspectors conduct inspections accepted by the DLI. Uninsured boilers are inspected by DLI staff inspectors. The AIA/AI system ensures independent inspection by qualified personnel."},
-  {"id": 4080, "level": "chief_a", "category": "Transformer Calculations", "question": "A 13.8kV/480V, 1000 kVA three-phase transformer has 5.5% impedance. What is the maximum symmetrical fault current on the secondary?", "options": ["1,203A", "2,406A", "21,870A", "120,300A"], "correct": 2, "explanation": "Full-load secondary current = 1000×1000/(√3×480) = 1,203A. Max fault current = FLA ÷ (Z%/100) = 1,203 ÷ 0.055 = 21,873A ≈ 21,870A. This is the maximum symmetrical fault current the secondary bus and protective devices must be rated to handle."},
-  {"id": 4081, "level": "chief_a", "category": "Generator Operations", "question": "What is the purpose of a neutral grounding resistor (NGR) on a generator?", "options": ["To improve generator efficiency", "To increase generator output voltage", "To limit ground fault current to a safe level by inserting resistance between the generator neutral and ground — preventing damage from high fault currents while still allowing ground fault detection", "To improve power factor"], "correct": 2, "explanation": "An NGR limits ground fault current (typically to 5-400A depending on design) by adding resistance in the neutral-to-ground path. Without it, a ground fault could produce thousands of amps, causing severe damage. The NGR limits current while still providing enough signal for protective relays (relay 64) to detect the fault and trip the generator."},
-  {"id": 4082, "level": "chief_a", "category": "Plant Management", "question": "What is the Chief Engineer's responsibility regarding boiler water treatment?", "options": ["Ensuring an effective water treatment program is in place, monitoring results, adjusting treatment as needed, maintaining records, and understanding the chemistry — even if a vendor provides service, the Chief Engineer is ultimately responsible", "Water treatment is entirely the chemical vendor's responsibility", "Only ordering chemicals when the vendor says to", "Testing water quality once per year"], "correct": 0, "explanation": "The Chief Engineer must understand water treatment chemistry, ensure proper testing frequency, review and interpret test results, adjust treatment programs as conditions change, maintain testing records, verify chemical feed equipment operation, and hold the water treatment vendor accountable for results. Water treatment failures lead to scale, corrosion, and boiler damage."},
-  {"id": 4083, "level": "chief_a", "category": "NDE Methods", "question": "What safety precautions are required for Radiographic Testing (RT) in a boiler plant?", "options": ["No special precautions needed", "Turning off the lights in the area", "Only wearing safety glasses", "Radiation safety program: restricted access area, radiation survey before/during/after, dosimetry badges for personnel, lead shielding, warning signs and lights, trained radiation safety officer, compliance with NRC/state radiation regulations"], "correct": 3, "explanation": "RT uses ionizing radiation (X-rays or gamma rays) requiring: exclusion zone with barriers and warning signs/lights, radiation survey with calibrated instruments, personal dosimetry (film badges/TLDs), lead shielding, trained RSO, compliance with 10 CFR 20 and state regulations, equipment licensing, and emergency procedures for source loss or overexposure."},
-  {"id": 4084, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is the nameplate rating of a motor and what do the main parameters mean?", "options": ["Only the manufacturer's name matters", "Only the horsepower rating matters", "HP (mechanical output), voltage, full-load amps, RPM, service factor, efficiency, frame size, insulation class, and duty cycle — these define the motor's safe operating limits and electrical requirements", "The nameplate shows the purchase price"], "correct": 2, "explanation": "Motor nameplate parameters: HP (output power), Voltage (supply voltage), FLA (full-load amps), RPM (full-load speed), Service Factor (allowable continuous overload, e.g., 1.15 = 15% overload), Efficiency (%), Frame (physical dimensions), Insulation Class (temperature rating: B=130°C, F=155°C, H=180°C), Duty (continuous, intermittent)."},
-  {"id": 4085, "level": "chief_a", "category": "Plant Management", "question": "What is the purpose of a plant efficiency audit?", "options": ["A systematic evaluation of all energy inputs and outputs to identify losses, inefficiencies, and opportunities for improvement — covering boilers, turbines, auxiliary equipment, steam distribution, condensate return, and electrical systems", "To audit the financial records", "To count the number of employees", "To measure the plant's physical dimensions"], "correct": 0, "explanation": "An efficiency audit examines: combustion efficiency (O2, CO, stack temp), boiler heat losses (radiation, blowdown, stack), steam system losses (leaks, failed traps, poor insulation), condensate return rate, auxiliary power consumption, electrical losses, and compares results to design/benchmark values. Identifies specific improvement opportunities with cost-benefit analysis."},
-  {"id": 4086, "level": "chief_a", "category": "Carnot Efficiency", "question": "What is the difference between gross and net plant efficiency?", "options": ["They are the same thing", "Gross is theoretical; net is actual", "Gross is for large plants; net is for small plants", "Gross efficiency includes all heat output; net efficiency = (Gross power output minus station service/auxiliary power consumption) ÷ Heat input — net is always lower than gross"], "correct": 3, "explanation": "Gross efficiency = Total generator output ÷ Fuel input. Net efficiency = (Generator output - Station service power) ÷ Fuel input. Station service (auxiliary power for pumps, fans, controls, lighting) typically consumes 5-10% of gross output. Net efficiency is the true measure of power available for sale/use."},
-  {"id": 4087, "level": "chief_a", "category": "Advanced ASME Code", "question": "What is the purpose of ASME Section XI?", "options": ["Safety valve specifications", "Boiler operator training standards", "Rules for In-Service Inspection of Nuclear Power Plant Components — providing inspection standards for nuclear-class boilers and pressure vessels", "Fuel system design standards"], "correct": 2, "explanation": "ASME Section XI covers rules for in-service inspection of nuclear power plant components (reactor vessels, piping, pumps, valves). While most MN boiler operators work with conventional (non-nuclear) equipment governed by NBIC, Section XI provides the most rigorous in-service inspection framework and influences inspection practices industry-wide."},
-  {"id": 4088, "level": "chief_a", "category": "Generator Operations", "question": "What is the difference between base load, intermediate load, and peaking operation of a power plant?", "options": ["Base load runs continuously at high output (most efficient); intermediate follows daily load patterns; peaking runs only during peak demand periods (least efficient but can start quickly)", "There is no difference — all plants operate the same way", "Base load is the smallest plant; peaking is the largest", "Base load uses coal; peaking uses natural gas"], "correct": 0, "explanation": "BASE LOAD: Runs 24/7 at high, steady output — optimized for efficiency (nuclear, large coal/gas). INTERMEDIATE (cycling): Follows daily demand patterns — starts and stops daily. PEAKING: Runs only during highest demand periods — gas turbines or engines that start quickly but are less efficient. The Chief Engineer plans maintenance outages during low-demand periods."},
-  {"id": 4089, "level": "chief_a", "category": "NDE Methods", "question": "What documentation is required for NDE performed on ASME code boiler repairs?", "options": ["No documentation needed", "A verbal report to the inspector", "Only a pass/fail checkbox", "Complete NDE reports including: procedure used, examiner qualifications, equipment calibration records, examination results, acceptance criteria applied, and disposition (accept/reject) — filed with the R-form repair documentation"], "correct": 3, "explanation": "NDE documentation for code repairs must include: NDE procedure identification, examiner name and qualification level (ASNT Level II or III), equipment serial numbers and calibration records, reference standard identification, examination area mapping, all indications found, acceptance criteria applied, final disposition, examiner signature, and date. This becomes part of the permanent repair record."},
-  {"id": 4090, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is the purpose of a circuit breaker coordination study?", "options": ["To coordinate the installation schedule of circuit breakers", "To standardize all breakers to the same size", "To ensure protective devices trip in the correct sequence — the device nearest the fault trips first, isolating only the faulted section while keeping the rest of the system energized", "To test breakers annually"], "correct": 2, "explanation": "Coordination ensures selective tripping: the breaker nearest the fault clears first, isolating only the affected section. Without coordination, an upstream main breaker might trip before the branch breaker, blacking out the entire plant for a fault in one circuit. Time-current curves of all devices are plotted to verify proper coordination."},
-  {"id": 4091, "level": "chief_a", "category": "Plant Management", "question": "What is a steam balance diagram and how does the Chief Engineer use it?", "options": ["A diagram showing all steam generation, consumption, and losses in the plant — used for load planning, efficiency analysis, identifying losses, and optimizing boiler operations", "A diagram showing how steam distribution piping is physically supported", "A balance sheet for steam-related expenses", "A diagram showing the balance between steam and condensate"], "correct": 0, "explanation": "A steam balance shows: all steam sources (each boiler, HRSG), all steam consumers (turbines, process, heating, deaerator), all losses (traps, leaks, vents, blowdown), and condensate return flows — all at their actual flow rates, pressures, and temperatures. The Chief Engineer uses it for: load optimization, loss identification, capacity planning, and energy budgeting."},
-  {"id": 4092, "level": "chief_a", "category": "Carnot Efficiency", "question": "A boiler plant burns natural gas with a higher heating value of 1,020 BTU/ft³. The boiler is 84% efficient. How many cubic feet of gas are needed to produce 1,000 BHP output?", "options": ["32,838 ft³/hr", "33,479 ft³/hr", "28,392 ft³/hr", "39,093 ft³/hr"], "correct": 3, "explanation": "Steam output = 1,000 BHP × 33,479 BTU/hr = 33,479,000 BTU/hr. Fuel input = 33,479,000 ÷ 0.84 = 39,856,000 BTU/hr. Gas volume = 39,856,000 ÷ 1,020 = 39,075 ft³/hr ≈ 39,093 ft³/hr."},
-  {"id": 4093, "level": "chief_a", "category": "Advanced ASME Code", "question": "What is the difference between a repair and a routine maintenance activity on a boiler?", "options": ["There is no difference", "Maintenance requires an R-stamp; repair does not", "A REPAIR restores a pressure-retaining item to safe operating condition (requires R-stamp, NBIC Part 3, AI involvement); ROUTINE MAINTENANCE includes activities like replacing gaskets, packing, refractory, cleaning tubes, and adjusting controls — which do NOT require R-stamp", "Both require the same level of documentation"], "correct": 2, "explanation": "REPAIR: Any work on PRESSURE-RETAINING components (welding on shell, tubes, nozzles, headers) — requires R-stamp holder, NBIC Part 3 procedures, and AI involvement. ROUTINE MAINTENANCE: Non-pressure-boundary work (replacing gaskets, packing, refractory, cleaning tubes, replacing safety valves with code valves, adjusting controls) — does NOT require R-stamp but should still be documented."},
-  {"id": 4094, "level": "chief_a", "category": "Transformer Calculations", "question": "What is the purpose of delta-wye transformer connections in industrial power distribution?", "options": ["Delta primary/wye secondary provides: (1) a neutral point on the secondary for grounding and single-phase loads, (2) isolation of third-harmonic currents in the delta primary, (3) continued operation if one phase is lost on the primary (open-delta)", "Purely aesthetic — they look different on diagrams", "Delta is for high voltage; wye is for low voltage", "Delta is for 3-phase; wye is for single-phase"], "correct": 0, "explanation": "Delta-wye (Δ-Y) is the most common industrial configuration. Benefits: (1) Wye secondary provides a neutral for grounding and 277V single-phase loads (in a 480Y/277V system); (2) Third-harmonic currents circulate in the delta winding, not in the lines; (3) Some continued operation if a primary phase is lost."},
-  {"id": 4095, "level": "chief_a", "category": "Generator Operations", "question": "What is the consequence of losing generator excitation (loss of field)?", "options": ["Nothing — the generator continues to operate normally", "The generator speeds up", "The generator voltage increases", "The generator becomes an induction generator, drawing reactive power from the system, potentially overheating the rotor and risking instability — loss-of-field relay (40) should trip the generator"], "correct": 3, "explanation": "Loss of excitation means loss of the rotor magnetic field. The generator transitions to induction generator mode, drawing reactive power from the grid instead of supplying it. This overheats the rotor (induced currents in non-designed paths) and can cause system voltage collapse. Relay 40 (loss of field) detects this condition and trips the unit."},
-  {"id": 4096, "level": "chief_a", "category": "Plant Management", "question": "How should a Chief Engineer approach succession planning for the boiler plant?", "options": ["No planning needed — someone will always be available", "Only hire people with the exact same experience", "Develop a plan that includes: cross-training operators on all systems, maintaining current license records, identifying and mentoring potential supervisors, documenting institutional knowledge, and ensuring adequate staffing depth", "Wait until someone leaves to think about replacement"], "correct": 2, "explanation": "Succession planning ensures continuity: cross-train operators across all boiler systems and license levels, document critical institutional knowledge (system peculiarities, vendor contacts, maintenance history), mentor promising operators for advancement, maintain a staffing depth that allows for absences/vacancies, and encourage continuing education and license upgrades."},
-  {"id": 4097, "level": "chief_a", "category": "Carnot Efficiency", "question": "What is availability in power plant operations?", "options": ["The percentage of time a plant is capable of generating power over a given period — Availability = (Total hours - Forced outage hours - Planned outage hours) ÷ Total hours × 100%", "Whether the plant is available for tours", "The availability of spare parts", "The availability of fuel supply"], "correct": 0, "explanation": "Plant availability measures the percentage of time the plant CAN operate. Availability = (Period hours - Outage hours) ÷ Period hours × 100%. Forced outage factor (unplanned downtime) is tracked separately from planned maintenance outages. Target availability for well-maintained plants: 90-95%. The Chief Engineer's maintenance program directly impacts availability."},
-  {"id": 4098, "level": "chief_a", "category": "NDE Methods", "question": "What is the role of an ASNT Level III in an NDE program?", "options": ["A Level III is an entry-level technician", "A Level III is a management title with no technical requirements", "A Level III only performs administrative tasks", "An ASNT Level III is the highest NDE certification — responsible for establishing NDE procedures, selecting methods, interpreting codes and standards, training and qualifying Level I and II personnel, and making final disposition decisions on complex indications"], "correct": 3, "explanation": "ASNT Level III is the highest NDE certification. Responsibilities: develop and qualify NDE procedures, select appropriate methods for each application, interpret code requirements, train and examine Level I/II technicians, resolve complex or disputed indications, and manage the NDE program. Level III certification requires extensive experience, examination, and demonstrated competence."},
-  {"id": 4099, "level": "chief_a", "category": "Electrical Fundamentals", "question": "What is the significance of the √3 factor in three-phase calculations?", "options": ["It is an arbitrary constant", "It is used only for voltage calculations", "√3 (1.732) arises from the 120° phase displacement between the three phases — it relates line voltage to phase voltage in wye connections (V_line = √3 × V_phase) and line current to phase current in delta connections (I_line = √3 × I_phase)", "It applies only to generators, not motors"], "correct": 2, "explanation": "In balanced three-phase systems with 120° phase displacement: WYE — V_line = √3 × V_phase (e.g., 480V line = √3 × 277V phase); DELTA — I_line = √3 × I_phase. The √3 factor appears in all three-phase power calculations: P = √3 × V_L × I_L × PF. It is fundamental to three-phase electrical engineering."},
-  {"id": 4100, "level": "chief_a", "category": "Plant Management", "question": "What is the Chief Engineer's ultimate legal responsibility for the boiler plant?", "options": ["The Chief Engineer is legally responsible for the safe operation of the boiler plant, compliance with MN statutes and rules, proper licensing of all operators, and ensuring all boilers are maintained in safe operating condition — this responsibility cannot be delegated", "No legal responsibility — that belongs to the building owner", "Only responsible during their scheduled shift", "Only responsible for the largest boiler in the plant"], "correct": 0, "explanation": "Under MN law, the Chief Engineer is the designated responsible person for the entire boiler plant operation. This includes: ensuring code compliance, maintaining proper licensed coverage, safe operating procedures, maintenance programs, water treatment, inspection cooperation, emergency preparedness, and documentation. While tasks can be delegated, RESPONSIBILITY cannot be."},
-  {"id": 4101, "level": "chief_a", "category": "Electrical Calculations", "question": "A three-phase motor draws 50 amps at 480 volts. What is the apparent power in kVA?", "options": ["24 kVA", "83.1 kVA", "48 kVA", "41.6 kVA"], "correct": 3, "explanation": "Three-phase apparent power: S = √3 × V × I = 1.732 × 480 × 50 = 41,569 VA = 41.6 kVA. Note the √3 factor is required for three-phase calculations. Real power (kW) = kVA × power factor."}
 ];
 
-// Total questions in this file: 272
-// Answer distribution — A:68  B:68  C:67  D:69
+// Total questions in this file: 271
+// Answer distribution — A:68  B:68  C:67  D:68

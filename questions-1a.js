@@ -46,7 +46,7 @@ const QUESTIONS_1A = [
   {
     "id": 261,
     "level": "1a",
-    "category": "1st Class Licensing",
+    "category": "MN Statutes & Rules",
     "question": "How many exam questions are on the 1st Class A license examination?",
     "options": [
       "100",
@@ -60,7 +60,7 @@ const QUESTIONS_1A = [
   {
     "id": 262,
     "level": "1a",
-    "category": "1st Class Licensing",
+    "category": "MN Statutes & Rules",
     "question": "What experience is required for a 1st Class A engineer license?",
     "options": [
       "2 years boiler only",
@@ -74,7 +74,7 @@ const QUESTIONS_1A = [
   {
     "id": 263,
     "level": "1a",
-    "category": "1st Class Licensing",
+    "category": "MN Statutes & Rules",
     "question": "As a 1st Class A engineer, you can be in charge of a boiler plant up to what HP?",
     "options": [
       "100 BHP",
@@ -144,7 +144,7 @@ const QUESTIONS_1A = [
   {
     "id": 268,
     "level": "1a",
-    "category": "Advanced Turbine Operations",
+    "category": "Turbines & Engines",
     "question": "What is the purpose of a turbine's 'overspeed trip' test procedure?",
     "options": [
       "To verify the governor controls speed at all load ranges",
@@ -158,7 +158,7 @@ const QUESTIONS_1A = [
   {
     "id": 269,
     "level": "1a",
-    "category": "Advanced Turbine Operations",
+    "category": "Turbines & Engines",
     "question": "What is the purpose of a hydraulic relay governor on a steam turbine?",
     "options": [
       "Uses hydraulic pressure to directly move the governor valves for large flow changes",
@@ -172,7 +172,7 @@ const QUESTIONS_1A = [
   {
     "id": 270,
     "level": "1a",
-    "category": "Advanced Turbine Operations",
+    "category": "Turbines & Engines",
     "question": "What is an 'extraction turbine'?",
     "options": [
       "A turbine that extracts kinetic energy from the wind",
@@ -186,7 +186,7 @@ const QUESTIONS_1A = [
   {
     "id": 271,
     "level": "1a",
-    "category": "Advanced Turbine Operations",
+    "category": "Turbines & Engines",
     "question": "What is a 'non-condensing' (back-pressure) turbine?",
     "options": [
       "A turbine that exhausts to atmosphere or a low-pressure steam system instead of a condenser",
@@ -200,7 +200,7 @@ const QUESTIONS_1A = [
   {
     "id": 272,
     "level": "1a",
-    "category": "Advanced Turbine Operations",
+    "category": "Turbines & Engines",
     "question": "During turbine startup, when must critical speed be addressed?",
     "options": [
       "Critical speed should be maintained for 30 minutes to warm the turbine",
@@ -214,7 +214,7 @@ const QUESTIONS_1A = [
   {
     "id": 273,
     "level": "1a",
-    "category": "Advanced Turbine Operations",
+    "category": "Turbines & Engines",
     "question": "What is the function of a turbine turning gear?",
     "options": [
       "Converts turbine rotation to electrical power for turning gear motor",
@@ -228,7 +228,7 @@ const QUESTIONS_1A = [
   {
     "id": 274,
     "level": "1a",
-    "category": "Advanced Turbine Operations",
+    "category": "Turbines & Engines",
     "question": "An electronic governor uses what technology to sense turbine speed?",
     "options": [
       "Magnetic pickup generating pulses from gear teeth on the shaft",
@@ -242,7 +242,7 @@ const QUESTIONS_1A = [
   {
     "id": 275,
     "level": "1a",
-    "category": "Advanced Turbine Operations",
+    "category": "Turbines & Engines",
     "question": "What is the Curtis turbine and how does it differ from the Rateau?",
     "options": [
       "Curtis is reaction; Rateau is impulse",
@@ -256,7 +256,7 @@ const QUESTIONS_1A = [
   {
     "id": 276,
     "level": "1a",
-    "category": "Steam Engines",
+    "category": "Turbines & Engines",
     "question": "What is a 'triple-expansion steam engine'?",
     "options": [
       "A steam engine with three power strokes per revolution",
@@ -270,7 +270,7 @@ const QUESTIONS_1A = [
   {
     "id": 277,
     "level": "1a",
-    "category": "Steam Engines",
+    "category": "Turbines & Engines",
     "question": "In a simple steam engine (non-compound), what determines the expansion ratio?",
     "options": [
       "The boiler pressure divided by the exhaust pressure",
@@ -284,7 +284,7 @@ const QUESTIONS_1A = [
   {
     "id": 278,
     "level": "1a",
-    "category": "Advanced Water Treatment",
+    "category": "Water Treatment",
     "question": "What is the role of 'alkalinity' in boiler water chemistry?",
     "options": [
       "Acts as an oxygen scavenger",
@@ -298,7 +298,7 @@ const QUESTIONS_1A = [
   {
     "id": 279,
     "level": "1a",
-    "category": "Advanced Water Treatment",
+    "category": "Water Treatment",
     "question": "What is 'caustic embrittlement' in boiler steel?",
     "options": [
       "Embrittlement from dissolved oxygen pitting",
@@ -312,7 +312,7 @@ const QUESTIONS_1A = [
   {
     "id": 280,
     "level": "1a",
-    "category": "Advanced Water Treatment",
+    "category": "Water Treatment",
     "question": "What is 'coordinated phosphate' treatment for high-pressure boilers?",
     "options": [
       "Treatment using coordinated amounts of tri- and di-sodium phosphate to maintain molar ratio",
@@ -326,7 +326,7 @@ const QUESTIONS_1A = [
   {
     "id": 281,
     "level": "1a",
-    "category": "Advanced ASME Code",
+    "category": "ASME & Codes",
     "question": "What is the NBIC (National Board Inspection Code) and its three parts?",
     "options": [
       "The ASME design code divided into three sections",
@@ -340,7 +340,7 @@ const QUESTIONS_1A = [
   {
     "id": 282,
     "level": "1a",
-    "category": "Advanced ASME Code",
+    "category": "ASME & Codes",
     "question": "What does ASME Section V govern?",
     "options": [
       "Nondestructive Examination (NDE) methods including radiographic, ultrasonic, magnetic particle, and liquid penetrant testing",
@@ -354,7 +354,7 @@ const QUESTIONS_1A = [
   {
     "id": 283,
     "level": "1a",
-    "category": "Advanced ASME Code",
+    "category": "ASME & Codes",
     "question": "What is the 'H' code stamp on a boiler and what ASME section applies?",
     "options": [
       "High-pressure boiler (Section I)",
@@ -368,7 +368,7 @@ const QUESTIONS_1A = [
   {
     "id": 284,
     "level": "1a",
-    "category": "Advanced ASME Code",
+    "category": "ASME & Codes",
     "question": "What does the 'U' code stamp signify on a pressure vessel?",
     "options": [
       "Unfired pressure vessel (ASME Section VIII)",
@@ -382,7 +382,7 @@ const QUESTIONS_1A = [
   {
     "id": 285,
     "level": "1a",
-    "category": "Advanced ASME Code",
+    "category": "ASME & Codes",
     "question": "What does ASME Section VIII accumulation rules allow for a pressure vessel with a single safety device?",
     "options": [
       "6% above MAWP",
@@ -396,7 +396,7 @@ const QUESTIONS_1A = [
   {
     "id": 286,
     "level": "1a",
-    "category": "Advanced ASME Code",
+    "category": "ASME & Codes",
     "question": "Section I safety valves may be used on what Section VIII applications? And what is NOT permitted?",
     "options": [
       "Section I valves cannot be used on Section VIII equipment; must use Section VIII valves",
@@ -410,7 +410,7 @@ const QUESTIONS_1A = [
   {
     "id": 287,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the proper startup sequence for a power burner system per ASME CSD-1?",
     "options": [
       "Ignite pilot directly, then open main fuel valve",
@@ -424,7 +424,7 @@ const QUESTIONS_1A = [
   {
     "id": 288,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the responsibility for ensuring a boiler is inspected annually?",
     "options": [
       "Both the OWNER and the ENGINEER are responsible for ensuring annual inspection",
@@ -438,7 +438,7 @@ const QUESTIONS_1A = [
   {
     "id": 289,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What should be maintained as constant as conditions will permit during boiler operation?",
     "options": [
       "Fuel pressure",
@@ -452,7 +452,7 @@ const QUESTIONS_1A = [
   {
     "id": 290,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What does the boiler room logbook in a 1st Class plant typically document?",
     "options": [
       "Only safety valve test results",
@@ -466,7 +466,7 @@ const QUESTIONS_1A = [
   {
     "id": 291,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the proper sequence to verify steam pressure gauge accuracy?",
     "options": [
       "Compare to the safety valve set pressure only",
@@ -480,7 +480,7 @@ const QUESTIONS_1A = [
   {
     "id": 292,
     "level": "1a",
-    "category": "MN Remote Monitoring",
+    "category": "MN Statutes & Rules",
     "question": "What are the requirements for a Remote Monitoring Program on a 51-500 HP boiler plant per MN Rule 5225.7000-8000?",
     "options": [
       "Just a camera on the boiler and a phone for the operator",
@@ -494,7 +494,7 @@ const QUESTIONS_1A = [
   {
     "id": 293,
     "level": "1a",
-    "category": "MN Remote Monitoring",
+    "category": "MN Statutes & Rules",
     "question": "Under MN rules, what is the ONLY function that may be performed remotely on an automatic boiler?",
     "options": [
       "Adjusting fuel/air ratio",
@@ -508,7 +508,7 @@ const QUESTIONS_1A = [
   {
     "id": 294,
     "level": "1a",
-    "category": "MN Attendance",
+    "category": "MN Statutes & Rules",
     "question": "Under MN Rule 5225, can a 51-500 HP plant operate unattended if it is shifted to low pressure operation with separate HP/LP controls that cannot operate simultaneously?",
     "options": [
       "No, any HP boiler must always be attended",
@@ -522,7 +522,7 @@ const QUESTIONS_1A = [
   {
     "id": 295,
     "level": "1a",
-    "category": "Advanced Piping",
+    "category": "Piping & Valves",
     "question": "What prohibits the use of 'furnace butt welded pipe' in steam and heating piping in Minnesota?",
     "options": [
       "ASME B31.1 Section 3",
@@ -536,7 +536,7 @@ const QUESTIONS_1A = [
   {
     "id": 296,
     "level": "1a",
-    "category": "Advanced Piping",
+    "category": "Piping & Valves",
     "question": "What is the approximate thermal expansion of steel pipe (inches per 100 feet per 100°F rise in temperature)?",
     "options": [
       "0.25 inches",
@@ -550,7 +550,7 @@ const QUESTIONS_1A = [
   {
     "id": 297,
     "level": "1a",
-    "category": "Advanced Piping",
+    "category": "Piping & Valves",
     "question": "What pipe material is NOT acceptable for steam piping?",
     "options": [
       "Carbon steel A106",
@@ -564,7 +564,7 @@ const QUESTIONS_1A = [
   {
     "id": 298,
     "level": "1a",
-    "category": "Advanced Piping",
+    "category": "Piping & Valves",
     "question": "What is the typical steam velocity limit in a saturated steam main?",
     "options": [
       "~100 ft/s",
@@ -578,7 +578,7 @@ const QUESTIONS_1A = [
   {
     "id": 299,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the purpose of a 'warm-up' procedure when bringing a boiler online to a common steam header?",
     "options": [
       "To test the safety valves before loading",
@@ -592,7 +592,7 @@ const QUESTIONS_1A = [
   {
     "id": 300,
     "level": "1a",
-    "category": "MN Inspection",
+    "category": "MN Statutes & Rules",
     "question": "How much notice must a boiler inspector give before conducting an inspection?",
     "options": [
       "No notice required",
@@ -606,7 +606,7 @@ const QUESTIONS_1A = [
   {
     "id": 301,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the 'safe working pressure' (SWP) formula for a cylindrical boiler shell?",
     "options": [
       "SWP = (T × t × E) / (R × FS), where T=tensile strength, t=thickness, E=joint efficiency, R=radius, FS=factor of safety",
@@ -620,7 +620,7 @@ const QUESTIONS_1A = [
   {
     "id": 302,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the factor of safety typically used for modern ASME Section I welded boiler construction?",
     "options": [
       "FS = 2.0",
@@ -634,7 +634,7 @@ const QUESTIONS_1A = [
   {
     "id": 303,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "How is safety valve force calculated?",
     "options": [
       "Force (lbs) = Pressure (psig) × Area of valve (sq in); Area = 0.7854 × d²",
@@ -648,7 +648,7 @@ const QUESTIONS_1A = [
   {
     "id": 304,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is 'scale' and what thickness of scale can increase fuel consumption by 10-15%?",
     "options": [
       "Any detectable scale deposit",
@@ -662,7 +662,7 @@ const QUESTIONS_1A = [
   {
     "id": 305,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "Three properties of water in a boiler system are used to describe water conditions. What are they?",
     "options": [
       "Color, clarity, and pH",
@@ -676,7 +676,7 @@ const QUESTIONS_1A = [
   {
     "id": 306,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the conversion: how many pounds does one gallon of water weigh?",
     "options": [
       "7.48 lbs",
@@ -690,7 +690,7 @@ const QUESTIONS_1A = [
   {
     "id": 307,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is a 'non-return valve' on a boiler steam outlet and when is it required?",
     "options": [
       "An automatic valve that closes when steam tries to flow backward from a common header into an individual boiler; required when multiple boilers share a common header",
@@ -704,7 +704,7 @@ const QUESTIONS_1A = [
   {
     "id": 308,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the 'boiler efficiency' formula?",
     "options": [
       "Efficiency = Steam output ÷ Fuel input",
@@ -718,7 +718,7 @@ const QUESTIONS_1A = [
   {
     "id": 309,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "For what type of boiler is a 'flow-sensing' (rather than float-type) LWCO required?",
     "options": [
       "Coil/flash-type steam generators with forced circulation, because no water level exists to measure with a float",
@@ -732,7 +732,7 @@ const QUESTIONS_1A = [
   {
     "id": 310,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What boiler type configuration is abbreviated 'D-type' or 'A-type' water-tube boiler?",
     "options": [
       "Fire-tube configurations",
@@ -746,7 +746,7 @@ const QUESTIONS_1A = [
   {
     "id": 311,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is a 'once-through' or forced-circulation water-tube boiler and what is unique about it?",
     "options": [
       "A boiler that heats water only once before discharging",
@@ -760,7 +760,7 @@ const QUESTIONS_1A = [
   {
     "id": 312,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "On a hot water heating system, what is the formula for BTU/hr output?",
     "options": [
       "BTU/hr = GPM × 8.33 × ΔT",
@@ -774,7 +774,7 @@ const QUESTIONS_1A = [
   {
     "id": 313,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the purpose of the 'expansion tank' in a hot water heating system?",
     "options": [
       "To store additional makeup water",
@@ -788,7 +788,7 @@ const QUESTIONS_1A = [
   {
     "id": 314,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the 'Ringell No. 1' on the Ringelmann Chart?",
     "options": [
       "Completely clear smoke (No. 0 is clear)",
@@ -802,7 +802,7 @@ const QUESTIONS_1A = [
   {
     "id": 315,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the purpose of secondary air in a hand-fired boiler?",
     "options": [
       "Provides primary oxygen for combustion",
@@ -816,7 +816,7 @@ const QUESTIONS_1A = [
   {
     "id": 316,
     "level": "1a",
-    "category": "MN Inspection",
+    "category": "MN Statutes & Rules",
     "question": "What is the inspection cycle for historical (antique/hobby) boilers in Minnesota?",
     "options": [
       "Every two years, alternating between ultrasonic exam and hydrostatic testing",
@@ -830,7 +830,7 @@ const QUESTIONS_1A = [
   {
     "id": 317,
     "level": "1a",
-    "category": "MN Inspection",
+    "category": "MN Statutes & Rules",
     "question": "What type of certificate is issued after a boiler passes inspection?",
     "options": [
       "National Board registration only",
@@ -844,7 +844,7 @@ const QUESTIONS_1A = [
   {
     "id": 318,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the minimum content of a boiler room logbook entry for a shift inspection?",
     "options": [
       "Just the date and operator's signature",
@@ -858,7 +858,7 @@ const QUESTIONS_1A = [
   {
     "id": 319,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is a 'commissioned inspector' in MN boiler law?",
     "options": [
       "Any licensed engineer who performs inspections",
@@ -872,7 +872,7 @@ const QUESTIONS_1A = [
   {
     "id": 320,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "How often should combustion analysis (flue gas O2, CO2, CO, and stack temperature) be performed?",
     "options": [
       "Daily during heating season",
@@ -886,7 +886,7 @@ const QUESTIONS_1A = [
   {
     "id": 321,
     "level": "1a",
-    "category": "Advanced Water Treatment",
+    "category": "Water Treatment",
     "question": "What does 'phosphate hideout' mean in high-pressure boiler chemistry?",
     "options": [
       "Phosphate stored in a separate chemical tank",
@@ -900,7 +900,7 @@ const QUESTIONS_1A = [
   {
     "id": 322,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the typical hot water boiler efficiency range per the source documents?",
     "options": [
       "85-92% (watertube style hot water boilers)",
@@ -914,7 +914,7 @@ const QUESTIONS_1A = [
   {
     "id": 323,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is a 'Straight Tube (Header Type)' water-tube boiler configuration?",
     "options": [
       "Water-tube boiler with bent tubes",
@@ -928,7 +928,7 @@ const QUESTIONS_1A = [
   {
     "id": 324,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the purpose of a 'pilot valve' in a burner system?",
     "options": [
       "Controls the main burner fuel flow rate",
@@ -942,7 +942,7 @@ const QUESTIONS_1A = [
   {
     "id": 325,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "When performing the evaporation test for LWCO verification, what must the operator observe?",
     "options": [
       "The gauge glass remains clear during the entire test",
@@ -956,7 +956,7 @@ const QUESTIONS_1A = [
   {
     "id": 326,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the minimum number of INDEPENDENT means of water level indication required on an ASME Section I power boiler?",
     "options": [
       "One gauge glass",
@@ -970,7 +970,7 @@ const QUESTIONS_1A = [
   {
     "id": 327,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the purpose of a 'deaeration' system and at what temperature is the minimum deaerator operation?",
     "options": [
       "Removes dissolved oxygen and CO2 from feedwater by heating to saturation temperature; minimum operating temperature at 5-15 psig is 225-250°F",
@@ -984,7 +984,7 @@ const QUESTIONS_1A = [
   {
     "id": 328,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "When inspecting a boiler annually, what does the annual LWCO 'teardown' involve?",
     "options": [
       "Opening and inspecting the float chamber, cleaning internal parts, checking for corrosion, scale, and proper float operation",
@@ -998,7 +998,7 @@ const QUESTIONS_1A = [
   {
     "id": 329,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What does 'pipe schedule' refer to (e.g., Schedule 40, Schedule 80)?",
     "options": [
       "The piping maintenance schedule",
@@ -1012,7 +1012,7 @@ const QUESTIONS_1A = [
   {
     "id": 330,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "In what situation is a 'Reduced Pressure Zone' (RPZ) backflow preventer required on a boiler makeup water line?",
     "options": [
       "On all boiler make-up water connections",
@@ -1026,7 +1026,7 @@ const QUESTIONS_1A = [
   {
     "id": 331,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What test method uses high-frequency sound waves to measure the remaining wall thickness of boiler tubes and shells without cutting?",
     "options": [
       "Magnetic particle testing (MT)",
@@ -1040,7 +1040,7 @@ const QUESTIONS_1A = [
   {
     "id": 332,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What NDT method is used to detect surface cracks in ferromagnetic materials like boiler steel?",
     "options": [
       "Liquid penetrant testing (PT)",
@@ -1054,7 +1054,7 @@ const QUESTIONS_1A = [
   {
     "id": 333,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the purpose of a 'reheater' safety valve being set at or below the reheater design pressure?",
     "options": [
       "To protect the steam drum from overpressure",
@@ -1068,7 +1068,7 @@ const QUESTIONS_1A = [
   {
     "id": 334,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the 'wet steam quality' or 'dryness fraction' (x) and what equations use it?",
     "options": [
       "The proportion of steam (by mass) that is vapor rather than liquid; used in: h_x = h_f + x·h_fg; v_x = v_f + x·v_fg",
@@ -1082,7 +1082,7 @@ const QUESTIONS_1A = [
   {
     "id": 335,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What happens to the total enthalpy (h_g) of saturated steam at 0 psig (atmospheric pressure)?",
     "options": [
       "h_g = 0 BTU/lb",
@@ -1096,7 +1096,7 @@ const QUESTIONS_1A = [
   {
     "id": 336,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the definition of 'total heat' (enthalpy) in steam properties?",
     "options": [
       "Sensible heat + Latent heat = Total heat stored in the steam",
@@ -1110,7 +1110,7 @@ const QUESTIONS_1A = [
   {
     "id": 337,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is 'heat recovery steam generation' (HRSG) in a combined-cycle power plant?",
     "options": [
       "A method to improve fire-tube boiler efficiency",
@@ -1124,7 +1124,7 @@ const QUESTIONS_1A = [
   {
     "id": 338,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the 'hot water system BTU/hr formula' shortcut and what does each element represent?",
     "options": [
       "BTU/hr = GPH × 8.33 × ΔT only for storage tanks",
@@ -1138,7 +1138,7 @@ const QUESTIONS_1A = [
   {
     "id": 339,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is 'iron in feedwater' an indicator of, and what is the target?",
     "options": [
       "High TDS — target below 1 ppm",
@@ -1152,7 +1152,7 @@ const QUESTIONS_1A = [
   {
     "id": 340,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is 'conductivity' measurement used for in boiler water chemistry?",
     "options": [
       "A quick indicator of dissolved solids concentration (TDS); high conductivity = high TDS",
@@ -1166,7 +1166,7 @@ const QUESTIONS_1A = [
   {
     "id": 341,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "At what frequency should a boiler's fireside and waterside surfaces be internally inspected?",
     "options": [
       "Every 5 years",
@@ -1180,7 +1180,7 @@ const QUESTIONS_1A = [
   {
     "id": 342,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What does 'bulging' or 'blistering' of boiler tubes indicate?",
     "options": [
       "Severe overheating of the tube metal, often caused by scale deposits blocking heat transfer or low water level",
@@ -1194,7 +1194,7 @@ const QUESTIONS_1A = [
   {
     "id": 343,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is 'refractory' and why does it need inspection?",
     "options": [
       "Heat-resistant material (firebrick, castable cement) lining the furnace; must be inspected for cracks, erosion, and deterioration",
@@ -1208,7 +1208,7 @@ const QUESTIONS_1A = [
   {
     "id": 344,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What safety consideration applies when a boiler overheats during low-water conditions?",
     "options": [
       "Add cold water immediately to restore level",
@@ -1222,7 +1222,7 @@ const QUESTIONS_1A = [
   {
     "id": 345,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the purpose of a 'burner management system' (BMS) in a large boiler installation?",
     "options": [
       "Manages the boiler maintenance schedule",
@@ -1236,7 +1236,7 @@ const QUESTIONS_1A = [
   {
     "id": 346,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the MN requirement for school district boiler training, and who can provide it?",
     "options": [
       "4 hours per year provided by anyone",
@@ -1250,7 +1250,7 @@ const QUESTIONS_1A = [
   {
     "id": 347,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What determines the maximum steam temperature achievable in a Rankine cycle system?",
     "options": [
       "The boiler pressure only",
@@ -1264,7 +1264,7 @@ const QUESTIONS_1A = [
   {
     "id": 348,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is a 'Kingsbury (tilting pad) thrust bearing' specifically designed to handle?",
     "options": [
       "High-speed radial loads only",
@@ -1278,7 +1278,7 @@ const QUESTIONS_1A = [
   {
     "id": 349,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the proper way to bring a second boiler online to a common steam header already under pressure?",
     "options": [
       "Open the main steam valve quickly to equalize pressure instantly",
@@ -1292,7 +1292,7 @@ const QUESTIONS_1A = [
   {
     "id": 350,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the minimum phosphate residual target in boiler water for scale control?",
     "options": [
       "20-50 ppm phosphate residual",
@@ -1306,7 +1306,7 @@ const QUESTIONS_1A = [
   {
     "id": 351,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "A boiler horsepower calculation: a steam coil generator has 750 sq ft of heating surface. What is its BHP rating?",
     "options": [
       "75 BHP",
@@ -1320,7 +1320,7 @@ const QUESTIONS_1A = [
   {
     "id": 352,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the 'primary air' vs. 'secondary air' function in a combustion system?",
     "options": [
       "Primary and secondary air are both for cooling — no combustion role",
@@ -1334,7 +1334,7 @@ const QUESTIONS_1A = [
   {
     "id": 353,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the significance of 'atomization' for fuel oil burners?",
     "options": [
       "Atomization removes sulfur from fuel oil",
@@ -1348,7 +1348,7 @@ const QUESTIONS_1A = [
   {
     "id": 354,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What effect does a plugged fuel oil nozzle have on combustion?",
     "options": [
       "Causes buildup of unburned fuel on the back wall of the furnace",
@@ -1362,7 +1362,7 @@ const QUESTIONS_1A = [
   {
     "id": 355,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the 'hot water heating BTU/hr = 500 × GPM × ΔT' formula used for in plant management?",
     "options": [
       "Calculating heat output of a hot water heating system for sizing and verification",
@@ -1376,7 +1376,7 @@ const QUESTIONS_1A = [
   {
     "id": 356,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What does '1 ton of refrigeration' equal in BTU/hr, and why might a boiler operator know this?",
     "options": [
       "12,000 BTU/hr — for comparing heating and cooling loads in combined HVAC/boiler plants",
@@ -1390,7 +1390,7 @@ const QUESTIONS_1A = [
   {
     "id": 357,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the 'longitudinal seam' vs. 'girth seam' in a fire-tube boiler shell, and which experiences more stress?",
     "options": [
       "Girth seam experiences more stress; longitudinal seam is stress-free",
@@ -1404,7 +1404,7 @@ const QUESTIONS_1A = [
   {
     "id": 358,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the purpose of inspecting the boiler's internal refractory for 'spalling'?",
     "options": [
       "Spalling (breaking/flaking) of refractory exposes the underlying structure to high-temperature combustion gases, causing overheating and structural damage",
@@ -1418,7 +1418,7 @@ const QUESTIONS_1A = [
   {
     "id": 359,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the 'acid dewpoint' in stack gas temperature management?",
     "options": [
       "The minimum stack temperature to prevent creosote formation",
@@ -1432,7 +1432,7 @@ const QUESTIONS_1A = [
   {
     "id": 360,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is required by ASME Section IX for any welding repair to a boiler?",
     "options": [
       "Only that the welder has 5 years of experience",
@@ -1446,7 +1446,7 @@ const QUESTIONS_1A = [
   {
     "id": 361,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is 'water hammer' in a steam system and what causes it?",
     "options": [
       "Vibration from water flowing through pumps",
@@ -1460,7 +1460,7 @@ const QUESTIONS_1A = [
   {
     "id": 362,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is a 'vacuum steam heating system' and what type of gauge is needed to read its pressure?",
     "options": [
       "A system that heats with superheated steam under vacuum",
@@ -1474,7 +1474,7 @@ const QUESTIONS_1A = [
   {
     "id": 363,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What are the daily inspection tasks recommended for a boiler plant logbook?",
     "options": [
       "Weekly checks are sufficient for most parameters",
@@ -1488,7 +1488,7 @@ const QUESTIONS_1A = [
   {
     "id": 364,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "Per MN Statute 326B, what is a 'boiler plant'?",
     "options": [
       "All boilers on a common header and their related appurtenances in a building or group of buildings under one management at one location",
@@ -1502,7 +1502,7 @@ const QUESTIONS_1A = [
   {
     "id": 365,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the 'heat rate' formula used in power plant efficiency comparisons?",
     "options": [
       "Heat rate = BHP ÷ Steam flow",
@@ -1516,7 +1516,7 @@ const QUESTIONS_1A = [
   {
     "id": 366,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What does 'Reverse Osmosis' (RO) do in external water treatment?",
     "options": [
       "Removes oxygen and CO2 from water",
@@ -1530,7 +1530,7 @@ const QUESTIONS_1A = [
   {
     "id": 367,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "How does natural circulation occur in a water-tube boiler without pumps?",
     "options": [
       "Pressure differential drives water downward only",
@@ -1544,7 +1544,7 @@ const QUESTIONS_1A = [
   {
     "id": 368,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the function of the 'mud drum' connection to the boiler blowdown system?",
     "options": [
       "Provides the highest blowdown point for surface skimming",
@@ -1558,7 +1558,7 @@ const QUESTIONS_1A = [
   {
     "id": 369,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "A plant has three boilers: 100 BHP, 150 BHP, and 200 BHP on a common header. Only the 200 BHP boiler is running. What is the plant HP for licensing purposes, and what is the minimum license grade required to be in charge?",
     "options": [
       "200 BHP — 2nd Class B license sufficient",
@@ -1572,7 +1572,7 @@ const QUESTIONS_1A = [
   {
     "id": 370,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is 'condensate return' and what are its benefits?",
     "options": [
       "Return of unused steam back to the boiler",
@@ -1586,7 +1586,7 @@ const QUESTIONS_1A = [
   {
     "id": 371,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What does it mean for a safety valve to have a 'Flameworking' or 'wrench adjusted' type seal, and why is this prohibited?",
     "options": [
       "External seals are acceptable on any safety valve",
@@ -1600,7 +1600,7 @@ const QUESTIONS_1A = [
   {
     "id": 372,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is 'body drain below seat level' requirement for safety valves?",
     "options": [
       "Drain for removing water from the valve bonnet during testing",
@@ -1614,7 +1614,7 @@ const QUESTIONS_1A = [
   {
     "id": 373,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "When a boiler inspector gives their assessment and issues a 'restricted operating order,' what does this mean?",
     "options": [
       "The boiler cannot be inspected for a restricted period",
@@ -1628,7 +1628,7 @@ const QUESTIONS_1A = [
   {
     "id": 374,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the difference between the 'operating control' and the 'high-limit control' on a steam boiler?",
     "options": [
       "Operating control: cycles the burner within the normal operating pressure range (cut-in and differential settings); High-limit: safety backup that shuts burner off if operating control fails, typically requires manual reset",
@@ -1642,7 +1642,7 @@ const QUESTIONS_1A = [
   {
     "id": 375,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the practical significance of 'superheated steam degree of superheat' for turbine operation?",
     "options": [
       "It has no effect on turbine performance",
@@ -1656,7 +1656,7 @@ const QUESTIONS_1A = [
   {
     "id": 376,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What are 'downcomers' in a water-tube boiler and how do they function in natural circulation?",
     "options": [
       "Heated tubes where water rises to the steam drum",
@@ -1670,7 +1670,7 @@ const QUESTIONS_1A = [
   {
     "id": 377,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is 'sensible heat' and give an example in a boiler water context.",
     "options": [
       "Heat that causes a phase change only",
@@ -1684,7 +1684,7 @@ const QUESTIONS_1A = [
   {
     "id": 378,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the MN rule for the maximum time a 51-500 HP plant can be left unattended?",
     "options": [
       "1 consecutive hour",
@@ -1698,7 +1698,7 @@ const QUESTIONS_1A = [
   {
     "id": 379,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is the 'steam quality' test performed at the ASME factory for safety relief valves on hot water boilers?",
     "options": [
       "The valve is tested on steam first, then hot water",
@@ -1712,7 +1712,7 @@ const QUESTIONS_1A = [
   {
     "id": 380,
     "level": "1a",
-    "category": "Plant Operations",
+    "category": "Operating Procedures",
     "question": "What is 'oil over-fire heating value per pound' comparison to coal?",
     "options": [
       "Coal has greater BTU/lb than oil",
@@ -1726,7 +1726,7 @@ const QUESTIONS_1A = [
   {
     "id": 601,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "In an IMPULSE turbine, where does steam pressure drop occur?",
     "options": [
       "Entirely in the fixed nozzles — moving blades extract velocity only, with no pressure drop",
@@ -1740,7 +1740,7 @@ const QUESTIONS_1A = [
   {
     "id": 602,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What type of turbine staging does a De Laval turbine represent?",
     "options": [
       "Single-stage impulse — one nozzle set and one wheel; very high rotational speed",
@@ -1754,7 +1754,7 @@ const QUESTIONS_1A = [
   {
     "id": 603,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What is the purpose of the labyrinth seal in a steam turbine?",
     "options": [
       "Minimizes steam leakage at shaft penetrations through the turbine casing without metallic contact",
@@ -1768,7 +1768,7 @@ const QUESTIONS_1A = [
   {
     "id": 604,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What is 'critical speed' in a turbine rotor and why must it be passed through quickly?",
     "options": [
       "The speed at which rotor natural frequency coincides with running speed — causes resonant vibration that can damage or destroy the rotor if sustained",
@@ -1782,7 +1782,7 @@ const QUESTIONS_1A = [
   {
     "id": 605,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What is 'governor droop' in a turbine speed control system?",
     "options": [
       "The intentional decrease in speed setpoint as load increases — allows parallel machines to share load proportionally",
@@ -1796,7 +1796,7 @@ const QUESTIONS_1A = [
   {
     "id": 606,
     "level": "1a",
-    "category": "Steam Engines",
+    "category": "Turbines & Engines",
     "question": "What is the function of valve gear timing in a reciprocating steam engine?",
     "options": [
       "Controls when steam is admitted, cut off, expanded, and exhausted from the cylinder relative to piston position",
@@ -1810,7 +1810,7 @@ const QUESTIONS_1A = [
   {
     "id": 607,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "The NBIC (National Board Inspection Code) consists of three parts. What does Part 1 cover?",
     "options": [
       "Installation of boilers, pressure vessels, and piping — requirements for new installations",
@@ -1824,7 +1824,7 @@ const QUESTIONS_1A = [
   {
     "id": 608,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What is 'water induction' in a steam turbine, and why is it so dangerous?",
     "options": [
       "Water carried with steam that enters the turbine — causes catastrophic blade damage because water is essentially incompressible at turbine conditions",
@@ -1838,7 +1838,7 @@ const QUESTIONS_1A = [
   {
     "id": 609,
     "level": "1a",
-    "category": "NBIC Code",
+    "category": "ASME & Codes",
     "question": "What does NBIC Part 3 govern?",
     "options": [
       "Repairs and alterations to boilers and pressure vessels — requires organizations to hold a current National Board 'R' Certificate of Authorization",
@@ -1852,7 +1852,7 @@ const QUESTIONS_1A = [
   {
     "id": 610,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "In a REACTION turbine, what is distinctive about how steam expands?",
     "options": [
       "Steam expands in BOTH the fixed nozzle blades and the moving blades — pressure drops across both rows continuously",
@@ -1894,7 +1894,7 @@ const QUESTIONS_1A = [
   {
     "id": 613,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What is 'extraction steam' in a regenerative feedwater heating system?",
     "options": [
       "Steam extracted from intermediate turbine stages (before final expansion) and used to pre-heat feedwater in closed feedwater heaters",
@@ -1908,7 +1908,7 @@ const QUESTIONS_1A = [
   {
     "id": 614,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "A CURTIS turbine is an example of what type of staging?",
     "options": [
       "Pressure-compounded impulse — multiple stages each with nozzles then blades",
@@ -1922,7 +1922,7 @@ const QUESTIONS_1A = [
   {
     "id": 615,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What is the purpose of the turning gear on a large steam turbine?",
     "options": [
       "Provides emergency speed control when the governor fails",
@@ -1936,7 +1936,7 @@ const QUESTIONS_1A = [
   {
     "id": 616,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What is the standard overspeed trip setting for a steam turbine?",
     "options": [
       "105% of rated speed",
@@ -1950,7 +1950,7 @@ const QUESTIONS_1A = [
   {
     "id": 617,
     "level": "1a",
-    "category": "NBIC Code",
+    "category": "ASME & Codes",
     "question": "What is the difference between a boiler REPAIR and an ALTERATION under the NBIC?",
     "options": [
       "Repairs require an R-stamp; alterations do not require any special certification",
@@ -1964,7 +1964,7 @@ const QUESTIONS_1A = [
   {
     "id": 618,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "Carbon ring seals are used in turbine shaft sealing. What is their primary characteristic?",
     "options": [
       "They create metallic contact that wears over time, requiring periodic replacement",
@@ -1978,7 +1978,7 @@ const QUESTIONS_1A = [
   {
     "id": 619,
     "level": "1a",
-    "category": "Steam Engines",
+    "category": "Turbines & Engines",
     "question": "What is a 'compound' steam engine compared to a 'simple' steam engine?",
     "options": [
       "A compound engine uses multiple fuels; a simple engine uses one fuel only",
@@ -2006,7 +2006,7 @@ const QUESTIONS_1A = [
   {
     "id": 621,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What type of bearing handles RADIAL (side) loads on a turbine shaft?",
     "options": [
       "Thrust bearing — designed for axial and radial combined loads",
@@ -2020,7 +2020,7 @@ const QUESTIONS_1A = [
   {
     "id": 622,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "A Rateau turbine uses what type of staging?",
     "options": [
       "Velocity-compounded impulse — multiple moving blade rows per stage",
@@ -2034,7 +2034,7 @@ const QUESTIONS_1A = [
   {
     "id": 623,
     "level": "1a",
-    "category": "NBIC Code",
+    "category": "ASME & Codes",
     "question": "NBIC Part 2 governs in-service inspection. What is the primary purpose of in-service inspections?",
     "options": [
       "Verifying that the boiler was originally built to ASME Code specifications",
@@ -2048,7 +2048,7 @@ const QUESTIONS_1A = [
   {
     "id": 624,
     "level": "1a",
-    "category": "Steam Engines",
+    "category": "Turbines & Engines",
     "question": "A triple-expansion steam engine has THREE cylinders. What is the correct order of steam flow?",
     "options": [
       "Low pressure → Intermediate pressure → High pressure (ascending order)",
@@ -2062,7 +2062,7 @@ const QUESTIONS_1A = [
   {
     "id": 625,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What does a hydraulic governor use to sense and control turbine speed?",
     "options": [
       "Flyball centrifugal weights directly connected to valve linkages",
@@ -2090,7 +2090,7 @@ const QUESTIONS_1A = [
   {
     "id": 627,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "At what percentage of rated speed does the overspeed trip device on a steam turbine activate?",
     "options": [
       "105% of rated speed",
@@ -2104,7 +2104,7 @@ const QUESTIONS_1A = [
   {
     "id": 628,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "A turbine vibration monitoring system detects abnormal vibration. What are the most common causes of excessive turbine vibration?",
     "options": [
       "Excessive steam flow and high load — normal at full capacity",
@@ -2118,7 +2118,7 @@ const QUESTIONS_1A = [
   {
     "id": 629,
     "level": "1a",
-    "category": "Steam Engines",
+    "category": "Turbines & Engines",
     "question": "Compared to a simple steam engine, a compound engine achieves higher efficiency primarily because of what thermodynamic principle?",
     "options": [
       "Higher steam pressure allows more work per pound of steam",
@@ -2132,7 +2132,7 @@ const QUESTIONS_1A = [
   {
     "id": 630,
     "level": "1a",
-    "category": "NBIC Code",
+    "category": "ASME & Codes",
     "question": "When a boiler repair requires welding on a pressure boundary, what minimum qualification must the welder hold?",
     "options": [
       "A state contractor's welding license",
@@ -2160,7 +2160,7 @@ const QUESTIONS_1A = [
   {
     "id": 632,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What is 'regenerative feedwater heating' in a steam power plant cycle?",
     "options": [
       "Using exhaust heat from diesel engines to supplement boiler heating",
@@ -2174,7 +2174,7 @@ const QUESTIONS_1A = [
   {
     "id": 633,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What does a mechanical (flyball) governor use to sense turbine speed?",
     "options": [
       "An oil pressure sensor connected to the steam valve",
@@ -2188,7 +2188,7 @@ const QUESTIONS_1A = [
   {
     "id": 634,
     "level": "1a",
-    "category": "NBIC Code",
+    "category": "ASME & Codes",
     "question": "When must a hydrostatic test be performed on a repaired boiler per NBIC Part 3?",
     "options": [
       "After every repair regardless of scope",
@@ -2202,7 +2202,7 @@ const QUESTIONS_1A = [
   {
     "id": 635,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What is the primary difference between journal bearings and Kingsbury (tilting pad) thrust bearings?",
     "options": [
       "Journal bearings handle thrust loads; Kingsbury bearings handle radial loads",
@@ -2230,7 +2230,7 @@ const QUESTIONS_1A = [
   {
     "id": 637,
     "level": "1a",
-    "category": "Steam Engines",
+    "category": "Turbines & Engines",
     "question": "What is the Rankine cycle efficiency limitation that a Carnot cycle helps illustrate?",
     "options": [
       "The Rankine cycle is not limited — it achieves 100% efficiency with no waste heat",
@@ -2244,7 +2244,7 @@ const QUESTIONS_1A = [
   {
     "id": 638,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What is the primary way steam turbine blades are arranged differently in impulse versus reaction designs to accommodate their operating principles?",
     "options": [
       "Impulse blades are curved symmetrically; reaction blades are curved asymmetrically with an airfoil profile",
@@ -2258,7 +2258,7 @@ const QUESTIONS_1A = [
   {
     "id": 639,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "Governor droop is set at 4% on a turbine rated at 3,600 RPM. If the turbine is running at no-load, at what speed does it run? At full load?",
     "options": [
       "No-load: 3,456 RPM; Full-load: 3,600 RPM",
@@ -2272,7 +2272,7 @@ const QUESTIONS_1A = [
   {
     "id": 640,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What NDE method is BEST suited for detecting SURFACE cracks in turbine blades and shafts?",
     "options": [
       "Radiographic Testing (RT) — uses X-rays to penetrate through the blade",
@@ -2286,7 +2286,7 @@ const QUESTIONS_1A = [
   {
     "id": 641,
     "level": "1a",
-    "category": "NBIC Code",
+    "category": "ASME & Codes",
     "question": "The ASME 'R' stamp authorizes what activity?",
     "options": [
       "Manufacturing new boilers to ASME Section I",
@@ -2300,7 +2300,7 @@ const QUESTIONS_1A = [
   {
     "id": 642,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "Ultrasonic Testing (UT) is used to detect what type of defects in boiler components?",
     "options": [
       "Surface cracks only — UT cannot detect internal flaws",
@@ -2328,7 +2328,7 @@ const QUESTIONS_1A = [
   {
     "id": 644,
     "level": "1a",
-    "category": "Steam Engines",
+    "category": "Turbines & Engines",
     "question": "What type of NDE method uses X-rays or gamma rays to image internal structure through the material?",
     "options": [
       "Magnetic Particle Testing (MT)",
@@ -2342,7 +2342,7 @@ const QUESTIONS_1A = [
   {
     "id": 645,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "What is the purpose of the thrust bearing's position in detecting potential turbine problems?",
     "options": [
       "The thrust bearing position is monitored for lubrication oil temperature only",
@@ -2356,7 +2356,7 @@ const QUESTIONS_1A = [
   {
     "id": 646,
     "level": "1a",
-    "category": "Steam Engines",
+    "category": "Turbines & Engines",
     "question": "What is the mechanical horsepower equivalent in watts and in BTU/hr?",
     "options": [
       "1 HP = 550 watts = 1,000 BTU/hr",
@@ -2370,7 +2370,7 @@ const QUESTIONS_1A = [
   {
     "id": 647,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "In a regenerative feedwater heating system, what is the advantage of an OPEN feedwater heater compared to a CLOSED feedwater heater?",
     "options": [
       "Closed heaters are simpler and less expensive than open heaters",
@@ -2384,7 +2384,7 @@ const QUESTIONS_1A = [
   {
     "id": 648,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "The ASME 'S' stamp authorizes what type of manufacturing?",
     "options": [
       "Safety valve manufacturing and testing",
@@ -2412,7 +2412,7 @@ const QUESTIONS_1A = [
   {
     "id": 650,
     "level": "1a",
-    "category": "Steam Turbines",
+    "category": "Turbines & Engines",
     "question": "In Magnetic Particle Testing (MT), what materials can be inspected?",
     "options": [
       "All metals including aluminum, copper, and stainless steel",
@@ -2422,112 +2422,1463 @@ const QUESTIONS_1A = [
     ],
     "correct": 3,
     "explanation": "MAGNETIC PARTICLE TESTING (MT) can ONLY be used on FERROMAGNETIC MATERIALS — materials that can be magnetized — primarily iron, carbon steel, low-alloy steel, and some nickel/cobalt alloys. MT cannot be used on non-ferrous metals (aluminum, copper, austenitic stainless steel, titanium). For non-ferrous or non-magnetic materials, LIQUID PENETRANT TESTING (PT) is used instead. Most boiler pressure parts are carbon or low-alloy steel and are suitable for MT."
+  },
+  {
+    "id": 3001,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "The Zeroth Law of Thermodynamics establishes what fundamental concept?",
+    "options": [
+      "Energy conservation",
+      "If two systems are each in thermal equilibrium with a third, they are in thermal equilibrium with each other — the basis for temperature measurement",
+      "Heat always flows from hot to cold",
+      "Entropy always increases"
+    ],
+    "correct": 1,
+    "explanation": "The Zeroth Law establishes thermal equilibrium transitivity — the basis for using thermometers. If body A is in thermal equilibrium with body C (thermometer), and body B is also in equilibrium with C, then A and B are at the same temperature."
+  },
+  {
+    "id": 3002,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is extraction steam in a turbine system?",
+    "options": [
+      "Steam removed from the boiler before it reaches the turbine",
+      "Steam drawn from an intermediate stage of the turbine for feedwater heating or process use",
+      "Steam extracted from the condenser",
+      "Exhaust steam from the last turbine stage"
+    ],
+    "correct": 1,
+    "explanation": "Extraction steam is removed from intermediate turbine stages (before full expansion) at various pressures for feedwater heating (regenerative cycle) or process use. This improves overall cycle efficiency by preheating feedwater and reducing condenser heat rejection."
+  },
+  {
+    "id": 3003,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "Calculate the safe working pressure (SWP) for a boiler shell: tensile strength 60,000 psi, thickness 0.5 inches, efficiency 70%, radius 24 inches.",
+    "options": [
+      "875 psig",
+      "625 psig",
+      "500 psig",
+      "1,250 psig"
+    ],
+    "correct": 0,
+    "explanation": "SWP = (TS × t × E) ÷ R = (60,000 × 0.5 × 0.70) ÷ 24 = 21,000 ÷ 24 = 875 psig. This formula (from ASME Section I) determines the maximum allowable working pressure based on material strength, thickness, joint efficiency, and vessel radius."
+  },
+  {
+    "id": 3004,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What causes air leakage into a condenser operating under vacuum?",
+    "options": [
+      "The condenser is too cold",
+      "Air leaks in through any opening, valve packing, gasket, or fitting that is below atmospheric pressure — vacuum pulls air in",
+      "The cooling water contains too much air",
+      "The turbine pushes air into the condenser"
+    ],
+    "correct": 1,
+    "explanation": "Since the condenser operates under vacuum (below atmospheric pressure), any leak allows air to be pulled IN rather than steam leaking OUT. Sources include valve stem packing, flange gaskets, gauge connections, and turbine shaft seals. Air reduces vacuum and impairs heat transfer."
+  },
+  {
+    "id": 3005,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is a compound steam engine?",
+    "options": [
+      "An engine that runs on two types of fuel",
+      "An engine with two or more cylinders where steam expands in stages — HP cylinder first, then LP cylinder, extracting more work from the steam",
+      "An engine connected to two generators",
+      "An engine made of composite materials"
+    ],
+    "correct": 1,
+    "explanation": "A compound engine uses two cylinders: steam first expands in a smaller HP (high-pressure) cylinder, then exhausts to a larger LP (low-pressure) cylinder for further expansion. This extracts more work from the steam than a single expansion and reduces thermal stress on individual cylinders."
+  },
+  {
+    "id": 3006,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What is ASME Section IX primarily used for in boiler work?",
+    "options": [
+      "Boiler installation requirements",
+      "Qualification of welding procedures (WPS/PQR) and welder performance qualifications",
+      "Pressure vessel design calculations",
+      "Safety valve testing standards"
+    ],
+    "correct": 1,
+    "explanation": "Section IX establishes requirements for qualifying Welding Procedure Specifications (WPS) through Procedure Qualification Records (PQR), and for qualifying individual welders through performance tests. All pressure-boundary welding on code boilers must comply with Section IX."
+  },
+  {
+    "id": 3007,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "What is entropy in thermodynamics?",
+    "options": [
+      "The total energy in a system",
+      "A measure of disorder or unavailable energy in a system — it always increases in natural processes per the Second Law",
+      "The temperature of a system",
+      "The pressure of a system"
+    ],
+    "correct": 1,
+    "explanation": "Entropy is a measure of disorder or unavailable energy. The Second Law states that entropy of an isolated system always increases — energy conversions always involve some energy becoming unavailable for work. In a steam cycle, entropy increases through friction, heat transfer across temperature differences, and mixing."
+  },
+  {
+    "id": 3008,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is a back-pressure turbine?",
+    "options": [
+      "A turbine that operates in reverse",
+      "A non-condensing turbine that exhausts steam at a pressure above atmospheric for use in process heating",
+      "A turbine with excessive back pressure causing inefficiency",
+      "A turbine that generates pressure rather than consuming it"
+    ],
+    "correct": 1,
+    "explanation": "A back-pressure turbine exhausts steam at a higher pressure (above atmospheric) for use in process heating, rather than condensing it to vacuum. It generates power while providing process steam — a cogeneration arrangement. Less power is generated per pound of steam compared to a condensing turbine."
+  },
+  {
+    "id": 3009,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "A boiler produces 20,000 lb/hr of steam from feedwater at 220°F. Steam conditions are 150 psig saturated (total heat 1,196 BTU/lb). Feedwater enthalpy is 188 BTU/lb. What is the heat input to the steam?",
+    "options": [
+      "20,160,000 BTU/hr",
+      "10,080,000 BTU/hr",
+      "23,920,000 BTU/hr",
+      "15,120,000 BTU/hr"
+    ],
+    "correct": 0,
+    "explanation": "Heat input = Steam flow × (Steam enthalpy - Feedwater enthalpy) = 20,000 × (1,196 - 188) = 20,000 × 1,008 = 20,160,000 BTU/hr. This is the useful heat absorbed by the steam."
+  },
+  {
+    "id": 3010,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is condenser vacuum typically expressed in, and what is a normal range?",
+    "options": [
+      "psig — typically 5-10 psig",
+      "Inches of mercury (in. Hg) — typically 28-29 in. Hg vacuum",
+      "Inches of water gauge — typically 100-200 in. w.g.",
+      "Atmospheres — typically 0.5-1.0 atm"
+    ],
+    "correct": 1,
+    "explanation": "Condenser vacuum is expressed in inches of mercury (in. Hg). Normal operating vacuum is 28-29 in. Hg (approximately 1-2 psia). Higher vacuum = lower exhaust pressure = more work extracted from steam = higher turbine efficiency. A perfect vacuum would be 29.92 in. Hg."
+  },
+  {
+    "id": 3011,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the valve gear on a steam engine?",
+    "options": [
+      "The gears that drive the engine's output shaft",
+      "The mechanism that controls the timing of steam admission and exhaust to/from the cylinder",
+      "The governor mechanism only",
+      "The lubrication system for the valves"
+    ],
+    "correct": 1,
+    "explanation": "Valve gear is the mechanism that controls when steam enters (admission) and leaves (exhaust) the engine cylinder, and how much of the stroke receives steam (cutoff). Types include Stephenson link, Walschaerts, Corliss, and piston valve gear. Adjusting cutoff controls power output and efficiency."
+  },
+  {
+    "id": 3012,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What is a Welding Procedure Specification (WPS)?",
+    "options": [
+      "A document listing all welders employed at a facility",
+      "A detailed written document that provides direction to the welder — specifying joint design, base metal, filler metal, preheat, technique, and other variables",
+      "A purchase order for welding supplies",
+      "A safety data sheet for welding materials"
+    ],
+    "correct": 1,
+    "explanation": "A WPS is a written qualified welding procedure that provides specific instructions to the welder: joint design, base metal type, filler metal, preheat and interpass temperatures, welding position, technique, shielding gas, electrical parameters, and post-weld heat treatment. Each WPS must be backed by a PQR."
+  },
+  {
+    "id": 3013,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "In the Rankine cycle, what are the four main processes?",
+    "options": [
+      "Heating, cooling, compression, expansion",
+      "Pumping (compression), boiling (heat addition), expansion (turbine work), condensation (heat rejection)",
+      "Ignition, combustion, exhaust, intake",
+      "Melting, freezing, evaporation, sublimation"
+    ],
+    "correct": 1,
+    "explanation": "The four Rankine cycle processes: (1) Pumping — compressed liquid from condenser pressure to boiler pressure; (2) Boiling — heat added in the boiler (constant pressure); (3) Expansion — steam expands through the turbine doing work; (4) Condensation — heat rejected in the condenser (constant pressure)."
+  },
+  {
+    "id": 3014,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is blade erosion in a turbine and what causes it?",
+    "options": [
+      "Chemical corrosion of blades from boiler water chemicals",
+      "Physical wearing away of blade edges caused by moisture (water droplets) in the steam impacting the blades at high velocity",
+      "Erosion caused by foreign objects entering the turbine",
+      "Blade material dissolving in superheated steam"
+    ],
+    "correct": 1,
+    "explanation": "Blade erosion occurs when water droplets in wet steam impact the moving blades at high velocity (up to 1,000+ ft/sec at blade tips). The repeated impacts physically erode the blade edges, particularly in the last stages of LP turbines where moisture content is highest. Superheating and moisture separators reduce this."
+  },
+  {
+    "id": 3015,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "What is boiler efficiency and how is it calculated using the input-output method?",
+    "options": [
+      "Efficiency = fuel cost ÷ steam revenue",
+      "Efficiency = (heat output in steam ÷ heat input from fuel) × 100%",
+      "Efficiency = steam pressure ÷ fuel pressure × 100%",
+      "Efficiency = water flow rate ÷ fuel flow rate × 100%"
+    ],
+    "correct": 1,
+    "explanation": "Boiler efficiency (input-output method) = (Heat absorbed by steam ÷ Heat input from fuel) × 100%. Heat absorbed = steam flow × (steam enthalpy - feedwater enthalpy). Heat input = fuel flow × heating value. Typical modern boiler efficiency: 80-85% for standard, 90%+ with economizer."
+  },
+  {
+    "id": 3016,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is a deaerating condenser?",
+    "options": [
+      "A condenser that removes air from the cooling water",
+      "A condenser designed to remove dissolved gases from condensate while condensing turbine exhaust steam",
+      "A condenser used only during startup",
+      "A condenser without vacuum pumps"
+    ],
+    "correct": 1,
+    "explanation": "A deaerating condenser combines condensing and deaeration functions. It is designed to heat condensate to saturation temperature while condensing exhaust steam, releasing dissolved oxygen and CO2 through vents. This reduces or eliminates the need for a separate deaerator."
+  },
+  {
+    "id": 3017,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is 'cutoff' in a steam engine?",
+    "options": [
+      "Shutting off the engine completely",
+      "The point in the piston stroke where steam admission is stopped, and the steam begins expanding — earlier cutoff means more expansion and higher efficiency",
+      "The point where the engine exceeds safe speed",
+      "The point where lubrication fails"
+    ],
+    "correct": 1,
+    "explanation": "Cutoff is the point in the stroke where the admission valve closes. After cutoff, steam already in the cylinder expands (doing work) without additional steam. Earlier cutoff (e.g., 25% vs 50%) means more expansion, higher efficiency, but less power per stroke. Cutoff is adjusted by the governor or valve gear."
+  },
+  {
+    "id": 3018,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What NDE method uses a liquid that penetrates surface-breaking cracks and is drawn out by a developer?",
+    "options": [
+      "Ultrasonic Testing (UT)",
+      "Radiographic Testing (RT)",
+      "Liquid Penetrant Testing (PT)",
+      "Magnetic Particle Testing (MT)"
+    ],
+    "correct": 2,
+    "explanation": "Liquid Penetrant Testing (PT) applies a colored or fluorescent liquid to the surface. The liquid penetrates into surface-breaking cracks by capillary action. After cleaning the surface, a developer draws the penetrant back out, making the crack visible. PT works on ALL materials (unlike MT which requires ferromagnetic material)."
+  },
+  {
+    "id": 3019,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "What is the Third Law of Thermodynamics?",
+    "options": [
+      "Energy is always conserved",
+      "Heat flows from hot to cold",
+      "As temperature approaches absolute zero, entropy approaches a minimum (zero for a perfect crystal)",
+      "Pressure and volume are inversely proportional"
+    ],
+    "correct": 2,
+    "explanation": "The Third Law states that as temperature approaches absolute zero (0 K or -459.67°F), the entropy of a perfect crystal approaches zero. This establishes an absolute reference point for entropy. In practice, it means absolute zero can never be fully reached."
+  },
+  {
+    "id": 3020,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the purpose of a turning gear (barring gear) on a turbine?",
+    "options": [
+      "To turn the turbine to generate power during startup",
+      "To slowly rotate the turbine rotor during shutdown cooling to prevent thermal bowing from uneven cooling",
+      "To test the governor mechanism",
+      "To turn the generator for maintenance access"
+    ],
+    "correct": 1,
+    "explanation": "The turning gear slowly rotates the rotor (typically 2-5 RPM) during shutdown cooling to prevent thermal bowing. If a hot rotor stops rotating, the top heats more than the bottom, causing a bow. A bowed rotor vibrates excessively on restart. Turning gear runs until the rotor is uniformly cooled."
+  },
+  {
+    "id": 3021,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "What is the factor of evaporation?",
+    "options": [
+      "The ratio of actual evaporation to rated capacity",
+      "The ratio of heat required to produce 1 lb of steam at actual conditions to the heat required from and at 212°F (970.3 BTU/lb)",
+      "The percentage of water that evaporates during blowdown",
+      "The ratio of steam drum volume to water volume"
+    ],
+    "correct": 1,
+    "explanation": "Factor of evaporation = (Total heat of steam - Heat of feedwater) ÷ 970.3. Example: Steam at 150 psig (1,196 BTU/lb) from feedwater at 220°F (188 BTU/lb): FE = (1,196-188)/970.3 = 1.039. This converts actual evaporation to equivalent evaporation 'from and at 212°F'."
+  },
+  {
+    "id": 3022,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is a reheat cycle in a steam power plant?",
+    "options": [
+      "Reheating the condenser cooling water",
+      "After partial expansion in the HP turbine, steam returns to the boiler reheater to be reheated, then expands through the LP turbine — improving efficiency and reducing moisture",
+      "Heating the boiler room with exhaust steam",
+      "Preheating fuel before combustion"
+    ],
+    "correct": 1,
+    "explanation": "In a reheat cycle, steam partially expands in the HP turbine, returns to the boiler's reheater section to be reheated to near-original temperature, then expands through the IP/LP turbine. Benefits: increased thermal efficiency, reduced moisture in LP turbine stages, and more work per pound of steam."
+  },
+  {
+    "id": 3023,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is a cooling tower and how does it reject heat?",
+    "options": [
+      "A tower that cools the boiler room with fans",
+      "A structure that cools condenser cooling water by evaporating a portion of it — the evaporation absorbs heat from the remaining water",
+      "A tower that stores cold water for emergency use",
+      "A chimney that vents hot air from the condenser"
+    ],
+    "correct": 1,
+    "explanation": "A cooling tower rejects condenser heat to the atmosphere by evaporating a small percentage (typically 1-2%) of the circulating cooling water. The latent heat of evaporation cools the remaining water. Types: natural draft (hyperbolic), forced draft, and induced draft."
+  },
+  {
+    "id": 3024,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is a triple-expansion steam engine?",
+    "options": [
+      "An engine that runs three times faster than a compound engine",
+      "An engine with three cylinders of increasing size — HP, IP, and LP — where steam expands in three successive stages",
+      "An engine with three separate fuel systems",
+      "An engine that generates three types of power"
+    ],
+    "correct": 1,
+    "explanation": "A triple-expansion engine has three cylinders: HP (smallest), IP (intermediate), and LP (largest). Steam expands through all three in sequence, extracting maximum work from the steam. Each cylinder is larger to accommodate the increasing volume of expanding steam. Used in marine and large stationary applications."
+  },
+  {
+    "id": 3025,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What is a Procedure Qualification Record (PQR)?",
+    "options": [
+      "A record of all welders who have worked at a facility",
+      "The record of the actual welding variables used and test results from a test weld specimen that qualifies a WPS",
+      "A purchase order for welding materials",
+      "An inspection report from an authorized inspector"
+    ],
+    "correct": 1,
+    "explanation": "A PQR documents the actual welding variables used and the results (mechanical tests: tensile, bend, impact) of a test weld coupon that supports (qualifies) a Welding Procedure Specification. Each WPS must be backed by at least one PQR demonstrating the procedure produces acceptable results."
+  },
+  {
+    "id": 3026,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "Calculate the force on a safety valve disc: set pressure 200 psig, disc area 4 square inches.",
+    "options": [
+      "50 lbs",
+      "200 lbs",
+      "800 lbs",
+      "400 lbs"
+    ],
+    "correct": 2,
+    "explanation": "Force = Pressure × Area = 200 psig × 4 sq in = 800 lbs. The spring must exert 800 lbs to keep the valve closed at 200 psig. When boiler pressure reaches 200 psig, the upward force equals the spring force and the valve begins to open."
+  },
+  {
+    "id": 3027,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the purpose of a turbine trip-and-throttle valve (stop valve)?",
+    "options": [
+      "To control the normal operating speed of the turbine",
+      "To provide emergency shutdown capability by rapidly closing to stop all steam flow to the turbine",
+      "To throttle cooling water to the condenser",
+      "To control extraction steam flow"
+    ],
+    "correct": 1,
+    "explanation": "The trip-and-throttle valve (also called the main stop valve or emergency stop valve) provides emergency shutdown by rapidly closing to stop all steam flow to the turbine. It is tripped by the overspeed device, low oil pressure, high vibration, or manual emergency trip. It also serves as the main steam shutoff."
+  },
+  {
+    "id": 3028,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is an air ejector on a condenser?",
+    "options": [
+      "A fan that blows air into the condenser for cooling",
+      "A steam-powered device that removes non-condensable gases (air) from the condenser to maintain vacuum",
+      "An emergency air supply for the boiler room",
+      "A device that injects air into cooling water"
+    ],
+    "correct": 1,
+    "explanation": "A steam air ejector uses high-velocity steam (Venturi effect) to entrain and remove non-condensable gases (air, CO2) from the condenser. Removing these gases is essential for maintaining condenser vacuum. Mechanical vacuum pumps serve the same function in some installations."
+  },
+  {
+    "id": 3029,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "What is enthalpy?",
+    "options": [
+      "The pressure of a gas at constant volume",
+      "The total heat content of a substance — the sum of internal energy plus pressure-volume work (H = U + PV)",
+      "The temperature at which a substance changes state",
+      "The density of steam at a given pressure"
+    ],
+    "correct": 1,
+    "explanation": "Enthalpy (H) is the total heat content of a substance: H = U + PV (internal energy + pressure-volume work). In steam tables, enthalpy values for water and steam at various pressures allow engineers to calculate heat added, work done, and efficiency of the steam cycle."
+  },
+  {
+    "id": 3030,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is a Corliss valve gear?",
+    "options": [
+      "A gear system for marine propulsion",
+      "A valve gear using four separate rotary valves (two steam, two exhaust) for precise and efficient control of steam admission and exhaust",
+      "A governor mechanism for small engines",
+      "A safety device on locomotive engines"
+    ],
+    "correct": 1,
+    "explanation": "Corliss valve gear uses four separate rotary valves: two for steam admission and two for exhaust, each at the corners of the cylinder. The Corliss design provides very sharp cutoff (fast valve closing), reducing wire-drawing losses and improving efficiency. The steam valves are tripped by the governor for variable cutoff."
+  },
+  {
+    "id": 3031,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "NBIC Part 2 covers what subject?",
+    "options": [
+      "New boiler construction",
+      "Boiler operator training requirements",
+      "Repair and alteration procedures",
+      "Boiler and pressure vessel inspection requirements and procedures"
+    ],
+    "correct": 3,
+    "explanation": "NBIC Part 2 covers INSPECTION of boilers and pressure vessels — the requirements, procedures, and guidelines for in-service inspection. It addresses inspection intervals, preparation, internal/external examination, condition assessment, and documentation requirements."
+  },
+  {
+    "id": 3032,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "A 150 HP boiler operates at 80% efficiency. What is the fuel input required in BTU/hr?",
+    "options": [
+      "4,021,500 BTU/hr",
+      "5,021,850 BTU/hr",
+      "6,277,313 BTU/hr",
+      "8,369,750 BTU/hr"
+    ],
+    "correct": 2,
+    "explanation": "Steam output = 150 BHP × 33,479 BTU/hr/BHP = 5,021,850 BTU/hr. Fuel input = Output ÷ Efficiency = 5,021,850 ÷ 0.80 = 6,277,313 BTU/hr."
+  },
+  {
+    "id": 3033,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is a diaphragm in an impulse turbine?",
+    "options": [
+      "A flexible membrane that absorbs vibration",
+      "A safety device that ruptures at overpressure",
+      "A seal between the turbine and generator",
+      "A stationary partition between stages that contains the nozzles through which steam expands and accelerates before hitting the moving blades"
+    ],
+    "correct": 3,
+    "explanation": "In an impulse turbine, diaphragms are stationary partitions between stages. Each diaphragm contains a ring of nozzles through which steam expands and accelerates. The high-velocity steam then strikes the moving blades on the rotor. Diaphragm seals minimize steam leakage between stages."
+  },
+  {
+    "id": 3034,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is the effect of condenser tube fouling on plant efficiency?",
+    "options": [
+      "No effect on efficiency",
+      "Fouling increases heat transfer and improves efficiency",
+      "Fouling reduces heat transfer, raises condenser pressure (reduces vacuum), and decreases turbine output and plant efficiency",
+      "Fouling only affects water quality, not efficiency"
+    ],
+    "correct": 2,
+    "explanation": "Fouling (scale, biological growth, sediment) on condenser tubes reduces heat transfer. This raises condenser temperature and pressure, reducing condenser vacuum. Higher back pressure means less work extracted from steam in the turbine. Even a 1 in. Hg loss in vacuum significantly reduces turbine efficiency."
+  },
+  {
+    "id": 3035,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is mean effective pressure (MEP) in a steam engine?",
+    "options": [
+      "The average steam supply pressure",
+      "The pressure in the exhaust pipe",
+      "The pressure setting on the governor",
+      "The average net pressure acting on the piston over the entire stroke — used to calculate indicated horsepower"
+    ],
+    "correct": 3,
+    "explanation": "MEP is the average net pressure on the piston over the entire stroke, derived from an indicator diagram. IHP = (MEP × L × A × N) ÷ 33,000, where L=stroke length(ft), A=piston area(sq in), N=power strokes/min. MEP accounts for varying pressures during admission, expansion, and exhaust."
+  },
+  {
+    "id": 3036,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What distinguishes NBIC Part 3 from other NBIC parts?",
+    "options": [
+      "Part 3 covers new construction only",
+      "Part 3 covers fuel system design",
+      "Part 3 covers operator licensing",
+      "Part 3 covers repairs and alterations of boilers and pressure vessels — the procedures required for welded repairs, re-rating, and modifications"
+    ],
+    "correct": 3,
+    "explanation": "NBIC Part 3 covers REPAIRS AND ALTERATIONS — the procedures, documentation, and quality requirements for welded repairs, re-rating, and structural modifications to boilers and pressure vessels. All repairs must be performed by R-stamp holders following NBIC Part 3 procedures with Authorized Inspector involvement."
+  },
+  {
+    "id": 3037,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "What is the Mollier diagram (h-s diagram) used for?",
+    "options": [
+      "Plotting boiler water chemistry",
+      "Mapping boiler room ventilation",
+      "Plotting fuel flow vs. air flow",
+      "Graphically representing the relationship between enthalpy (h) and entropy (s) of steam — used to analyze turbine expansion, moisture content, and cycle efficiency"
+    ],
+    "correct": 3,
+    "explanation": "The Mollier diagram plots enthalpy (h) on the Y-axis vs. entropy (s) on the X-axis. It shows constant pressure lines, temperature lines, moisture lines, and superheat regions. Engineers use it to analyze turbine expansion (follows constant entropy for ideal expansion), determine moisture content, and calculate work output."
+  },
+  {
+    "id": 3038,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is a labyrinth seal clearance and why is it critical?",
+    "options": [
+      "It is not important — clearances can be any size",
+      "The gap between turbine blades and diaphragms",
+      "The distance between the turbine and the generator",
+      "The small gap between labyrinth seal fins and the shaft/casing that must be precisely maintained to minimize steam leakage without contact"
+    ],
+    "correct": 3,
+    "explanation": "Labyrinth seal clearance is the radial gap between the seal fins and the rotating shaft. Too tight = risk of rubbing contact causing heat and damage. Too large = excessive steam leakage reducing efficiency. Typical clearances are a few thousandths of an inch. Clearances are checked during maintenance outages."
+  },
+  {
+    "id": 3039,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "Convert 500°F to Rankine scale.",
+    "options": [
+      "500°R",
+      "41.67°R",
+      "1,459.67°R",
+      "959.67°R"
+    ],
+    "correct": 3,
+    "explanation": "Rankine = °F + 459.67. So 500°F = 500 + 459.67 = 959.67°R. The Rankine scale is the absolute temperature scale based on Fahrenheit. It is used in Carnot efficiency calculations and thermodynamic equations requiring absolute temperature."
+  },
+  {
+    "id": 3040,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is a surface condenser?",
+    "options": [
+      "A condenser mounted on the surface of a building",
+      "An open tank where steam and cooling water mix directly",
+      "A condenser that uses air cooling on exposed surfaces",
+      "A shell-and-tube heat exchanger where exhaust steam condenses on the outside of tubes carrying cooling water — steam and cooling water do not mix"
+    ],
+    "correct": 3,
+    "explanation": "A surface condenser is a large shell-and-tube heat exchanger. Exhaust steam enters the shell side and condenses on the outside of tubes carrying cooling water. Since steam and cooling water DO NOT MIX, condensate remains pure and can be returned directly to the boiler as feedwater."
+  },
+  {
+    "id": 3041,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is an indicator diagram (PV diagram) for a steam engine?",
+    "options": [
+      "A warning label on the engine",
+      "A schematic of the valve gear mechanism",
+      "A diagram showing the engine's external dimensions",
+      "A graph plotting cylinder pressure vs. piston position (volume) over one complete stroke — the enclosed area represents work done"
+    ],
+    "correct": 3,
+    "explanation": "An indicator diagram plots cylinder pressure (P) on the Y-axis vs. piston position/volume (V) on the X-axis. The enclosed area of the diagram represents the work done by the steam per stroke. From this, MEP and Indicated Horsepower (IHP) can be calculated. An engine indicator instrument records this."
+  },
+  {
+    "id": 3042,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What is the purpose of ASME Section II?",
+    "options": [
+      "Materials specifications — it contains the properties, specifications, and allowable stresses for all materials used in ASME code construction",
+      "Power boiler construction rules",
+      "Welding qualifications",
+      "Pressure vessel design rules"
+    ],
+    "correct": 0,
+    "explanation": "ASME Section II contains MATERIALS specifications: Part A (Ferrous Materials), Part B (Nonferrous Materials), Part C (Welding Rods, Electrodes, and Filler Metals), and Part D (Properties — allowable stresses, physical properties). All materials used in code construction must meet Section II specifications."
+  },
+  {
+    "id": 3043,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is a gland condenser in a turbine system?",
+    "options": [
+      "A condenser for the gland sealing steam system — it condenses steam leaking from shaft seals and recovers it as condensate",
+      "A condenser mounted on the turbine governor",
+      "A secondary condenser for peak loads",
+      "A cooling system for the turbine journal bearings"
+    ],
+    "correct": 0,
+    "explanation": "The gland condenser (also called gland exhaust condenser) condenses steam leaking from the turbine shaft labyrinth seals. A small fan or ejector pulls seal leakage through the gland condenser, where it condenses. The condensate is recovered, and non-condensable gases are vented."
+  },
+  {
+    "id": 3044,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "A safety valve has a 3-inch diameter nozzle. What is the nozzle seat area?",
+    "options": [
+      "3 sq in",
+      "9.42 sq in",
+      "7.07 sq in",
+      "28.27 sq in"
+    ],
+    "correct": 2,
+    "explanation": "Area = π × r² = π × (1.5)² = π × 2.25 = 7.07 sq in. Or using A = π × d²/4 = π × 9/4 = 7.07 sq in. This area is used to calculate the force on the safety valve disc (Force = Pressure × Area)."
+  },
+  {
+    "id": 3045,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What happens if cooling water flow to the condenser is lost?",
+    "options": [
+      "Nothing — the condenser can operate without cooling water",
+      "The boiler shuts down automatically",
+      "The turbine speeds up",
+      "Condenser vacuum is rapidly lost (pressure rises), turbine exhaust pressure increases, and the turbine must be tripped to prevent damage from excessive back pressure and overheating"
+    ],
+    "correct": 3,
+    "explanation": "Loss of cooling water means the condenser cannot condense exhaust steam. Condenser pressure rises rapidly (vacuum is lost), increasing turbine back pressure. The turbine must be tripped immediately to prevent damage from overheating and excessive exhaust pressure. Low condenser vacuum trips are standard protection."
+  },
+  {
+    "id": 3046,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "What is the significance of the 'quality' of steam?",
+    "options": [
+      "The purity of the water used to make steam",
+      "The temperature of the steam",
+      "The ratio of steam mass to total mass (steam + water) in a wet steam mixture — expressed as a percentage",
+      "The brand or manufacturer of the boiler"
+    ],
+    "correct": 2,
+    "explanation": "Steam quality = mass of dry steam ÷ total mass (steam + liquid). Quality of 95% means 95% dry steam and 5% moisture by weight. Quality is important for turbine operation — moisture causes blade erosion. Saturated steam quality must be >99% for most turbine applications."
+  },
+  {
+    "id": 3047,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is 'wire-drawing' in the context of a steam engine valve?",
+    "options": [
+      "The throttling loss that occurs when a valve opens or closes too slowly, causing steam to pass through a restricted opening with pressure loss",
+      "Drawing wire through the engine for instrumentation",
+      "A manufacturing process for valve stems",
+      "Damage to the valve from foreign objects"
+    ],
+    "correct": 0,
+    "explanation": "Wire-drawing is the throttling loss when steam passes through a partially open valve. The restricted opening causes a pressure drop without producing useful work — the energy is converted to heat. Sharp cutoff (fast valve closure) minimizes wire-drawing losses. Corliss valve gear is designed to minimize this."
+  },
+  {
+    "id": 3048,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What is a Manufacturer's Data Report (MDR) for a boiler?",
+    "options": [
+      "A marketing document describing boiler features",
+      "A report on the boiler's energy efficiency",
+      "A maintenance log kept by the boiler operator",
+      "The official document completed by the manufacturer certifying that the boiler was built in compliance with the applicable ASME Code section — signed by the manufacturer and the Authorized Inspector"
+    ],
+    "correct": 3,
+    "explanation": "The MDR is the official ASME code compliance document. It certifies the boiler was designed, built, inspected, and tested per the applicable ASME Code section. It includes construction details, materials, test results, and is signed by both the manufacturer's representative and an Authorized Inspector (AI). Filed with the National Board."
+  },
+  {
+    "id": 3049,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the difference between journal bearings and thrust bearings on a turbine?",
+    "options": [
+      "They are the same type of bearing",
+      "Journal bearings are used only on generators; thrust bearings only on turbines",
+      "Journal bearings support the rotor's radial load (weight); thrust bearings control the rotor's axial position",
+      "Journal bearings handle axial loads; thrust bearings handle radial loads"
+    ],
+    "correct": 2,
+    "explanation": "JOURNAL bearings support the radial load (weight of the rotor) and allow rotation with minimal friction using an oil film. THRUST bearings control the AXIAL position of the rotor, resisting the force of steam pushing the rotor along its axis. Both are critical — failure of either causes catastrophic damage."
+  },
+  {
+    "id": 3050,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "Calculate Carnot efficiency for a steam plant: steam at 800°F, condenser at 100°F.",
+    "options": [
+      "Approximately 55.6%",
+      "Approximately 87.5%",
+      "Approximately 12.5%",
+      "Approximately 44.4%"
+    ],
+    "correct": 0,
+    "explanation": "Convert to Rankine: T_hot = 800 + 459.67 = 1,259.67°R; T_cold = 100 + 459.67 = 559.67°R. η_Carnot = 1 - (T_cold/T_hot) = 1 - (559.67/1,259.67) = 1 - 0.4444 = 0.5556 = 55.6%. Actual plant efficiency is always lower than Carnot due to irreversibilities."
+  },
+  {
+    "id": 3051,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the purpose of the turbine lube oil system?",
+    "options": [
+      "To provide lubrication and cooling to journal bearings, thrust bearings, governor mechanism, and seals — maintaining an oil film between rotating and stationary parts",
+      "To cool the steam before it enters the turbine",
+      "To lubricate the boiler feedwater pump",
+      "To clean the turbine blades"
+    ],
+    "correct": 0,
+    "explanation": "The lube oil system supplies pressurized, filtered, cooled oil to: journal bearings (supporting rotor weight), thrust bearings (controlling axial position), governor/control mechanisms, and turning gear. Oil pressure must be maintained at all times during operation and shutdown — loss of oil pressure triggers an immediate turbine trip."
+  },
+  {
+    "id": 3052,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is the approach temperature in a condenser?",
+    "options": [
+      "The temperature of steam approaching the condenser",
+      "The temperature at which cooling water approaches boiling",
+      "The rate at which cooling water temperature approaches steam temperature",
+      "The difference between condenser condensate temperature and cooling water inlet temperature — smaller approach means better condenser performance"
+    ],
+    "correct": 3,
+    "explanation": "Approach temperature = condensate temperature - cooling water inlet temperature. A smaller approach indicates more effective heat transfer. Typical approach for a well-performing condenser is 5-10°F. Increased approach indicates tube fouling, air leakage, or insufficient cooling water flow."
+  },
+  {
+    "id": 3053,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the difference between a slide valve and a piston valve on a steam engine?",
+    "options": [
+      "They function identically",
+      "Slide valves are used for exhaust; piston valves for admission",
+      "A slide valve is a flat plate that slides over ports; a piston valve is a cylindrical valve that moves inside a cylindrical bore — piston valves have better balance and less friction",
+      "Piston valves are used on diesel engines only"
+    ],
+    "correct": 2,
+    "explanation": "A SLIDE VALVE is a flat D-shaped plate that slides over ports in the cylinder face. A PISTON VALVE is a cylindrical spool that moves inside a bore, uncovering ports. Piston valves are BALANCED (equal steam pressure on both sides) reducing friction and allowing higher steam pressures. Most modern steam engines use piston valves."
+  },
+  {
+    "id": 3054,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What is an Authorized Inspector (AI) in ASME code work?",
+    "options": [
+      "An inspector employed by or contracted through an ASME-accredited Authorized Inspection Agency (typically the insurer) who monitors code compliance during boiler construction",
+      "Any licensed boiler operator",
+      "A government building inspector",
+      "A fire marshal"
+    ],
+    "correct": 0,
+    "explanation": "An Authorized Inspector (AI) is employed by or contracted through an Authorized Inspection Agency (AIA) — typically a boiler insurance company accredited by ASME. The AI monitors code compliance during construction, witnesses hydrostatic tests, reviews MDRs, and signs off on ASME code stamps. Required for all code construction."
+  },
+  {
+    "id": 3055,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "What is the heating surface of a boiler?",
+    "options": [
+      "The area of the boiler room floor",
+      "The area of the firebox only",
+      "The area of the boiler's external insulation",
+      "The total area of boiler surfaces exposed to hot gases on one side and water/steam on the other side — where heat transfer occurs"
+    ],
+    "correct": 3,
+    "explanation": "Heating surface is the total area of surfaces that have hot combustion gases on one side and water/steam on the other. This includes tubes, shell (in fire-tube boilers), furnace walls (waterwalls), and any other heat transfer surfaces. It is measured in square feet and is stamped on the nameplate."
+  },
+  {
+    "id": 3056,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is a regenerative cycle in a steam power plant?",
+    "options": [
+      "A cycle that regenerates worn turbine blades",
+      "A cycle that recycles exhaust gases for combustion",
+      "A cycle that uses extraction steam to preheat feedwater in stages, improving thermal efficiency by reducing condenser heat rejection",
+      "A cycle that uses regenerative braking on the turbine"
+    ],
+    "correct": 2,
+    "explanation": "The regenerative cycle extracts steam from intermediate turbine stages to heat feedwater in a series of feedwater heaters. This reduces the heat added in the boiler and the heat rejected in the condenser, improving thermal efficiency. Most power plants use 6-8 stages of feedwater heating."
+  },
+  {
+    "id": 3057,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What causes water hammer in a condensate system?",
+    "options": [
+      "Steam collapsing rapidly when it contacts a pocket of cool condensate, creating a violent pressure shock wave",
+      "Excessive feedwater pump pressure",
+      "Air in the cooling water supply",
+      "Vibration from the turbine"
+    ],
+    "correct": 0,
+    "explanation": "Water hammer in condensate systems occurs when steam contacts a cool surface or condensate pocket and collapses rapidly. The sudden void creates a violent pressure wave that can rupture pipes and damage equipment. Proper condensate drainage, steam trap maintenance, and slow warm-up procedures prevent water hammer."
+  },
+  {
+    "id": 3058,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the lap of a slide valve?",
+    "options": [
+      "The distance the valve overlaps past the port when centered — determines when the valve opens relative to piston position",
+      "The number of times the valve cycles per minute",
+      "The gap between the valve and the port edges",
+      "The overlap between two engine cylinders"
+    ],
+    "correct": 0,
+    "explanation": "Lap is the amount the slide valve face extends past the edge of the steam or exhaust port when the valve is in its central position. Steam lap controls when admission begins and ends (affects cutoff). Exhaust lap controls when exhaust opens and closes. Lead is the amount the port is already cracked open at the start of the stroke."
+  },
+  {
+    "id": 3059,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What is post-weld heat treatment (PWHT) and when is it required?",
+    "options": [
+      "Heating the weld area after welding is complete to relieve residual stresses, improve ductility, and reduce the risk of cracking — required by ASME for certain material types and thicknesses",
+      "Heating the weld to melt it again",
+      "Applying flame to check weld quality",
+      "Drying the weld with hot air"
+    ],
+    "correct": 0,
+    "explanation": "PWHT involves uniformly heating the weld and surrounding area to a specified temperature (typically 1,100-1,250°F for carbon steel), holding for a specified time, then slowly cooling. This relieves residual welding stresses, tempers the heat-affected zone, and reduces cracking risk. Required by ASME for materials over certain thicknesses."
+  },
+  {
+    "id": 3060,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "What is specific heat capacity?",
+    "options": [
+      "The heat capacity of a specific boiler model",
+      "The rate of heat loss from a substance",
+      "The maximum temperature a substance can reach",
+      "The amount of heat energy required to raise the temperature of one unit of mass of a substance by one degree — for water: 1 BTU/(lb·°F)"
+    ],
+    "correct": 3,
+    "explanation": "Specific heat is the heat required to raise one unit mass by one degree temperature. For water: 1 BTU/(lb·°F). For steel: approximately 0.12 BTU/(lb·°F). Water's high specific heat makes it an excellent medium for heat transfer in boiler systems."
+  },
+  {
+    "id": 3061,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the difference between a condensing and a non-condensing (back-pressure) turbine?",
+    "options": [
+      "A condensing turbine is more compact",
+      "A non-condensing turbine is more efficient",
+      "A condensing turbine exhausts to a vacuum condenser (maximum power output); a back-pressure turbine exhausts at above atmospheric pressure for process steam use (cogeneration)",
+      "They generate the same amount of power"
+    ],
+    "correct": 2,
+    "explanation": "CONDENSING: Exhausts to vacuum (28-29 in. Hg), extracts maximum work from steam, requires a condenser and cooling water. BACK-PRESSURE: Exhausts at above-atmospheric pressure for process use, generates less power per pound of steam but provides useful process heat (cogeneration). Back-pressure turbines are more thermally efficient overall."
+  },
+  {
+    "id": 3062,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "What is equivalent evaporation?",
+    "options": [
+      "The calculated evaporation from and at 212°F that produces the same heat absorption as the actual operating conditions — Equiv. Evap. = Actual Evap. × Factor of Evaporation",
+      "The actual amount of water evaporated per hour",
+      "The maximum evaporation rate at full load",
+      "The evaporation rate at atmospheric pressure"
+    ],
+    "correct": 0,
+    "explanation": "Equivalent evaporation converts actual evaporation to a standard basis (from and at 212°F) for comparing boilers operating at different conditions. Equiv. Evap. = Actual Evap. × Factor of Evaporation. This allows apples-to-apples comparison of boiler capacity regardless of operating pressure and feedwater temperature."
+  },
+  {
+    "id": 3063,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is a jet condenser (direct-contact condenser)?",
+    "options": [
+      "A condenser that uses steam jets for cooling",
+      "A portable emergency condenser",
+      "A condenser powered by jet engines",
+      "A condenser where exhaust steam directly contacts and mixes with cooling water — the condensate cannot be recovered as pure feedwater"
+    ],
+    "correct": 3,
+    "explanation": "A jet condenser (barometric or direct-contact) sprays cooling water directly into the exhaust steam. The steam condenses by mixing with the water. Advantage: simple, inexpensive, no tubes to foul. Disadvantage: condensate mixes with cooling water and cannot be recovered as pure feedwater — surface condensers are preferred for this reason."
+  },
+  {
+    "id": 3064,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is a speed-regulating governor vs. a speed-limiting governor?",
+    "options": [
+      "They are the same thing",
+      "A speed-limiting governor is more precise than a speed-regulating governor",
+      "A speed-regulating governor maintains a set speed by continuously adjusting steam flow; a speed-limiting governor only acts at overspeed to trip the turbine",
+      "A speed-regulating governor operates on fuel; a speed-limiting governor operates on steam"
+    ],
+    "correct": 2,
+    "explanation": "A SPEED-REGULATING governor continuously adjusts steam flow to maintain the desired operating speed as load changes — it is the primary speed control. A SPEED-LIMITING governor (overspeed trip) is a safety device that only acts when speed exceeds 110% of rated, triggering an emergency shutdown. Both are required on power turbines."
+  },
+  {
+    "id": 3065,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What is the difference between an alteration and a repair under NBIC Part 3?",
+    "options": [
+      "An ALTERATION changes the original design conditions (pressure rating, temperature, capacity); a REPAIR restores the equipment to its original design conditions",
+      "They are the same thing",
+      "An alteration is cheaper than a repair",
+      "An alteration requires less documentation"
+    ],
+    "correct": 0,
+    "explanation": "REPAIR: Restoring equipment to safe operating condition without changing the original design conditions (MAWP, temperature, capacity). ALTERATION: A change from the original design (re-rating, adding nozzles, changing materials). Alterations require engineering analysis, re-stamping, and more extensive documentation than repairs."
+  },
+  {
+    "id": 3067,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is blade tip clearance and why must it be carefully maintained?",
+    "options": [
+      "The distance between blade tips and the casing — too small risks blade-casing contact; too large allows excessive steam leakage past the blades, reducing efficiency",
+      "The sharpness of the blade tip edges",
+      "The axial distance between blade rows",
+      "The clearance between the blade and its attachment to the rotor"
+    ],
+    "correct": 0,
+    "explanation": "Blade tip clearance is the radial gap between the tips of rotating blades and the inner surface of the stationary casing. Too small = risk of rubbing during thermal expansion or vibration, causing damage. Too large = steam leaks past blade tips without doing work, reducing stage efficiency. Typically maintained at a few thousandths of an inch."
+  },
+  {
+    "id": 3068,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the indicator card area and how is it related to engine power?",
+    "options": [
+      "The area of the engine's nameplate",
+      "The size of the lubrication card for maintenance tracking",
+      "The area enclosed by the indicator diagram is proportional to the work done per stroke — larger area = more power",
+      "The area of the engine's control panel"
+    ],
+    "correct": 2,
+    "explanation": "The area enclosed by the indicator diagram (P-V diagram) represents the NET WORK done by the steam per stroke. Using a planimeter or calculation, this area yields Mean Effective Pressure (MEP). IHP = (MEP × L × A × N) ÷ 33,000. Larger enclosed area = more work per stroke = more power."
+  },
+  {
+    "id": 3069,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is the terminal temperature difference (TTD) of a feedwater heater?",
+    "options": [
+      "The difference between the saturation temperature of the extraction steam and the feedwater outlet temperature — a measure of heater effectiveness",
+      "The temperature at which the heater terminates operation",
+      "The temperature drop across the heater drain",
+      "The difference between inlet and outlet water temperatures"
+    ],
+    "correct": 0,
+    "explanation": "TTD = Saturation temperature of extraction steam - Feedwater outlet temperature. A smaller TTD indicates more effective heat transfer. Typical TTD for a closed feedwater heater is 5-10°F. Increasing TTD signals tube fouling or level control problems in the heater."
+  },
+  {
+    "id": 3070,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What is the minimum required thickness for boiler shell plate per ASME Section I?",
+    "options": [
+      "1/16 inch",
+      "1/4 inch for all boilers",
+      "Calculated from the SWP formula based on MAWP, material strength, joint efficiency, and radius — no single minimum applies",
+      "1 inch for all power boilers"
+    ],
+    "correct": 2,
+    "explanation": "Shell thickness is CALCULATED using the ASME Section I formula: t = (P × R) ÷ (S × E - 0.6P), where P=MAWP, R=inside radius, S=allowable stress, E=joint efficiency. The required thickness depends on operating conditions and materials. ASME does set absolute minimums for certain components."
+  },
+  {
+    "id": 3071,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "What is the heat rate of a power plant and what does it indicate?",
+    "options": [
+      "The speed at which the boiler heats up during startup",
+      "The BTU content of the fuel being burned",
+      "The rate of temperature increase in the furnace",
+      "The number of BTU required to generate one kilowatt-hour (kWh) of electricity — lower heat rate = higher efficiency"
+    ],
+    "correct": 3,
+    "explanation": "Heat rate = BTU of fuel input ÷ kWh of electricity output. Typical: 10,000 BTU/kWh (34% efficiency) to 8,500 BTU/kWh (40% efficiency). Since 1 kWh = 3,412 BTU, a heat rate of 3,412 would be 100% efficient. Lower heat rate = higher efficiency = less fuel per kWh."
+  },
+  {
+    "id": 3072,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the purpose of a sentinel valve on a turbine bearing housing?",
+    "options": [
+      "To protect the bearing from overpressure",
+      "To regulate bearing oil flow",
+      "A small relief valve that warns of high oil pressure or temperature by releasing a visible jet of steam/oil — it is a warning device, not a protective device",
+      "To vent air from the bearing housing"
+    ],
+    "correct": 2,
+    "explanation": "A sentinel valve is a small spring-loaded valve on the bearing housing that releases a visible jet of steam or oil when pressure exceeds normal, WARNING the operator of a potential bearing problem. It is NOT a protective device and cannot prevent bearing failure — it only provides a visible/audible alarm."
+  },
+  {
+    "id": 3073,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "What is the dew point temperature of flue gas?",
+    "options": [
+      "The temperature at which water vapor in the flue gas begins to condense — below this temperature, corrosive condensation occurs on heat transfer surfaces",
+      "The temperature at which fuel ignites",
+      "The temperature of the incoming combustion air",
+      "The temperature at which the stack draft reaches zero"
+    ],
+    "correct": 0,
+    "explanation": "The dew point is the temperature at which water vapor in flue gas condenses. For natural gas: approximately 130°F. For sulfur-containing fuels, sulfuric acid dew point is higher (250-300°F). Operating below dew point causes corrosive condensation on economizer and air heater surfaces."
+  },
+  {
+    "id": 3074,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the purpose of a flywheel on a steam engine?",
+    "options": [
+      "To cool the engine by creating airflow",
+      "To measure engine speed",
+      "To drive the valve gear mechanism",
+      "To store rotational energy and smooth out speed variations between power strokes, providing more uniform rotation"
+    ],
+    "correct": 3,
+    "explanation": "The flywheel stores kinetic energy during the power stroke and releases it during non-power periods (exhaust, compression), smoothing out speed variations. Larger flywheels provide steadier speed. The flywheel's moment of inertia determines how well it dampens speed fluctuations between power strokes."
+  },
+  {
+    "id": 3075,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is a vacuum breaker on a condenser?",
+    "options": [
+      "A valve that creates vacuum in the condenser",
+      "A device that measures condenser vacuum",
+      "A valve that admits air to the condenser to break the vacuum safely during shutdown — preventing structural damage from sudden vacuum collapse",
+      "A pump that evacuates the condenser"
+    ],
+    "correct": 2,
+    "explanation": "The vacuum breaker admits atmospheric air to the condenser during shutdown to equalize pressure gradually. Without it, sudden cooling could collapse the vacuum violently, causing structural damage to the condenser shell. The vacuum breaker prevents implosion by allowing controlled pressure equalization."
+  },
+  {
+    "id": 3076,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What is ASME B31.1 and what does it cover?",
+    "options": [
+      "Power piping — design, fabrication, installation, and inspection of piping systems in power plants and industrial facilities",
+      "Boiler design calculations",
+      "Building plumbing codes",
+      "Fuel gas piping design"
+    ],
+    "correct": 0,
+    "explanation": "ASME B31.1 (Power Piping) covers the design, materials, fabrication, erection, testing, and inspection of piping systems in power plants (steam plants, industrial plants, central heating plants). It applies to steam piping above 15 psig and hot water piping above 160 psig in power-generating stations."
+  },
+  {
+    "id": 3077,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "What is the relationship: 1 HP mechanical = ? watts?",
+    "options": [
+      "550 watts",
+      "1,000 watts",
+      "746 watts",
+      "500 watts"
+    ],
+    "correct": 2,
+    "explanation": "1 mechanical horsepower = 746 watts = 2,545 BTU/hr = 550 ft-lbs/sec = 33,000 ft-lbs/min. This is a fundamental conversion used in motor sizing, generator output calculations, and energy analysis."
+  },
+  {
+    "id": 3078,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is water induction into a turbine and why is it catastrophic?",
+    "options": [
+      "Injecting water to cool the turbine — it is normal and safe",
+      "Water from condensation inside the turbine bearings",
+      "Water used to wash turbine blades during operation",
+      "Water entering the turbine from a malfunctioning desuperheater, failed drain, or flooded steam line — it causes massive thermal shock and blade damage because water is incompressible"
+    ],
+    "correct": 3,
+    "explanation": "Water induction occurs when liquid water enters a hot turbine — from failed desuperheaters, closed drains, or flooded steam lines. Since water is incompressible, it cannot pass through blade passages designed for compressible steam. The result: massive mechanical damage, blade fracture, and potential casing rupture. This is one of the most catastrophic turbine failure modes."
+  },
+  {
+    "id": 3079,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the difference between indicated horsepower (IHP) and brake horsepower (BHP) of a steam engine?",
+    "options": [
+      "They are the same measurement",
+      "IHP measures input power; BHP measures electrical output",
+      "IHP is the theoretical power developed in the cylinder (from the indicator diagram); BHP is the actual power delivered at the output shaft — BHP = IHP minus friction losses",
+      "BHP is always higher than IHP"
+    ],
+    "correct": 2,
+    "explanation": "IHP (Indicated Horsepower) is the power developed by steam inside the cylinder, calculated from the indicator diagram. BHP (Brake Horsepower) is the actual power available at the output shaft after subtracting friction losses. Mechanical efficiency = BHP ÷ IHP × 100%. Typical: 85-95%."
+  },
+  {
+    "id": 3080,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is condenser backpressure and how does it affect turbine output?",
+    "options": [
+      "Higher condenser backpressure (lower vacuum) reduces the available energy for work in the turbine, decreasing power output — each 1 in. Hg loss in vacuum can reduce output by 1-2%",
+      "It has no effect on the turbine",
+      "Higher backpressure increases turbine output",
+      "Backpressure only affects the condenser, not the turbine"
+    ],
+    "correct": 0,
+    "explanation": "Higher condenser pressure (less vacuum) means steam exits the turbine at higher pressure, reducing the enthalpy drop (available energy for work). Each 1 in. Hg increase in backpressure can reduce turbine output by 1-2%. Maintaining maximum condenser vacuum through proper cooling water flow, air removal, and tube cleanliness maximizes turbine efficiency."
+  },
+  {
+    "id": 3081,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What is a code case in ASME terminology?",
+    "options": [
+      "A legal case about code violations",
+      "A case study about code compliance",
+      "A storage case for code books",
+      "An approved alternative or supplement to existing ASME Code requirements for specific situations — approved by the ASME Code Committee for limited time periods"
+    ],
+    "correct": 3,
+    "explanation": "A Code Case is an ASME-approved alternative to standard Code requirements for specific situations not adequately covered by the existing Code. Code Cases address emerging materials, new fabrication techniques, or unusual designs. They have limited validity periods and may eventually be incorporated into the main Code or expire."
+  },
+  {
+    "id": 3082,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "What is the steam rate of a turbine?",
+    "options": [
+      "The speed at which steam moves through the turbine",
+      "The rate of steam production by the boiler",
+      "The pounds of steam required per kilowatt-hour of electrical output — lower steam rate = more efficient turbine",
+      "The velocity of steam at the turbine inlet"
+    ],
+    "correct": 2,
+    "explanation": "Steam rate = lbs of steam ÷ kWh of output. It indicates how efficiently the turbine converts steam energy to electrical energy. A lower steam rate means less steam (and less fuel) is needed per kWh. Typical: 8-12 lb/kWh depending on inlet conditions and exhaust pressure."
+  },
+  {
+    "id": 3083,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the Willans line for a turbine?",
+    "options": [
+      "A graph showing the relationship between steam flow and power output — approximately linear, used for performance monitoring and dispatch optimization",
+      "A reference line on the turbine casing",
+      "The line where turbine blades are replaced",
+      "A piping arrangement for turbine drains"
+    ],
+    "correct": 0,
+    "explanation": "The Willans line plots total steam flow (lb/hr) vs. power output (kW). It is approximately linear. The y-intercept represents no-load steam consumption (friction, windage, leakage). Deviation from the established Willans line indicates turbine degradation. Used for performance monitoring and economic dispatch."
+  },
+  {
+    "id": 3084,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is lead in steam engine valve timing?",
+    "options": [
+      "The metal used in valve construction",
+      "The distance the engine leads the generator in phase",
+      "The time between starting the engine and reaching full speed",
+      "The amount that the steam port is already open when the piston reaches the beginning of its stroke — provides steam cushioning and earlier admission"
+    ],
+    "correct": 3,
+    "explanation": "Lead is the small opening of the steam port at the moment the piston begins its stroke (at dead center). Lead provides a cushion of steam at the end of the exhaust stroke (compression) and ensures steam is available immediately as the piston begins the power stroke, improving smooth operation."
+  },
+  {
+    "id": 3085,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "What is the Clausius statement of the Second Law of Thermodynamics?",
+    "options": [
+      "Energy cannot be created or destroyed",
+      "All processes are reversible",
+      "Heat cannot spontaneously flow from a colder body to a hotter body — work input is required for this direction of heat flow",
+      "Temperature and pressure are proportional"
+    ],
+    "correct": 2,
+    "explanation": "The Clausius statement: It is impossible for heat to flow spontaneously from a cold body to a hot body without external work input. This is why refrigeration and heat pumps require energy input (compressor work) to move heat from cold to hot. It is equivalent to the Kelvin-Planck statement."
+  },
+  {
+    "id": 3086,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is the purpose of a condenser air removal system?",
+    "options": [
+      "To continuously remove non-condensable gases (air, CO2) that leak into the condenser, maintaining vacuum and heat transfer efficiency",
+      "To supply air for combustion",
+      "To ventilate the turbine hall",
+      "To cool the condenser tubes with forced air"
+    ],
+    "correct": 0,
+    "explanation": "Non-condensable gases (air) that leak into the condenser blanket tube surfaces, reducing heat transfer and increasing condenser pressure (losing vacuum). The air removal system (steam jet air ejector or mechanical vacuum pump) continuously extracts these gases to maintain condenser vacuum and thermal performance."
+  },
+  {
+    "id": 3087,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What is the National Board 'NB' registration and why is it important?",
+    "options": [
+      "It is a National Basketball association number",
+      "A certification for boiler rooms",
+      "A registration for boiler operators",
+      "Registration of a boiler or pressure vessel with the National Board of Boiler and Pressure Vessel Inspectors at the time of manufacture — it provides traceability for the life of the equipment"
+    ],
+    "correct": 3,
+    "explanation": "NB registration assigns a unique number to each code-stamped boiler or pressure vessel at manufacture, creating a permanent record including the MDR. This provides traceability throughout the equipment's life — jurisdictions use NB registration to verify code compliance. Minnesota requires NB registration for all installed boilers."
+  },
+  {
+    "id": 3088,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is wet steam and what problems does it cause in turbines?",
+    "options": [
+      "Steam mixed with water treatment chemicals",
+      "Steam at 100% quality",
+      "Steam containing suspended water droplets — it causes blade erosion from high-velocity droplet impact, reduced efficiency, and potential blade damage",
+      "Steam at very low pressure"
+    ],
+    "correct": 2,
+    "explanation": "Wet steam contains suspended water droplets (quality < 100%). In turbines, these droplets impact blade edges at high velocity (hundreds of ft/sec), causing erosion — especially on the leading edges of last-stage LP blades. Maximum moisture in LP exhaust is typically limited to 10-12%. Superheating and reheating reduce moisture."
+  },
+  {
+    "id": 3089,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "What is the total heat (enthalpy) of steam at 100 psig saturated, per steam tables?",
+    "options": [
+      "Approximately 180 BTU/lb",
+      "Approximately 338 BTU/lb",
+      "Approximately 1,189 BTU/lb",
+      "Approximately 970 BTU/lb"
+    ],
+    "correct": 2,
+    "explanation": "At 100 psig (114.7 psia), steam tables give: sensible heat (hf) ≈ 309 BTU/lb, latent heat (hfg) ≈ 880 BTU/lb, total heat (hg) ≈ 1,189 BTU/lb. Total heat = sensible + latent. These values are fundamental to all boiler and steam calculations."
+  },
+  {
+    "id": 3090,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is a uniflow steam engine?",
+    "options": [
+      "An engine where steam enters at both ends of the cylinder and exhausts through ports at the center — steam flows in one direction (uniflow) for better thermal efficiency",
+      "An engine that can only rotate in one direction",
+      "An engine with a single cylinder",
+      "An engine powered by a single boiler"
+    ],
+    "correct": 0,
+    "explanation": "In a uniflow engine, steam enters at both ends through valves and exhausts through ports uncovered by the piston at mid-stroke. Steam always flows in one direction along the cylinder (hot at ends, cooler at center). This reduces cylinder wall cooling/heating losses that plague counterflow engines, significantly improving efficiency."
+  },
+  {
+    "id": 3091,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is circulating water in a condenser system?",
+    "options": [
+      "Water circulating inside the boiler",
+      "Chemical treatment water circulating through the water softener",
+      "Boiler feedwater circulating through the economizer",
+      "The cooling water that flows through condenser tubes, absorbing heat from the condensing steam — sourced from rivers, lakes, cooling towers, or wells"
+    ],
+    "correct": 3,
+    "explanation": "Circulating water (CW) is the cooling medium flowing through condenser tubes. Large volumes are required (typically 50-100× the steam flow rate). Sources: once-through (river/lake), cooling tower (recirculated), or closed loop with dry coolers. CW temperature directly affects condenser vacuum and turbine efficiency."
+  },
+  {
+    "id": 3092,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What is a Quality Control Manual (QCM) required for in ASME code work?",
+    "options": [
+      "Quality control of boiler fuel",
+      "A manual for boiler operators",
+      "A comprehensive document describing a manufacturer's quality system — required for organizations holding ASME stamps (S, U, H, R, etc.)",
+      "A handbook for water quality testing"
+    ],
+    "correct": 2,
+    "explanation": "Every organization holding an ASME Certificate of Authorization (stamp) must maintain a Quality Control Manual describing their quality system: organizational responsibilities, drawing/design control, material control, welding procedures, NDE procedures, heat treatment, calibration, and corrective action. The QCM is reviewed during ASME audits."
+  },
+  {
+    "id": 3093,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is a carbon ring seal on a turbine?",
+    "options": [
+      "Segmented carbon rings that contact the turbine shaft to provide a seal against steam leakage — they wear against the shaft and must be periodically replaced",
+      "A ring of activated carbon for filtration",
+      "A seal made of carbon fiber composite",
+      "A decorative ring on the turbine casing"
+    ],
+    "correct": 0,
+    "explanation": "Carbon ring seals are segmented rings of carbon material held against the shaft by springs or steam pressure. They provide a tighter seal than labyrinth seals but do wear against the shaft surface. Used at shaft ends where labyrinth seals alone provide insufficient sealing. Carbon rings are replaced during maintenance outages."
+  },
+  {
+    "id": 3094,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "A feedwater pump must deliver water to a boiler at 200 psig. The pump is located 30 feet below the boiler. What total discharge head must the pump produce? (Ignore friction)",
+    "options": [
+      "200 psig + 13 psi (30 ft × 0.433 psi/ft) = 213 psig total",
+      "200 psig only — elevation doesn't matter",
+      "30 psi total",
+      "170 psig — subtract the elevation benefit"
+    ],
+    "correct": 0,
+    "explanation": "The pump must overcome: (1) Boiler operating pressure: 200 psig, (2) Static head (elevation): 30 ft × 0.433 psi/ft = 13 psi. Total: 200 + 13 = 213 psig minimum discharge pressure (plus friction losses in piping, which were excluded). The pump must also provide flow against this total head."
+  },
+  {
+    "id": 3095,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is compression in a steam engine cycle?",
+    "options": [
+      "Compressing the fuel before combustion",
+      "Mechanical compression of the engine frame",
+      "Compressing the intake air",
+      "The trapping of exhaust steam at the end of the exhaust stroke — the piston compresses this trapped steam, creating a cushion and preheating the cylinder for the next admission"
+    ],
+    "correct": 3,
+    "explanation": "Compression occurs when the exhaust valve closes slightly before the piston reaches dead center, trapping a small amount of exhaust steam. The piston compresses this steam, creating a cushion that decelerates the piston smoothly and preheats the cylinder end, reducing thermal shock when high-pressure steam is admitted."
+  },
+  {
+    "id": 3096,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "What is the relationship between pressure and boiling point for water?",
+    "options": [
+      "Higher pressure lowers the boiling point",
+      "Pressure has no effect on boiling point",
+      "Higher pressure raises the boiling point — this is the fundamental principle that allows boilers to produce steam at temperatures well above 212°F",
+      "The relationship is random and unpredictable"
+    ],
+    "correct": 2,
+    "explanation": "Increasing pressure raises the boiling point of water. This fundamental relationship allows boilers to produce steam at temperatures well above 212°F. At 100 psig: 338°F; at 300 psig: 421°F; at 1,000 psig: 545°F. This relationship is documented in steam tables."
+  },
+  {
+    "id": 3097,
+    "level": "1a",
+    "category": "Condenser Operations",
+    "question": "What is a hotwell level control and why is it important?",
+    "options": [
+      "It maintains proper condensate level in the hotwell — too high floods condenser tubes (reducing condensing area); too low allows air to enter the condensate pump suction",
+      "It controls the temperature of the hotwell",
+      "It controls the flow of hot water to the boiler",
+      "It measures the hotwell water quality"
+    ],
+    "correct": 0,
+    "explanation": "Hotwell level must be carefully controlled. Too high: condensate floods lower condenser tubes, reducing condensing area and increasing backpressure. Too low: the condensate pump may lose suction (cavitate) and air can enter the system. Level is typically controlled by makeup water addition and condensate pump speed."
+  },
+  {
+    "id": 3098,
+    "level": "1a",
+    "category": "ASME & Codes",
+    "question": "What does ASME Section V address regarding Acoustic Emission Testing (AET)?",
+    "options": [
+      "Sound insulation for boiler rooms",
+      "Noise level compliance for boiler plants",
+      "Testing the acoustics of safety valve discharge",
+      "AET monitors stress waves (acoustic emissions) released by materials under stress — used for in-service monitoring of boilers and pressure vessels to detect crack growth"
+    ],
+    "correct": 3,
+    "explanation": "Acoustic Emission Testing detects stress waves released when materials deform or crack under stress. Sensors on the boiler surface detect these emissions in real-time, allowing continuous monitoring of structural integrity. AET can detect crack initiation and growth before failure, making it valuable for in-service condition monitoring."
+  },
+  {
+    "id": 3099,
+    "level": "1a",
+    "category": "Turbines & Engines",
+    "question": "What is the purpose of a turbine bypass system?",
+    "options": [
+      "To bypass the turbine governor",
+      "To bypass the condenser during maintenance",
+      "A piping system that routes steam directly to the condenser, bypassing the turbine — used during startup, shutdown, and turbine trips to protect the boiler from overpressure",
+      "To bypass the feedwater heaters"
+    ],
+    "correct": 2,
+    "explanation": "The turbine bypass system routes steam directly from the boiler to the condenser through a pressure-reducing/desuperheating station, bypassing the turbine. Used when: (1) Boiler is producing steam but turbine is offline, (2) During turbine trips to prevent boiler overpressure, (3) During startup/shutdown. The bypass valve opens automatically on turbine trip."
+  },
+  {
+    "id": 3100,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "If a boiler has 85% efficiency and fuel costs $10 per million BTU, what is the cost of producing 1,000 lbs of steam at 150 psig from feedwater at 200°F? (Steam enthalpy: 1,196 BTU/lb; feedwater enthalpy: 168 BTU/lb)",
+    "options": [
+      "$12.09",
+      "$10.28",
+      "$8.74",
+      "$15.43"
+    ],
+    "correct": 0,
+    "explanation": "Heat per lb steam = 1,196 - 168 = 1,028 BTU/lb. For 1,000 lbs: 1,028,000 BTU needed. Fuel input = 1,028,000 ÷ 0.85 = 1,209,412 BTU. Cost = 1,209,412 ÷ 1,000,000 × $10 = $12.09. This type of calculation helps evaluate energy costs and efficiency improvements."
+  },
+  {
+    "id": 3101,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "What is the Rankine temperature scale?",
+    "options": [
+      "A relative temperature scale used only for steam tables",
+      "An absolute temperature scale that uses Fahrenheit-sized degrees, with zero at absolute zero (-459.67°F)",
+      "Another name for the Celsius scale",
+      "A pressure scale for saturated steam"
+    ],
+    "correct": 1,
+    "explanation": "The Rankine scale is the absolute temperature counterpart to Fahrenheit — its degree size is the same as Fahrenheit, but its zero point is absolute zero (-459.67°F). Rankine is to Fahrenheit as Kelvin is to Celsius. Conversion: °R = °F + 459.67. Absolute scales are required for thermodynamic calculations (gas laws, Carnot efficiency) because ratios of temperature must be taken from absolute zero, not an arbitrary reference."
+  },
+  {
+    "id": 3102,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "Convert 70°F (typical room temperature) to the Rankine scale.",
+    "options": [
+      "459.67°R",
+      "389.67°R",
+      "529.67°R",
+      "294.26°R"
+    ],
+    "correct": 2,
+    "explanation": "°R = °F + 459.67, so 70°F = 70 + 459.67 = 529.67°R. Any Fahrenheit temperature can be converted to Rankine by adding 459.67. This conversion is routine when applying the ideal gas law, Carnot efficiency, or any equation that requires absolute temperature in U.S. customary units."
+  },
+  {
+    "id": 3103,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "Why must absolute temperature (Rankine or Kelvin) — not Fahrenheit or Celsius — be used when calculating Carnot or thermal efficiency?",
+    "options": [
+      "Because Fahrenheit degrees are too small to give accurate answers",
+      "Because steam tables are only valid above 32°F",
+      "Because efficiency equations involve ratios of temperatures (T_cold / T_hot), and those ratios are only physically meaningful when measured from absolute zero",
+      "Because boiler codes require Rankine by law"
+    ],
+    "correct": 2,
+    "explanation": "The Carnot efficiency formula η = 1 − T_cold / T_hot uses a ratio of temperatures. A ratio is only physically meaningful when both values are measured from the true zero of the quantity (absolute zero). If you plugged in Fahrenheit or Celsius values — which can be negative or zero at arbitrary reference points — the ratio would be nonsensical (sometimes infinite or negative). Rankine and Kelvin are referenced to absolute zero, so their ratios correctly represent the relative thermal energy of the two reservoirs."
+  },
+  {
+    "id": 3104,
+    "level": "1a",
+    "category": "Boiler Calculations",
+    "question": "A heat engine operates between a hot reservoir at 1,000°R and a cold reservoir at 600°R. What is its maximum theoretical (Carnot) efficiency?",
+    "options": [
+      "40%",
+      "60%",
+      "66.7%",
+      "25%"
+    ],
+    "correct": 0,
+    "explanation": "Carnot efficiency η = 1 − (T_cold / T_hot) = 1 − (600 / 1,000) = 1 − 0.60 = 0.40, or 40%. Note both temperatures MUST be absolute (Rankine here). This is the theoretical maximum — real Rankine-cycle steam plants achieve only a fraction of Carnot efficiency due to irreversibilities (friction, heat loss, finite-temperature heat transfer, non-isentropic turbine expansion)."
+  },
+  {
+    "id": 3105,
+    "level": "1a",
+    "category": "Laws of Thermodynamics",
+    "question": "What temperature corresponds to absolute zero on the Rankine scale, and what is its Fahrenheit equivalent?",
+    "options": [
+      "0°R, which equals 32°F (the freezing point of water)",
+      "0°R, which equals 0°F",
+      "459.67°R, which equals 0°F",
+      "0°R, which equals −459.67°F (absolute zero — the theoretical point at which all molecular motion ceases)"
+    ],
+    "correct": 3,
+    "explanation": "Absolute zero is 0°R on the Rankine scale, equivalent to −459.67°F. At this temperature, all classical molecular motion would cease (quantum effects aside) and matter has its minimum possible thermal energy. The Third Law of Thermodynamics states that absolute zero cannot actually be reached in a finite number of steps. Kelvin's absolute zero is 0 K = −273.15°C — the same physical point, just on the Celsius-sized degree scale."
   }
-,
-  {"id": 3001, "level": "1a", "category": "Laws of Thermodynamics", "question": "The Zeroth Law of Thermodynamics establishes what fundamental concept?", "options": ["Energy conservation", "If two systems are each in thermal equilibrium with a third, they are in thermal equilibrium with each other — the basis for temperature measurement", "Heat always flows from hot to cold", "Entropy always increases"], "correct": 1, "explanation": "The Zeroth Law establishes thermal equilibrium transitivity — the basis for using thermometers. If body A is in thermal equilibrium with body C (thermometer), and body B is also in equilibrium with C, then A and B are at the same temperature."},
-  {"id": 3002, "level": "1a", "category": "Steam Turbines", "question": "What is extraction steam in a turbine system?", "options": ["Steam removed from the boiler before it reaches the turbine", "Steam drawn from an intermediate stage of the turbine for feedwater heating or process use", "Steam extracted from the condenser", "Exhaust steam from the last turbine stage"], "correct": 1, "explanation": "Extraction steam is removed from intermediate turbine stages (before full expansion) at various pressures for feedwater heating (regenerative cycle) or process use. This improves overall cycle efficiency by preheating feedwater and reducing condenser heat rejection."},
-  {"id": 3003, "level": "1a", "category": "Boiler Calculations", "question": "Calculate the safe working pressure (SWP) for a boiler shell: tensile strength 60,000 psi, thickness 0.5 inches, efficiency 70%, radius 24 inches.", "options": ["875 psig", "625 psig", "500 psig", "1,250 psig"], "correct": 0, "explanation": "SWP = (TS × t × E) ÷ R = (60,000 × 0.5 × 0.70) ÷ 24 = 21,000 ÷ 24 = 875 psig. This formula (from ASME Section I) determines the maximum allowable working pressure based on material strength, thickness, joint efficiency, and vessel radius."},
-  {"id": 3004, "level": "1a", "category": "Condenser Operations", "question": "What causes air leakage into a condenser operating under vacuum?", "options": ["The condenser is too cold", "Air leaks in through any opening, valve packing, gasket, or fitting that is below atmospheric pressure — vacuum pulls air in", "The cooling water contains too much air", "The turbine pushes air into the condenser"], "correct": 1, "explanation": "Since the condenser operates under vacuum (below atmospheric pressure), any leak allows air to be pulled IN rather than steam leaking OUT. Sources include valve stem packing, flange gaskets, gauge connections, and turbine shaft seals. Air reduces vacuum and impairs heat transfer."},
-  {"id": 3005, "level": "1a", "category": "Steam Engines", "question": "What is a compound steam engine?", "options": ["An engine that runs on two types of fuel", "An engine with two or more cylinders where steam expands in stages — HP cylinder first, then LP cylinder, extracting more work from the steam", "An engine connected to two generators", "An engine made of composite materials"], "correct": 1, "explanation": "A compound engine uses two cylinders: steam first expands in a smaller HP (high-pressure) cylinder, then exhausts to a larger LP (low-pressure) cylinder for further expansion. This extracts more work from the steam than a single expansion and reduces thermal stress on individual cylinders."},
-  {"id": 3006, "level": "1a", "category": "ASME & Codes", "question": "What is ASME Section IX primarily used for in boiler work?", "options": ["Boiler installation requirements", "Qualification of welding procedures (WPS/PQR) and welder performance qualifications", "Pressure vessel design calculations", "Safety valve testing standards"], "correct": 1, "explanation": "Section IX establishes requirements for qualifying Welding Procedure Specifications (WPS) through Procedure Qualification Records (PQR), and for qualifying individual welders through performance tests. All pressure-boundary welding on code boilers must comply with Section IX."},
-  {"id": 3007, "level": "1a", "category": "Laws of Thermodynamics", "question": "What is entropy in thermodynamics?", "options": ["The total energy in a system", "A measure of disorder or unavailable energy in a system — it always increases in natural processes per the Second Law", "The temperature of a system", "The pressure of a system"], "correct": 1, "explanation": "Entropy is a measure of disorder or unavailable energy. The Second Law states that entropy of an isolated system always increases — energy conversions always involve some energy becoming unavailable for work. In a steam cycle, entropy increases through friction, heat transfer across temperature differences, and mixing."},
-  {"id": 3008, "level": "1a", "category": "Steam Turbines", "question": "What is a back-pressure turbine?", "options": ["A turbine that operates in reverse", "A non-condensing turbine that exhausts steam at a pressure above atmospheric for use in process heating", "A turbine with excessive back pressure causing inefficiency", "A turbine that generates pressure rather than consuming it"], "correct": 1, "explanation": "A back-pressure turbine exhausts steam at a higher pressure (above atmospheric) for use in process heating, rather than condensing it to vacuum. It generates power while providing process steam — a cogeneration arrangement. Less power is generated per pound of steam compared to a condensing turbine."},
-  {"id": 3009, "level": "1a", "category": "Boiler Calculations", "question": "A boiler produces 20,000 lb/hr of steam from feedwater at 220°F. Steam conditions are 150 psig saturated (total heat 1,196 BTU/lb). Feedwater enthalpy is 188 BTU/lb. What is the heat input to the steam?", "options": ["20,160,000 BTU/hr", "10,080,000 BTU/hr", "23,920,000 BTU/hr", "15,120,000 BTU/hr"], "correct": 0, "explanation": "Heat input = Steam flow × (Steam enthalpy - Feedwater enthalpy) = 20,000 × (1,196 - 188) = 20,000 × 1,008 = 20,160,000 BTU/hr. This is the useful heat absorbed by the steam."},
-  {"id": 3010, "level": "1a", "category": "Condenser Operations", "question": "What is condenser vacuum typically expressed in, and what is a normal range?", "options": ["psig — typically 5-10 psig", "Inches of mercury (in. Hg) — typically 28-29 in. Hg vacuum", "Inches of water gauge — typically 100-200 in. w.g.", "Atmospheres — typically 0.5-1.0 atm"], "correct": 1, "explanation": "Condenser vacuum is expressed in inches of mercury (in. Hg). Normal operating vacuum is 28-29 in. Hg (approximately 1-2 psia). Higher vacuum = lower exhaust pressure = more work extracted from steam = higher turbine efficiency. A perfect vacuum would be 29.92 in. Hg."},
-  {"id": 3011, "level": "1a", "category": "Steam Engines", "question": "What is the valve gear on a steam engine?", "options": ["The gears that drive the engine's output shaft", "The mechanism that controls the timing of steam admission and exhaust to/from the cylinder", "The governor mechanism only", "The lubrication system for the valves"], "correct": 1, "explanation": "Valve gear is the mechanism that controls when steam enters (admission) and leaves (exhaust) the engine cylinder, and how much of the stroke receives steam (cutoff). Types include Stephenson link, Walschaerts, Corliss, and piston valve gear. Adjusting cutoff controls power output and efficiency."},
-  {"id": 3012, "level": "1a", "category": "ASME & Codes", "question": "What is a Welding Procedure Specification (WPS)?", "options": ["A document listing all welders employed at a facility", "A detailed written document that provides direction to the welder — specifying joint design, base metal, filler metal, preheat, technique, and other variables", "A purchase order for welding supplies", "A safety data sheet for welding materials"], "correct": 1, "explanation": "A WPS is a written qualified welding procedure that provides specific instructions to the welder: joint design, base metal type, filler metal, preheat and interpass temperatures, welding position, technique, shielding gas, electrical parameters, and post-weld heat treatment. Each WPS must be backed by a PQR."},
-  {"id": 3013, "level": "1a", "category": "Laws of Thermodynamics", "question": "In the Rankine cycle, what are the four main processes?", "options": ["Heating, cooling, compression, expansion", "Pumping (compression), boiling (heat addition), expansion (turbine work), condensation (heat rejection)", "Ignition, combustion, exhaust, intake", "Melting, freezing, evaporation, sublimation"], "correct": 1, "explanation": "The four Rankine cycle processes: (1) Pumping — compressed liquid from condenser pressure to boiler pressure; (2) Boiling — heat added in the boiler (constant pressure); (3) Expansion — steam expands through the turbine doing work; (4) Condensation — heat rejected in the condenser (constant pressure)."},
-  {"id": 3014, "level": "1a", "category": "Steam Turbines", "question": "What is blade erosion in a turbine and what causes it?", "options": ["Chemical corrosion of blades from boiler water chemicals", "Physical wearing away of blade edges caused by moisture (water droplets) in the steam impacting the blades at high velocity", "Erosion caused by foreign objects entering the turbine", "Blade material dissolving in superheated steam"], "correct": 1, "explanation": "Blade erosion occurs when water droplets in wet steam impact the moving blades at high velocity (up to 1,000+ ft/sec at blade tips). The repeated impacts physically erode the blade edges, particularly in the last stages of LP turbines where moisture content is highest. Superheating and moisture separators reduce this."},
-  {"id": 3015, "level": "1a", "category": "Boiler Calculations", "question": "What is boiler efficiency and how is it calculated using the input-output method?", "options": ["Efficiency = fuel cost ÷ steam revenue", "Efficiency = (heat output in steam ÷ heat input from fuel) × 100%", "Efficiency = steam pressure ÷ fuel pressure × 100%", "Efficiency = water flow rate ÷ fuel flow rate × 100%"], "correct": 1, "explanation": "Boiler efficiency (input-output method) = (Heat absorbed by steam ÷ Heat input from fuel) × 100%. Heat absorbed = steam flow × (steam enthalpy - feedwater enthalpy). Heat input = fuel flow × heating value. Typical modern boiler efficiency: 80-85% for standard, 90%+ with economizer."},
-  {"id": 3016, "level": "1a", "category": "Condenser Operations", "question": "What is a deaerating condenser?", "options": ["A condenser that removes air from the cooling water", "A condenser designed to remove dissolved gases from condensate while condensing turbine exhaust steam", "A condenser used only during startup", "A condenser without vacuum pumps"], "correct": 1, "explanation": "A deaerating condenser combines condensing and deaeration functions. It is designed to heat condensate to saturation temperature while condensing exhaust steam, releasing dissolved oxygen and CO2 through vents. This reduces or eliminates the need for a separate deaerator."},
-  {"id": 3017, "level": "1a", "category": "Steam Engines", "question": "What is 'cutoff' in a steam engine?", "options": ["Shutting off the engine completely", "The point in the piston stroke where steam admission is stopped, and the steam begins expanding — earlier cutoff means more expansion and higher efficiency", "The point where the engine exceeds safe speed", "The point where lubrication fails"], "correct": 1, "explanation": "Cutoff is the point in the stroke where the admission valve closes. After cutoff, steam already in the cylinder expands (doing work) without additional steam. Earlier cutoff (e.g., 25% vs 50%) means more expansion, higher efficiency, but less power per stroke. Cutoff is adjusted by the governor or valve gear."},
-  {"id": 3018, "level": "1a", "category": "ASME & Codes", "question": "What NDE method uses a liquid that penetrates surface-breaking cracks and is drawn out by a developer?", "options": ["Ultrasonic Testing (UT)", "Radiographic Testing (RT)", "Liquid Penetrant Testing (PT)", "Magnetic Particle Testing (MT)"], "correct": 2, "explanation": "Liquid Penetrant Testing (PT) applies a colored or fluorescent liquid to the surface. The liquid penetrates into surface-breaking cracks by capillary action. After cleaning the surface, a developer draws the penetrant back out, making the crack visible. PT works on ALL materials (unlike MT which requires ferromagnetic material)."},
-  {"id": 3019, "level": "1a", "category": "Laws of Thermodynamics", "question": "What is the Third Law of Thermodynamics?", "options": ["Energy is always conserved", "Heat flows from hot to cold", "As temperature approaches absolute zero, entropy approaches a minimum (zero for a perfect crystal)", "Pressure and volume are inversely proportional"], "correct": 2, "explanation": "The Third Law states that as temperature approaches absolute zero (0 K or -459.67°F), the entropy of a perfect crystal approaches zero. This establishes an absolute reference point for entropy. In practice, it means absolute zero can never be fully reached."},
-  {"id": 3020, "level": "1a", "category": "Steam Turbines", "question": "What is the purpose of a turning gear (barring gear) on a turbine?", "options": ["To turn the turbine to generate power during startup", "To slowly rotate the turbine rotor during shutdown cooling to prevent thermal bowing from uneven cooling", "To test the governor mechanism", "To turn the generator for maintenance access"], "correct": 1, "explanation": "The turning gear slowly rotates the rotor (typically 2-5 RPM) during shutdown cooling to prevent thermal bowing. If a hot rotor stops rotating, the top heats more than the bottom, causing a bow. A bowed rotor vibrates excessively on restart. Turning gear runs until the rotor is uniformly cooled."},
-  {"id": 3021, "level": "1a", "category": "Boiler Calculations", "question": "What is the factor of evaporation?", "options": ["The ratio of actual evaporation to rated capacity", "The ratio of heat required to produce 1 lb of steam at actual conditions to the heat required from and at 212°F (970.3 BTU/lb)", "The percentage of water that evaporates during blowdown", "The ratio of steam drum volume to water volume"], "correct": 1, "explanation": "Factor of evaporation = (Total heat of steam - Heat of feedwater) ÷ 970.3. Example: Steam at 150 psig (1,196 BTU/lb) from feedwater at 220°F (188 BTU/lb): FE = (1,196-188)/970.3 = 1.039. This converts actual evaporation to equivalent evaporation 'from and at 212°F'."},
-  {"id": 3022, "level": "1a", "category": "Steam Turbines", "question": "What is a reheat cycle in a steam power plant?", "options": ["Reheating the condenser cooling water", "After partial expansion in the HP turbine, steam returns to the boiler reheater to be reheated, then expands through the LP turbine — improving efficiency and reducing moisture", "Heating the boiler room with exhaust steam", "Preheating fuel before combustion"], "correct": 1, "explanation": "In a reheat cycle, steam partially expands in the HP turbine, returns to the boiler's reheater section to be reheated to near-original temperature, then expands through the IP/LP turbine. Benefits: increased thermal efficiency, reduced moisture in LP turbine stages, and more work per pound of steam."},
-  {"id": 3023, "level": "1a", "category": "Condenser Operations", "question": "What is a cooling tower and how does it reject heat?", "options": ["A tower that cools the boiler room with fans", "A structure that cools condenser cooling water by evaporating a portion of it — the evaporation absorbs heat from the remaining water", "A tower that stores cold water for emergency use", "A chimney that vents hot air from the condenser"], "correct": 1, "explanation": "A cooling tower rejects condenser heat to the atmosphere by evaporating a small percentage (typically 1-2%) of the circulating cooling water. The latent heat of evaporation cools the remaining water. Types: natural draft (hyperbolic), forced draft, and induced draft."},
-  {"id": 3024, "level": "1a", "category": "Steam Engines", "question": "What is a triple-expansion steam engine?", "options": ["An engine that runs three times faster than a compound engine", "An engine with three cylinders of increasing size — HP, IP, and LP — where steam expands in three successive stages", "An engine with three separate fuel systems", "An engine that generates three types of power"], "correct": 1, "explanation": "A triple-expansion engine has three cylinders: HP (smallest), IP (intermediate), and LP (largest). Steam expands through all three in sequence, extracting maximum work from the steam. Each cylinder is larger to accommodate the increasing volume of expanding steam. Used in marine and large stationary applications."},
-  {"id": 3025, "level": "1a", "category": "ASME & Codes", "question": "What is a Procedure Qualification Record (PQR)?", "options": ["A record of all welders who have worked at a facility", "The record of the actual welding variables used and test results from a test weld specimen that qualifies a WPS", "A purchase order for welding materials", "An inspection report from an authorized inspector"], "correct": 1, "explanation": "A PQR documents the actual welding variables used and the results (mechanical tests: tensile, bend, impact) of a test weld coupon that supports (qualifies) a Welding Procedure Specification. Each WPS must be backed by at least one PQR demonstrating the procedure produces acceptable results."},
-  {"id": 3026, "level": "1a", "category": "Boiler Calculations", "question": "Calculate the force on a safety valve disc: set pressure 200 psig, disc area 4 square inches.", "options": ["50 lbs", "200 lbs", "800 lbs", "400 lbs"], "correct": 2, "explanation": "Force = Pressure × Area = 200 psig × 4 sq in = 800 lbs. The spring must exert 800 lbs to keep the valve closed at 200 psig. When boiler pressure reaches 200 psig, the upward force equals the spring force and the valve begins to open."},
-  {"id": 3027, "level": "1a", "category": "Steam Turbines", "question": "What is the purpose of a turbine trip-and-throttle valve (stop valve)?", "options": ["To control the normal operating speed of the turbine", "To provide emergency shutdown capability by rapidly closing to stop all steam flow to the turbine", "To throttle cooling water to the condenser", "To control extraction steam flow"], "correct": 1, "explanation": "The trip-and-throttle valve (also called the main stop valve or emergency stop valve) provides emergency shutdown by rapidly closing to stop all steam flow to the turbine. It is tripped by the overspeed device, low oil pressure, high vibration, or manual emergency trip. It also serves as the main steam shutoff."},
-  {"id": 3028, "level": "1a", "category": "Condenser Operations", "question": "What is an air ejector on a condenser?", "options": ["A fan that blows air into the condenser for cooling", "A steam-powered device that removes non-condensable gases (air) from the condenser to maintain vacuum", "An emergency air supply for the boiler room", "A device that injects air into cooling water"], "correct": 1, "explanation": "A steam air ejector uses high-velocity steam (Venturi effect) to entrain and remove non-condensable gases (air, CO2) from the condenser. Removing these gases is essential for maintaining condenser vacuum. Mechanical vacuum pumps serve the same function in some installations."},
-  {"id": 3029, "level": "1a", "category": "Laws of Thermodynamics", "question": "What is enthalpy?", "options": ["The pressure of a gas at constant volume", "The total heat content of a substance — the sum of internal energy plus pressure-volume work (H = U + PV)", "The temperature at which a substance changes state", "The density of steam at a given pressure"], "correct": 1, "explanation": "Enthalpy (H) is the total heat content of a substance: H = U + PV (internal energy + pressure-volume work). In steam tables, enthalpy values for water and steam at various pressures allow engineers to calculate heat added, work done, and efficiency of the steam cycle."},
-  {"id": 3030, "level": "1a", "category": "Steam Engines", "question": "What is a Corliss valve gear?", "options": ["A gear system for marine propulsion", "A valve gear using four separate rotary valves (two steam, two exhaust) for precise and efficient control of steam admission and exhaust", "A governor mechanism for small engines", "A safety device on locomotive engines"], "correct": 1, "explanation": "Corliss valve gear uses four separate rotary valves: two for steam admission and two for exhaust, each at the corners of the cylinder. The Corliss design provides very sharp cutoff (fast valve closing), reducing wire-drawing losses and improving efficiency. The steam valves are tripped by the governor for variable cutoff."},
-  {"id": 3031, "level": "1a", "category": "ASME & Codes", "question": "NBIC Part 2 covers what subject?", "options": ["New boiler construction", "Boiler operator training requirements", "Repair and alteration procedures", "Boiler and pressure vessel inspection requirements and procedures"], "correct": 3, "explanation": "NBIC Part 2 covers INSPECTION of boilers and pressure vessels — the requirements, procedures, and guidelines for in-service inspection. It addresses inspection intervals, preparation, internal/external examination, condition assessment, and documentation requirements."},
-  {"id": 3032, "level": "1a", "category": "Boiler Calculations", "question": "A 150 HP boiler operates at 80% efficiency. What is the fuel input required in BTU/hr?", "options": ["4,021,500 BTU/hr", "5,021,850 BTU/hr", "6,277,313 BTU/hr", "8,369,750 BTU/hr"], "correct": 2, "explanation": "Steam output = 150 BHP × 33,479 BTU/hr/BHP = 5,021,850 BTU/hr. Fuel input = Output ÷ Efficiency = 5,021,850 ÷ 0.80 = 6,277,313 BTU/hr."},
-  {"id": 3033, "level": "1a", "category": "Steam Turbines", "question": "What is a diaphragm in an impulse turbine?", "options": ["A flexible membrane that absorbs vibration", "A safety device that ruptures at overpressure", "A seal between the turbine and generator", "A stationary partition between stages that contains the nozzles through which steam expands and accelerates before hitting the moving blades"], "correct": 3, "explanation": "In an impulse turbine, diaphragms are stationary partitions between stages. Each diaphragm contains a ring of nozzles through which steam expands and accelerates. The high-velocity steam then strikes the moving blades on the rotor. Diaphragm seals minimize steam leakage between stages."},
-  {"id": 3034, "level": "1a", "category": "Condenser Operations", "question": "What is the effect of condenser tube fouling on plant efficiency?", "options": ["No effect on efficiency", "Fouling increases heat transfer and improves efficiency", "Fouling reduces heat transfer, raises condenser pressure (reduces vacuum), and decreases turbine output and plant efficiency", "Fouling only affects water quality, not efficiency"], "correct": 2, "explanation": "Fouling (scale, biological growth, sediment) on condenser tubes reduces heat transfer. This raises condenser temperature and pressure, reducing condenser vacuum. Higher back pressure means less work extracted from steam in the turbine. Even a 1 in. Hg loss in vacuum significantly reduces turbine efficiency."},
-  {"id": 3035, "level": "1a", "category": "Steam Engines", "question": "What is mean effective pressure (MEP) in a steam engine?", "options": ["The average steam supply pressure", "The pressure in the exhaust pipe", "The pressure setting on the governor", "The average net pressure acting on the piston over the entire stroke — used to calculate indicated horsepower"], "correct": 3, "explanation": "MEP is the average net pressure on the piston over the entire stroke, derived from an indicator diagram. IHP = (MEP × L × A × N) ÷ 33,000, where L=stroke length(ft), A=piston area(sq in), N=power strokes/min. MEP accounts for varying pressures during admission, expansion, and exhaust."},
-  {"id": 3036, "level": "1a", "category": "ASME & Codes", "question": "What distinguishes NBIC Part 3 from other NBIC parts?", "options": ["Part 3 covers new construction only", "Part 3 covers fuel system design", "Part 3 covers operator licensing", "Part 3 covers repairs and alterations of boilers and pressure vessels — the procedures required for welded repairs, re-rating, and modifications"], "correct": 3, "explanation": "NBIC Part 3 covers REPAIRS AND ALTERATIONS — the procedures, documentation, and quality requirements for welded repairs, re-rating, and structural modifications to boilers and pressure vessels. All repairs must be performed by R-stamp holders following NBIC Part 3 procedures with Authorized Inspector involvement."},
-  {"id": 3037, "level": "1a", "category": "Laws of Thermodynamics", "question": "What is the Mollier diagram (h-s diagram) used for?", "options": ["Plotting boiler water chemistry", "Mapping boiler room ventilation", "Plotting fuel flow vs. air flow", "Graphically representing the relationship between enthalpy (h) and entropy (s) of steam — used to analyze turbine expansion, moisture content, and cycle efficiency"], "correct": 3, "explanation": "The Mollier diagram plots enthalpy (h) on the Y-axis vs. entropy (s) on the X-axis. It shows constant pressure lines, temperature lines, moisture lines, and superheat regions. Engineers use it to analyze turbine expansion (follows constant entropy for ideal expansion), determine moisture content, and calculate work output."},
-  {"id": 3038, "level": "1a", "category": "Steam Turbines", "question": "What is a labyrinth seal clearance and why is it critical?", "options": ["It is not important — clearances can be any size", "The gap between turbine blades and diaphragms", "The distance between the turbine and the generator", "The small gap between labyrinth seal fins and the shaft/casing that must be precisely maintained to minimize steam leakage without contact"], "correct": 3, "explanation": "Labyrinth seal clearance is the radial gap between the seal fins and the rotating shaft. Too tight = risk of rubbing contact causing heat and damage. Too large = excessive steam leakage reducing efficiency. Typical clearances are a few thousandths of an inch. Clearances are checked during maintenance outages."},
-  {"id": 3039, "level": "1a", "category": "Boiler Calculations", "question": "Convert 500°F to Rankine scale.", "options": ["500°R", "41.67°R", "1,459.67°R", "959.67°R"], "correct": 3, "explanation": "Rankine = °F + 459.67. So 500°F = 500 + 459.67 = 959.67°R. The Rankine scale is the absolute temperature scale based on Fahrenheit. It is used in Carnot efficiency calculations and thermodynamic equations requiring absolute temperature."},
-  {"id": 3040, "level": "1a", "category": "Condenser Operations", "question": "What is a surface condenser?", "options": ["A condenser mounted on the surface of a building", "An open tank where steam and cooling water mix directly", "A condenser that uses air cooling on exposed surfaces", "A shell-and-tube heat exchanger where exhaust steam condenses on the outside of tubes carrying cooling water — steam and cooling water do not mix"], "correct": 3, "explanation": "A surface condenser is a large shell-and-tube heat exchanger. Exhaust steam enters the shell side and condenses on the outside of tubes carrying cooling water. Since steam and cooling water DO NOT MIX, condensate remains pure and can be returned directly to the boiler as feedwater."},
-  {"id": 3041, "level": "1a", "category": "Steam Engines", "question": "What is an indicator diagram (PV diagram) for a steam engine?", "options": ["A warning label on the engine", "A schematic of the valve gear mechanism", "A diagram showing the engine's external dimensions", "A graph plotting cylinder pressure vs. piston position (volume) over one complete stroke — the enclosed area represents work done"], "correct": 3, "explanation": "An indicator diagram plots cylinder pressure (P) on the Y-axis vs. piston position/volume (V) on the X-axis. The enclosed area of the diagram represents the work done by the steam per stroke. From this, MEP and Indicated Horsepower (IHP) can be calculated. An engine indicator instrument records this."},
-  {"id": 3042, "level": "1a", "category": "ASME & Codes", "question": "What is the purpose of ASME Section II?", "options": ["Materials specifications — it contains the properties, specifications, and allowable stresses for all materials used in ASME code construction", "Power boiler construction rules", "Welding qualifications", "Pressure vessel design rules"], "correct": 0, "explanation": "ASME Section II contains MATERIALS specifications: Part A (Ferrous Materials), Part B (Nonferrous Materials), Part C (Welding Rods, Electrodes, and Filler Metals), and Part D (Properties — allowable stresses, physical properties). All materials used in code construction must meet Section II specifications."},
-  {"id": 3043, "level": "1a", "category": "Steam Turbines", "question": "What is a gland condenser in a turbine system?", "options": ["A condenser for the gland sealing steam system — it condenses steam leaking from shaft seals and recovers it as condensate", "A condenser mounted on the turbine governor", "A secondary condenser for peak loads", "A cooling system for the turbine journal bearings"], "correct": 0, "explanation": "The gland condenser (also called gland exhaust condenser) condenses steam leaking from the turbine shaft labyrinth seals. A small fan or ejector pulls seal leakage through the gland condenser, where it condenses. The condensate is recovered, and non-condensable gases are vented."},
-  {"id": 3044, "level": "1a", "category": "Boiler Calculations", "question": "A safety valve has a 3-inch diameter nozzle. What is the nozzle seat area?", "options": ["3 sq in", "9.42 sq in", "7.07 sq in", "28.27 sq in"], "correct": 2, "explanation": "Area = π × r² = π × (1.5)² = π × 2.25 = 7.07 sq in. Or using A = π × d²/4 = π × 9/4 = 7.07 sq in. This area is used to calculate the force on the safety valve disc (Force = Pressure × Area)."},
-  {"id": 3045, "level": "1a", "category": "Condenser Operations", "question": "What happens if cooling water flow to the condenser is lost?", "options": ["Nothing — the condenser can operate without cooling water", "The boiler shuts down automatically", "The turbine speeds up", "Condenser vacuum is rapidly lost (pressure rises), turbine exhaust pressure increases, and the turbine must be tripped to prevent damage from excessive back pressure and overheating"], "correct": 3, "explanation": "Loss of cooling water means the condenser cannot condense exhaust steam. Condenser pressure rises rapidly (vacuum is lost), increasing turbine back pressure. The turbine must be tripped immediately to prevent damage from overheating and excessive exhaust pressure. Low condenser vacuum trips are standard protection."},
-  {"id": 3046, "level": "1a", "category": "Laws of Thermodynamics", "question": "What is the significance of the 'quality' of steam?", "options": ["The purity of the water used to make steam", "The temperature of the steam", "The ratio of steam mass to total mass (steam + water) in a wet steam mixture — expressed as a percentage", "The brand or manufacturer of the boiler"], "correct": 2, "explanation": "Steam quality = mass of dry steam ÷ total mass (steam + liquid). Quality of 95% means 95% dry steam and 5% moisture by weight. Quality is important for turbine operation — moisture causes blade erosion. Saturated steam quality must be >99% for most turbine applications."},
-  {"id": 3047, "level": "1a", "category": "Steam Engines", "question": "What is 'wire-drawing' in the context of a steam engine valve?", "options": ["The throttling loss that occurs when a valve opens or closes too slowly, causing steam to pass through a restricted opening with pressure loss", "Drawing wire through the engine for instrumentation", "A manufacturing process for valve stems", "Damage to the valve from foreign objects"], "correct": 0, "explanation": "Wire-drawing is the throttling loss when steam passes through a partially open valve. The restricted opening causes a pressure drop without producing useful work — the energy is converted to heat. Sharp cutoff (fast valve closure) minimizes wire-drawing losses. Corliss valve gear is designed to minimize this."},
-  {"id": 3048, "level": "1a", "category": "ASME & Codes", "question": "What is a Manufacturer's Data Report (MDR) for a boiler?", "options": ["A marketing document describing boiler features", "A report on the boiler's energy efficiency", "A maintenance log kept by the boiler operator", "The official document completed by the manufacturer certifying that the boiler was built in compliance with the applicable ASME Code section — signed by the manufacturer and the Authorized Inspector"], "correct": 3, "explanation": "The MDR is the official ASME code compliance document. It certifies the boiler was designed, built, inspected, and tested per the applicable ASME Code section. It includes construction details, materials, test results, and is signed by both the manufacturer's representative and an Authorized Inspector (AI). Filed with the National Board."},
-  {"id": 3049, "level": "1a", "category": "Steam Turbines", "question": "What is the difference between journal bearings and thrust bearings on a turbine?", "options": ["They are the same type of bearing", "Journal bearings are used only on generators; thrust bearings only on turbines", "Journal bearings support the rotor's radial load (weight); thrust bearings control the rotor's axial position", "Journal bearings handle axial loads; thrust bearings handle radial loads"], "correct": 2, "explanation": "JOURNAL bearings support the radial load (weight of the rotor) and allow rotation with minimal friction using an oil film. THRUST bearings control the AXIAL position of the rotor, resisting the force of steam pushing the rotor along its axis. Both are critical — failure of either causes catastrophic damage."},
-  {"id": 3050, "level": "1a", "category": "Boiler Calculations", "question": "Calculate Carnot efficiency for a steam plant: steam at 800°F, condenser at 100°F.", "options": ["Approximately 55.6%", "Approximately 87.5%", "Approximately 12.5%", "Approximately 44.4%"], "correct": 0, "explanation": "Convert to Rankine: T_hot = 800 + 459.67 = 1,259.67°R; T_cold = 100 + 459.67 = 559.67°R. η_Carnot = 1 - (T_cold/T_hot) = 1 - (559.67/1,259.67) = 1 - 0.4444 = 0.5556 = 55.6%. Actual plant efficiency is always lower than Carnot due to irreversibilities."},
-  {"id": 3051, "level": "1a", "category": "Steam Turbines", "question": "What is the purpose of the turbine lube oil system?", "options": ["To provide lubrication and cooling to journal bearings, thrust bearings, governor mechanism, and seals — maintaining an oil film between rotating and stationary parts", "To cool the steam before it enters the turbine", "To lubricate the boiler feedwater pump", "To clean the turbine blades"], "correct": 0, "explanation": "The lube oil system supplies pressurized, filtered, cooled oil to: journal bearings (supporting rotor weight), thrust bearings (controlling axial position), governor/control mechanisms, and turning gear. Oil pressure must be maintained at all times during operation and shutdown — loss of oil pressure triggers an immediate turbine trip."},
-  {"id": 3052, "level": "1a", "category": "Condenser Operations", "question": "What is the approach temperature in a condenser?", "options": ["The temperature of steam approaching the condenser", "The temperature at which cooling water approaches boiling", "The rate at which cooling water temperature approaches steam temperature", "The difference between condenser condensate temperature and cooling water inlet temperature — smaller approach means better condenser performance"], "correct": 3, "explanation": "Approach temperature = condensate temperature - cooling water inlet temperature. A smaller approach indicates more effective heat transfer. Typical approach for a well-performing condenser is 5-10°F. Increased approach indicates tube fouling, air leakage, or insufficient cooling water flow."},
-  {"id": 3053, "level": "1a", "category": "Steam Engines", "question": "What is the difference between a slide valve and a piston valve on a steam engine?", "options": ["They function identically", "Slide valves are used for exhaust; piston valves for admission", "A slide valve is a flat plate that slides over ports; a piston valve is a cylindrical valve that moves inside a cylindrical bore — piston valves have better balance and less friction", "Piston valves are used on diesel engines only"], "correct": 2, "explanation": "A SLIDE VALVE is a flat D-shaped plate that slides over ports in the cylinder face. A PISTON VALVE is a cylindrical spool that moves inside a bore, uncovering ports. Piston valves are BALANCED (equal steam pressure on both sides) reducing friction and allowing higher steam pressures. Most modern steam engines use piston valves."},
-  {"id": 3054, "level": "1a", "category": "ASME & Codes", "question": "What is an Authorized Inspector (AI) in ASME code work?", "options": ["An inspector employed by or contracted through an ASME-accredited Authorized Inspection Agency (typically the insurer) who monitors code compliance during boiler construction", "Any licensed boiler operator", "A government building inspector", "A fire marshal"], "correct": 0, "explanation": "An Authorized Inspector (AI) is employed by or contracted through an Authorized Inspection Agency (AIA) — typically a boiler insurance company accredited by ASME. The AI monitors code compliance during construction, witnesses hydrostatic tests, reviews MDRs, and signs off on ASME code stamps. Required for all code construction."},
-  {"id": 3055, "level": "1a", "category": "Boiler Calculations", "question": "What is the heating surface of a boiler?", "options": ["The area of the boiler room floor", "The area of the firebox only", "The area of the boiler's external insulation", "The total area of boiler surfaces exposed to hot gases on one side and water/steam on the other side — where heat transfer occurs"], "correct": 3, "explanation": "Heating surface is the total area of surfaces that have hot combustion gases on one side and water/steam on the other. This includes tubes, shell (in fire-tube boilers), furnace walls (waterwalls), and any other heat transfer surfaces. It is measured in square feet and is stamped on the nameplate."},
-  {"id": 3056, "level": "1a", "category": "Steam Turbines", "question": "What is a regenerative cycle in a steam power plant?", "options": ["A cycle that regenerates worn turbine blades", "A cycle that recycles exhaust gases for combustion", "A cycle that uses extraction steam to preheat feedwater in stages, improving thermal efficiency by reducing condenser heat rejection", "A cycle that uses regenerative braking on the turbine"], "correct": 2, "explanation": "The regenerative cycle extracts steam from intermediate turbine stages to heat feedwater in a series of feedwater heaters. This reduces the heat added in the boiler and the heat rejected in the condenser, improving thermal efficiency. Most power plants use 6-8 stages of feedwater heating."},
-  {"id": 3057, "level": "1a", "category": "Condenser Operations", "question": "What causes water hammer in a condensate system?", "options": ["Steam collapsing rapidly when it contacts a pocket of cool condensate, creating a violent pressure shock wave", "Excessive feedwater pump pressure", "Air in the cooling water supply", "Vibration from the turbine"], "correct": 0, "explanation": "Water hammer in condensate systems occurs when steam contacts a cool surface or condensate pocket and collapses rapidly. The sudden void creates a violent pressure wave that can rupture pipes and damage equipment. Proper condensate drainage, steam trap maintenance, and slow warm-up procedures prevent water hammer."},
-  {"id": 3058, "level": "1a", "category": "Steam Engines", "question": "What is the lap of a slide valve?", "options": ["The distance the valve overlaps past the port when centered — determines when the valve opens relative to piston position", "The number of times the valve cycles per minute", "The gap between the valve and the port edges", "The overlap between two engine cylinders"], "correct": 0, "explanation": "Lap is the amount the slide valve face extends past the edge of the steam or exhaust port when the valve is in its central position. Steam lap controls when admission begins and ends (affects cutoff). Exhaust lap controls when exhaust opens and closes. Lead is the amount the port is already cracked open at the start of the stroke."},
-  {"id": 3059, "level": "1a", "category": "ASME & Codes", "question": "What is post-weld heat treatment (PWHT) and when is it required?", "options": ["Heating the weld area after welding is complete to relieve residual stresses, improve ductility, and reduce the risk of cracking — required by ASME for certain material types and thicknesses", "Heating the weld to melt it again", "Applying flame to check weld quality", "Drying the weld with hot air"], "correct": 0, "explanation": "PWHT involves uniformly heating the weld and surrounding area to a specified temperature (typically 1,100-1,250°F for carbon steel), holding for a specified time, then slowly cooling. This relieves residual welding stresses, tempers the heat-affected zone, and reduces cracking risk. Required by ASME for materials over certain thicknesses."},
-  {"id": 3060, "level": "1a", "category": "Laws of Thermodynamics", "question": "What is specific heat capacity?", "options": ["The heat capacity of a specific boiler model", "The rate of heat loss from a substance", "The maximum temperature a substance can reach", "The amount of heat energy required to raise the temperature of one unit of mass of a substance by one degree — for water: 1 BTU/(lb·°F)"], "correct": 3, "explanation": "Specific heat is the heat required to raise one unit mass by one degree temperature. For water: 1 BTU/(lb·°F). For steel: approximately 0.12 BTU/(lb·°F). Water's high specific heat makes it an excellent medium for heat transfer in boiler systems."},
-  {"id": 3061, "level": "1a", "category": "Steam Turbines", "question": "What is the difference between a condensing and a non-condensing (back-pressure) turbine?", "options": ["A condensing turbine is more compact", "A non-condensing turbine is more efficient", "A condensing turbine exhausts to a vacuum condenser (maximum power output); a back-pressure turbine exhausts at above atmospheric pressure for process steam use (cogeneration)", "They generate the same amount of power"], "correct": 2, "explanation": "CONDENSING: Exhausts to vacuum (28-29 in. Hg), extracts maximum work from steam, requires a condenser and cooling water. BACK-PRESSURE: Exhausts at above-atmospheric pressure for process use, generates less power per pound of steam but provides useful process heat (cogeneration). Back-pressure turbines are more thermally efficient overall."},
-  {"id": 3062, "level": "1a", "category": "Boiler Calculations", "question": "What is equivalent evaporation?", "options": ["The calculated evaporation from and at 212°F that produces the same heat absorption as the actual operating conditions — Equiv. Evap. = Actual Evap. × Factor of Evaporation", "The actual amount of water evaporated per hour", "The maximum evaporation rate at full load", "The evaporation rate at atmospheric pressure"], "correct": 0, "explanation": "Equivalent evaporation converts actual evaporation to a standard basis (from and at 212°F) for comparing boilers operating at different conditions. Equiv. Evap. = Actual Evap. × Factor of Evaporation. This allows apples-to-apples comparison of boiler capacity regardless of operating pressure and feedwater temperature."},
-  {"id": 3063, "level": "1a", "category": "Condenser Operations", "question": "What is a jet condenser (direct-contact condenser)?", "options": ["A condenser that uses steam jets for cooling", "A portable emergency condenser", "A condenser powered by jet engines", "A condenser where exhaust steam directly contacts and mixes with cooling water — the condensate cannot be recovered as pure feedwater"], "correct": 3, "explanation": "A jet condenser (barometric or direct-contact) sprays cooling water directly into the exhaust steam. The steam condenses by mixing with the water. Advantage: simple, inexpensive, no tubes to foul. Disadvantage: condensate mixes with cooling water and cannot be recovered as pure feedwater — surface condensers are preferred for this reason."},
-  {"id": 3064, "level": "1a", "category": "Steam Turbines", "question": "What is a speed-regulating governor vs. a speed-limiting governor?", "options": ["They are the same thing", "A speed-limiting governor is more precise than a speed-regulating governor", "A speed-regulating governor maintains a set speed by continuously adjusting steam flow; a speed-limiting governor only acts at overspeed to trip the turbine", "A speed-regulating governor operates on fuel; a speed-limiting governor operates on steam"], "correct": 2, "explanation": "A SPEED-REGULATING governor continuously adjusts steam flow to maintain the desired operating speed as load changes — it is the primary speed control. A SPEED-LIMITING governor (overspeed trip) is a safety device that only acts when speed exceeds 110% of rated, triggering an emergency shutdown. Both are required on power turbines."},
-  {"id": 3065, "level": "1a", "category": "ASME & Codes", "question": "What is the difference between an alteration and a repair under NBIC Part 3?", "options": ["An ALTERATION changes the original design conditions (pressure rating, temperature, capacity); a REPAIR restores the equipment to its original design conditions", "They are the same thing", "An alteration is cheaper than a repair", "An alteration requires less documentation"], "correct": 0, "explanation": "REPAIR: Restoring equipment to safe operating condition without changing the original design conditions (MAWP, temperature, capacity). ALTERATION: A change from the original design (re-rating, adding nozzles, changing materials). Alterations require engineering analysis, re-stamping, and more extensive documentation than repairs."},
-  {"id": 3067, "level": "1a", "category": "Steam Turbines", "question": "What is blade tip clearance and why must it be carefully maintained?", "options": ["The distance between blade tips and the casing — too small risks blade-casing contact; too large allows excessive steam leakage past the blades, reducing efficiency", "The sharpness of the blade tip edges", "The axial distance between blade rows", "The clearance between the blade and its attachment to the rotor"], "correct": 0, "explanation": "Blade tip clearance is the radial gap between the tips of rotating blades and the inner surface of the stationary casing. Too small = risk of rubbing during thermal expansion or vibration, causing damage. Too large = steam leaks past blade tips without doing work, reducing stage efficiency. Typically maintained at a few thousandths of an inch."},
-  {"id": 3068, "level": "1a", "category": "Steam Engines", "question": "What is the indicator card area and how is it related to engine power?", "options": ["The area of the engine's nameplate", "The size of the lubrication card for maintenance tracking", "The area enclosed by the indicator diagram is proportional to the work done per stroke — larger area = more power", "The area of the engine's control panel"], "correct": 2, "explanation": "The area enclosed by the indicator diagram (P-V diagram) represents the NET WORK done by the steam per stroke. Using a planimeter or calculation, this area yields Mean Effective Pressure (MEP). IHP = (MEP × L × A × N) ÷ 33,000. Larger enclosed area = more work per stroke = more power."},
-  {"id": 3069, "level": "1a", "category": "Condenser Operations", "question": "What is the terminal temperature difference (TTD) of a feedwater heater?", "options": ["The difference between the saturation temperature of the extraction steam and the feedwater outlet temperature — a measure of heater effectiveness", "The temperature at which the heater terminates operation", "The temperature drop across the heater drain", "The difference between inlet and outlet water temperatures"], "correct": 0, "explanation": "TTD = Saturation temperature of extraction steam - Feedwater outlet temperature. A smaller TTD indicates more effective heat transfer. Typical TTD for a closed feedwater heater is 5-10°F. Increasing TTD signals tube fouling or level control problems in the heater."},
-  {"id": 3070, "level": "1a", "category": "ASME & Codes", "question": "What is the minimum required thickness for boiler shell plate per ASME Section I?", "options": ["1/16 inch", "1/4 inch for all boilers", "Calculated from the SWP formula based on MAWP, material strength, joint efficiency, and radius — no single minimum applies", "1 inch for all power boilers"], "correct": 2, "explanation": "Shell thickness is CALCULATED using the ASME Section I formula: t = (P × R) ÷ (S × E - 0.6P), where P=MAWP, R=inside radius, S=allowable stress, E=joint efficiency. The required thickness depends on operating conditions and materials. ASME does set absolute minimums for certain components."},
-  {"id": 3071, "level": "1a", "category": "Boiler Calculations", "question": "What is the heat rate of a power plant and what does it indicate?", "options": ["The speed at which the boiler heats up during startup", "The BTU content of the fuel being burned", "The rate of temperature increase in the furnace", "The number of BTU required to generate one kilowatt-hour (kWh) of electricity — lower heat rate = higher efficiency"], "correct": 3, "explanation": "Heat rate = BTU of fuel input ÷ kWh of electricity output. Typical: 10,000 BTU/kWh (34% efficiency) to 8,500 BTU/kWh (40% efficiency). Since 1 kWh = 3,412 BTU, a heat rate of 3,412 would be 100% efficient. Lower heat rate = higher efficiency = less fuel per kWh."},
-  {"id": 3072, "level": "1a", "category": "Steam Turbines", "question": "What is the purpose of a sentinel valve on a turbine bearing housing?", "options": ["To protect the bearing from overpressure", "To regulate bearing oil flow", "A small relief valve that warns of high oil pressure or temperature by releasing a visible jet of steam/oil — it is a warning device, not a protective device", "To vent air from the bearing housing"], "correct": 2, "explanation": "A sentinel valve is a small spring-loaded valve on the bearing housing that releases a visible jet of steam or oil when pressure exceeds normal, WARNING the operator of a potential bearing problem. It is NOT a protective device and cannot prevent bearing failure — it only provides a visible/audible alarm."},
-  {"id": 3073, "level": "1a", "category": "Laws of Thermodynamics", "question": "What is the dew point temperature of flue gas?", "options": ["The temperature at which water vapor in the flue gas begins to condense — below this temperature, corrosive condensation occurs on heat transfer surfaces", "The temperature at which fuel ignites", "The temperature of the incoming combustion air", "The temperature at which the stack draft reaches zero"], "correct": 0, "explanation": "The dew point is the temperature at which water vapor in flue gas condenses. For natural gas: approximately 130°F. For sulfur-containing fuels, sulfuric acid dew point is higher (250-300°F). Operating below dew point causes corrosive condensation on economizer and air heater surfaces."},
-  {"id": 3074, "level": "1a", "category": "Steam Engines", "question": "What is the purpose of a flywheel on a steam engine?", "options": ["To cool the engine by creating airflow", "To measure engine speed", "To drive the valve gear mechanism", "To store rotational energy and smooth out speed variations between power strokes, providing more uniform rotation"], "correct": 3, "explanation": "The flywheel stores kinetic energy during the power stroke and releases it during non-power periods (exhaust, compression), smoothing out speed variations. Larger flywheels provide steadier speed. The flywheel's moment of inertia determines how well it dampens speed fluctuations between power strokes."},
-  {"id": 3075, "level": "1a", "category": "Condenser Operations", "question": "What is a vacuum breaker on a condenser?", "options": ["A valve that creates vacuum in the condenser", "A device that measures condenser vacuum", "A valve that admits air to the condenser to break the vacuum safely during shutdown — preventing structural damage from sudden vacuum collapse", "A pump that evacuates the condenser"], "correct": 2, "explanation": "The vacuum breaker admits atmospheric air to the condenser during shutdown to equalize pressure gradually. Without it, sudden cooling could collapse the vacuum violently, causing structural damage to the condenser shell. The vacuum breaker prevents implosion by allowing controlled pressure equalization."},
-  {"id": 3076, "level": "1a", "category": "ASME & Codes", "question": "What is ASME B31.1 and what does it cover?", "options": ["Power piping — design, fabrication, installation, and inspection of piping systems in power plants and industrial facilities", "Boiler design calculations", "Building plumbing codes", "Fuel gas piping design"], "correct": 0, "explanation": "ASME B31.1 (Power Piping) covers the design, materials, fabrication, erection, testing, and inspection of piping systems in power plants (steam plants, industrial plants, central heating plants). It applies to steam piping above 15 psig and hot water piping above 160 psig in power-generating stations."},
-  {"id": 3077, "level": "1a", "category": "Boiler Calculations", "question": "What is the relationship: 1 HP mechanical = ? watts?", "options": ["550 watts", "1,000 watts", "746 watts", "500 watts"], "correct": 2, "explanation": "1 mechanical horsepower = 746 watts = 2,545 BTU/hr = 550 ft-lbs/sec = 33,000 ft-lbs/min. This is a fundamental conversion used in motor sizing, generator output calculations, and energy analysis."},
-  {"id": 3078, "level": "1a", "category": "Steam Turbines", "question": "What is water induction into a turbine and why is it catastrophic?", "options": ["Injecting water to cool the turbine — it is normal and safe", "Water from condensation inside the turbine bearings", "Water used to wash turbine blades during operation", "Water entering the turbine from a malfunctioning desuperheater, failed drain, or flooded steam line — it causes massive thermal shock and blade damage because water is incompressible"], "correct": 3, "explanation": "Water induction occurs when liquid water enters a hot turbine — from failed desuperheaters, closed drains, or flooded steam lines. Since water is incompressible, it cannot pass through blade passages designed for compressible steam. The result: massive mechanical damage, blade fracture, and potential casing rupture. This is one of the most catastrophic turbine failure modes."},
-  {"id": 3079, "level": "1a", "category": "Steam Engines", "question": "What is the difference between indicated horsepower (IHP) and brake horsepower (BHP) of a steam engine?", "options": ["They are the same measurement", "IHP measures input power; BHP measures electrical output", "IHP is the theoretical power developed in the cylinder (from the indicator diagram); BHP is the actual power delivered at the output shaft — BHP = IHP minus friction losses", "BHP is always higher than IHP"], "correct": 2, "explanation": "IHP (Indicated Horsepower) is the power developed by steam inside the cylinder, calculated from the indicator diagram. BHP (Brake Horsepower) is the actual power available at the output shaft after subtracting friction losses. Mechanical efficiency = BHP ÷ IHP × 100%. Typical: 85-95%."},
-  {"id": 3080, "level": "1a", "category": "Condenser Operations", "question": "What is condenser backpressure and how does it affect turbine output?", "options": ["Higher condenser backpressure (lower vacuum) reduces the available energy for work in the turbine, decreasing power output — each 1 in. Hg loss in vacuum can reduce output by 1-2%", "It has no effect on the turbine", "Higher backpressure increases turbine output", "Backpressure only affects the condenser, not the turbine"], "correct": 0, "explanation": "Higher condenser pressure (less vacuum) means steam exits the turbine at higher pressure, reducing the enthalpy drop (available energy for work). Each 1 in. Hg increase in backpressure can reduce turbine output by 1-2%. Maintaining maximum condenser vacuum through proper cooling water flow, air removal, and tube cleanliness maximizes turbine efficiency."},
-  {"id": 3081, "level": "1a", "category": "ASME & Codes", "question": "What is a code case in ASME terminology?", "options": ["A legal case about code violations", "A case study about code compliance", "A storage case for code books", "An approved alternative or supplement to existing ASME Code requirements for specific situations — approved by the ASME Code Committee for limited time periods"], "correct": 3, "explanation": "A Code Case is an ASME-approved alternative to standard Code requirements for specific situations not adequately covered by the existing Code. Code Cases address emerging materials, new fabrication techniques, or unusual designs. They have limited validity periods and may eventually be incorporated into the main Code or expire."},
-  {"id": 3082, "level": "1a", "category": "Boiler Calculations", "question": "What is the steam rate of a turbine?", "options": ["The speed at which steam moves through the turbine", "The rate of steam production by the boiler", "The pounds of steam required per kilowatt-hour of electrical output — lower steam rate = more efficient turbine", "The velocity of steam at the turbine inlet"], "correct": 2, "explanation": "Steam rate = lbs of steam ÷ kWh of output. It indicates how efficiently the turbine converts steam energy to electrical energy. A lower steam rate means less steam (and less fuel) is needed per kWh. Typical: 8-12 lb/kWh depending on inlet conditions and exhaust pressure."},
-  {"id": 3083, "level": "1a", "category": "Steam Turbines", "question": "What is the Willans line for a turbine?", "options": ["A graph showing the relationship between steam flow and power output — approximately linear, used for performance monitoring and dispatch optimization", "A reference line on the turbine casing", "The line where turbine blades are replaced", "A piping arrangement for turbine drains"], "correct": 0, "explanation": "The Willans line plots total steam flow (lb/hr) vs. power output (kW). It is approximately linear. The y-intercept represents no-load steam consumption (friction, windage, leakage). Deviation from the established Willans line indicates turbine degradation. Used for performance monitoring and economic dispatch."},
-  {"id": 3084, "level": "1a", "category": "Steam Engines", "question": "What is lead in steam engine valve timing?", "options": ["The metal used in valve construction", "The distance the engine leads the generator in phase", "The time between starting the engine and reaching full speed", "The amount that the steam port is already open when the piston reaches the beginning of its stroke — provides steam cushioning and earlier admission"], "correct": 3, "explanation": "Lead is the small opening of the steam port at the moment the piston begins its stroke (at dead center). Lead provides a cushion of steam at the end of the exhaust stroke (compression) and ensures steam is available immediately as the piston begins the power stroke, improving smooth operation."},
-  {"id": 3085, "level": "1a", "category": "Laws of Thermodynamics", "question": "What is the Clausius statement of the Second Law of Thermodynamics?", "options": ["Energy cannot be created or destroyed", "All processes are reversible", "Heat cannot spontaneously flow from a colder body to a hotter body — work input is required for this direction of heat flow", "Temperature and pressure are proportional"], "correct": 2, "explanation": "The Clausius statement: It is impossible for heat to flow spontaneously from a cold body to a hot body without external work input. This is why refrigeration and heat pumps require energy input (compressor work) to move heat from cold to hot. It is equivalent to the Kelvin-Planck statement."},
-  {"id": 3086, "level": "1a", "category": "Condenser Operations", "question": "What is the purpose of a condenser air removal system?", "options": ["To continuously remove non-condensable gases (air, CO2) that leak into the condenser, maintaining vacuum and heat transfer efficiency", "To supply air for combustion", "To ventilate the turbine hall", "To cool the condenser tubes with forced air"], "correct": 0, "explanation": "Non-condensable gases (air) that leak into the condenser blanket tube surfaces, reducing heat transfer and increasing condenser pressure (losing vacuum). The air removal system (steam jet air ejector or mechanical vacuum pump) continuously extracts these gases to maintain condenser vacuum and thermal performance."},
-  {"id": 3087, "level": "1a", "category": "ASME & Codes", "question": "What is the National Board 'NB' registration and why is it important?", "options": ["It is a National Basketball association number", "A certification for boiler rooms", "A registration for boiler operators", "Registration of a boiler or pressure vessel with the National Board of Boiler and Pressure Vessel Inspectors at the time of manufacture — it provides traceability for the life of the equipment"], "correct": 3, "explanation": "NB registration assigns a unique number to each code-stamped boiler or pressure vessel at manufacture, creating a permanent record including the MDR. This provides traceability throughout the equipment's life — jurisdictions use NB registration to verify code compliance. Minnesota requires NB registration for all installed boilers."},
-  {"id": 3088, "level": "1a", "category": "Steam Turbines", "question": "What is wet steam and what problems does it cause in turbines?", "options": ["Steam mixed with water treatment chemicals", "Steam at 100% quality", "Steam containing suspended water droplets — it causes blade erosion from high-velocity droplet impact, reduced efficiency, and potential blade damage", "Steam at very low pressure"], "correct": 2, "explanation": "Wet steam contains suspended water droplets (quality < 100%). In turbines, these droplets impact blade edges at high velocity (hundreds of ft/sec), causing erosion — especially on the leading edges of last-stage LP blades. Maximum moisture in LP exhaust is typically limited to 10-12%. Superheating and reheating reduce moisture."},
-  {"id": 3089, "level": "1a", "category": "Boiler Calculations", "question": "What is the total heat (enthalpy) of steam at 100 psig saturated, per steam tables?", "options": ["Approximately 180 BTU/lb", "Approximately 338 BTU/lb", "Approximately 1,189 BTU/lb", "Approximately 970 BTU/lb"], "correct": 2, "explanation": "At 100 psig (114.7 psia), steam tables give: sensible heat (hf) ≈ 309 BTU/lb, latent heat (hfg) ≈ 880 BTU/lb, total heat (hg) ≈ 1,189 BTU/lb. Total heat = sensible + latent. These values are fundamental to all boiler and steam calculations."},
-  {"id": 3090, "level": "1a", "category": "Steam Engines", "question": "What is a uniflow steam engine?", "options": ["An engine where steam enters at both ends of the cylinder and exhausts through ports at the center — steam flows in one direction (uniflow) for better thermal efficiency", "An engine that can only rotate in one direction", "An engine with a single cylinder", "An engine powered by a single boiler"], "correct": 0, "explanation": "In a uniflow engine, steam enters at both ends through valves and exhausts through ports uncovered by the piston at mid-stroke. Steam always flows in one direction along the cylinder (hot at ends, cooler at center). This reduces cylinder wall cooling/heating losses that plague counterflow engines, significantly improving efficiency."},
-  {"id": 3091, "level": "1a", "category": "Condenser Operations", "question": "What is circulating water in a condenser system?", "options": ["Water circulating inside the boiler", "Chemical treatment water circulating through the water softener", "Boiler feedwater circulating through the economizer", "The cooling water that flows through condenser tubes, absorbing heat from the condensing steam — sourced from rivers, lakes, cooling towers, or wells"], "correct": 3, "explanation": "Circulating water (CW) is the cooling medium flowing through condenser tubes. Large volumes are required (typically 50-100× the steam flow rate). Sources: once-through (river/lake), cooling tower (recirculated), or closed loop with dry coolers. CW temperature directly affects condenser vacuum and turbine efficiency."},
-  {"id": 3092, "level": "1a", "category": "ASME & Codes", "question": "What is a Quality Control Manual (QCM) required for in ASME code work?", "options": ["Quality control of boiler fuel", "A manual for boiler operators", "A comprehensive document describing a manufacturer's quality system — required for organizations holding ASME stamps (S, U, H, R, etc.)", "A handbook for water quality testing"], "correct": 2, "explanation": "Every organization holding an ASME Certificate of Authorization (stamp) must maintain a Quality Control Manual describing their quality system: organizational responsibilities, drawing/design control, material control, welding procedures, NDE procedures, heat treatment, calibration, and corrective action. The QCM is reviewed during ASME audits."},
-  {"id": 3093, "level": "1a", "category": "Steam Turbines", "question": "What is a carbon ring seal on a turbine?", "options": ["Segmented carbon rings that contact the turbine shaft to provide a seal against steam leakage — they wear against the shaft and must be periodically replaced", "A ring of activated carbon for filtration", "A seal made of carbon fiber composite", "A decorative ring on the turbine casing"], "correct": 0, "explanation": "Carbon ring seals are segmented rings of carbon material held against the shaft by springs or steam pressure. They provide a tighter seal than labyrinth seals but do wear against the shaft surface. Used at shaft ends where labyrinth seals alone provide insufficient sealing. Carbon rings are replaced during maintenance outages."},
-  {"id": 3094, "level": "1a", "category": "Boiler Calculations", "question": "A feedwater pump must deliver water to a boiler at 200 psig. The pump is located 30 feet below the boiler. What total discharge head must the pump produce? (Ignore friction)", "options": ["200 psig + 13 psi (30 ft × 0.433 psi/ft) = 213 psig total", "200 psig only — elevation doesn't matter", "30 psi total", "170 psig — subtract the elevation benefit"], "correct": 0, "explanation": "The pump must overcome: (1) Boiler operating pressure: 200 psig, (2) Static head (elevation): 30 ft × 0.433 psi/ft = 13 psi. Total: 200 + 13 = 213 psig minimum discharge pressure (plus friction losses in piping, which were excluded). The pump must also provide flow against this total head."},
-  {"id": 3095, "level": "1a", "category": "Steam Engines", "question": "What is compression in a steam engine cycle?", "options": ["Compressing the fuel before combustion", "Mechanical compression of the engine frame", "Compressing the intake air", "The trapping of exhaust steam at the end of the exhaust stroke — the piston compresses this trapped steam, creating a cushion and preheating the cylinder for the next admission"], "correct": 3, "explanation": "Compression occurs when the exhaust valve closes slightly before the piston reaches dead center, trapping a small amount of exhaust steam. The piston compresses this steam, creating a cushion that decelerates the piston smoothly and preheats the cylinder end, reducing thermal shock when high-pressure steam is admitted."},
-  {"id": 3096, "level": "1a", "category": "Laws of Thermodynamics", "question": "What is the relationship between pressure and boiling point for water?", "options": ["Higher pressure lowers the boiling point", "Pressure has no effect on boiling point", "Higher pressure raises the boiling point — this is the fundamental principle that allows boilers to produce steam at temperatures well above 212°F", "The relationship is random and unpredictable"], "correct": 2, "explanation": "Increasing pressure raises the boiling point of water. This fundamental relationship allows boilers to produce steam at temperatures well above 212°F. At 100 psig: 338°F; at 300 psig: 421°F; at 1,000 psig: 545°F. This relationship is documented in steam tables."},
-  {"id": 3097, "level": "1a", "category": "Condenser Operations", "question": "What is a hotwell level control and why is it important?", "options": ["It maintains proper condensate level in the hotwell — too high floods condenser tubes (reducing condensing area); too low allows air to enter the condensate pump suction", "It controls the temperature of the hotwell", "It controls the flow of hot water to the boiler", "It measures the hotwell water quality"], "correct": 0, "explanation": "Hotwell level must be carefully controlled. Too high: condensate floods lower condenser tubes, reducing condensing area and increasing backpressure. Too low: the condensate pump may lose suction (cavitate) and air can enter the system. Level is typically controlled by makeup water addition and condensate pump speed."},
-  {"id": 3098, "level": "1a", "category": "ASME & Codes", "question": "What does ASME Section V address regarding Acoustic Emission Testing (AET)?", "options": ["Sound insulation for boiler rooms", "Noise level compliance for boiler plants", "Testing the acoustics of safety valve discharge", "AET monitors stress waves (acoustic emissions) released by materials under stress — used for in-service monitoring of boilers and pressure vessels to detect crack growth"], "correct": 3, "explanation": "Acoustic Emission Testing detects stress waves released when materials deform or crack under stress. Sensors on the boiler surface detect these emissions in real-time, allowing continuous monitoring of structural integrity. AET can detect crack initiation and growth before failure, making it valuable for in-service condition monitoring."},
-  {"id": 3099, "level": "1a", "category": "Steam Turbines", "question": "What is the purpose of a turbine bypass system?", "options": ["To bypass the turbine governor", "To bypass the condenser during maintenance", "A piping system that routes steam directly to the condenser, bypassing the turbine — used during startup, shutdown, and turbine trips to protect the boiler from overpressure", "To bypass the feedwater heaters"], "correct": 2, "explanation": "The turbine bypass system routes steam directly from the boiler to the condenser through a pressure-reducing/desuperheating station, bypassing the turbine. Used when: (1) Boiler is producing steam but turbine is offline, (2) During turbine trips to prevent boiler overpressure, (3) During startup/shutdown. The bypass valve opens automatically on turbine trip."},
-  {"id": 3100, "level": "1a", "category": "Boiler Calculations", "question": "If a boiler has 85% efficiency and fuel costs $10 per million BTU, what is the cost of producing 1,000 lbs of steam at 150 psig from feedwater at 200°F? (Steam enthalpy: 1,196 BTU/lb; feedwater enthalpy: 168 BTU/lb)", "options": ["$12.09", "$10.28", "$8.74", "$15.43"], "correct": 0, "explanation": "Heat per lb steam = 1,196 - 168 = 1,028 BTU/lb. For 1,000 lbs: 1,028,000 BTU needed. Fuel input = 1,028,000 ÷ 0.85 = 1,209,412 BTU. Cost = 1,209,412 ÷ 1,000,000 × $10 = $12.09. This type of calculation helps evaluate energy costs and efficiency improvements."},
-  {"id": 3101, "level": "1a", "category": "Laws of Thermodynamics", "question": "What is the Rankine temperature scale?", "options": ["A relative temperature scale used only for steam tables", "An absolute temperature scale that uses Fahrenheit-sized degrees, with zero at absolute zero (-459.67°F)", "Another name for the Celsius scale", "A pressure scale for saturated steam"], "correct": 1, "explanation": "The Rankine scale is the absolute temperature counterpart to Fahrenheit — its degree size is the same as Fahrenheit, but its zero point is absolute zero (-459.67°F). Rankine is to Fahrenheit as Kelvin is to Celsius. Conversion: °R = °F + 459.67. Absolute scales are required for thermodynamic calculations (gas laws, Carnot efficiency) because ratios of temperature must be taken from absolute zero, not an arbitrary reference."},
-  {"id": 3102, "level": "1a", "category": "Boiler Calculations", "question": "Convert 70°F (typical room temperature) to the Rankine scale.", "options": ["459.67°R", "389.67°R", "529.67°R", "294.26°R"], "correct": 2, "explanation": "°R = °F + 459.67, so 70°F = 70 + 459.67 = 529.67°R. Any Fahrenheit temperature can be converted to Rankine by adding 459.67. This conversion is routine when applying the ideal gas law, Carnot efficiency, or any equation that requires absolute temperature in U.S. customary units."},
-  {"id": 3103, "level": "1a", "category": "Laws of Thermodynamics", "question": "Why must absolute temperature (Rankine or Kelvin) — not Fahrenheit or Celsius — be used when calculating Carnot or thermal efficiency?", "options": ["Because Fahrenheit degrees are too small to give accurate answers", "Because steam tables are only valid above 32°F", "Because efficiency equations involve ratios of temperatures (T_cold / T_hot), and those ratios are only physically meaningful when measured from absolute zero", "Because boiler codes require Rankine by law"], "correct": 2, "explanation": "The Carnot efficiency formula η = 1 − T_cold / T_hot uses a ratio of temperatures. A ratio is only physically meaningful when both values are measured from the true zero of the quantity (absolute zero). If you plugged in Fahrenheit or Celsius values — which can be negative or zero at arbitrary reference points — the ratio would be nonsensical (sometimes infinite or negative). Rankine and Kelvin are referenced to absolute zero, so their ratios correctly represent the relative thermal energy of the two reservoirs."},
-  {"id": 3104, "level": "1a", "category": "Boiler Calculations", "question": "A heat engine operates between a hot reservoir at 1,000°R and a cold reservoir at 600°R. What is its maximum theoretical (Carnot) efficiency?", "options": ["40%", "60%", "66.7%", "25%"], "correct": 0, "explanation": "Carnot efficiency η = 1 − (T_cold / T_hot) = 1 − (600 / 1,000) = 1 − 0.60 = 0.40, or 40%. Note both temperatures MUST be absolute (Rankine here). This is the theoretical maximum — real Rankine-cycle steam plants achieve only a fraction of Carnot efficiency due to irreversibilities (friction, heat loss, finite-temperature heat transfer, non-isentropic turbine expansion)."},
-  {"id": 3105, "level": "1a", "category": "Laws of Thermodynamics", "question": "What temperature corresponds to absolute zero on the Rankine scale, and what is its Fahrenheit equivalent?", "options": ["0°R, which equals 32°F (the freezing point of water)", "0°R, which equals 0°F", "459.67°R, which equals 0°F", "0°R, which equals −459.67°F (absolute zero — the theoretical point at which all molecular motion ceases)"], "correct": 3, "explanation": "Absolute zero is 0°R on the Rankine scale, equivalent to −459.67°F. At this temperature, all classical molecular motion would cease (quantum effects aside) and matter has its minimum possible thermal energy. The Third Law of Thermodynamics states that absolute zero cannot actually be reached in a finite number of steps. Kelvin's absolute zero is 0 K = −273.15°C — the same physical point, just on the Celsius-sized degree scale."}
 ];
 
 // Total questions in this file: 274

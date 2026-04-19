@@ -46,7 +46,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 1,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "Which Minnesota statute requires all boiler operators to hold a valid license?",
     "options": [
       "MN Statute 326B.958",
@@ -60,7 +60,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 2,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "Which agency is responsible for issuing boiler operator licenses in Minnesota?",
     "options": [
       "Minnesota Pollution Control Agency",
@@ -74,7 +74,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 3,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "A Special Engineer license allows the engineer to be in charge of a boiler plant up to what horsepower?",
     "options": [
       "25 BHP",
@@ -88,7 +88,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 4,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "How many exam questions are on the Special Engineer license examination?",
     "options": [
       "40",
@@ -102,7 +102,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 5,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "What is the minimum passing score required on all Minnesota boiler operator license examinations?",
     "options": [
       "60%",
@@ -116,7 +116,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 6,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "What is the exam fee for all Minnesota boiler operator license examinations?",
     "options": [
       "$50",
@@ -130,7 +130,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 7,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "How long must an applicant wait before retaking a failed Minnesota boiler operator license examination?",
     "options": [
       "7 days",
@@ -144,7 +144,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 8,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "How long are Minnesota boiler operator licenses valid?",
     "options": [
       "1 year",
@@ -158,7 +158,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 9,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "What is the minimum age to apply for a Special Engineer license in Minnesota?",
     "options": [
       "21 years old",
@@ -172,7 +172,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 10,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "How far in advance must a boiler license application be received before the requested exam date?",
     "options": [
       "5 days",
@@ -186,7 +186,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 11,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "Which grade of engineer license authorizes the holder to operate steam engines and turbines?",
     "options": [
       "Grade A only",
@@ -200,7 +200,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 12,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "What experience is required to obtain a Special Engineer license in Minnesota?",
     "options": [
       "6 months of boiler operation",
@@ -214,7 +214,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 13,
     "level": "special",
-    "category": "MN Statutes 326B",
+    "category": "MN Statutes & Rules",
     "question": "Per MN Statute 326B.972, which condition prohibits a person from operating a boiler?",
     "options": [
       "Operating a boiler over 100 HP",
@@ -228,7 +228,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 14,
     "level": "special",
-    "category": "MN Statutes 326B",
+    "category": "MN Statutes & Rules",
     "question": "How often must boilers be inspected in Minnesota per MN Statute 326B.958?",
     "options": [
       "Every 6 months",
@@ -242,7 +242,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 15,
     "level": "special",
-    "category": "MN Statutes 326B",
+    "category": "MN Statutes & Rules",
     "question": "Which of the following is EXEMPT from Minnesota boiler laws?",
     "options": [
       "A 200-HP steam boiler in a manufacturing plant",
@@ -256,7 +256,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 16,
     "level": "special",
-    "category": "MN Statutes 326B",
+    "category": "MN Statutes & Rules",
     "question": "Per MN Statute 326B.988, what is the maximum BTU/hr input for a hot water heating boiler to be exempt from Minnesota boiler law?",
     "options": [
       "750,000 BTU/hr",
@@ -270,7 +270,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 17,
     "level": "special",
-    "category": "MN Statutes 326B",
+    "category": "MN Statutes & Rules",
     "question": "What is the definition of a HIGH-PRESSURE boiler under Minnesota Statute 326B.978?",
     "options": [
       "Steam pressure exceeds 25 psig",
@@ -284,7 +284,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 18,
     "level": "special",
-    "category": "MN Statutes 326B",
+    "category": "MN Statutes & Rules",
     "question": "What is the definition of a LOW-PRESSURE boiler under Minnesota Statute 326B.978?",
     "options": [
       "Steam pressure of 10 psig or less",
@@ -298,7 +298,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 19,
     "level": "special",
-    "category": "MN Rules Chapter 5225",
+    "category": "MN Statutes & Rules",
     "question": "Per MN Rule 5225.1180, how often must a high-pressure boiler plant of 0–50 HP be visually observed?",
     "options": [
       "At least once every 24 hours",
@@ -312,7 +312,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 20,
     "level": "special",
-    "category": "MN Rules Chapter 5225",
+    "category": "MN Statutes & Rules",
     "question": "Per MN Rule 5225.1180, a high-pressure boiler plant of 51–500 HP cannot be left unattended for more than how long?",
     "options": [
       "30 minutes",
@@ -326,7 +326,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 21,
     "level": "special",
-    "category": "MN Rules Chapter 5225",
+    "category": "MN Statutes & Rules",
     "question": "Per MN Rule 5225.1180, the shift engineer at a plant over 200 HP must remain within what distance of the boiler room at all times?",
     "options": [
       "100 feet",
@@ -340,7 +340,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 22,
     "level": "special",
-    "category": "MN Rules Chapter 5225",
+    "category": "MN Statutes & Rules",
     "question": "What must a boiler room logbook document per MN Rule 5225.1110?",
     "options": [
       "Only safety valve test results",
@@ -354,7 +354,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 23,
     "level": "special",
-    "category": "Boiler HP Rating",
+    "category": "Boiler Calculations",
     "question": "For conventional boilers, how many square feet of heating surface equals 1 Boiler Horsepower (BHP)?",
     "options": [
       "5 sq ft",
@@ -368,7 +368,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 24,
     "level": "special",
-    "category": "Boiler HP Rating",
+    "category": "Boiler Calculations",
     "question": "For electric boilers, how many kilowatts equals 1 Boiler Horsepower?",
     "options": [
       "10 kW",
@@ -382,7 +382,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 25,
     "level": "special",
-    "category": "Boiler HP Rating",
+    "category": "Boiler Calculations",
     "question": "One Boiler Horsepower is equivalent to evaporating how many pounds of water per hour from and at 212°F?",
     "options": [
       "10 lbs/hr",
@@ -396,7 +396,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 26,
     "level": "special",
-    "category": "Boiler HP Rating",
+    "category": "Boiler Calculations",
     "question": "When calculating plant horsepower for licensing purposes, which boilers are included?",
     "options": [
       "Only boilers currently operating",
@@ -676,7 +676,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 46,
     "level": "special",
-    "category": "Water Level",
+    "category": "Water Level Control",
     "question": "What is the first thing an operator should check when entering a boiler room?",
     "options": [
       "Stack temperature",
@@ -690,7 +690,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 47,
     "level": "special",
-    "category": "Water Level",
+    "category": "Water Level Control",
     "question": "During the gauge glass blow-through test, what should happen when you open the water cock with the drain cock closed?",
     "options": [
       "Steam should blow out",
@@ -704,7 +704,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 48,
     "level": "special",
-    "category": "Water Level",
+    "category": "Water Level Control",
     "question": "During a gauge glass blow-through test, you open the water cock and no water appears. What does this indicate?",
     "options": [
       "The gauge glass is clogged and needs cleaning",
@@ -718,7 +718,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 49,
     "level": "special",
-    "category": "Water Level",
+    "category": "Water Level Control",
     "question": "What does the bottom try cock (gauge cock) release when the water level is at normal operating level?",
     "options": [
       "Steam only",
@@ -732,7 +732,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 50,
     "level": "special",
-    "category": "Water Level",
+    "category": "Water Level Control",
     "question": "What is the minimum pipe size connecting the water column to the boiler?",
     "options": [
       "½ inch",
@@ -746,7 +746,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 51,
     "level": "special",
-    "category": "Basic Operations",
+    "category": "Operating Procedures",
     "question": "What is the most important rule for any boiler operator?",
     "options": [
       "Maintain proper water level at all times",
@@ -760,7 +760,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 52,
     "level": "special",
-    "category": "Basic Operations",
+    "category": "Operating Procedures",
     "question": "What is the CORRECT action if you discover a low water condition on a steam boiler?",
     "options": [
       "Add cold water immediately to cool the boiler",
@@ -774,7 +774,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 53,
     "level": "special",
-    "category": "Basic Operations",
+    "category": "Operating Procedures",
     "question": "When is a boiler MOST likely to explode?",
     "options": [
       "During steady high-load operation",
@@ -788,7 +788,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 54,
     "level": "special",
-    "category": "Basic Operations",
+    "category": "Operating Procedures",
     "question": "Why must the combustion chamber be purged before lighting off a boiler?",
     "options": [
       "To warm up the boiler gradually",
@@ -802,7 +802,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 55,
     "level": "special",
-    "category": "Basic Operations",
+    "category": "Operating Procedures",
     "question": "Per MN Rule 5225.1110, what must be done if an unsafe boiler condition is found?",
     "options": [
       "Notify the owner/employer AND the chief boiler inspector immediately",
@@ -816,7 +816,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 56,
     "level": "special",
-    "category": "Basic Operations",
+    "category": "Operating Procedures",
     "question": "Where must engineer's licenses be displayed?",
     "options": [
       "In the operator's wallet at all times",
@@ -830,7 +830,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 57,
     "level": "special",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What three things are required for combustion (the Fire Triangle)?",
     "options": [
       "Pressure, temperature, and flow",
@@ -844,7 +844,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 58,
     "level": "special",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What are the Three T's of good combustion?",
     "options": [
       "Timing, Thrust, Torque",
@@ -858,7 +858,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 59,
     "level": "special",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What dangerous gas is produced by incomplete combustion?",
     "options": [
       "Carbon monoxide (CO)",
@@ -872,7 +872,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 60,
     "level": "special",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What is the approximate heating value of natural gas (methane)?",
     "options": [
       "500 BTU/cubic foot",
@@ -886,7 +886,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 61,
     "level": "special",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What does 'excess air' mean in boiler combustion?",
     "options": [
       "Air used in the pre-purge cycle only",
@@ -900,7 +900,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 62,
     "level": "special",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What is the minimum number of air changes required during the pre-purge cycle per ASME CSD-1?",
     "options": [
       "2 air changes",
@@ -970,7 +970,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 67,
     "level": "special",
-    "category": "Safety Valve Tolerances",
+    "category": "Safety Valves",
     "question": "For a safety valve set at 50 psig, what is the allowable tolerance per ASME code?",
     "options": [
       "±1%",
@@ -984,7 +984,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 68,
     "level": "special",
-    "category": "Safety Valve Tolerances",
+    "category": "Safety Valves",
     "question": "What is the maximum pressure accumulation allowed above MAWP for a power boiler with a single safety valve?",
     "options": [
       "3%",
@@ -998,7 +998,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 69,
     "level": "special",
-    "category": "Safety Valve Tolerances",
+    "category": "Safety Valves",
     "question": "What is the maximum accumulation pressure allowed for low-pressure steam boilers during safety valve discharge?",
     "options": [
       "3 psi above MAWP (max 18 psig)",
@@ -1026,7 +1026,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 71,
     "level": "special",
-    "category": "Feedwater System",
+    "category": "Piping & Valves",
     "question": "On a boiler feedwater line, which valve is located CLOSEST to the boiler?",
     "options": [
       "Check valve",
@@ -1040,7 +1040,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 72,
     "level": "special",
-    "category": "Feedwater System",
+    "category": "Piping & Valves",
     "question": "What is the function of a check valve on the feedwater line?",
     "options": [
       "Controls the flow rate of feedwater",
@@ -1054,7 +1054,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 73,
     "level": "special",
-    "category": "Feedwater System",
+    "category": "Piping & Valves",
     "question": "Boilers over what size (HP) must have two independent means of feeding water?",
     "options": [
       "25 HP",
@@ -1068,7 +1068,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 74,
     "level": "special",
-    "category": "Blowdown",
+    "category": "Water Treatment",
     "question": "Where is the bottom blowdown connection located on a boiler?",
     "options": [
       "At the lowest point of the waterside",
@@ -1082,7 +1082,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 75,
     "level": "special",
-    "category": "Blowdown",
+    "category": "Water Treatment",
     "question": "What is the maximum temperature that blowdown water may have when discharged into a sanitary sewer?",
     "options": [
       "100°F",
@@ -1096,7 +1096,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 76,
     "level": "special",
-    "category": "Blowdown",
+    "category": "Water Treatment",
     "question": "When two blowdown valves are installed on a boiler (required for boilers over 100 HP AND over 100 psig), which valve is located NEAREST to the boiler?",
     "options": [
       "The quick-opening valve",
@@ -1110,7 +1110,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 77,
     "level": "special",
-    "category": "Valves",
+    "category": "Piping & Valves",
     "question": "Which type of valve is BEST for throttling (flow control) on a boiler system?",
     "options": [
       "Gate valve (OS&Y)",
@@ -1124,7 +1124,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 78,
     "level": "special",
-    "category": "Valves",
+    "category": "Piping & Valves",
     "question": "What does 'OS&Y' stand for when referring to boiler valves?",
     "options": [
       "Open Stem and Yoke",
@@ -1138,7 +1138,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 79,
     "level": "special",
-    "category": "Boiler Definitions",
+    "category": "Boiler Types",
     "question": "What does MAWP stand for?",
     "options": [
       "Maximum Allowable Working Pressure",
@@ -1152,7 +1152,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 80,
     "level": "special",
-    "category": "Boiler Definitions",
+    "category": "Boiler Types",
     "question": "What is the relationship between absolute pressure and gauge pressure?",
     "options": [
       "Absolute pressure = Gauge pressure + 14.7 psi",
@@ -1166,7 +1166,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 81,
     "level": "special",
-    "category": "ASME Code",
+    "category": "ASME & Codes",
     "question": "Every boiler for use in Minnesota must bear which stamps?",
     "options": [
       "ASME Code Symbol Stamp AND National Board registration number (or MINN. SPC.)",
@@ -1180,7 +1180,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 82,
     "level": "special",
-    "category": "ASME Code",
+    "category": "ASME & Codes",
     "question": "Which ASME code section governs power boilers (high-pressure steam boilers)?",
     "options": [
       "ASME Section IV",
@@ -1194,7 +1194,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 83,
     "level": "special",
-    "category": "ASME Code",
+    "category": "ASME & Codes",
     "question": "What does the 'S' stamp on a boiler signify?",
     "options": [
       "Section VIII pressure vessel",
@@ -1264,7 +1264,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 88,
     "level": "special",
-    "category": "Hot Water Boilers",
+    "category": "Boiler Types",
     "question": "On a hot water boiler, what device controls the starting and stopping of the burner based on water temperature?",
     "options": [
       "Aquastat",
@@ -1278,7 +1278,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 89,
     "level": "special",
-    "category": "Hot Water Boilers",
+    "category": "Boiler Types",
     "question": "On a steam boiler, what device controls the burner start/stop cycle based on pressure?",
     "options": [
       "Aquastat",
@@ -1292,7 +1292,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 90,
     "level": "special",
-    "category": "Hot Water Boilers",
+    "category": "Boiler Types",
     "question": "What is the first thing to check on a hot water boiler when entering the boiler room?",
     "options": [
       "Water level in the gauge glass",
@@ -1334,7 +1334,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 93,
     "level": "special",
-    "category": "CSD-1 Controls",
+    "category": "Controls & Instrumentation",
     "question": "What is the maximum Flame Failure Response Time (FFRT) allowed for oil burners per ASME CSD-1?",
     "options": [
       "2 seconds",
@@ -1348,7 +1348,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 94,
     "level": "special",
-    "category": "Boiler HP Rating",
+    "category": "Boiler Calculations",
     "question": "If the heating surface of a boiler is unknown, how is BHP calculated?",
     "options": [
       "BTU input ÷ 33,479",
@@ -1362,7 +1362,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 95,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "Which of the following correctly describes the role of a Chief Engineer?",
     "options": [
       "The engineer responsible for only starting and stopping boilers",
@@ -1376,7 +1376,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 96,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "Who is the BEST answer for who should sign an experience affidavit for a license applicant?",
     "options": [
       "Any licensed engineer",
@@ -1390,7 +1390,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 97,
     "level": "special",
-    "category": "MN Statutes 326B",
+    "category": "MN Statutes & Rules",
     "question": "What does 'remote monitoring' mean in the context of boiler operation?",
     "options": [
       "Operating the boiler from a different room in the same building",
@@ -1446,7 +1446,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 101,
     "level": "special",
-    "category": "Boiler HP Rating",
+    "category": "Boiler Calculations",
     "question": "A boiler plant has two boilers connected to a common header: one 30 BHP and one 45 BHP. The 30 BHP boiler is shut down. What is the plant horsepower for licensing purposes?",
     "options": [
       "30 BHP (only the running boiler)",
@@ -1460,7 +1460,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 102,
     "level": "special",
-    "category": "MN Rules Chapter 5225",
+    "category": "MN Statutes & Rules",
     "question": "What minimum pipe size is required for a pressure gauge connection on a boiler?",
     "options": [
       "⅛ inch",
@@ -1502,7 +1502,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 105,
     "level": "special",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What three conditions are necessary for a furnace explosion?",
     "options": [
       "Accumulation of unburned fuel, oxygen (air), and an ignition source",
@@ -1516,7 +1516,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 106,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "Per MN Statute 326B.992, school districts must allow at least how many hours of annual boiler-related training for boiler licensees?",
     "options": [
       "4 hours",
@@ -1558,7 +1558,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 109,
     "level": "special",
-    "category": "MN Statutes 326B",
+    "category": "MN Statutes & Rules",
     "question": "What is the maximum BTU/hr input for a hot water SUPPLY boiler (water heater) to be exempt from Minnesota boiler law?",
     "options": [
       "100,000 BTU/hr",
@@ -1586,7 +1586,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 111,
     "level": "special",
-    "category": "MN Rules Chapter 5225",
+    "category": "MN Statutes & Rules",
     "question": "Per MN Rule 5225.1180, for plants over 500 HP, how often must the Chief Engineer be on premises?",
     "options": [
       "1 hour per day, 7 days per week",
@@ -1600,7 +1600,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 112,
     "level": "special",
-    "category": "Boiler Definitions",
+    "category": "Boiler Types",
     "question": "What is the definition of 'operation' of a boiler under MN Rules?",
     "options": [
       "The on-site act of manipulating, monitoring, and testing boilers and their appurtenances by a licensed engineer",
@@ -1670,7 +1670,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 117,
     "level": "special",
-    "category": "Boiler Definitions",
+    "category": "Boiler Types",
     "question": "What is the definition of 'heating surface' on a boiler?",
     "options": [
       "The total exterior surface area of the boiler shell",
@@ -1684,7 +1684,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 118,
     "level": "special",
-    "category": "MN Statutes 326B",
+    "category": "MN Statutes & Rules",
     "question": "When a boiler inspector finds an unlicensed person operating a boiler, what may the inspector allow?",
     "options": [
       "Immediate shutdown, no grace period",
@@ -1698,7 +1698,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 119,
     "level": "special",
-    "category": "Boiler Definitions",
+    "category": "Boiler Types",
     "question": "What is a 'miniature boiler' under ASME code?",
     "options": [
       "Any boiler under 50 BHP",
@@ -1712,7 +1712,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 120,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "A provisional license allows a 2nd Class A/B engineer to operate boilers over 500 HP. For how long is a provisional license valid?",
     "options": [
       "36 months, non-renewable",
@@ -1726,7 +1726,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 121,
     "level": "special",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "Which fuel is LIGHTER than air and therefore less dangerous in case of leaks in enclosed spaces?",
     "options": [
       "Natural gas (methane)",
@@ -1768,7 +1768,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 124,
     "level": "special",
-    "category": "MN Statutes 326B",
+    "category": "MN Statutes & Rules",
     "question": "What is the exam time limit for all Minnesota boiler operator license examinations?",
     "options": [
       "1 hour",
@@ -1824,7 +1824,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 128,
     "level": "special",
-    "category": "MN Rules Chapter 5225",
+    "category": "MN Statutes & Rules",
     "question": "What is the maximum size of the blowdown piping on a boiler?",
     "options": [
       "1 inch",
@@ -1852,7 +1852,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 130,
     "level": "special",
-    "category": "Combustion Theory",
+    "category": "Combustion",
     "question": "What is the approximate heating value per gallon for #2 fuel oil?",
     "options": [
       "140,000 BTU/gallon",
@@ -1866,7 +1866,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 501,
     "level": "special",
-    "category": "Gauge Glass Procedures",
+    "category": "Water Level Control",
     "question": "During the gauge glass blow-through procedure, what is the FIRST step?",
     "options": [
       "Close both the steam cock and water cock, then open the drain cock",
@@ -1880,7 +1880,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 502,
     "level": "special",
-    "category": "MN Rules Chapter 5225",
+    "category": "MN Statutes & Rules",
     "question": "Which MN Rule specifically governs the Low Water Fuel Cutoff (LWCO) requirements for automatically fired boilers?",
     "options": [
       "MN Rule 5225.2500",
@@ -1894,7 +1894,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 503,
     "level": "special",
-    "category": "Exemptions 326B.988",
+    "category": "MN Statutes & Rules",
     "question": "Under MN Statute 326B.988, which type of building is EXEMPT from Minnesota boiler laws?",
     "options": [
       "Residential buildings housing five or fewer families",
@@ -1908,7 +1908,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 504,
     "level": "special",
-    "category": "Boiler Log Requirements",
+    "category": "Plant Management",
     "question": "According to MN Rule 5225.1110, a boiler room logbook must document what three items?",
     "options": [
       "When checks were made, who made them, and what was checked",
@@ -1922,7 +1922,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 505,
     "level": "special",
-    "category": "Exemptions 326B.988",
+    "category": "MN Statutes & Rules",
     "question": "A compressed air vessel with an inside diameter of 4 inches is subject to Minnesota boiler inspection laws.",
     "options": [
       "False — pressure vessels with inside diameter of 6 inches or less are exempt",
@@ -1936,7 +1936,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 506,
     "level": "special",
-    "category": "Low Water Emergency",
+    "category": "Emergency Procedures",
     "question": "During a low water emergency, what is the FIRST action an operator must take?",
     "options": [
       "Immediately shut off fuel to the burner",
@@ -1950,7 +1950,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 507,
     "level": "special",
-    "category": "Inspector Authority",
+    "category": "MN Statutes & Rules",
     "question": "Under MN Statute 326B.958, if a boiler inspector finds an unlicensed person operating a boiler, what may the inspector do?",
     "options": [
       "Order operation to cease; may grant up to 30 days of continued operation to find a licensed operator",
@@ -1964,7 +1964,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 508,
     "level": "special",
-    "category": "HP vs LP Definitions",
+    "category": "MN Statutes & Rules",
     "question": "At exactly 15 psig steam pressure, a boiler is classified as which type?",
     "options": [
       "Low pressure — the definition requires steam GREATER THAN 15 psig to be high pressure",
@@ -1978,7 +1978,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 509,
     "level": "special",
-    "category": "Feedwater Requirements",
+    "category": "Water Treatment",
     "question": "For a high-pressure steam boiler rated at 50 HP or more, how many separate feedwater supplies are required?",
     "options": [
       "Two separate and independent feedwater supply means",
@@ -1992,7 +1992,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 510,
     "level": "special",
-    "category": "Inspector Requirements",
+    "category": "MN Statutes & Rules",
     "question": "What credential must a Minnesota boiler inspector hold to perform inspections of boilers and pressure vessels?",
     "options": [
       "A National Board commission and a Minnesota certificate of competency",
@@ -2006,7 +2006,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 511,
     "level": "special",
-    "category": "Shift Changeover",
+    "category": "Operating Procedures",
     "question": "What is the most important action during a boiler room shift changeover?",
     "options": [
       "The relieving operator must physically verify water level and all key parameters before the departing operator leaves",
@@ -2020,7 +2020,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 512,
     "level": "special",
-    "category": "Boiler Room Entry",
+    "category": "Operating Procedures",
     "question": "Before entering a boiler room for the first time on a shift, what should an operator check FIRST upon entering?",
     "options": [
       "The water level in the gauge glass",
@@ -2034,7 +2034,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 513,
     "level": "special",
-    "category": "MN Rules Chapter 5225",
+    "category": "MN Statutes & Rules",
     "question": "Under MN Rule 5225.1180, what is the attendance requirement for a high-pressure boiler plant rated at exactly 200 HP?",
     "options": [
       "Cannot be left unattended for more than 2 consecutive hours; shift engineer must stay within 500 feet of the boiler room",
@@ -2048,7 +2048,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 514,
     "level": "special",
-    "category": "MN Rules Chapter 5225",
+    "category": "MN Statutes & Rules",
     "question": "Under MN Rule 5225.1180, for a plant between 51 and 500 HP, visual observations must be documented in the logbook at what minimum frequency?",
     "options": [
       "At least every 8 hours",
@@ -2062,7 +2062,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 515,
     "level": "special",
-    "category": "HP vs LP Definitions",
+    "category": "MN Statutes & Rules",
     "question": "A hot water boiler operating at 165 psig and 240°F is classified as which type?",
     "options": [
       "Low pressure — because temperature is below 250°F",
@@ -2076,7 +2076,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 516,
     "level": "special",
-    "category": "Inspector Authority",
+    "category": "MN Statutes & Rules",
     "question": "When must a hydrostatic test be performed and witnessed by a commissioned inspector per MN Statute 326B.958?",
     "options": [
       "Every 5 years as part of the regular inspection cycle",
@@ -2090,7 +2090,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 517,
     "level": "special",
-    "category": "Exemptions 326B.988",
+    "category": "MN Statutes & Rules",
     "question": "Under MN Statute 326B.988, what is the maximum input BTU/hr for a hot water supply boiler to be exempt from Minnesota boiler law?",
     "options": [
       "500,000 BTU/hr",
@@ -2118,7 +2118,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 519,
     "level": "special",
-    "category": "Boiler HP Rating",
+    "category": "Boiler Calculations",
     "question": "A boiler plant has three boilers connected to a common header: 30 HP, 45 HP, and 60 HP. Only two are currently operating. What is the plant HP rating for licensing purposes?",
     "options": [
       "75 HP — only the two operating boilers count",
@@ -2132,7 +2132,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 520,
     "level": "special",
-    "category": "Gauge Glass Procedures",
+    "category": "Water Level Control",
     "question": "During the gauge glass blow-through procedure, after opening and closing the water cock (Step 2), what is the NEXT step?",
     "options": [
       "Close the drain cock and observe the water level",
@@ -2146,7 +2146,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 521,
     "level": "special",
-    "category": "Low Water Emergency",
+    "category": "Emergency Procedures",
     "question": "After shutting off the fuel during a low water emergency, what must the operator NOT do?",
     "options": [
       "Contact the chief engineer and boiler inspector",
@@ -2160,7 +2160,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 522,
     "level": "special",
-    "category": "Boiler Room Entry",
+    "category": "Operating Procedures",
     "question": "Upon entering a boiler room and finding that the gauge glass is dark (water not visible), what should the operator do?",
     "options": [
       "Quickly add feedwater and watch if the level returns",
@@ -2188,7 +2188,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 524,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "What minimum experience is required to apply for a 2nd Class A engineer license in Minnesota?",
     "options": [
       "3 years of high-pressure boiler experience only",
@@ -2202,7 +2202,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 525,
     "level": "special",
-    "category": "Boiler Log Requirements",
+    "category": "Plant Management",
     "question": "When must the boiler room logbook be available to a boiler inspector?",
     "options": [
       "Only during scheduled annual inspections",
@@ -2216,7 +2216,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 526,
     "level": "special",
-    "category": "Feedwater Requirements",
+    "category": "Water Treatment",
     "question": "Which two valves are required in a boiler feedwater line, per ASME requirements?",
     "options": [
       "Two stop valves — one near the boiler and one near the pump",
@@ -2230,7 +2230,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 527,
     "level": "special",
-    "category": "Gauge Glass Procedures",
+    "category": "Water Level Control",
     "question": "After completing all steps of the gauge glass blow-through test, what should happen when the steam cock is finally opened (Step 6)?",
     "options": [
       "Water should rise to the top of the glass",
@@ -2244,7 +2244,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 528,
     "level": "special",
-    "category": "MN Rules Chapter 5225",
+    "category": "MN Statutes & Rules",
     "question": "MN Rule 5225.1180 requires that a plant over 500 HP have a designated Chief Engineer on premises for a minimum of how many hours per week?",
     "options": [
       "8 hours per day, 7 days a week",
@@ -2258,7 +2258,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 529,
     "level": "special",
-    "category": "HP vs LP Definitions",
+    "category": "MN Statutes & Rules",
     "question": "What is the steam pressure threshold that separates high-pressure from low-pressure boiler classification in Minnesota?",
     "options": [
       "Steam pressure at or above 15 psig",
@@ -2272,7 +2272,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 530,
     "level": "special",
-    "category": "Exemptions 326B.988",
+    "category": "MN Statutes & Rules",
     "question": "A farm boiler used exclusively for heating a grain dryer is subject to Minnesota boiler inspection laws.",
     "options": [
       "True — all boilers generating steam must be inspected",
@@ -2286,7 +2286,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 531,
     "level": "special",
-    "category": "Safety Valve Tolerances",
+    "category": "Safety Valves",
     "question": "A safety valve is stamped for a set pressure of 150 psig. Within what pressure range must it open during ASME certification testing?",
     "options": [
       "146 to 154 psig (±4 psi)",
@@ -2300,7 +2300,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 532,
     "level": "special",
-    "category": "Boiler Definitions",
+    "category": "Boiler Types",
     "question": "How is 'Direct Supervision' defined under MN boiler rules when applied to an apprentice?",
     "options": [
       "The supervising engineer must be in the same building at all times",
@@ -2314,7 +2314,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 533,
     "level": "special",
-    "category": "Low Water Emergency",
+    "category": "Emergency Procedures",
     "question": "After a low water emergency, what must happen before the boiler can be returned to service?",
     "options": [
       "The safety valve must be tested and the boiler refilled with treated water",
@@ -2328,7 +2328,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 534,
     "level": "special",
-    "category": "Inspector Requirements",
+    "category": "MN Statutes & Rules",
     "question": "After a boiler inspection is completed, what does the inspector attach to the boiler to indicate it has been inspected?",
     "options": [
       "A National Board registration plate",
@@ -2356,7 +2356,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 536,
     "level": "special",
-    "category": "Boiler HP Rating",
+    "category": "Boiler Calculations",
     "question": "A steam coil type generator boiler has 100 square feet of heating surface. What is its boiler horsepower rating?",
     "options": [
       "10 BHP",
@@ -2370,7 +2370,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 537,
     "level": "special",
-    "category": "Boiler Room Entry",
+    "category": "Operating Procedures",
     "question": "When must the operator's license be displayed in the boiler room?",
     "options": [
       "Only during scheduled inspections",
@@ -2384,7 +2384,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 538,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "What is the minimum age to apply for a Special Engineer license in Minnesota without special provisions?",
     "options": [
       "16 years old",
@@ -2398,7 +2398,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 539,
     "level": "special",
-    "category": "Boiler Definitions",
+    "category": "Boiler Types",
     "question": "Which of the following BEST defines 'appurtenance' in the context of boiler operation?",
     "options": [
       "The boiler shell and pressure-containing parts only",
@@ -2412,7 +2412,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 540,
     "level": "special",
-    "category": "Safety Valve Tolerances",
+    "category": "Safety Valves",
     "question": "A safety valve is stamped with a set pressure of 50 psig. Per ASME Code, within what pressure range must it open?",
     "options": [
       "47 to 53 psig (±6%)",
@@ -2426,7 +2426,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 541,
     "level": "special",
-    "category": "Gauge Glass Procedures",
+    "category": "Water Level Control",
     "question": "In the gauge glass blow-through procedure, after closing the drain cock (Step 4), the water cock is opened. What should happen?",
     "options": [
       "Water should flow out of the drain if the drain cock is faulty",
@@ -2440,7 +2440,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 542,
     "level": "special",
-    "category": "Low Water Emergency",
+    "category": "Emergency Procedures",
     "question": "If water is not visible in the gauge glass, what is the meaning according to the gauge glass blow-through procedure?",
     "options": [
       "The gauge glass is dirty and needs to be replaced",
@@ -2454,7 +2454,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 543,
     "level": "special",
-    "category": "HP vs LP Definitions",
+    "category": "MN Statutes & Rules",
     "question": "A hot water boiler operates at 150 psig and 255°F. How is this boiler classified?",
     "options": [
       "Low pressure — because pressure is below 160 psig",
@@ -2468,7 +2468,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 544,
     "level": "special",
-    "category": "MN Rules Chapter 5225",
+    "category": "MN Statutes & Rules",
     "question": "Per MN Rule 5225.1110, if an operator discovers an unsafe boiler condition, what TWO parties must be notified immediately?",
     "options": [
       "The plant owner and OSHA",
@@ -2482,7 +2482,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 545,
     "level": "special",
-    "category": "Boiler Log Requirements",
+    "category": "Plant Management",
     "question": "When an operator is working in multiple boiler rooms at the same facility, what is required regarding their license display?",
     "options": [
       "The original license must be carried on their person at all times",
@@ -2496,7 +2496,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 546,
     "level": "special",
-    "category": "Feedwater Requirements",
+    "category": "Water Treatment",
     "question": "Under ASME standards, what is the maximum temperature allowed for boiler blowdown water discharged to a sewer?",
     "options": [
       "100°F",
@@ -2524,7 +2524,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 548,
     "level": "special",
-    "category": "MN Licensing Framework",
+    "category": "MN Statutes & Rules",
     "question": "What is the maximum HP that a First Class Engineer (any grade) may be 'in charge' of as chief operator?",
     "options": [
       "100 HP",
@@ -2538,7 +2538,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 549,
     "level": "special",
-    "category": "Inspector Requirements",
+    "category": "MN Statutes & Rules",
     "question": "Under MN boiler law, who has the responsibility to ensure a boiler is inspected annually?",
     "options": [
       "The DLI boiler inspection division — they schedule and conduct all inspections",
@@ -2552,7 +2552,7 @@ const QUESTIONS_SPECIAL = [
   {
     "id": 550,
     "level": "special",
-    "category": "Safety Valve Tolerances",
+    "category": "Safety Valves",
     "question": "The accumulation limit for a LOW-PRESSURE steam boiler (Section IV) during a safety valve test is:",
     "options": [
       "3% above the MAWP",
@@ -2562,109 +2562,1408 @@ const QUESTIONS_SPECIAL = [
     ],
     "correct": 3,
     "explanation": "For low-pressure steam heating boilers (ASME Section IV, steam ≤15 psig), the maximum accumulation is 5 psi above the 15 psig set pressure, resulting in a maximum pressure of 20 psig during accumulation testing. Power boilers (Section I) are limited to 6% accumulation. Organic fluid vaporizers are limited to 10% accumulation."
+  },
+  {
+    "id": 1001,
+    "level": "special",
+    "category": "Safety Devices",
+    "question": "What is the primary purpose of a fusible plug in a fire-tube boiler?",
+    "options": [
+      "To regulate steam pressure automatically",
+      "To warn of low water by melting and releasing steam into the furnace when water drops below a safe level",
+      "To act as a backup safety valve",
+      "To prevent scale buildup on heating surfaces"
+    ],
+    "correct": 1,
+    "explanation": "A fusible plug is a last-resort low-water safety device made of a bronze shell filled with tin alloy (melting point approximately 450°F). Installed at the lowest permissible water level, it melts when exposed to excessive heat from uncovered heating surfaces, releasing steam/water into the furnace to alert the operator and extinguish the fire."
+  },
+  {
+    "id": 1002,
+    "level": "special",
+    "category": "Boiler Types",
+    "question": "In a fire-tube boiler, where do the hot combustion gases flow?",
+    "options": [
+      "Around the outside of the tubes",
+      "Through the inside of the tubes, surrounded by water",
+      "Through the waterwall headers only",
+      "Through the mud drum and into the steam drum"
+    ],
+    "correct": 1,
+    "explanation": "In a fire-tube boiler, hot combustion gases flow INSIDE the tubes, and water surrounds the outside of the tubes. Heat transfers from the gas through the tube wall into the water. This is the opposite of a water-tube boiler where water flows inside the tubes."
+  },
+  {
+    "id": 1003,
+    "level": "special",
+    "category": "Water Treatment",
+    "question": "What is the recommended pH range for boiler water in a low-pressure steam boiler?",
+    "options": [
+      "6.0 to 7.0 (slightly acidic)",
+      "7.0 to 8.0 (neutral to slightly alkaline)",
+      "8.5 to 12.5 (alkaline)",
+      "13.0 to 14.0 (highly alkaline)"
+    ],
+    "correct": 2,
+    "explanation": "Boiler water should be maintained at a pH of 8.5 to 12.5 (alkaline). This range minimizes corrosion of steel surfaces. Below 8.5, acidic corrosion accelerates. Above 12.5, caustic embrittlement and foaming become risks."
+  },
+  {
+    "id": 1004,
+    "level": "special",
+    "category": "Operating Procedures",
+    "question": "During a normal boiler startup from cold conditions, what should be done BEFORE lighting the burner?",
+    "options": [
+      "Purge the fireside with at least 4 air changes to remove any accumulated combustible gases",
+      "Close all vents and dampers to conserve heat",
+      "Open the main steam stop valve fully",
+      "Set the firing rate to maximum for fastest startup"
+    ],
+    "correct": 0,
+    "explanation": "Before lighting a burner, the fireside must be purged with at least 4 air changes (per CSD-1) to remove any accumulated combustible gases that could cause a furnace explosion. The fan runs with dampers open during pre-purge."
+  },
+  {
+    "id": 1005,
+    "level": "special",
+    "category": "Steam Generation",
+    "question": "What is the latent heat of vaporization of water at 212°F and atmospheric pressure?",
+    "options": [
+      "144 BTU/lb",
+      "180 BTU/lb",
+      "970.3 BTU/lb",
+      "1,150 BTU/lb"
+    ],
+    "correct": 2,
+    "explanation": "The latent heat of vaporization at 212°F is 970.3 BTU/lb. This is the energy required to convert one pound of water at 212°F to one pound of steam at 212°F without a temperature change."
+  },
+  {
+    "id": 1006,
+    "level": "special",
+    "category": "Combustion",
+    "question": "What are the three elements required for combustion (the fire triangle)?",
+    "options": [
+      "Nitrogen, oxygen, and carbon dioxide",
+      "Water, steam, and heat",
+      "Fuel, oxygen (air), and ignition (heat)",
+      "Pressure, temperature, and volume"
+    ],
+    "correct": 2,
+    "explanation": "The fire triangle requires three elements: (1) Fuel; (2) Oxygen — supplied by air (approximately 21% oxygen); (3) Ignition source/heat. Removing any one element extinguishes the fire."
+  },
+  {
+    "id": 1007,
+    "level": "special",
+    "category": "Draft Systems",
+    "question": "What type of draft uses a fan located between the furnace and the stack to pull combustion gases through the boiler?",
+    "options": [
+      "Forced draft",
+      "Natural draft",
+      "Induced draft",
+      "Balanced draft"
+    ],
+    "correct": 2,
+    "explanation": "Induced draft uses a fan (ID fan) located between the boiler outlet and the stack to pull combustion gases through the boiler. The furnace operates at slightly negative pressure."
+  },
+  {
+    "id": 1008,
+    "level": "special",
+    "category": "Safety Valves",
+    "question": "How often must safety valves on a power boiler be tested by lifting the lever (hand lift test)?",
+    "options": [
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "At least once per operating period and during each annual inspection"
+    ],
+    "correct": 3,
+    "explanation": "Safety valves should be hand-lift tested at least once per operating period and are tested during each annual inspection. Only lift when boiler pressure is at least 75% of set pressure to ensure proper reseating."
+  },
+  {
+    "id": 1009,
+    "level": "special",
+    "category": "Water Level Control",
+    "question": "How often should a float-type low water cutoff be tested by blowdown?",
+    "options": [
+      "Daily — at least once per shift",
+      "Weekly only",
+      "Monthly during maintenance rounds",
+      "Only during annual inspections"
+    ],
+    "correct": 0,
+    "explanation": "Float-type low water cutoffs must be tested by blowdown at least daily (once per shift is best practice). The blowdown removes sediment from the float chamber and verifies the cutoff mechanism operates properly."
+  },
+  {
+    "id": 1010,
+    "level": "special",
+    "category": "Heat Transfer",
+    "question": "Which method of heat transfer occurs primarily in the furnace area of a boiler from the flame to the boiler surfaces?",
+    "options": [
+      "Radiation",
+      "Conduction only",
+      "Convection only",
+      "Evaporation"
+    ],
+    "correct": 0,
+    "explanation": "Radiation is the primary method of heat transfer in the furnace area. The high-temperature flame radiates heat energy directly to the boiler heating surfaces without requiring a medium."
+  },
+  {
+    "id": 1011,
+    "level": "special",
+    "category": "Boiler Calculations",
+    "question": "One boiler horsepower (BHP) equals how many pounds of steam per hour from and at 212°F?",
+    "options": [
+      "10 lb/hr",
+      "34.5 lb/hr",
+      "100 lb/hr",
+      "50 lb/hr"
+    ],
+    "correct": 1,
+    "explanation": "One boiler horsepower (BHP) equals the evaporation of 34.5 pounds of water per hour from and at 212°F. This is equivalent to 33,479 BTU/hr."
+  },
+  {
+    "id": 1012,
+    "level": "special",
+    "category": "MN Statutes & Rules",
+    "question": "What MN Rules chapter governs boiler operation and licensing in Minnesota?",
+    "options": [
+      "MN Rules Chapter 7100",
+      "MN Rules Chapter 3200",
+      "MN Rules Chapter 1300",
+      "MN Rules Chapter 5225"
+    ],
+    "correct": 3,
+    "explanation": "MN Rules Chapter 5225 governs boiler operation, licensing, inspection, and installation requirements in Minnesota."
+  },
+  {
+    "id": 1013,
+    "level": "special",
+    "category": "Piping & Valves",
+    "question": "What type of valve is best suited for throttling (regulating flow) in a steam system?",
+    "options": [
+      "Gate valve",
+      "Ball valve",
+      "Check valve",
+      "Globe valve"
+    ],
+    "correct": 3,
+    "explanation": "A globe valve is best suited for throttling because its disc and seat design allows precise control of flow. Gate valves should only be fully open or fully closed."
+  },
+  {
+    "id": 1014,
+    "level": "special",
+    "category": "Operating Procedures",
+    "question": "What is the FIRST action if a low water condition is discovered during boiler operation?",
+    "options": [
+      "Immediately add cold feedwater to the boiler",
+      "Shut off the fuel supply to the burner immediately",
+      "Open the blowdown valve to lower pressure",
+      "Increase the firing rate to generate more steam"
+    ],
+    "correct": 1,
+    "explanation": "The FIRST action in a low water emergency is to shut off the fuel supply immediately. NEVER add feedwater to an overheated boiler — cold water contacting overheated metal can cause thermal shock and catastrophic failure."
+  },
+  {
+    "id": 1015,
+    "level": "special",
+    "category": "Boiler Types",
+    "question": "What type of boiler uses cast iron sections bolted together and is limited to low-pressure service?",
+    "options": [
+      "Scotch Marine boiler",
+      "Water-tube boiler",
+      "Cast iron sectional boiler",
+      "Horizontal Return Tubular (HRT) boiler"
+    ],
+    "correct": 2,
+    "explanation": "Cast iron sectional boilers are assembled from individual cast iron sections bolted together. They are limited to low-pressure service only (15 psig steam or 30 psig / 250°F hot water per ASME Section IV)."
+  },
+  {
+    "id": 1016,
+    "level": "special",
+    "category": "Safety Devices",
+    "question": "What is the purpose of a pressure gauge (steam gauge) on a boiler?",
+    "options": [
+      "To automatically control the burner firing rate",
+      "To indicate the water level inside the boiler",
+      "To indicate the steam or water pressure inside the boiler in psig",
+      "To measure the temperature of the flue gases"
+    ],
+    "correct": 2,
+    "explanation": "A pressure gauge indicates the steam or water pressure inside the boiler in psig. It must be connected to the steam space, easily readable, and marked with the MAWP."
+  },
+  {
+    "id": 1017,
+    "level": "special",
+    "category": "Layup & Maintenance",
+    "question": "For a wet layup of a boiler, what should be done to prevent oxygen corrosion?",
+    "options": [
+      "Drain the boiler completely and leave it open to air",
+      "Fill the boiler completely with treated water (pH 10–11.5, oxygen scavenger) with no air space",
+      "Fill the boiler halfway with untreated water",
+      "Keep the boiler at 5 psig steam pressure"
+    ],
+    "correct": 1,
+    "explanation": "Wet layup requires filling the boiler COMPLETELY with treated water — no air space allowed. The water should be treated with sodium sulfite and caustic soda to raise pH to 10–11.5."
+  },
+  {
+    "id": 1018,
+    "level": "special",
+    "category": "ASME & Codes",
+    "question": "ASME Section I covers the construction requirements for what type of boilers?",
+    "options": [
+      "Power boilers (steam boilers over 15 psig)",
+      "Heating boilers (low pressure only)",
+      "Pressure vessels for chemical storage",
+      "Unfired hot water heaters only"
+    ],
+    "correct": 0,
+    "explanation": "ASME Section I covers the construction of power boilers — steam boilers operating above 15 psig and high-temperature water boilers. Section IV covers heating boilers. Section VIII covers unfired pressure vessels."
+  },
+  {
+    "id": 1019,
+    "level": "special",
+    "category": "Boiler Testing",
+    "question": "During a hydrostatic test on a new boiler, the test pressure is set at what multiple of the MAWP?",
+    "options": [
+      "1.5 times the MAWP",
+      "1.25 times the MAWP",
+      "2.0 times the MAWP",
+      "Equal to the MAWP"
+    ],
+    "correct": 0,
+    "explanation": "For new construction, the hydrostatic test pressure is 1.5 times the MAWP. For in-service boilers, the test pressure is typically 1.25 to 1.5 times MAWP."
+  },
+  {
+    "id": 1020,
+    "level": "special",
+    "category": "Water Treatment",
+    "question": "What is the purpose of blowdown on a boiler?",
+    "options": [
+      "To increase the water level in the boiler",
+      "To add chemicals to the boiler water",
+      "To remove concentrated dissolved solids, sludge, and sediment from the boiler water",
+      "To test the safety valve operation"
+    ],
+    "correct": 2,
+    "explanation": "Blowdown removes concentrated dissolved solids (TDS), sludge, and sediment from the boiler water. As steam leaves the boiler, impurities concentrate in the remaining water."
+  },
+  {
+    "id": 1021,
+    "level": "special",
+    "category": "Steam Generation",
+    "question": "What is 'sensible heat' in the context of steam generation?",
+    "options": [
+      "The total heat content of superheated steam",
+      "Heat that causes a change of state without changing temperature",
+      "Heat that can be measured by a thermometer — it changes the temperature of a substance",
+      "Heat lost up the stack"
+    ],
+    "correct": 2,
+    "explanation": "Sensible heat is heat that changes the TEMPERATURE of a substance and can be 'sensed' by a thermometer. For water, sensible heat raises the temperature up to the boiling point."
+  },
+  {
+    "id": 1022,
+    "level": "special",
+    "category": "Combustion",
+    "question": "What does 'excess air' mean in combustion?",
+    "options": [
+      "Air remaining in the combustion chamber after all fuel is burned",
+      "Air supplied above the theoretical (stoichiometric) amount needed for complete combustion",
+      "Air that bypasses the burner entirely",
+      "Compressed air used to atomize fuel oil"
+    ],
+    "correct": 1,
+    "explanation": "Excess air is the amount of air supplied ABOVE the theoretical amount needed for complete combustion. Some excess air is necessary, but too much wastes heat by heating unnecessary air to stack temperature."
+  },
+  {
+    "id": 1023,
+    "level": "special",
+    "category": "Operating Procedures",
+    "question": "Why must a boiler be warmed up slowly during startup?",
+    "options": [
+      "To save fuel during startup",
+      "To allow control systems to calibrate",
+      "To prevent uneven thermal expansion that can cause stress cracking and leaks",
+      "To allow water treatment chemicals time to activate"
+    ],
+    "correct": 2,
+    "explanation": "Slow warmup prevents uneven thermal expansion — thick and thin sections expand at different rates. Rapid heating creates thermal stress that can crack welds, loosen tubes, and cause leaks."
+  },
+  {
+    "id": 1024,
+    "level": "special",
+    "category": "Draft Systems",
+    "question": "Natural draft in a boiler depends on what primary factor?",
+    "options": [
+      "The speed of the forced draft fan",
+      "The temperature difference between hot flue gases and cooler outside air, creating buoyancy",
+      "The height of the feedwater tank",
+      "The steam pressure inside the boiler"
+    ],
+    "correct": 1,
+    "explanation": "Natural draft is created by the temperature difference between hot flue gases inside the stack and cooler outside air. Hot gases are less dense and rise, creating negative pressure that draws combustion air through the boiler."
+  },
+  {
+    "id": 1025,
+    "level": "special",
+    "category": "Safety Devices",
+    "question": "What does CSD-1 stand for and what does it govern?",
+    "options": [
+      "Controls and Safety Devices for Automatically Fired Boilers — governs burner controls and safety devices",
+      "Combustion Standards Document — governs fuel quality requirements",
+      "Certified System Design — governs boiler manufacturing",
+      "Code for Steam Distribution — governs steam piping design"
+    ],
+    "correct": 0,
+    "explanation": "CSD-1 stands for Controls and Safety Devices for Automatically Fired Boilers. It establishes requirements for burner management systems including pre-purge timing, flame detection, fuel safety shutoff valves, and operating/high limit controls."
+  },
+  {
+    "id": 1026,
+    "level": "special",
+    "category": "Boiler Calculations",
+    "question": "How many BTU are required to raise the temperature of one pound of water by 1°F?",
+    "options": [
+      "1 BTU",
+      "10 BTU",
+      "100 BTU",
+      "970 BTU"
+    ],
+    "correct": 0,
+    "explanation": "By definition, 1 BTU is the amount of heat required to raise the temperature of one pound of water by 1°F. This is the fundamental unit of heat measurement."
+  },
+  {
+    "id": 1027,
+    "level": "special",
+    "category": "Piping & Valves",
+    "question": "What type of valve allows flow in only one direction and prevents backflow?",
+    "options": [
+      "Gate valve",
+      "Globe valve",
+      "Needle valve",
+      "Check valve"
+    ],
+    "correct": 3,
+    "explanation": "A check valve allows flow in only one direction and automatically closes to prevent backflow. They are essential on feedwater lines to prevent boiler water from flowing back."
+  },
+  {
+    "id": 1028,
+    "level": "special",
+    "category": "Boiler Types",
+    "question": "A Scotch Marine boiler is what type of boiler design?",
+    "options": [
+      "Water-tube boiler",
+      "Cast iron sectional boiler",
+      "Fire-tube boiler with an internal furnace",
+      "Electric resistance boiler"
+    ],
+    "correct": 2,
+    "explanation": "A Scotch Marine boiler is a fire-tube design with an internal furnace (corrugated cylindrical furnace inside the shell). It is the most common type of packaged boiler."
+  },
+  {
+    "id": 1029,
+    "level": "special",
+    "category": "Water Level Control",
+    "question": "What are try cocks (gauge cocks) used for on a boiler?",
+    "options": [
+      "To drain the boiler for maintenance",
+      "To sample boiler water for chemical testing",
+      "To control the feedwater flow rate",
+      "To manually verify the water level when the gauge glass is unreliable or broken"
+    ],
+    "correct": 3,
+    "explanation": "Try cocks are small valves mounted on the water column at three levels. They allow manual verification of water level by opening each cock. They serve as a backup to the gauge glass."
+  },
+  {
+    "id": 1030,
+    "level": "special",
+    "category": "Safety Valves",
+    "question": "A safety valve differs from a safety relief valve in that a safety valve:",
+    "options": [
+      "Opens gradually as pressure increases",
+      "Is only used on pressure vessels",
+      "Can be adjusted during operation",
+      "Opens with a full pop action at set pressure"
+    ],
+    "correct": 3,
+    "explanation": "A safety valve opens with a FULL POP action at the set pressure. Safety valves are used on steam boilers. A relief valve opens gradually in proportion to pressure increase."
+  },
+  {
+    "id": 1031,
+    "level": "special",
+    "category": "Heat Transfer",
+    "question": "Conduction is heat transfer through:",
+    "options": [
+      "A solid material from molecule to molecule without movement of the material itself",
+      "Fluid movement (liquid or gas circulation)",
+      "Electromagnetic waves through space",
+      "Evaporation of water"
+    ],
+    "correct": 0,
+    "explanation": "Conduction is heat transfer through a solid material from molecule to molecule. In a boiler, heat conducts through the tube walls from the hot gas side to the water side."
+  },
+  {
+    "id": 1032,
+    "level": "special",
+    "category": "Operating Procedures",
+    "question": "What is the proper procedure for securing (shutting down) a boiler for a short maintenance period?",
+    "options": [
+      "Turn off the fuel, close the feedwater valve, close the main steam stop valve, and allow pressure to drop naturally",
+      "Open all blowdown valves immediately to depressurize quickly",
+      "Add maximum cold feedwater to cool the boiler rapidly",
+      "Open the safety valve manually to release all pressure instantly"
+    ],
+    "correct": 0,
+    "explanation": "Proper shutdown: Reduce firing rate gradually, shut off fuel, close feedwater valve, close main steam stop valve, allow pressure to drop naturally. Never force-cool a boiler."
+  },
+  {
+    "id": 1033,
+    "level": "special",
+    "category": "MN Statutes & Rules",
+    "question": "A 2nd Class engineer may be in charge of a boiler plant up to what horsepower?",
+    "options": [
+      "100 BHP",
+      "250 BHP",
+      "500 BHP",
+      "50 BHP"
+    ],
+    "correct": 0,
+    "explanation": "A 2nd Class engineer may be in charge of a boiler plant up to 100 BHP. As a shift engineer, they may work in plants up to 500 BHP."
+  },
+  {
+    "id": 1034,
+    "level": "special",
+    "category": "Boiler Testing",
+    "question": "During a hydrostatic test, why must all air be vented from the boiler before pressurizing?",
+    "options": [
+      "Air causes the pressure gauge to read incorrectly",
+      "Air prevents the test pump from operating",
+      "Air causes corrosion during the test",
+      "Air is compressible and stores dangerous energy — if a failure occurs, compressed air causes a violent explosion"
+    ],
+    "correct": 3,
+    "explanation": "Air must be vented because air is compressible and stores significant energy under pressure. Water is virtually incompressible — if a failure occurs with only water, pressure drops instantly with minimal energy release."
+  },
+  {
+    "id": 1035,
+    "level": "special",
+    "category": "Water Treatment",
+    "question": "What is 'hardness' in boiler feedwater?",
+    "options": [
+      "The amount of dissolved oxygen",
+      "The total amount of suspended solids",
+      "The pH level of the water",
+      "The presence of dissolved calcium and magnesium salts that form scale"
+    ],
+    "correct": 3,
+    "explanation": "Water hardness is caused by dissolved calcium and magnesium salts. In a boiler, these minerals precipitate as temperature increases, forming hard scale on heating surfaces."
+  },
+  {
+    "id": 1036,
+    "level": "special",
+    "category": "Combustion",
+    "question": "What is the significance of the 'three T's' of combustion?",
+    "options": [
+      "Time, testing, and temperature",
+      "Temperature, turbulence, and time — the three factors that ensure complete combustion",
+      "Throttle, thermostat, and timer",
+      "Temperature, thrust, and torque"
+    ],
+    "correct": 1,
+    "explanation": "The three T's: (1) Temperature — high enough to maintain ignition; (2) Turbulence — thorough mixing of fuel and air; (3) Time — sufficient residence time for complete burning."
+  },
+  {
+    "id": 1037,
+    "level": "special",
+    "category": "ASME & Codes",
+    "question": "ASME Section IV covers construction requirements for what type of boilers?",
+    "options": [
+      "Power boilers operating above 15 psig",
+      "Nuclear power boilers",
+      "Heating boilers — steam boilers ≤15 psig and hot water boilers ≤160 psig / 250°F",
+      "Unfired pressure vessels"
+    ],
+    "correct": 2,
+    "explanation": "ASME Section IV covers heating boilers: steam boilers at 15 psig or less, and hot water boilers at 160 psig or less and/or 250°F or less."
+  },
+  {
+    "id": 1038,
+    "level": "special",
+    "category": "Safety Devices",
+    "question": "What is the minimum number of safety valves required on a power boiler with more than 500 sq ft of heating surface?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correct": 1,
+    "explanation": "ASME Section I requires a minimum of two safety valves on any power boiler with more than 500 square feet of heating surface."
+  },
+  {
+    "id": 1039,
+    "level": "special",
+    "category": "Boiler Calculations",
+    "question": "What is the relationship between psig and psia?",
+    "options": [
+      "psia = psig + 14.696 (at sea level)",
+      "psia = psig - 14.696",
+      "psia = psig × 2",
+      "They are the same measurement"
+    ],
+    "correct": 0,
+    "explanation": "psia = psig + 14.696 (atmospheric pressure at sea level). Gauge pressure reads zero at atmospheric pressure. Absolute pressure includes atmospheric pressure."
+  },
+  {
+    "id": 1040,
+    "level": "special",
+    "category": "Layup & Maintenance",
+    "question": "Dry layup of a boiler involves:",
+    "options": [
+      "Draining completely, drying the interior, and placing moisture-absorbing desiccant inside",
+      "Filling the boiler with hot water at 200°F",
+      "Keeping the boiler at minimum firing rate",
+      "Leaving the boiler full of untreated water"
+    ],
+    "correct": 0,
+    "explanation": "Dry layup: drain completely, dry interior surfaces, place trays of desiccant (silica gel or quicklime) inside, and seal all openings. Preferred for extended out-of-service periods."
+  },
+  {
+    "id": 1041,
+    "level": "special",
+    "category": "Heat Transfer",
+    "question": "Convection heat transfer in a boiler occurs when:",
+    "options": [
+      "Heat radiates from the flame directly",
+      "Heat passes through the tube wall by conduction",
+      "Hot combustion gases flow over and transfer heat to tube surfaces by fluid motion",
+      "Steam condenses on cool surfaces"
+    ],
+    "correct": 2,
+    "explanation": "Convection occurs when heat is transferred by the movement of a fluid. In a boiler, hot combustion gases flowing over tube surfaces transfer heat by convection."
+  },
+  {
+    "id": 1042,
+    "level": "special",
+    "category": "Operating Procedures",
+    "question": "What is the purpose of a boiler logbook?",
+    "options": [
+      "To record visitor names entering the boiler room",
+      "To record operating data, maintenance, tests, and unusual conditions for regulatory compliance",
+      "To track fuel deliveries only",
+      "To store warranty information"
+    ],
+    "correct": 1,
+    "explanation": "A boiler logbook records all operating data, maintenance activities, safety device tests, chemical treatments, shift changes, and unusual conditions. It is a legal requirement and critical reference."
+  },
+  {
+    "id": 1043,
+    "level": "special",
+    "category": "Piping & Valves",
+    "question": "An OS&Y valve stands for what, and what advantage does it provide?",
+    "options": [
+      "Outside Screw and Yoke — the stem position visually indicates open or closed",
+      "Overhead Safety Yoke — provides seismic protection",
+      "Open System Yield — measures flow rate",
+      "Oil Shutoff and Yield — used on fuel oil systems only"
+    ],
+    "correct": 0,
+    "explanation": "OS&Y stands for Outside Screw and Yoke. The rising stem provides a clear visual indication of valve position: stem up = open, stem down = closed."
+  },
+  {
+    "id": 1044,
+    "level": "special",
+    "category": "Boiler Types",
+    "question": "What is the main advantage of a water-tube boiler over a fire-tube boiler?",
+    "options": [
+      "Water-tube boilers are less expensive",
+      "Water-tube boilers are simpler to operate",
+      "Water-tube boilers can operate at much higher pressures and capacities",
+      "Water-tube boilers require less water treatment"
+    ],
+    "correct": 2,
+    "explanation": "Water-tube boilers can operate at much higher pressures and larger capacities because water is inside small-diameter tubes that resist high pressure more effectively than a large shell."
+  },
+  {
+    "id": 1045,
+    "level": "special",
+    "category": "Safety Devices",
+    "question": "What does FFRT stand for in burner management, and what is the maximum time for oil burners?",
+    "options": [
+      "Fuel Flow Rate Timer — maximum 10 seconds",
+      "Furnace Flame Run Time — maximum 30 seconds",
+      "Flame Failure Response Time — maximum 4 seconds for oil burners",
+      "Fire Flash Reaction Timing — maximum 1 second"
+    ],
+    "correct": 2,
+    "explanation": "FFRT stands for Flame Failure Response Time — the maximum time between loss of flame signal and closing of the fuel safety shutoff valve. For oil burners: maximum 4 seconds per CSD-1."
+  },
+  {
+    "id": 1046,
+    "level": "special",
+    "category": "Water Level Control",
+    "question": "The evaporation (slow-drain) test for a low water cutoff verifies what?",
+    "options": [
+      "That the feedwater pump can keep up with steam demand",
+      "That the LWCO will shut off the burner when water drops to the cutoff point under actual conditions",
+      "That the boiler can produce steam at full load",
+      "That the safety valve lifts at the correct pressure"
+    ],
+    "correct": 1,
+    "explanation": "The evaporation test verifies the LWCO actually shuts off the burner when water drops to the cutoff point. Feedwater is secured while the boiler fires, causing water to evaporate. Should be performed at least weekly."
+  },
+  {
+    "id": 1047,
+    "level": "special",
+    "category": "Boiler Calculations",
+    "question": "What is the head pressure exerted by a column of water one foot tall?",
+    "options": [
+      "0.433 psi per foot of water",
+      "1.0 psi per foot of water",
+      "2.31 psi per foot of water",
+      "14.7 psi per foot of water"
+    ],
+    "correct": 0,
+    "explanation": "Water exerts 0.433 psi for every foot of vertical height. Conversely, 1 psi supports a column of water 2.31 feet high."
+  },
+  {
+    "id": 1048,
+    "level": "special",
+    "category": "Combustion",
+    "question": "What does high CO (carbon monoxide) in the flue gas indicate?",
+    "options": [
+      "Too much excess air",
+      "Perfect combustion efficiency",
+      "Incomplete combustion — not enough air or poor fuel-air mixing",
+      "The stack temperature is too low"
+    ],
+    "correct": 2,
+    "explanation": "High CO indicates INCOMPLETE combustion — fuel is not burning completely. Causes include insufficient air, poor fuel-air mixing, low combustion temperature, or burner malfunction."
+  },
+  {
+    "id": 1049,
+    "level": "special",
+    "category": "MN Statutes & Rules",
+    "question": "Under Minnesota law, what defines a high-pressure (HP) steam boiler?",
+    "options": [
+      "A steam boiler operating above 15 psig",
+      "A steam boiler operating above 100 psig",
+      "A steam boiler with more than 50 BHP capacity",
+      "Any boiler connected to a turbine"
+    ],
+    "correct": 0,
+    "explanation": "A high-pressure steam boiler is defined as one operating above 15 psig. This 15 psig threshold is the dividing line between LP and HP steam boiler classifications."
+  },
+  {
+    "id": 1050,
+    "level": "special",
+    "category": "Safety Valves",
+    "question": "Safety valves on a boiler must be set to open at a pressure not exceeding:",
+    "options": [
+      "10% above the MAWP",
+      "The maximum allowable working pressure (MAWP) of the boiler",
+      "10 psi above the MAWP",
+      "120% of the MAWP"
+    ],
+    "correct": 1,
+    "explanation": "At least one safety valve must be set at or below the MAWP. If multiple valves exist, the highest-set valve may be up to 3% above MAWP, but one must be at or below MAWP."
+  },
+  {
+    "id": 1051,
+    "level": "special",
+    "category": "Water Treatment",
+    "question": "What is 'carryover' in a steam boiler?",
+    "options": [
+      "Steam condensing in lines before reaching the process",
+      "Heat carried from the furnace to the economizer",
+      "Chemicals carried from the feedwater tank into the boiler",
+      "Water droplets or dissolved/suspended solids carried out of the boiler with the steam"
+    ],
+    "correct": 3,
+    "explanation": "Carryover is contamination of steam with water droplets and/or dissolved/suspended solids being carried out of the boiler. Causes include high water level, high TDS, excessive firing rate, and foaming."
+  },
+  {
+    "id": 1052,
+    "level": "special",
+    "category": "Operating Procedures",
+    "question": "Why should the boiler room be well-ventilated?",
+    "options": [
+      "To keep operators cool and comfortable",
+      "To supply combustion air to the burner and prevent dangerous gas accumulation",
+      "To reduce noise levels from the burner",
+      "To prevent condensation on the boiler shell"
+    ],
+    "correct": 1,
+    "explanation": "Adequate ventilation provides combustion air for the burner and prevents dangerous accumulation of fuel gases from leaks."
+  },
+  {
+    "id": 1053,
+    "level": "special",
+    "category": "Draft Systems",
+    "question": "Balanced draft uses what combination of fans?",
+    "options": [
+      "Two forced draft fans in parallel",
+      "A forced draft fan pushing air in and an induced draft fan pulling gases out",
+      "Two induced draft fans in series",
+      "No fans — relies on stack effect"
+    ],
+    "correct": 1,
+    "explanation": "Balanced draft uses both a forced draft (FD) fan on the air inlet and an induced draft (ID) fan on the flue gas outlet, maintaining the furnace at slight negative pressure."
+  },
+  {
+    "id": 1054,
+    "level": "special",
+    "category": "ASME & Codes",
+    "question": "What does the NBIC (National Board Inspection Code) govern?",
+    "options": [
+      "New boiler construction standards only",
+      "Fuel quality standards",
+      "Installation, inspection, and repair of boilers and pressure vessels after initial construction",
+      "Electrical codes for boiler rooms"
+    ],
+    "correct": 2,
+    "explanation": "The NBIC governs installation (Part 1), inspection (Part 2), and repair/alteration (Part 3) of boilers and pressure vessels AFTER initial construction."
+  },
+  {
+    "id": 1055,
+    "level": "special",
+    "category": "Boiler Types",
+    "question": "An HRT boiler stands for what type?",
+    "options": [
+      "High Resistance Thermal boiler",
+      "High Rate Transfer boiler",
+      "Heat Recovery Turbine boiler",
+      "Horizontal Return Tubular boiler"
+    ],
+    "correct": 3,
+    "explanation": "HRT stands for Horizontal Return Tubular boiler — a fire-tube design where combustion gases pass under the shell then return through the tubes. Largely replaced by Scotch Marine types."
+  },
+  {
+    "id": 1056,
+    "level": "special",
+    "category": "Safety Devices",
+    "question": "What is the purpose of a flame scanner (flame detector) on an automatically fired boiler?",
+    "options": [
+      "To measure flame temperature for efficiency",
+      "To detect flame presence or absence and initiate safety shutdown on flame failure",
+      "To control the fuel-air ratio",
+      "To monitor flame color for smoke readings"
+    ],
+    "correct": 1,
+    "explanation": "A flame scanner detects whether a flame is present. If flame is lost, the scanner signals the burner management system to close fuel safety shutoff valves within the FFRT. Types include UV, IR, and flame rod detectors."
+  },
+  {
+    "id": 1057,
+    "level": "special",
+    "category": "Boiler Calculations",
+    "question": "If a boiler produces 345 pounds of steam per hour from and at 212°F, what is its output in BHP?",
+    "options": [
+      "345 BHP",
+      "3.45 BHP",
+      "10 BHP",
+      "34.5 BHP"
+    ],
+    "correct": 2,
+    "explanation": "BHP = steam output ÷ 34.5 lb/hr per BHP = 345 ÷ 34.5 = 10 BHP."
+  },
+  {
+    "id": 1058,
+    "level": "special",
+    "category": "Water Treatment",
+    "question": "What is the purpose of a water softener in external water treatment?",
+    "options": [
+      "To remove dissolved oxygen",
+      "To filter out suspended particles",
+      "To raise the pH of the water",
+      "To remove hardness minerals (calcium and magnesium) before they enter the boiler"
+    ],
+    "correct": 3,
+    "explanation": "A water softener removes hardness minerals through ion exchange, replacing calcium and magnesium with sodium ions. This prevents scale formation."
+  },
+  {
+    "id": 1059,
+    "level": "special",
+    "category": "Steam Generation",
+    "question": "What is 'saturated steam'?",
+    "options": [
+      "Steam that contains maximum moisture",
+      "Steam at atmospheric pressure only",
+      "Steam heated above saturation temperature",
+      "Steam at the temperature corresponding to its pressure — any heat loss causes condensation"
+    ],
+    "correct": 3,
+    "explanation": "Saturated steam is at the exact temperature and pressure where any heat loss causes condensation. At 100 psig, saturated steam is approximately 338°F."
+  },
+  {
+    "id": 1060,
+    "level": "special",
+    "category": "Operating Procedures",
+    "question": "If a boiler has been out of service, what must be checked BEFORE refilling with water?",
+    "options": [
+      "The color of the refractory",
+      "That all drains, vents, and inspection openings are closed, and the fireside is inspected",
+      "That the fuel supply pressure is correct",
+      "That the stack damper is fully open"
+    ],
+    "correct": 1,
+    "explanation": "Before refilling: inspect the fireside for debris or damage; ensure all drains, blowdown valves, and inspection openings are properly closed with good gaskets."
+  },
+  {
+    "id": 1061,
+    "level": "special",
+    "category": "Piping & Valves",
+    "question": "What is the purpose of a blowdown valve on a boiler?",
+    "options": [
+      "To control steam flow to the process",
+      "To vent air during filling",
+      "To regulate feedwater flow",
+      "To allow controlled removal of concentrated boiler water, sludge, and sediment"
+    ],
+    "correct": 3,
+    "explanation": "The blowdown valve is at the lowest point of the boiler. It allows controlled removal of concentrated water, sludge, and sediment. Bottom blowdown removes settled sludge; surface blowdown skims dissolved solids."
+  },
+  {
+    "id": 1062,
+    "level": "special",
+    "category": "Safety Devices",
+    "question": "What is a water column on a boiler?",
+    "options": [
+      "A vertical pipe connected to the boiler that houses the gauge glass, try cocks, and LWCO",
+      "The height of water above the boiler feed pump",
+      "A column of water inside the boiler tubes",
+      "A chemical treatment injection point"
+    ],
+    "correct": 0,
+    "explanation": "A water column is a vertical chamber connected to the boiler at the steam and water spaces. It provides a calm location for mounting gauge glasses, try cocks, and the low water cutoff."
+  },
+  {
+    "id": 1063,
+    "level": "special",
+    "category": "Boiler Testing",
+    "question": "What is the purpose of an accumulation test on a boiler?",
+    "options": [
+      "To verify safety valve(s) can relieve steam fast enough to prevent pressure rising more than 6% above MAWP",
+      "To test how much water the boiler can hold",
+      "To determine fuel consumption rate",
+      "To measure scale accumulation"
+    ],
+    "correct": 0,
+    "explanation": "An accumulation test verifies that safety valve(s) have sufficient capacity. The boiler fires at maximum rate with the main steam stop closed. Pressure must not exceed 6% above MAWP for power boilers."
+  },
+  {
+    "id": 1064,
+    "level": "special",
+    "category": "MN Statutes & Rules",
+    "question": "What is the renewal fee for a Minnesota boiler operator license?",
+    "options": [
+      "No fee",
+      "$20",
+      "Same as the exam fee",
+      "$40"
+    ],
+    "correct": 3,
+    "explanation": "The renewal fee is $40, payable every two years. This is separate from the initial examination fee of $50."
+  },
+  {
+    "id": 1065,
+    "level": "special",
+    "category": "Combustion",
+    "question": "What is the approximate percentage of oxygen in atmospheric air?",
+    "options": [
+      "78%",
+      "50%",
+      "21%",
+      "10%"
+    ],
+    "correct": 2,
+    "explanation": "Atmospheric air contains approximately 21% oxygen, 78% nitrogen, and about 1% other gases. Only the oxygen supports combustion."
+  },
+  {
+    "id": 1066,
+    "level": "special",
+    "category": "Water Level Control",
+    "question": "A probe-type (electrode) low water cutoff detects water level by measuring:",
+    "options": [
+      "The weight of water on a sensor",
+      "The electrical conductivity between probes — water conducts, steam/air does not",
+      "The temperature difference between probe and water",
+      "Ultrasonic reflections from the water surface"
+    ],
+    "correct": 1,
+    "explanation": "Probe-type LWCOs work on conductivity. When water drops below the probe tip, the circuit breaks, triggering the cutoff. No moving parts, but must be kept clean."
+  },
+  {
+    "id": 1067,
+    "level": "special",
+    "category": "Boiler Types",
+    "question": "An electric boiler generates steam or hot water using what heat source?",
+    "options": [
+      "Electric resistance elements or electrode immersion heating",
+      "Electric spark ignition of natural gas",
+      "Induction heating of the boiler shell",
+      "Solar-powered electric panels"
+    ],
+    "correct": 0,
+    "explanation": "Electric boilers use resistance elements or electrode-type heating. They produce no combustion gases, require no stack, and are 99%+ efficient at point of use."
+  },
+  {
+    "id": 1068,
+    "level": "special",
+    "category": "Safety Valves",
+    "question": "A safety valve set at 125 psig has what ASME tolerance range?",
+    "options": [
+      "±2 psi (123 to 127 psig)",
+      "±5 psi (120 to 130 psig)",
+      "±3% (121.25 to 128.75 psig)",
+      "±10 psi (115 to 135 psig)"
+    ],
+    "correct": 2,
+    "explanation": "For set pressures 71–300 psig, the ASME tolerance is ±3%. At 125 psig: 125 × 0.03 = 3.75 psi. The valve must open between 121.25 and 128.75 psig."
+  },
+  {
+    "id": 1069,
+    "level": "special",
+    "category": "Heat Transfer",
+    "question": "Scale deposits on boiler tube surfaces act as:",
+    "options": [
+      "Heat conductors improving efficiency",
+      "Flow enhancers improving circulation",
+      "Corrosion inhibitors protecting tube metal",
+      "Thermal insulation that reduces heat transfer and can cause tube overheating"
+    ],
+    "correct": 3,
+    "explanation": "Scale acts as thermal INSULATION. Even thin scale measurably reduces heat transfer. The tube metal temperature rises, potentially causing blistering, bulging, or rupture."
+  },
+  {
+    "id": 1070,
+    "level": "special",
+    "category": "Operating Procedures",
+    "question": "What is the proper sequence for bringing an additional boiler online to a common steam header?",
+    "options": [
+      "Open the main steam stop valve fully, then light the burner",
+      "Open the blowdown valve first, then light the burner",
+      "Light the burner at maximum and immediately open the stop valve",
+      "Light the burner, raise pressure to match header pressure, then slowly open the main steam stop valve"
+    ],
+    "correct": 3,
+    "explanation": "Raise pressure to match header pressure, then slowly open the stop valve. Never open with a large pressure differential — this causes water hammer."
+  },
+  {
+    "id": 1071,
+    "level": "special",
+    "category": "Piping & Valves",
+    "question": "Why should a gate valve never be used for throttling?",
+    "options": [
+      "Gate valves are too expensive for throttling",
+      "Gate valves are only rated for cold water",
+      "Gate valves cannot physically be opened partially",
+      "The partially open disc causes wire-drawing erosion and vibration damage"
+    ],
+    "correct": 3,
+    "explanation": "Gate valves used partially open experience wire-drawing erosion. The disc also vibrates in the flow stream, accelerating wear. Use globe valves for throttling."
+  },
+  {
+    "id": 1072,
+    "level": "special",
+    "category": "ASME & Codes",
+    "question": "What information must be displayed on a boiler nameplate?",
+    "options": [
+      "The operator's name and license number",
+      "The fuel type and burner manufacturer",
+      "The MAWP, serial number, year built, manufacturer, and ASME stamp",
+      "The insurance company and policy number"
+    ],
+    "correct": 2,
+    "explanation": "A boiler nameplate must display MAWP, serial number, year built, manufacturer's name, heating surface area, ASME Code stamp, and National Board registration number."
+  },
+  {
+    "id": 1073,
+    "level": "special",
+    "category": "Water Treatment",
+    "question": "What is TDS in water treatment?",
+    "options": [
+      "Total Dissolved Solids — concentration of all dissolved minerals and chemicals, measured in ppm",
+      "Temperature-Dependent Softening",
+      "Thermal Deaeration System",
+      "Total Drain Sequence"
+    ],
+    "correct": 0,
+    "explanation": "TDS stands for Total Dissolved Solids — the sum of all dissolved minerals, salts, and chemicals in water, measured in ppm. Blowdown controls TDS levels."
+  },
+  {
+    "id": 1074,
+    "level": "special",
+    "category": "Steam Generation",
+    "question": "What happens to the boiling point of water as pressure increases?",
+    "options": [
+      "The boiling point increases as pressure increases",
+      "The boiling point decreases",
+      "It remains at 212°F regardless of pressure",
+      "Pressure has no effect on boiling point"
+    ],
+    "correct": 0,
+    "explanation": "The boiling point increases with increasing pressure. At 0 psig: 212°F. At 100 psig: approximately 338°F. At 300 psig: approximately 421°F. This relationship is shown in steam tables."
+  },
+  {
+    "id": 1075,
+    "level": "special",
+    "category": "Combustion",
+    "question": "What is the product of complete combustion of natural gas (methane)?",
+    "options": [
+      "Carbon monoxide and hydrogen",
+      "Oxygen and nitrogen",
+      "Nitrogen dioxide and sulfur dioxide",
+      "Carbon dioxide and water vapor"
+    ],
+    "correct": 3,
+    "explanation": "Complete combustion of methane: CH₄ + 2O₂ → CO₂ + 2H₂O. The products are carbon dioxide and water vapor. Incomplete combustion produces CO and soot."
+  },
+  {
+    "id": 1076,
+    "level": "special",
+    "category": "Safety Devices",
+    "question": "Per CSD-1, what is the minimum pre-purge time in air changes?",
+    "options": [
+      "4 air changes of the fireside volume",
+      "1 air change",
+      "10 air changes",
+      "No minimum — only 30 seconds required"
+    ],
+    "correct": 0,
+    "explanation": "CSD-1 requires a minimum of 4 air changes during pre-purge before any ignition attempt. This sweeps out residual combustible gases."
+  },
+  {
+    "id": 1077,
+    "level": "special",
+    "category": "Boiler Calculations",
+    "question": "One BHP equals how many BTU per hour?",
+    "options": [
+      "10,000 BTU/hr",
+      "100,000 BTU/hr",
+      "33,479 BTU/hr",
+      "3,412 BTU/hr"
+    ],
+    "correct": 2,
+    "explanation": "One BHP = 33,479 BTU/hr = 34.5 lb/hr steam from and at 212°F. Do not confuse with mechanical horsepower (746 watts = 2,545 BTU/hr)."
+  },
+  {
+    "id": 1078,
+    "level": "special",
+    "category": "Layup & Maintenance",
+    "question": "Which type of layup is recommended for a boiler out of service less than 30 days?",
+    "options": [
+      "Dry layup with desiccant",
+      "Nitrogen blanket layup only",
+      "No layup needed for under 30 days",
+      "Wet layup — filled completely with chemically treated water"
+    ],
+    "correct": 3,
+    "explanation": "Wet layup is recommended for short-term periods (under 30 days). The boiler is filled completely with treated water. For longer periods, dry layup is preferred."
+  },
+  {
+    "id": 1079,
+    "level": "special",
+    "category": "Draft Systems",
+    "question": "What is the unit of measurement for draft pressure in a boiler system?",
+    "options": [
+      "Pounds per square inch (psi)",
+      "Inches of water gauge (in. w.g.)",
+      "Inches of mercury (in. Hg)",
+      "Bar"
+    ],
+    "correct": 1,
+    "explanation": "Draft pressure is measured in inches of water gauge (in. w.g.) because the pressures are very small. Typical furnace draft is -0.05 to -0.10 in. w.g."
+  },
+  {
+    "id": 1080,
+    "level": "special",
+    "category": "Operating Procedures",
+    "question": "What should an operator do if the pressure gauge disagrees with the safety valve lifting pressure?",
+    "options": [
+      "Adjust the safety valve to match the gauge",
+      "Ignore the discrepancy",
+      "Assume the pressure gauge is wrong — recalibrate or replace it; never adjust a certified safety valve",
+      "Increase the MAWP on the nameplate"
+    ],
+    "correct": 2,
+    "explanation": "Safety valves are factory-set and sealed. The pressure gauge should be tested against a known-accurate test gauge and recalibrated or replaced as needed."
+  },
+  {
+    "id": 1081,
+    "level": "special",
+    "category": "Boiler Types",
+    "question": "What is natural circulation in a water-tube boiler?",
+    "options": [
+      "Water pumped through tubes by a circulation pump",
+      "Water flowing by gravity from an elevated tank",
+      "Steam circulated by the forced draft fan",
+      "Heated water (less dense) rises while cooler water (denser) descends, creating continuous flow without a pump"
+    ],
+    "correct": 3,
+    "explanation": "Natural circulation occurs because heated water becomes less dense and rises, while cooler denser water flows downward to replace it, creating continuous circulation without pumping."
+  },
+  {
+    "id": 1082,
+    "level": "special",
+    "category": "Safety Devices",
+    "question": "What pressure instrument should be compared to the boiler's operating gauge to verify accuracy?",
+    "options": [
+      "A test gauge (calibrated reference gauge)",
+      "The safety valve nameplate pressure",
+      "A thermometer reading",
+      "The fuel gas pressure gauge"
+    ],
+    "correct": 0,
+    "explanation": "A test gauge (calibrated reference gauge) should be periodically connected to verify the operating gauge's accuracy."
+  },
+  {
+    "id": 1083,
+    "level": "special",
+    "category": "Boiler Calculations",
+    "question": "How many BTU are needed to raise 100 pounds of water from 60°F to 212°F?",
+    "options": [
+      "100 BTU",
+      "21,200 BTU",
+      "15,200 BTU",
+      "97,030 BTU"
+    ],
+    "correct": 2,
+    "explanation": "BTU = weight × temperature rise = 100 × (212 - 60) = 100 × 152 = 15,200 BTU of sensible heat."
+  },
+  {
+    "id": 1084,
+    "level": "special",
+    "category": "Water Treatment",
+    "question": "What type of corrosion is caused by dissolved oxygen in boiler water?",
+    "options": [
+      "Pitting corrosion — localized deep holes in the metal surface",
+      "Uniform thinning of the entire shell",
+      "Caustic embrittlement of welds only",
+      "Galvanic corrosion between different metals"
+    ],
+    "correct": 0,
+    "explanation": "Dissolved oxygen causes PITTING corrosion — localized deep holes. Pitting is dangerous because a small pit can penetrate the wall before damage is visually obvious. Deaeration and sodium sulfite prevent it."
+  },
+  {
+    "id": 1085,
+    "level": "special",
+    "category": "MN Statutes & Rules",
+    "question": "Under Minnesota rules, the operator's license must be displayed where?",
+    "options": [
+      "In a conspicuous place in the boiler room where it is readily visible",
+      "In the plant manager's office",
+      "In the operator's personal locker",
+      "Filed with the DLI — no display required"
+    ],
+    "correct": 0,
+    "explanation": "Minnesota rules require the license to be displayed in a conspicuous place in the boiler room where it is readily visible."
+  },
+  {
+    "id": 1086,
+    "level": "special",
+    "category": "Piping & Valves",
+    "question": "What is a 'non-return valve' on a boiler?",
+    "options": [
+      "A valve on the blowdown line preventing backflow",
+      "A combination stop-check valve on the steam outlet preventing steam backflow from the header",
+      "A valve on the fuel line preventing fuel backflow",
+      "A vent valve on top of the boiler"
+    ],
+    "correct": 1,
+    "explanation": "A non-return valve is a combination stop-check valve on the boiler steam outlet. It prevents steam from the header from flowing back into a lower-pressure boiler."
+  },
+  {
+    "id": 1087,
+    "level": "special",
+    "category": "Boiler Testing",
+    "question": "What water temperature range should be used for a hydrostatic test?",
+    "options": [
+      "32°F to 50°F",
+      "100°F to 120°F",
+      "180°F to 212°F",
+      "Any temperature is acceptable"
+    ],
+    "correct": 1,
+    "explanation": "Hydrostatic test water should be 100°F to 120°F. Too cold risks brittle fracture; too hot makes it difficult to hold steady pressure and obscures leak detection."
+  },
+  {
+    "id": 1088,
+    "level": "special",
+    "category": "Heat Transfer",
+    "question": "Soot deposits on the fireside of boiler tubes cause what problem?",
+    "options": [
+      "They improve heat transfer",
+      "They have no significant effect",
+      "They prevent corrosion",
+      "They insulate the tubes, reducing heat transfer and increasing stack temperature"
+    ],
+    "correct": 3,
+    "explanation": "Soot deposits insulate tubes, reducing heat transfer and causing stack temperatures to rise (wasted heat). Regular soot blowing removes these deposits."
+  },
+  {
+    "id": 1089,
+    "level": "special",
+    "category": "Operating Procedures",
+    "question": "What is the danger of adding cold feedwater to an overheated boiler?",
+    "options": [
+      "The cold water will put out the fire",
+      "Cold water on overheated metal causes instant steam generation (thermal shock), potentially causing catastrophic failure",
+      "The cold water will crack the gauge glass",
+      "The cold water will dilute chemicals"
+    ],
+    "correct": 1,
+    "explanation": "Cold water contacts red-hot metal, instantly flashing to steam with approximately 1,600 times expansion. This sudden pressure spike can cause catastrophic failure of weakened metal."
+  },
+  {
+    "id": 1090,
+    "level": "special",
+    "category": "ASME & Codes",
+    "question": "What ASME Section covers welding qualifications and procedures?",
+    "options": [
+      "Section I",
+      "Section IV",
+      "Section V",
+      "Section IX"
+    ],
+    "correct": 3,
+    "explanation": "ASME Section IX covers Welding, Brazing, and Fusing Qualifications. All welding on code boilers must be performed by Section IX qualified welders."
+  },
+  {
+    "id": 1091,
+    "level": "special",
+    "category": "Combustion",
+    "question": "What is indicated by dark smoke from the stack when burning fuel oil?",
+    "options": [
+      "Excellent combustion",
+      "Boiler overfired",
+      "Stack temperature too high",
+      "Incomplete combustion — insufficient air, poor atomization, or burner problems"
+    ],
+    "correct": 3,
+    "explanation": "Dark smoke indicates incomplete combustion. Causes include insufficient air, poor atomization, low combustion temperature, or burner malfunction."
+  },
+  {
+    "id": 1092,
+    "level": "special",
+    "category": "Safety Devices",
+    "question": "How many gauge glasses are required on a high-pressure boiler?",
+    "options": [
+      "One",
+      "Two (or one gauge glass plus try cocks)",
+      "Three",
+      "None — try cocks are sufficient"
+    ],
+    "correct": 1,
+    "explanation": "ASME Section I requires at least two means of indicating water level. This is typically two gauge glasses, or one gauge glass plus try cocks."
+  },
+  {
+    "id": 1093,
+    "level": "special",
+    "category": "Boiler Calculations",
+    "question": "A boiler has a MAWP of 150 psig. What is the maximum primary safety valve set pressure?",
+    "options": [
+      "150 psig",
+      "165 psig",
+      "159 psig",
+      "175 psig"
+    ],
+    "correct": 0,
+    "explanation": "At least one safety valve must be set at or below the MAWP. The primary valve cannot exceed 150 psig."
+  },
+  {
+    "id": 1094,
+    "level": "special",
+    "category": "Water Treatment",
+    "question": "What is the function of a deaerator in a boiler feedwater system?",
+    "options": [
+      "To soften water by removing calcium",
+      "To filter suspended particles",
+      "To remove dissolved gases (primarily O2 and CO2) by heating to saturation temperature",
+      "To add chemicals to feedwater"
+    ],
+    "correct": 2,
+    "explanation": "A deaerator removes dissolved gases by heating water to saturation temperature, making gases insoluble so they can be vented. Most effective method of mechanical oxygen removal."
+  },
+  {
+    "id": 1095,
+    "level": "special",
+    "category": "Steam Generation",
+    "question": "What is 'superheat' in steam terminology?",
+    "options": [
+      "Steam above 500 psig",
+      "The maximum temperature a boiler can achieve",
+      "The heat content of water before it boils",
+      "The temperature of steam ABOVE its saturation temperature at a given pressure"
+    ],
+    "correct": 3,
+    "explanation": "Superheat is the degrees the steam temperature exceeds saturation temperature. Steam at 100 psig (338°F saturation) heated to 538°F has 200°F of superheat."
+  },
+  {
+    "id": 1096,
+    "level": "special",
+    "category": "MN Statutes & Rules",
+    "question": "Under MN rules, can a Special Engineer operate a high-pressure boiler?",
+    "options": [
+      "Yes, up to 100 psig",
+      "Yes, but only as a shift engineer",
+      "No — a Special Engineer is limited to low-pressure plants only",
+      "Yes, but only during daytime hours"
+    ],
+    "correct": 2,
+    "explanation": "A Special Engineer license authorizes operation of LOW-PRESSURE boiler plants only. To operate HP boilers, a minimum 2nd Class license is required."
+  },
+  {
+    "id": 1097,
+    "level": "special",
+    "category": "Piping & Valves",
+    "question": "What is the purpose of a steam trap?",
+    "options": [
+      "To trap and contain steam leaks",
+      "To remove condensate and non-condensable gases while preventing live steam from escaping",
+      "To regulate steam pressure",
+      "To filter impurities from steam"
+    ],
+    "correct": 1,
+    "explanation": "A steam trap removes condensate and non-condensable gases while preventing live steam from escaping. Failed traps waste significant energy."
+  },
+  {
+    "id": 1098,
+    "level": "special",
+    "category": "Boiler Types",
+    "question": "In a water-tube boiler, where does the water flow?",
+    "options": [
+      "Around the outside of the tubes",
+      "Inside the tubes, with hot gases around the outside",
+      "Through the shell only",
+      "Through the stack"
+    ],
+    "correct": 1,
+    "explanation": "In a water-tube boiler, water flows INSIDE the tubes and hot gases flow around the OUTSIDE. Small-diameter tubes resist high pressure effectively."
+  },
+  {
+    "id": 1099,
+    "level": "special",
+    "category": "Safety Devices",
+    "question": "What is the high limit control on an automatically fired boiler?",
+    "options": [
+      "A control limiting maximum firing rate",
+      "A control limiting maximum water level",
+      "A control limiting maximum water temperature",
+      "A safety control that shuts off the burner if pressure exceeds a set maximum — requires manual reset"
+    ],
+    "correct": 3,
+    "explanation": "The high limit control shuts off the burner if pressure exceeds the set maximum. Unlike the operating control, it requires MANUAL RESET so the operator investigates the cause."
+  },
+  {
+    "id": 1100,
+    "level": "special",
+    "category": "Operating Procedures",
+    "question": "What should be communicated during a shift change between boiler operators?",
+    "options": [
+      "Only the current steam pressure",
+      "Status of all boilers, problems, maintenance in progress, water treatment status, and pending work",
+      "Only whether the boiler is running or not",
+      "The weather forecast"
+    ],
+    "correct": 1,
+    "explanation": "A thorough shift change covers all boiler status, abnormal conditions, maintenance, water treatment, safety test results, and management instructions. Incomplete turnover is a leading cause of incidents."
   }
-,
-  {"id": 1001, "level": "special", "category": "Safety Devices", "question": "What is the primary purpose of a fusible plug in a fire-tube boiler?", "options": ["To regulate steam pressure automatically", "To warn of low water by melting and releasing steam into the furnace when water drops below a safe level", "To act as a backup safety valve", "To prevent scale buildup on heating surfaces"], "correct": 1, "explanation": "A fusible plug is a last-resort low-water safety device made of a bronze shell filled with tin alloy (melting point approximately 450°F). Installed at the lowest permissible water level, it melts when exposed to excessive heat from uncovered heating surfaces, releasing steam/water into the furnace to alert the operator and extinguish the fire."},
-  {"id": 1002, "level": "special", "category": "Boiler Types", "question": "In a fire-tube boiler, where do the hot combustion gases flow?", "options": ["Around the outside of the tubes", "Through the inside of the tubes, surrounded by water", "Through the waterwall headers only", "Through the mud drum and into the steam drum"], "correct": 1, "explanation": "In a fire-tube boiler, hot combustion gases flow INSIDE the tubes, and water surrounds the outside of the tubes. Heat transfers from the gas through the tube wall into the water. This is the opposite of a water-tube boiler where water flows inside the tubes."},
-  {"id": 1003, "level": "special", "category": "Water Treatment", "question": "What is the recommended pH range for boiler water in a low-pressure steam boiler?", "options": ["6.0 to 7.0 (slightly acidic)", "7.0 to 8.0 (neutral to slightly alkaline)", "8.5 to 12.5 (alkaline)", "13.0 to 14.0 (highly alkaline)"], "correct": 2, "explanation": "Boiler water should be maintained at a pH of 8.5 to 12.5 (alkaline). This range minimizes corrosion of steel surfaces. Below 8.5, acidic corrosion accelerates. Above 12.5, caustic embrittlement and foaming become risks."},
-  {"id": 1004, "level": "special", "category": "Operating Procedures", "question": "During a normal boiler startup from cold conditions, what should be done BEFORE lighting the burner?", "options": ["Purge the fireside with at least 4 air changes to remove any accumulated combustible gases", "Close all vents and dampers to conserve heat", "Open the main steam stop valve fully", "Set the firing rate to maximum for fastest startup"], "correct": 0, "explanation": "Before lighting a burner, the fireside must be purged with at least 4 air changes (per CSD-1) to remove any accumulated combustible gases that could cause a furnace explosion. The fan runs with dampers open during pre-purge."},
-  {"id": 1005, "level": "special", "category": "Steam Generation", "question": "What is the latent heat of vaporization of water at 212°F and atmospheric pressure?", "options": ["144 BTU/lb", "180 BTU/lb", "970.3 BTU/lb", "1,150 BTU/lb"], "correct": 2, "explanation": "The latent heat of vaporization at 212°F is 970.3 BTU/lb. This is the energy required to convert one pound of water at 212°F to one pound of steam at 212°F without a temperature change."},
-  {"id": 1006, "level": "special", "category": "Combustion", "question": "What are the three elements required for combustion (the fire triangle)?", "options": ["Nitrogen, oxygen, and carbon dioxide", "Water, steam, and heat", "Fuel, oxygen (air), and ignition (heat)", "Pressure, temperature, and volume"], "correct": 2, "explanation": "The fire triangle requires three elements: (1) Fuel; (2) Oxygen — supplied by air (approximately 21% oxygen); (3) Ignition source/heat. Removing any one element extinguishes the fire."},
-  {"id": 1007, "level": "special", "category": "Draft Systems", "question": "What type of draft uses a fan located between the furnace and the stack to pull combustion gases through the boiler?", "options": ["Forced draft", "Natural draft", "Induced draft", "Balanced draft"], "correct": 2, "explanation": "Induced draft uses a fan (ID fan) located between the boiler outlet and the stack to pull combustion gases through the boiler. The furnace operates at slightly negative pressure."},
-  {"id": 1008, "level": "special", "category": "Safety Valves", "question": "How often must safety valves on a power boiler be tested by lifting the lever (hand lift test)?", "options": ["Daily", "Weekly", "Monthly", "At least once per operating period and during each annual inspection"], "correct": 3, "explanation": "Safety valves should be hand-lift tested at least once per operating period and are tested during each annual inspection. Only lift when boiler pressure is at least 75% of set pressure to ensure proper reseating."},
-  {"id": 1009, "level": "special", "category": "Water Level Control", "question": "How often should a float-type low water cutoff be tested by blowdown?", "options": ["Daily — at least once per shift", "Weekly only", "Monthly during maintenance rounds", "Only during annual inspections"], "correct": 0, "explanation": "Float-type low water cutoffs must be tested by blowdown at least daily (once per shift is best practice). The blowdown removes sediment from the float chamber and verifies the cutoff mechanism operates properly."},
-  {"id": 1010, "level": "special", "category": "Heat Transfer", "question": "Which method of heat transfer occurs primarily in the furnace area of a boiler from the flame to the boiler surfaces?", "options": ["Radiation", "Conduction only", "Convection only", "Evaporation"], "correct": 0, "explanation": "Radiation is the primary method of heat transfer in the furnace area. The high-temperature flame radiates heat energy directly to the boiler heating surfaces without requiring a medium."},
-  {"id": 1011, "level": "special", "category": "Boiler Calculations", "question": "One boiler horsepower (BHP) equals how many pounds of steam per hour from and at 212°F?", "options": ["10 lb/hr", "34.5 lb/hr", "100 lb/hr", "50 lb/hr"], "correct": 1, "explanation": "One boiler horsepower (BHP) equals the evaporation of 34.5 pounds of water per hour from and at 212°F. This is equivalent to 33,479 BTU/hr."},
-  {"id": 1012, "level": "special", "category": "MN Licensing Framework", "question": "What MN Rules chapter governs boiler operation and licensing in Minnesota?", "options": ["MN Rules Chapter 7100", "MN Rules Chapter 3200", "MN Rules Chapter 1300", "MN Rules Chapter 5225"], "correct": 3, "explanation": "MN Rules Chapter 5225 governs boiler operation, licensing, inspection, and installation requirements in Minnesota."},
-  {"id": 1013, "level": "special", "category": "Piping & Valves", "question": "What type of valve is best suited for throttling (regulating flow) in a steam system?", "options": ["Gate valve", "Ball valve", "Check valve", "Globe valve"], "correct": 3, "explanation": "A globe valve is best suited for throttling because its disc and seat design allows precise control of flow. Gate valves should only be fully open or fully closed."},
-  {"id": 1014, "level": "special", "category": "Operating Procedures", "question": "What is the FIRST action if a low water condition is discovered during boiler operation?", "options": ["Immediately add cold feedwater to the boiler", "Shut off the fuel supply to the burner immediately", "Open the blowdown valve to lower pressure", "Increase the firing rate to generate more steam"], "correct": 1, "explanation": "The FIRST action in a low water emergency is to shut off the fuel supply immediately. NEVER add feedwater to an overheated boiler — cold water contacting overheated metal can cause thermal shock and catastrophic failure."},
-  {"id": 1015, "level": "special", "category": "Boiler Types", "question": "What type of boiler uses cast iron sections bolted together and is limited to low-pressure service?", "options": ["Scotch Marine boiler", "Water-tube boiler", "Cast iron sectional boiler", "Horizontal Return Tubular (HRT) boiler"], "correct": 2, "explanation": "Cast iron sectional boilers are assembled from individual cast iron sections bolted together. They are limited to low-pressure service only (15 psig steam or 30 psig / 250°F hot water per ASME Section IV)."},
-  {"id": 1016, "level": "special", "category": "Safety Devices", "question": "What is the purpose of a pressure gauge (steam gauge) on a boiler?", "options": ["To automatically control the burner firing rate", "To indicate the water level inside the boiler", "To indicate the steam or water pressure inside the boiler in psig", "To measure the temperature of the flue gases"], "correct": 2, "explanation": "A pressure gauge indicates the steam or water pressure inside the boiler in psig. It must be connected to the steam space, easily readable, and marked with the MAWP."},
-  {"id": 1017, "level": "special", "category": "Layup & Maintenance", "question": "For a wet layup of a boiler, what should be done to prevent oxygen corrosion?", "options": ["Drain the boiler completely and leave it open to air", "Fill the boiler completely with treated water (pH 10–11.5, oxygen scavenger) with no air space", "Fill the boiler halfway with untreated water", "Keep the boiler at 5 psig steam pressure"], "correct": 1, "explanation": "Wet layup requires filling the boiler COMPLETELY with treated water — no air space allowed. The water should be treated with sodium sulfite and caustic soda to raise pH to 10–11.5."},
-  {"id": 1018, "level": "special", "category": "ASME & Codes", "question": "ASME Section I covers the construction requirements for what type of boilers?", "options": ["Power boilers (steam boilers over 15 psig)", "Heating boilers (low pressure only)", "Pressure vessels for chemical storage", "Unfired hot water heaters only"], "correct": 0, "explanation": "ASME Section I covers the construction of power boilers — steam boilers operating above 15 psig and high-temperature water boilers. Section IV covers heating boilers. Section VIII covers unfired pressure vessels."},
-  {"id": 1019, "level": "special", "category": "Boiler Testing", "question": "During a hydrostatic test on a new boiler, the test pressure is set at what multiple of the MAWP?", "options": ["1.5 times the MAWP", "1.25 times the MAWP", "2.0 times the MAWP", "Equal to the MAWP"], "correct": 0, "explanation": "For new construction, the hydrostatic test pressure is 1.5 times the MAWP. For in-service boilers, the test pressure is typically 1.25 to 1.5 times MAWP."},
-  {"id": 1020, "level": "special", "category": "Water Treatment", "question": "What is the purpose of blowdown on a boiler?", "options": ["To increase the water level in the boiler", "To add chemicals to the boiler water", "To remove concentrated dissolved solids, sludge, and sediment from the boiler water", "To test the safety valve operation"], "correct": 2, "explanation": "Blowdown removes concentrated dissolved solids (TDS), sludge, and sediment from the boiler water. As steam leaves the boiler, impurities concentrate in the remaining water."},
-  {"id": 1021, "level": "special", "category": "Steam Generation", "question": "What is 'sensible heat' in the context of steam generation?", "options": ["The total heat content of superheated steam", "Heat that causes a change of state without changing temperature", "Heat that can be measured by a thermometer — it changes the temperature of a substance", "Heat lost up the stack"], "correct": 2, "explanation": "Sensible heat is heat that changes the TEMPERATURE of a substance and can be 'sensed' by a thermometer. For water, sensible heat raises the temperature up to the boiling point."},
-  {"id": 1022, "level": "special", "category": "Combustion", "question": "What does 'excess air' mean in combustion?", "options": ["Air remaining in the combustion chamber after all fuel is burned", "Air supplied above the theoretical (stoichiometric) amount needed for complete combustion", "Air that bypasses the burner entirely", "Compressed air used to atomize fuel oil"], "correct": 1, "explanation": "Excess air is the amount of air supplied ABOVE the theoretical amount needed for complete combustion. Some excess air is necessary, but too much wastes heat by heating unnecessary air to stack temperature."},
-  {"id": 1023, "level": "special", "category": "Operating Procedures", "question": "Why must a boiler be warmed up slowly during startup?", "options": ["To save fuel during startup", "To allow control systems to calibrate", "To prevent uneven thermal expansion that can cause stress cracking and leaks", "To allow water treatment chemicals time to activate"], "correct": 2, "explanation": "Slow warmup prevents uneven thermal expansion — thick and thin sections expand at different rates. Rapid heating creates thermal stress that can crack welds, loosen tubes, and cause leaks."},
-  {"id": 1024, "level": "special", "category": "Draft Systems", "question": "Natural draft in a boiler depends on what primary factor?", "options": ["The speed of the forced draft fan", "The temperature difference between hot flue gases and cooler outside air, creating buoyancy", "The height of the feedwater tank", "The steam pressure inside the boiler"], "correct": 1, "explanation": "Natural draft is created by the temperature difference between hot flue gases inside the stack and cooler outside air. Hot gases are less dense and rise, creating negative pressure that draws combustion air through the boiler."},
-  {"id": 1025, "level": "special", "category": "Safety Devices", "question": "What does CSD-1 stand for and what does it govern?", "options": ["Controls and Safety Devices for Automatically Fired Boilers — governs burner controls and safety devices", "Combustion Standards Document — governs fuel quality requirements", "Certified System Design — governs boiler manufacturing", "Code for Steam Distribution — governs steam piping design"], "correct": 0, "explanation": "CSD-1 stands for Controls and Safety Devices for Automatically Fired Boilers. It establishes requirements for burner management systems including pre-purge timing, flame detection, fuel safety shutoff valves, and operating/high limit controls."},
-  {"id": 1026, "level": "special", "category": "Boiler Calculations", "question": "How many BTU are required to raise the temperature of one pound of water by 1°F?", "options": ["1 BTU", "10 BTU", "100 BTU", "970 BTU"], "correct": 0, "explanation": "By definition, 1 BTU is the amount of heat required to raise the temperature of one pound of water by 1°F. This is the fundamental unit of heat measurement."},
-  {"id": 1027, "level": "special", "category": "Piping & Valves", "question": "What type of valve allows flow in only one direction and prevents backflow?", "options": ["Gate valve", "Globe valve", "Needle valve", "Check valve"], "correct": 3, "explanation": "A check valve allows flow in only one direction and automatically closes to prevent backflow. They are essential on feedwater lines to prevent boiler water from flowing back."},
-  {"id": 1028, "level": "special", "category": "Boiler Types", "question": "A Scotch Marine boiler is what type of boiler design?", "options": ["Water-tube boiler", "Cast iron sectional boiler", "Fire-tube boiler with an internal furnace", "Electric resistance boiler"], "correct": 2, "explanation": "A Scotch Marine boiler is a fire-tube design with an internal furnace (corrugated cylindrical furnace inside the shell). It is the most common type of packaged boiler."},
-  {"id": 1029, "level": "special", "category": "Water Level Control", "question": "What are try cocks (gauge cocks) used for on a boiler?", "options": ["To drain the boiler for maintenance", "To sample boiler water for chemical testing", "To control the feedwater flow rate", "To manually verify the water level when the gauge glass is unreliable or broken"], "correct": 3, "explanation": "Try cocks are small valves mounted on the water column at three levels. They allow manual verification of water level by opening each cock. They serve as a backup to the gauge glass."},
-  {"id": 1030, "level": "special", "category": "Safety Valves", "question": "A safety valve differs from a safety relief valve in that a safety valve:", "options": ["Opens gradually as pressure increases", "Is only used on pressure vessels", "Can be adjusted during operation", "Opens with a full pop action at set pressure"], "correct": 3, "explanation": "A safety valve opens with a FULL POP action at the set pressure. Safety valves are used on steam boilers. A relief valve opens gradually in proportion to pressure increase."},
-  {"id": 1031, "level": "special", "category": "Heat Transfer", "question": "Conduction is heat transfer through:", "options": ["A solid material from molecule to molecule without movement of the material itself", "Fluid movement (liquid or gas circulation)", "Electromagnetic waves through space", "Evaporation of water"], "correct": 0, "explanation": "Conduction is heat transfer through a solid material from molecule to molecule. In a boiler, heat conducts through the tube walls from the hot gas side to the water side."},
-  {"id": 1032, "level": "special", "category": "Operating Procedures", "question": "What is the proper procedure for securing (shutting down) a boiler for a short maintenance period?", "options": ["Turn off the fuel, close the feedwater valve, close the main steam stop valve, and allow pressure to drop naturally", "Open all blowdown valves immediately to depressurize quickly", "Add maximum cold feedwater to cool the boiler rapidly", "Open the safety valve manually to release all pressure instantly"], "correct": 0, "explanation": "Proper shutdown: Reduce firing rate gradually, shut off fuel, close feedwater valve, close main steam stop valve, allow pressure to drop naturally. Never force-cool a boiler."},
-  {"id": 1033, "level": "special", "category": "MN Licensing Framework", "question": "A 2nd Class engineer may be in charge of a boiler plant up to what horsepower?", "options": ["100 BHP", "250 BHP", "500 BHP", "50 BHP"], "correct": 0, "explanation": "A 2nd Class engineer may be in charge of a boiler plant up to 100 BHP. As a shift engineer, they may work in plants up to 500 BHP."},
-  {"id": 1034, "level": "special", "category": "Boiler Testing", "question": "During a hydrostatic test, why must all air be vented from the boiler before pressurizing?", "options": ["Air causes the pressure gauge to read incorrectly", "Air prevents the test pump from operating", "Air causes corrosion during the test", "Air is compressible and stores dangerous energy — if a failure occurs, compressed air causes a violent explosion"], "correct": 3, "explanation": "Air must be vented because air is compressible and stores significant energy under pressure. Water is virtually incompressible — if a failure occurs with only water, pressure drops instantly with minimal energy release."},
-  {"id": 1035, "level": "special", "category": "Water Treatment", "question": "What is 'hardness' in boiler feedwater?", "options": ["The amount of dissolved oxygen", "The total amount of suspended solids", "The pH level of the water", "The presence of dissolved calcium and magnesium salts that form scale"], "correct": 3, "explanation": "Water hardness is caused by dissolved calcium and magnesium salts. In a boiler, these minerals precipitate as temperature increases, forming hard scale on heating surfaces."},
-  {"id": 1036, "level": "special", "category": "Combustion", "question": "What is the significance of the 'three T's' of combustion?", "options": ["Time, testing, and temperature", "Temperature, turbulence, and time — the three factors that ensure complete combustion", "Throttle, thermostat, and timer", "Temperature, thrust, and torque"], "correct": 1, "explanation": "The three T's: (1) Temperature — high enough to maintain ignition; (2) Turbulence — thorough mixing of fuel and air; (3) Time — sufficient residence time for complete burning."},
-  {"id": 1037, "level": "special", "category": "ASME & Codes", "question": "ASME Section IV covers construction requirements for what type of boilers?", "options": ["Power boilers operating above 15 psig", "Nuclear power boilers", "Heating boilers — steam boilers ≤15 psig and hot water boilers ≤160 psig / 250°F", "Unfired pressure vessels"], "correct": 2, "explanation": "ASME Section IV covers heating boilers: steam boilers at 15 psig or less, and hot water boilers at 160 psig or less and/or 250°F or less."},
-  {"id": 1038, "level": "special", "category": "Safety Devices", "question": "What is the minimum number of safety valves required on a power boiler with more than 500 sq ft of heating surface?", "options": ["One", "Two", "Three", "Four"], "correct": 1, "explanation": "ASME Section I requires a minimum of two safety valves on any power boiler with more than 500 square feet of heating surface."},
-  {"id": 1039, "level": "special", "category": "Boiler Calculations", "question": "What is the relationship between psig and psia?", "options": ["psia = psig + 14.696 (at sea level)", "psia = psig - 14.696", "psia = psig × 2", "They are the same measurement"], "correct": 0, "explanation": "psia = psig + 14.696 (atmospheric pressure at sea level). Gauge pressure reads zero at atmospheric pressure. Absolute pressure includes atmospheric pressure."},
-  {"id": 1040, "level": "special", "category": "Layup & Maintenance", "question": "Dry layup of a boiler involves:", "options": ["Draining completely, drying the interior, and placing moisture-absorbing desiccant inside", "Filling the boiler with hot water at 200°F", "Keeping the boiler at minimum firing rate", "Leaving the boiler full of untreated water"], "correct": 0, "explanation": "Dry layup: drain completely, dry interior surfaces, place trays of desiccant (silica gel or quicklime) inside, and seal all openings. Preferred for extended out-of-service periods."},
-  {"id": 1041, "level": "special", "category": "Heat Transfer", "question": "Convection heat transfer in a boiler occurs when:", "options": ["Heat radiates from the flame directly", "Heat passes through the tube wall by conduction", "Hot combustion gases flow over and transfer heat to tube surfaces by fluid motion", "Steam condenses on cool surfaces"], "correct": 2, "explanation": "Convection occurs when heat is transferred by the movement of a fluid. In a boiler, hot combustion gases flowing over tube surfaces transfer heat by convection."},
-  {"id": 1042, "level": "special", "category": "Operating Procedures", "question": "What is the purpose of a boiler logbook?", "options": ["To record visitor names entering the boiler room", "To record operating data, maintenance, tests, and unusual conditions for regulatory compliance", "To track fuel deliveries only", "To store warranty information"], "correct": 1, "explanation": "A boiler logbook records all operating data, maintenance activities, safety device tests, chemical treatments, shift changes, and unusual conditions. It is a legal requirement and critical reference."},
-  {"id": 1043, "level": "special", "category": "Piping & Valves", "question": "An OS&Y valve stands for what, and what advantage does it provide?", "options": ["Outside Screw and Yoke — the stem position visually indicates open or closed", "Overhead Safety Yoke — provides seismic protection", "Open System Yield — measures flow rate", "Oil Shutoff and Yield — used on fuel oil systems only"], "correct": 0, "explanation": "OS&Y stands for Outside Screw and Yoke. The rising stem provides a clear visual indication of valve position: stem up = open, stem down = closed."},
-  {"id": 1044, "level": "special", "category": "Boiler Types", "question": "What is the main advantage of a water-tube boiler over a fire-tube boiler?", "options": ["Water-tube boilers are less expensive", "Water-tube boilers are simpler to operate", "Water-tube boilers can operate at much higher pressures and capacities", "Water-tube boilers require less water treatment"], "correct": 2, "explanation": "Water-tube boilers can operate at much higher pressures and larger capacities because water is inside small-diameter tubes that resist high pressure more effectively than a large shell."},
-  {"id": 1045, "level": "special", "category": "Safety Devices", "question": "What does FFRT stand for in burner management, and what is the maximum time for oil burners?", "options": ["Fuel Flow Rate Timer — maximum 10 seconds", "Furnace Flame Run Time — maximum 30 seconds", "Flame Failure Response Time — maximum 4 seconds for oil burners", "Fire Flash Reaction Timing — maximum 1 second"], "correct": 2, "explanation": "FFRT stands for Flame Failure Response Time — the maximum time between loss of flame signal and closing of the fuel safety shutoff valve. For oil burners: maximum 4 seconds per CSD-1."},
-  {"id": 1046, "level": "special", "category": "Water Level Control", "question": "The evaporation (slow-drain) test for a low water cutoff verifies what?", "options": ["That the feedwater pump can keep up with steam demand", "That the LWCO will shut off the burner when water drops to the cutoff point under actual conditions", "That the boiler can produce steam at full load", "That the safety valve lifts at the correct pressure"], "correct": 1, "explanation": "The evaporation test verifies the LWCO actually shuts off the burner when water drops to the cutoff point. Feedwater is secured while the boiler fires, causing water to evaporate. Should be performed at least weekly."},
-  {"id": 1047, "level": "special", "category": "Boiler Calculations", "question": "What is the head pressure exerted by a column of water one foot tall?", "options": ["0.433 psi per foot of water", "1.0 psi per foot of water", "2.31 psi per foot of water", "14.7 psi per foot of water"], "correct": 0, "explanation": "Water exerts 0.433 psi for every foot of vertical height. Conversely, 1 psi supports a column of water 2.31 feet high."},
-  {"id": 1048, "level": "special", "category": "Combustion", "question": "What does high CO (carbon monoxide) in the flue gas indicate?", "options": ["Too much excess air", "Perfect combustion efficiency", "Incomplete combustion — not enough air or poor fuel-air mixing", "The stack temperature is too low"], "correct": 2, "explanation": "High CO indicates INCOMPLETE combustion — fuel is not burning completely. Causes include insufficient air, poor fuel-air mixing, low combustion temperature, or burner malfunction."},
-  {"id": 1049, "level": "special", "category": "MN Licensing Framework", "question": "Under Minnesota law, what defines a high-pressure (HP) steam boiler?", "options": ["A steam boiler operating above 15 psig", "A steam boiler operating above 100 psig", "A steam boiler with more than 50 BHP capacity", "Any boiler connected to a turbine"], "correct": 0, "explanation": "A high-pressure steam boiler is defined as one operating above 15 psig. This 15 psig threshold is the dividing line between LP and HP steam boiler classifications."},
-  {"id": 1050, "level": "special", "category": "Safety Valves", "question": "Safety valves on a boiler must be set to open at a pressure not exceeding:", "options": ["10% above the MAWP", "The maximum allowable working pressure (MAWP) of the boiler", "10 psi above the MAWP", "120% of the MAWP"], "correct": 1, "explanation": "At least one safety valve must be set at or below the MAWP. If multiple valves exist, the highest-set valve may be up to 3% above MAWP, but one must be at or below MAWP."},
-  {"id": 1051, "level": "special", "category": "Water Treatment", "question": "What is 'carryover' in a steam boiler?", "options": ["Steam condensing in lines before reaching the process", "Heat carried from the furnace to the economizer", "Chemicals carried from the feedwater tank into the boiler", "Water droplets or dissolved/suspended solids carried out of the boiler with the steam"], "correct": 3, "explanation": "Carryover is contamination of steam with water droplets and/or dissolved/suspended solids being carried out of the boiler. Causes include high water level, high TDS, excessive firing rate, and foaming."},
-  {"id": 1052, "level": "special", "category": "Operating Procedures", "question": "Why should the boiler room be well-ventilated?", "options": ["To keep operators cool and comfortable", "To supply combustion air to the burner and prevent dangerous gas accumulation", "To reduce noise levels from the burner", "To prevent condensation on the boiler shell"], "correct": 1, "explanation": "Adequate ventilation provides combustion air for the burner and prevents dangerous accumulation of fuel gases from leaks."},
-  {"id": 1053, "level": "special", "category": "Draft Systems", "question": "Balanced draft uses what combination of fans?", "options": ["Two forced draft fans in parallel", "A forced draft fan pushing air in and an induced draft fan pulling gases out", "Two induced draft fans in series", "No fans — relies on stack effect"], "correct": 1, "explanation": "Balanced draft uses both a forced draft (FD) fan on the air inlet and an induced draft (ID) fan on the flue gas outlet, maintaining the furnace at slight negative pressure."},
-  {"id": 1054, "level": "special", "category": "ASME & Codes", "question": "What does the NBIC (National Board Inspection Code) govern?", "options": ["New boiler construction standards only", "Fuel quality standards", "Installation, inspection, and repair of boilers and pressure vessels after initial construction", "Electrical codes for boiler rooms"], "correct": 2, "explanation": "The NBIC governs installation (Part 1), inspection (Part 2), and repair/alteration (Part 3) of boilers and pressure vessels AFTER initial construction."},
-  {"id": 1055, "level": "special", "category": "Boiler Types", "question": "An HRT boiler stands for what type?", "options": ["High Resistance Thermal boiler", "High Rate Transfer boiler", "Heat Recovery Turbine boiler", "Horizontal Return Tubular boiler"], "correct": 3, "explanation": "HRT stands for Horizontal Return Tubular boiler — a fire-tube design where combustion gases pass under the shell then return through the tubes. Largely replaced by Scotch Marine types."},
-  {"id": 1056, "level": "special", "category": "Safety Devices", "question": "What is the purpose of a flame scanner (flame detector) on an automatically fired boiler?", "options": ["To measure flame temperature for efficiency", "To detect flame presence or absence and initiate safety shutdown on flame failure", "To control the fuel-air ratio", "To monitor flame color for smoke readings"], "correct": 1, "explanation": "A flame scanner detects whether a flame is present. If flame is lost, the scanner signals the burner management system to close fuel safety shutoff valves within the FFRT. Types include UV, IR, and flame rod detectors."},
-  {"id": 1057, "level": "special", "category": "Boiler Calculations", "question": "If a boiler produces 345 pounds of steam per hour from and at 212°F, what is its output in BHP?", "options": ["345 BHP", "3.45 BHP", "10 BHP", "34.5 BHP"], "correct": 2, "explanation": "BHP = steam output ÷ 34.5 lb/hr per BHP = 345 ÷ 34.5 = 10 BHP."},
-  {"id": 1058, "level": "special", "category": "Water Treatment", "question": "What is the purpose of a water softener in external water treatment?", "options": ["To remove dissolved oxygen", "To filter out suspended particles", "To raise the pH of the water", "To remove hardness minerals (calcium and magnesium) before they enter the boiler"], "correct": 3, "explanation": "A water softener removes hardness minerals through ion exchange, replacing calcium and magnesium with sodium ions. This prevents scale formation."},
-  {"id": 1059, "level": "special", "category": "Steam Generation", "question": "What is 'saturated steam'?", "options": ["Steam that contains maximum moisture", "Steam at atmospheric pressure only", "Steam heated above saturation temperature", "Steam at the temperature corresponding to its pressure — any heat loss causes condensation"], "correct": 3, "explanation": "Saturated steam is at the exact temperature and pressure where any heat loss causes condensation. At 100 psig, saturated steam is approximately 338°F."},
-  {"id": 1060, "level": "special", "category": "Operating Procedures", "question": "If a boiler has been out of service, what must be checked BEFORE refilling with water?", "options": ["The color of the refractory", "That all drains, vents, and inspection openings are closed, and the fireside is inspected", "That the fuel supply pressure is correct", "That the stack damper is fully open"], "correct": 1, "explanation": "Before refilling: inspect the fireside for debris or damage; ensure all drains, blowdown valves, and inspection openings are properly closed with good gaskets."},
-  {"id": 1061, "level": "special", "category": "Piping & Valves", "question": "What is the purpose of a blowdown valve on a boiler?", "options": ["To control steam flow to the process", "To vent air during filling", "To regulate feedwater flow", "To allow controlled removal of concentrated boiler water, sludge, and sediment"], "correct": 3, "explanation": "The blowdown valve is at the lowest point of the boiler. It allows controlled removal of concentrated water, sludge, and sediment. Bottom blowdown removes settled sludge; surface blowdown skims dissolved solids."},
-  {"id": 1062, "level": "special", "category": "Safety Devices", "question": "What is a water column on a boiler?", "options": ["A vertical pipe connected to the boiler that houses the gauge glass, try cocks, and LWCO", "The height of water above the boiler feed pump", "A column of water inside the boiler tubes", "A chemical treatment injection point"], "correct": 0, "explanation": "A water column is a vertical chamber connected to the boiler at the steam and water spaces. It provides a calm location for mounting gauge glasses, try cocks, and the low water cutoff."},
-  {"id": 1063, "level": "special", "category": "Boiler Testing", "question": "What is the purpose of an accumulation test on a boiler?", "options": ["To verify safety valve(s) can relieve steam fast enough to prevent pressure rising more than 6% above MAWP", "To test how much water the boiler can hold", "To determine fuel consumption rate", "To measure scale accumulation"], "correct": 0, "explanation": "An accumulation test verifies that safety valve(s) have sufficient capacity. The boiler fires at maximum rate with the main steam stop closed. Pressure must not exceed 6% above MAWP for power boilers."},
-  {"id": 1064, "level": "special", "category": "MN Licensing Framework", "question": "What is the renewal fee for a Minnesota boiler operator license?", "options": ["No fee", "$20", "Same as the exam fee", "$40"], "correct": 3, "explanation": "The renewal fee is $40, payable every two years. This is separate from the initial examination fee of $50."},
-  {"id": 1065, "level": "special", "category": "Combustion", "question": "What is the approximate percentage of oxygen in atmospheric air?", "options": ["78%", "50%", "21%", "10%"], "correct": 2, "explanation": "Atmospheric air contains approximately 21% oxygen, 78% nitrogen, and about 1% other gases. Only the oxygen supports combustion."},
-  {"id": 1066, "level": "special", "category": "Water Level Control", "question": "A probe-type (electrode) low water cutoff detects water level by measuring:", "options": ["The weight of water on a sensor", "The electrical conductivity between probes — water conducts, steam/air does not", "The temperature difference between probe and water", "Ultrasonic reflections from the water surface"], "correct": 1, "explanation": "Probe-type LWCOs work on conductivity. When water drops below the probe tip, the circuit breaks, triggering the cutoff. No moving parts, but must be kept clean."},
-  {"id": 1067, "level": "special", "category": "Boiler Types", "question": "An electric boiler generates steam or hot water using what heat source?", "options": ["Electric resistance elements or electrode immersion heating", "Electric spark ignition of natural gas", "Induction heating of the boiler shell", "Solar-powered electric panels"], "correct": 0, "explanation": "Electric boilers use resistance elements or electrode-type heating. They produce no combustion gases, require no stack, and are 99%+ efficient at point of use."},
-  {"id": 1068, "level": "special", "category": "Safety Valves", "question": "A safety valve set at 125 psig has what ASME tolerance range?", "options": ["±2 psi (123 to 127 psig)", "±5 psi (120 to 130 psig)", "±3% (121.25 to 128.75 psig)", "±10 psi (115 to 135 psig)"], "correct": 2, "explanation": "For set pressures 71–300 psig, the ASME tolerance is ±3%. At 125 psig: 125 × 0.03 = 3.75 psi. The valve must open between 121.25 and 128.75 psig."},
-  {"id": 1069, "level": "special", "category": "Heat Transfer", "question": "Scale deposits on boiler tube surfaces act as:", "options": ["Heat conductors improving efficiency", "Flow enhancers improving circulation", "Corrosion inhibitors protecting tube metal", "Thermal insulation that reduces heat transfer and can cause tube overheating"], "correct": 3, "explanation": "Scale acts as thermal INSULATION. Even thin scale measurably reduces heat transfer. The tube metal temperature rises, potentially causing blistering, bulging, or rupture."},
-  {"id": 1070, "level": "special", "category": "Operating Procedures", "question": "What is the proper sequence for bringing an additional boiler online to a common steam header?", "options": ["Open the main steam stop valve fully, then light the burner", "Open the blowdown valve first, then light the burner", "Light the burner at maximum and immediately open the stop valve", "Light the burner, raise pressure to match header pressure, then slowly open the main steam stop valve"], "correct": 3, "explanation": "Raise pressure to match header pressure, then slowly open the stop valve. Never open with a large pressure differential — this causes water hammer."},
-  {"id": 1071, "level": "special", "category": "Piping & Valves", "question": "Why should a gate valve never be used for throttling?", "options": ["Gate valves are too expensive for throttling", "Gate valves are only rated for cold water", "Gate valves cannot physically be opened partially", "The partially open disc causes wire-drawing erosion and vibration damage"], "correct": 3, "explanation": "Gate valves used partially open experience wire-drawing erosion. The disc also vibrates in the flow stream, accelerating wear. Use globe valves for throttling."},
-  {"id": 1072, "level": "special", "category": "ASME & Codes", "question": "What information must be displayed on a boiler nameplate?", "options": ["The operator's name and license number", "The fuel type and burner manufacturer", "The MAWP, serial number, year built, manufacturer, and ASME stamp", "The insurance company and policy number"], "correct": 2, "explanation": "A boiler nameplate must display MAWP, serial number, year built, manufacturer's name, heating surface area, ASME Code stamp, and National Board registration number."},
-  {"id": 1073, "level": "special", "category": "Water Treatment", "question": "What is TDS in water treatment?", "options": ["Total Dissolved Solids — concentration of all dissolved minerals and chemicals, measured in ppm", "Temperature-Dependent Softening", "Thermal Deaeration System", "Total Drain Sequence"], "correct": 0, "explanation": "TDS stands for Total Dissolved Solids — the sum of all dissolved minerals, salts, and chemicals in water, measured in ppm. Blowdown controls TDS levels."},
-  {"id": 1074, "level": "special", "category": "Steam Generation", "question": "What happens to the boiling point of water as pressure increases?", "options": ["The boiling point increases as pressure increases", "The boiling point decreases", "It remains at 212°F regardless of pressure", "Pressure has no effect on boiling point"], "correct": 0, "explanation": "The boiling point increases with increasing pressure. At 0 psig: 212°F. At 100 psig: approximately 338°F. At 300 psig: approximately 421°F. This relationship is shown in steam tables."},
-  {"id": 1075, "level": "special", "category": "Combustion", "question": "What is the product of complete combustion of natural gas (methane)?", "options": ["Carbon monoxide and hydrogen", "Oxygen and nitrogen", "Nitrogen dioxide and sulfur dioxide", "Carbon dioxide and water vapor"], "correct": 3, "explanation": "Complete combustion of methane: CH₄ + 2O₂ → CO₂ + 2H₂O. The products are carbon dioxide and water vapor. Incomplete combustion produces CO and soot."},
-  {"id": 1076, "level": "special", "category": "Safety Devices", "question": "Per CSD-1, what is the minimum pre-purge time in air changes?", "options": ["4 air changes of the fireside volume", "1 air change", "10 air changes", "No minimum — only 30 seconds required"], "correct": 0, "explanation": "CSD-1 requires a minimum of 4 air changes during pre-purge before any ignition attempt. This sweeps out residual combustible gases."},
-  {"id": 1077, "level": "special", "category": "Boiler Calculations", "question": "One BHP equals how many BTU per hour?", "options": ["10,000 BTU/hr", "100,000 BTU/hr", "33,479 BTU/hr", "3,412 BTU/hr"], "correct": 2, "explanation": "One BHP = 33,479 BTU/hr = 34.5 lb/hr steam from and at 212°F. Do not confuse with mechanical horsepower (746 watts = 2,545 BTU/hr)."},
-  {"id": 1078, "level": "special", "category": "Layup & Maintenance", "question": "Which type of layup is recommended for a boiler out of service less than 30 days?", "options": ["Dry layup with desiccant", "Nitrogen blanket layup only", "No layup needed for under 30 days", "Wet layup — filled completely with chemically treated water"], "correct": 3, "explanation": "Wet layup is recommended for short-term periods (under 30 days). The boiler is filled completely with treated water. For longer periods, dry layup is preferred."},
-  {"id": 1079, "level": "special", "category": "Draft Systems", "question": "What is the unit of measurement for draft pressure in a boiler system?", "options": ["Pounds per square inch (psi)", "Inches of water gauge (in. w.g.)", "Inches of mercury (in. Hg)", "Bar"], "correct": 1, "explanation": "Draft pressure is measured in inches of water gauge (in. w.g.) because the pressures are very small. Typical furnace draft is -0.05 to -0.10 in. w.g."},
-  {"id": 1080, "level": "special", "category": "Operating Procedures", "question": "What should an operator do if the pressure gauge disagrees with the safety valve lifting pressure?", "options": ["Adjust the safety valve to match the gauge", "Ignore the discrepancy", "Assume the pressure gauge is wrong — recalibrate or replace it; never adjust a certified safety valve", "Increase the MAWP on the nameplate"], "correct": 2, "explanation": "Safety valves are factory-set and sealed. The pressure gauge should be tested against a known-accurate test gauge and recalibrated or replaced as needed."},
-  {"id": 1081, "level": "special", "category": "Boiler Types", "question": "What is natural circulation in a water-tube boiler?", "options": ["Water pumped through tubes by a circulation pump", "Water flowing by gravity from an elevated tank", "Steam circulated by the forced draft fan", "Heated water (less dense) rises while cooler water (denser) descends, creating continuous flow without a pump"], "correct": 3, "explanation": "Natural circulation occurs because heated water becomes less dense and rises, while cooler denser water flows downward to replace it, creating continuous circulation without pumping."},
-  {"id": 1082, "level": "special", "category": "Safety Devices", "question": "What pressure instrument should be compared to the boiler's operating gauge to verify accuracy?", "options": ["A test gauge (calibrated reference gauge)", "The safety valve nameplate pressure", "A thermometer reading", "The fuel gas pressure gauge"], "correct": 0, "explanation": "A test gauge (calibrated reference gauge) should be periodically connected to verify the operating gauge's accuracy."},
-  {"id": 1083, "level": "special", "category": "Boiler Calculations", "question": "How many BTU are needed to raise 100 pounds of water from 60°F to 212°F?", "options": ["100 BTU", "21,200 BTU", "15,200 BTU", "97,030 BTU"], "correct": 2, "explanation": "BTU = weight × temperature rise = 100 × (212 - 60) = 100 × 152 = 15,200 BTU of sensible heat."},
-  {"id": 1084, "level": "special", "category": "Water Treatment", "question": "What type of corrosion is caused by dissolved oxygen in boiler water?", "options": ["Pitting corrosion — localized deep holes in the metal surface", "Uniform thinning of the entire shell", "Caustic embrittlement of welds only", "Galvanic corrosion between different metals"], "correct": 0, "explanation": "Dissolved oxygen causes PITTING corrosion — localized deep holes. Pitting is dangerous because a small pit can penetrate the wall before damage is visually obvious. Deaeration and sodium sulfite prevent it."},
-  {"id": 1085, "level": "special", "category": "MN Licensing Framework", "question": "Under Minnesota rules, the operator's license must be displayed where?", "options": ["In a conspicuous place in the boiler room where it is readily visible", "In the plant manager's office", "In the operator's personal locker", "Filed with the DLI — no display required"], "correct": 0, "explanation": "Minnesota rules require the license to be displayed in a conspicuous place in the boiler room where it is readily visible."},
-  {"id": 1086, "level": "special", "category": "Piping & Valves", "question": "What is a 'non-return valve' on a boiler?", "options": ["A valve on the blowdown line preventing backflow", "A combination stop-check valve on the steam outlet preventing steam backflow from the header", "A valve on the fuel line preventing fuel backflow", "A vent valve on top of the boiler"], "correct": 1, "explanation": "A non-return valve is a combination stop-check valve on the boiler steam outlet. It prevents steam from the header from flowing back into a lower-pressure boiler."},
-  {"id": 1087, "level": "special", "category": "Boiler Testing", "question": "What water temperature range should be used for a hydrostatic test?", "options": ["32°F to 50°F", "100°F to 120°F", "180°F to 212°F", "Any temperature is acceptable"], "correct": 1, "explanation": "Hydrostatic test water should be 100°F to 120°F. Too cold risks brittle fracture; too hot makes it difficult to hold steady pressure and obscures leak detection."},
-  {"id": 1088, "level": "special", "category": "Heat Transfer", "question": "Soot deposits on the fireside of boiler tubes cause what problem?", "options": ["They improve heat transfer", "They have no significant effect", "They prevent corrosion", "They insulate the tubes, reducing heat transfer and increasing stack temperature"], "correct": 3, "explanation": "Soot deposits insulate tubes, reducing heat transfer and causing stack temperatures to rise (wasted heat). Regular soot blowing removes these deposits."},
-  {"id": 1089, "level": "special", "category": "Operating Procedures", "question": "What is the danger of adding cold feedwater to an overheated boiler?", "options": ["The cold water will put out the fire", "Cold water on overheated metal causes instant steam generation (thermal shock), potentially causing catastrophic failure", "The cold water will crack the gauge glass", "The cold water will dilute chemicals"], "correct": 1, "explanation": "Cold water contacts red-hot metal, instantly flashing to steam with approximately 1,600 times expansion. This sudden pressure spike can cause catastrophic failure of weakened metal."},
-  {"id": 1090, "level": "special", "category": "ASME & Codes", "question": "What ASME Section covers welding qualifications and procedures?", "options": ["Section I", "Section IV", "Section V", "Section IX"], "correct": 3, "explanation": "ASME Section IX covers Welding, Brazing, and Fusing Qualifications. All welding on code boilers must be performed by Section IX qualified welders."},
-  {"id": 1091, "level": "special", "category": "Combustion", "question": "What is indicated by dark smoke from the stack when burning fuel oil?", "options": ["Excellent combustion", "Boiler overfired", "Stack temperature too high", "Incomplete combustion — insufficient air, poor atomization, or burner problems"], "correct": 3, "explanation": "Dark smoke indicates incomplete combustion. Causes include insufficient air, poor atomization, low combustion temperature, or burner malfunction."},
-  {"id": 1092, "level": "special", "category": "Safety Devices", "question": "How many gauge glasses are required on a high-pressure boiler?", "options": ["One", "Two (or one gauge glass plus try cocks)", "Three", "None — try cocks are sufficient"], "correct": 1, "explanation": "ASME Section I requires at least two means of indicating water level. This is typically two gauge glasses, or one gauge glass plus try cocks."},
-  {"id": 1093, "level": "special", "category": "Boiler Calculations", "question": "A boiler has a MAWP of 150 psig. What is the maximum primary safety valve set pressure?", "options": ["150 psig", "165 psig", "159 psig", "175 psig"], "correct": 0, "explanation": "At least one safety valve must be set at or below the MAWP. The primary valve cannot exceed 150 psig."},
-  {"id": 1094, "level": "special", "category": "Water Treatment", "question": "What is the function of a deaerator in a boiler feedwater system?", "options": ["To soften water by removing calcium", "To filter suspended particles", "To remove dissolved gases (primarily O2 and CO2) by heating to saturation temperature", "To add chemicals to feedwater"], "correct": 2, "explanation": "A deaerator removes dissolved gases by heating water to saturation temperature, making gases insoluble so they can be vented. Most effective method of mechanical oxygen removal."},
-  {"id": 1095, "level": "special", "category": "Steam Generation", "question": "What is 'superheat' in steam terminology?", "options": ["Steam above 500 psig", "The maximum temperature a boiler can achieve", "The heat content of water before it boils", "The temperature of steam ABOVE its saturation temperature at a given pressure"], "correct": 3, "explanation": "Superheat is the degrees the steam temperature exceeds saturation temperature. Steam at 100 psig (338°F saturation) heated to 538°F has 200°F of superheat."},
-  {"id": 1096, "level": "special", "category": "MN Licensing Framework", "question": "Under MN rules, can a Special Engineer operate a high-pressure boiler?", "options": ["Yes, up to 100 psig", "Yes, but only as a shift engineer", "No — a Special Engineer is limited to low-pressure plants only", "Yes, but only during daytime hours"], "correct": 2, "explanation": "A Special Engineer license authorizes operation of LOW-PRESSURE boiler plants only. To operate HP boilers, a minimum 2nd Class license is required."},
-  {"id": 1097, "level": "special", "category": "Piping & Valves", "question": "What is the purpose of a steam trap?", "options": ["To trap and contain steam leaks", "To remove condensate and non-condensable gases while preventing live steam from escaping", "To regulate steam pressure", "To filter impurities from steam"], "correct": 1, "explanation": "A steam trap removes condensate and non-condensable gases while preventing live steam from escaping. Failed traps waste significant energy."},
-  {"id": 1098, "level": "special", "category": "Boiler Types", "question": "In a water-tube boiler, where does the water flow?", "options": ["Around the outside of the tubes", "Inside the tubes, with hot gases around the outside", "Through the shell only", "Through the stack"], "correct": 1, "explanation": "In a water-tube boiler, water flows INSIDE the tubes and hot gases flow around the OUTSIDE. Small-diameter tubes resist high pressure effectively."},
-  {"id": 1099, "level": "special", "category": "Safety Devices", "question": "What is the high limit control on an automatically fired boiler?", "options": ["A control limiting maximum firing rate", "A control limiting maximum water level", "A control limiting maximum water temperature", "A safety control that shuts off the burner if pressure exceeds a set maximum — requires manual reset"], "correct": 3, "explanation": "The high limit control shuts off the burner if pressure exceeds the set maximum. Unlike the operating control, it requires MANUAL RESET so the operator investigates the cause."},
-  {"id": 1100, "level": "special", "category": "Operating Procedures", "question": "What should be communicated during a shift change between boiler operators?", "options": ["Only the current steam pressure", "Status of all boilers, problems, maintenance in progress, water treatment status, and pending work", "Only whether the boiler is running or not", "The weather forecast"], "correct": 1, "explanation": "A thorough shift change covers all boiler status, abnormal conditions, maintenance, water treatment, safety test results, and management instructions. Incomplete turnover is a leading cause of incidents."}
 ];
 
-// Total questions in this file: 281
-// Answer distribution — A:72  B:71  C:69  D:69
+// Total questions in this file: 280
+// Answer distribution — A:71  B:71  C:69  D:69

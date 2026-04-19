@@ -337,12 +337,16 @@ textarea{resize:vertical;min-height:64px;line-height:1.5}
         <div class="fg2">
           <label>Category *</label>
           <select id="eCt">
-            <option>Safety Devices</option><option>Boiler Types</option>
-            <option>MN Statutes &amp; Rules</option><option>Water Treatment</option>
-            <option>Steam Generation</option><option>Combustion</option>
-            <option>Draft Systems</option><option>Heat Transfer</option>
-            <option>Boiler Calculations</option><option>Safety Valves</option>
-            <option>Operating Procedures</option><option>Turbines &amp; Engines</option>
+            <option>Safety Devices</option><option>Safety Valves</option>
+            <option>Boiler Types</option><option>MN Statutes &amp; Rules</option>
+            <option>Water Treatment</option><option>Steam Generation</option>
+            <option>Combustion</option><option>Draft Systems</option>
+            <option>Heat Transfer</option><option>Laws of Thermodynamics</option>
+            <option>Boiler Calculations</option><option>Operating Procedures</option>
+            <option>Emergency Procedures</option><option>Fuels &amp; Fuel Handling</option>
+            <option>Refractory &amp; Insulation</option><option>Emissions &amp; Environmental</option>
+            <option>Auxiliaries</option><option>Controls &amp; Instrumentation</option>
+            <option>Turbines &amp; Engines</option><option>Condenser Operations</option>
             <option>Electrical</option><option>Boiler Testing</option>
             <option>ASME &amp; Codes</option><option>Water Level Control</option>
             <option>Piping &amp; Valves</option><option>Bearings &amp; Governors</option>
@@ -453,9 +457,12 @@ const FSAPI = 'showOpenFilePicker' in window;
 // Canonical category list — the editor's dropdown mirrors this. Changes anywhere
 // outside this list are flagged on save so drift across tier files is caught.
 const CANONICAL_CATEGORIES = [
-  'Safety Devices','Boiler Types','MN Statutes & Rules','Water Treatment',
-  'Steam Generation','Combustion','Draft Systems','Heat Transfer',
-  'Boiler Calculations','Safety Valves','Operating Procedures','Turbines & Engines',
+  'Safety Devices','Safety Valves','Boiler Types','MN Statutes & Rules',
+  'Water Treatment','Steam Generation','Combustion','Draft Systems',
+  'Heat Transfer','Laws of Thermodynamics','Boiler Calculations',
+  'Operating Procedures','Emergency Procedures','Fuels & Fuel Handling',
+  'Refractory & Insulation','Emissions & Environmental','Auxiliaries',
+  'Controls & Instrumentation','Turbines & Engines','Condenser Operations',
   'Electrical','Boiler Testing','ASME & Codes','Water Level Control',
   'Piping & Valves','Bearings & Governors','Layup & Maintenance','Plant Management'
 ];
