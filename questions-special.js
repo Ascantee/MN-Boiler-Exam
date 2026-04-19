@@ -3962,8 +3962,148 @@ const QUESTIONS_SPECIAL = [
     ],
     "correct": 1,
     "explanation": "A thorough shift change covers all boiler status, abnormal conditions, maintenance, water treatment, safety test results, and management instructions. Incomplete turnover is a leading cause of incidents."
+  },
+  {
+    "id": 1101,
+    "level": "special",
+    "category": "Fuels & Fuel Handling",
+    "question": "Which grade of fuel oil is a light distillate commonly used in smaller boilers without preheating?",
+    "options": [
+      "No. 6 (Bunker C)",
+      "No. 2",
+      "No. 5",
+      "No. 4"
+    ],
+    "correct": 1,
+    "explanation": "No. 2 fuel oil is a light distillate that atomizes at normal ambient temperature and does not require preheating, making it common for smaller commercial and low-pressure boilers. Nos. 4, 5, and 6 are residuals that require heating for handling and atomization."
+  },
+  {
+    "id": 1102,
+    "level": "special",
+    "category": "Fuels & Fuel Handling",
+    "question": "Natural gas has a heating value of approximately:",
+    "options": [
+      "100 BTU/ft³",
+      "1,000 BTU/ft³",
+      "10,000 BTU/ft³",
+      "500 BTU/ft³"
+    ],
+    "correct": 1,
+    "explanation": "Pipeline-quality natural gas (primarily methane) has a higher heating value of roughly 1,000 BTU per standard cubic foot. Operators use this value for firing-rate and combustion-air calculations."
+  },
+  {
+    "id": 1103,
+    "level": "special",
+    "category": "Emissions & Environmental",
+    "question": "An increase in carbon monoxide (CO) at the stack indicates:",
+    "options": [
+      "Excessive excess air",
+      "Incomplete combustion",
+      "Proper combustion",
+      "Flame failure"
+    ],
+    "correct": 1,
+    "explanation": "CO is the classic flue-gas indicator of incomplete combustion — insufficient oxygen or poor fuel/air mixing leaves carbon only partially oxidized. Combustion tuning targets low CO with the minimum practical excess air."
+  },
+  {
+    "id": 1104,
+    "level": "special",
+    "category": "Emissions & Environmental",
+    "question": "Which pollutant is directly produced by high flame temperature and excess air in the combustion zone?",
+    "options": [
+      "CO",
+      "SO₂",
+      "NOₓ",
+      "Particulate matter"
+    ],
+    "correct": 2,
+    "explanation": "Thermal NOₓ forms when atmospheric nitrogen oxidizes at high flame temperatures, especially with excess oxygen available. Staged combustion and flue-gas recirculation are used to reduce it."
+  },
+  {
+    "id": 1105,
+    "level": "special",
+    "category": "Refractory & Insulation",
+    "question": "The primary purpose of refractory lining in the furnace of a boiler is to:",
+    "options": [
+      "Reduce stack temperature",
+      "Contain and reflect heat, protecting metal surfaces from flame impingement",
+      "Improve water circulation",
+      "Increase steam pressure"
+    ],
+    "correct": 1,
+    "explanation": "Refractory materials withstand high furnace temperatures, protect pressure parts from direct flame impingement, and help stabilize the combustion zone by reradiating heat back into the flame."
+  },
+  {
+    "id": 1106,
+    "level": "special",
+    "category": "Auxiliaries",
+    "question": "The primary purpose of a deaerator is to:",
+    "options": [
+      "Heat fuel oil before burning",
+      "Remove dissolved oxygen and other non-condensable gases from feedwater",
+      "Remove suspended solids from makeup water",
+      "Cool blowdown water"
+    ],
+    "correct": 1,
+    "explanation": "Deaerators mechanically and thermally strip oxygen and CO₂ out of feedwater before it enters the boiler, which is one of the most important measures against oxygen pitting and corrosion."
+  },
+  {
+    "id": 1107,
+    "level": "special",
+    "category": "Auxiliaries",
+    "question": "Net Positive Suction Head (NPSH) is most important to prevent which problem in a feedwater pump?",
+    "options": [
+      "Motor overload",
+      "Cavitation",
+      "Excessive discharge pressure",
+      "Loss of prime from the suction line"
+    ],
+    "correct": 1,
+    "explanation": "If available NPSH falls below the pump's required NPSH, local pressure in the impeller drops below the liquid's vapor pressure, flashing it to steam. The collapsing bubbles cause cavitation damage, noise, and loss of capacity."
+  },
+  {
+    "id": 1108,
+    "level": "special",
+    "category": "Emergency Procedures",
+    "question": "If the water level disappears from the gauge glass during operation, the operator's first action should be to:",
+    "options": [
+      "Add water to the boiler as quickly as possible",
+      "Secure the burner / fuel supply immediately",
+      "Open the main steam stop valve",
+      "Increase the firing rate to raise steam pressure"
+    ],
+    "correct": 1,
+    "explanation": "Low-water with a hot, fired boiler risks tube overheating and rupture. The operator must cut fuel immediately. Never add cold water to a boiler suspected of low water until the metal temperature has been evaluated — that can cause catastrophic failure."
+  },
+  {
+    "id": 1109,
+    "level": "special",
+    "category": "Emergency Procedures",
+    "question": "On loss of flame during normal operation, the flame safeguard should automatically:",
+    "options": [
+      "Hold the current firing rate",
+      "Initiate a safety shutdown by closing fuel valves",
+      "Re-ignite using the pilot without purge",
+      "Ignore the signal for 30 seconds"
+    ],
+    "correct": 1,
+    "explanation": "A flame-failure signal from the scanner must trip the fuel safety shutoff valves within a few seconds and lock out the burner. Restart requires the standard pre-purge sequence before any re-ignition attempt."
+  },
+  {
+    "id": 1110,
+    "level": "special",
+    "category": "Controls & Instrumentation",
+    "question": "The purpose of a low-water fuel cutoff (LWFCO) is to:",
+    "options": [
+      "Throttle feedwater to maintain level",
+      "Shut off fuel to the burner when water level drops below a safe point",
+      "Sound only an audible alarm",
+      "Open a drain valve automatically"
+    ],
+    "correct": 1,
+    "explanation": "A LWFCO (also called LWCO) is a safety control that cuts fuel — not just an alarm — whenever the water level falls to its setpoint. MN Rules and ASME CSD-1 require it on automatically fired boilers, with regular functional testing."
   }
 ];
 
-// Total questions in this file: 280
-// Answer distribution — A:71  B:71  C:69  D:69
+// Total questions in this file: 290
+// Answer distribution — A:71  B:80  C:70  D:69

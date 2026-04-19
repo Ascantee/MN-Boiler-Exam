@@ -3962,8 +3962,176 @@ const QUESTIONS_2A = [
     ],
     "correct": 2,
     "explanation": "ALL safety valve gags MUST be removed and each valve verified free to operate BEFORE returning the boiler to service. A gagged safety valve cannot protect the boiler from overpressure. Failing to remove gags after a hydrostatic test has caused fatal boiler explosions."
+  },
+  {
+    "id": 2101,
+    "level": "2a",
+    "category": "Fuels & Fuel Handling",
+    "question": "Heavy fuel oils (No. 5, No. 6) must be preheated primarily to:",
+    "options": [
+      "Reduce sulfur content",
+      "Reduce viscosity so they can be pumped and properly atomized at the burner",
+      "Remove water",
+      "Raise heating value"
+    ],
+    "correct": 1,
+    "explanation": "Residual oils are very viscous at ambient temperature. Tank/line heaters bring them to a pumpable temperature, and burner-tip preheat brings them to the atomizing viscosity (typically ~100–150 SSU) required for fine droplet size."
+  },
+  {
+    "id": 2102,
+    "level": "2a",
+    "category": "Fuels & Fuel Handling",
+    "question": "Which atomization method uses high-pressure fuel forced through a swirl-tip nozzle, without a separate atomizing medium?",
+    "options": [
+      "Steam atomization",
+      "Air atomization",
+      "Mechanical (pressure) atomization",
+      "Rotary cup atomization"
+    ],
+    "correct": 2,
+    "explanation": "Mechanical (pressure) atomization relies on fuel pressure alone to shear the oil into droplets. Steam and air atomization use a secondary atomizing fluid; rotary-cup burners use centrifugal force."
+  },
+  {
+    "id": 2103,
+    "level": "2a",
+    "category": "Refractory & Insulation",
+    "question": "Thermal shock damage to refractory is most commonly caused by:",
+    "options": [
+      "Slow, controlled warm-up cycles",
+      "Rapid temperature changes during startup or shutdown",
+      "Continuous steady-state operation",
+      "Properly specified curing procedures"
+    ],
+    "correct": 1,
+    "explanation": "Refractory materials have low tensile strength and low thermal conductivity. Rapid heating or cooling creates steep temperature gradients across the material, producing cracks and spalling. Manufacturer warm-up/cool-down schedules exist to prevent this."
+  },
+  {
+    "id": 2104,
+    "level": "2a",
+    "category": "Refractory & Insulation",
+    "question": "Compared to firebrick, castable refractory has the advantage of:",
+    "options": [
+      "Being pre-shaped only in standard sizes",
+      "Being installable in complex geometries by pouring or gunning in place",
+      "Higher density in all cases",
+      "Not requiring any curing"
+    ],
+    "correct": 1,
+    "explanation": "Castables are monolithic refractories mixed with water and placed in forms or gunned. This lets them line irregular shapes (burner throats, tube penetrations) where firebrick would be impractical."
+  },
+  {
+    "id": 2105,
+    "level": "2a",
+    "category": "Emissions & Environmental",
+    "question": "A Ringelmann chart is used to estimate:",
+    "options": [
+      "Boiler efficiency",
+      "Stack smoke density (opacity)",
+      "Dissolved oxygen in feedwater",
+      "Flame temperature"
+    ],
+    "correct": 1,
+    "explanation": "The Ringelmann scale (0–5) visually estimates smoke opacity by comparing stack plume shading to a reference grid. Many air-quality rules limit opacity to Ringelmann No. 1 except during brief startup or soot-blowing events."
+  },
+  {
+    "id": 2106,
+    "level": "2a",
+    "category": "Emissions & Environmental",
+    "question": "Sulfur dioxide (SO₂) emissions from a boiler come primarily from:",
+    "options": [
+      "High flame temperature",
+      "Sulfur content of the fuel",
+      "Excess combustion air",
+      "Incomplete combustion of hydrocarbons"
+    ],
+    "correct": 1,
+    "explanation": "SO₂ is a direct product of oxidizing fuel-bound sulfur. Unlike NOₓ, it cannot be tuned away by combustion controls — it is reduced by using low-sulfur fuel or by downstream scrubbing."
+  },
+  {
+    "id": 2107,
+    "level": "2a",
+    "category": "Heat Transfer",
+    "question": "Heat transfer through a solid boiler tube wall occurs primarily by:",
+    "options": [
+      "Convection",
+      "Conduction",
+      "Radiation",
+      "Evaporation"
+    ],
+    "correct": 1,
+    "explanation": "Within the solid metal of a tube, heat moves by conduction. Convection dominates between the tube metal and the fluid on either side; radiation dominates between the flame and the waterwall tubes."
+  },
+  {
+    "id": 2108,
+    "level": "2a",
+    "category": "Heat Transfer",
+    "question": "A scale or soot deposit on a heat-transfer surface reduces efficiency primarily because the deposit:",
+    "options": [
+      "Has a very high thermal conductivity",
+      "Acts as an insulator with much lower thermal conductivity than clean metal",
+      "Increases fluid velocity",
+      "Raises stack draft"
+    ],
+    "correct": 1,
+    "explanation": "Scale and soot have thermal conductivities roughly 1–2 orders of magnitude lower than steel. Even a thin film forces higher tube-metal temperatures and raises stack losses — one of the main reasons water treatment and sootblowing matter."
+  },
+  {
+    "id": 2109,
+    "level": "2a",
+    "category": "MN Statutes & Rules",
+    "question": "Under Minnesota Rules Chapter 5225, the class of license that a particular facility requires is based on the:",
+    "options": [
+      "Age of the equipment",
+      "Size (rating) and type of boilers and prime movers installed",
+      "Number of employees at the plant",
+      "Fuel type exclusively"
+    ],
+    "correct": 1,
+    "explanation": "MN licensing tiers are tied to the total horsepower and type of boilers and prime movers under the operator's charge. The rules define which license class is required to operate or supervise a given installation."
+  },
+  {
+    "id": 2110,
+    "level": "2a",
+    "category": "Emergency Procedures",
+    "question": "Which action is required before attempting to re-light a burner after any flame failure or shutdown on a gas-fired boiler?",
+    "options": [
+      "Immediate re-ignition to avoid loss of heat load",
+      "A complete pre-purge of the furnace with the specified air volume",
+      "Manual bypass of the flame scanner",
+      "Closing the stack damper"
+    ],
+    "correct": 1,
+    "explanation": "Any unburned fuel in a hot furnace is an explosion hazard. NFPA 85 and CSD-1 require a pre-purge of at least four furnace volumes of fresh air at purge rate before the next trial for ignition."
+  },
+  {
+    "id": 2111,
+    "level": "2a",
+    "category": "Emergency Procedures",
+    "question": "If a boiler tube ruptures during operation, the operator should:",
+    "options": [
+      "Increase feedwater to maintain level and keep firing",
+      "Immediately secure fuel, then secure the boiler per emergency procedures",
+      "Raise pressure to blow out the leak",
+      "Open all blowdown valves to depressurize as fast as possible"
+    ],
+    "correct": 1,
+    "explanation": "A tube rupture means pressure parts have failed. Fuel must be cut immediately, air flow maintained to cool the furnace, and the boiler isolated and cooled per the plant's emergency procedure — never continue firing."
+  },
+  {
+    "id": 2112,
+    "level": "2a",
+    "category": "Controls & Instrumentation",
+    "question": "On a flame-safeguard system, the \"trial for ignition\" period is:",
+    "options": [
+      "Unlimited — the pilot stays on until a flame is proven",
+      "A short, fixed time window during which the pilot must establish a proven flame, or the system locks out",
+      "Only used on oil burners",
+      "The time required to warm up the stack"
+    ],
+    "correct": 1,
+    "explanation": "Trial for ignition (TFI) is a strictly timed window (typically 10–15 seconds) in which the pilot must produce a flame signal acceptable to the scanner. If it does not, fuel valves close and the burner control locks out, requiring manual reset."
   }
 ];
 
-// Total questions in this file: 280
-// Answer distribution — A:71  B:71  C:69  D:69
+// Total questions in this file: 292
+// Answer distribution — A:71  B:82  C:70  D:69

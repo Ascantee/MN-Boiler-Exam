@@ -3878,8 +3878,218 @@ const QUESTIONS_1A = [
     ],
     "correct": 3,
     "explanation": "Absolute zero is 0°R on the Rankine scale, equivalent to −459.67°F. At this temperature, all classical molecular motion would cease (quantum effects aside) and matter has its minimum possible thermal energy. The Third Law of Thermodynamics states that absolute zero cannot actually be reached in a finite number of steps. Kelvin's absolute zero is 0 K = −273.15°C — the same physical point, just on the Celsius-sized degree scale."
+  },
+  {
+    "id": 3106,
+    "level": "1a",
+    "category": "Safety Devices",
+    "question": "Low-water fuel cutoffs on automatically fired high-pressure boilers should be functionally tested:",
+    "options": [
+      "Once per year",
+      "Only at annual inspection",
+      "At least daily by evaporation or slow-drain test per operating procedures",
+      "Only after a tube failure"
+    ],
+    "correct": 2,
+    "explanation": "ASME CSD-1 and standard practice require routine functional testing of LWCOs — typically a daily \"slow drain\" or evaporation test confirming the device actually trips fuel at the setpoint. Blowdown alone is not a functional test."
+  },
+  {
+    "id": 3107,
+    "level": "1a",
+    "category": "Safety Valves",
+    "question": "Per ASME Section I, the pressure at which a safety valve must open (the set pressure) shall not exceed the MAWP by more than:",
+    "options": [
+      "3%",
+      "6%",
+      "10%",
+      "0% — it must equal MAWP"
+    ],
+    "correct": 3,
+    "explanation": "ASME Section I requires at least one safety valve set at or below the MAWP. The set pressure itself cannot exceed MAWP; the ±3% tolerance band applies to the manufacturer's popping-point tolerance, not to exceeding MAWP."
+  },
+  {
+    "id": 3108,
+    "level": "1a",
+    "category": "Steam Generation",
+    "question": "Superheated steam differs from saturated steam in that it:",
+    "options": [
+      "Contains suspended water droplets",
+      "Is at a temperature higher than the saturation temperature for its pressure",
+      "Is always at atmospheric pressure",
+      "Has a lower enthalpy than saturated steam"
+    ],
+    "correct": 1,
+    "explanation": "Superheat is sensible heat added to dry saturated steam, raising its temperature above saturation for that pressure. This increases enthalpy, eliminates moisture, and improves turbine efficiency while reducing blade erosion."
+  },
+  {
+    "id": 3109,
+    "level": "1a",
+    "category": "Combustion",
+    "question": "The theoretical (stoichiometric) air requirement is:",
+    "options": [
+      "The minimum air needed to cool the flame",
+      "The exact air quantity required for complete combustion of the fuel with no excess",
+      "Always 20% more than actual air used",
+      "The air needed only for the pilot"
+    ],
+    "correct": 1,
+    "explanation": "Stoichiometric (theoretical) air is the chemically exact amount for complete combustion. In practice, a small amount of excess air is always supplied to ensure complete burning, with the tradeoff being higher stack losses and NOₓ."
+  },
+  {
+    "id": 3110,
+    "level": "1a",
+    "category": "Heat Transfer",
+    "question": "Log mean temperature difference (LMTD) is used when sizing heat exchangers because the temperature difference between fluids:",
+    "options": [
+      "Is constant along the exchanger",
+      "Varies along the length of the exchanger, so a simple average overstates the true driving force",
+      "Has no effect on heat duty",
+      "Depends only on fluid pressure"
+    ],
+    "correct": 1,
+    "explanation": "As one fluid heats and the other cools along the exchanger, the ΔT between them changes continuously. LMTD weights that change logarithmically, giving the correct effective driving force for Q = U·A·LMTD."
+  },
+  {
+    "id": 3111,
+    "level": "1a",
+    "category": "Boiler Types",
+    "question": "A \"package\" boiler is best described as:",
+    "options": [
+      "A boiler assembled entirely in the field from components",
+      "A boiler shop-assembled as a complete unit on a common base and shipped ready for connection",
+      "Any boiler over 500 HP",
+      "A boiler with a watertube furnace only"
+    ],
+    "correct": 1,
+    "explanation": "Package boilers are factory-assembled units mounted on a skid with burner, controls, and trim installed. They save field labor and shorten startup, but are size-limited by shipping constraints."
+  },
+  {
+    "id": 3112,
+    "level": "1a",
+    "category": "Emergency Procedures",
+    "question": "A furnace explosion is most often caused by:",
+    "options": [
+      "Adequate pre-purge of the furnace",
+      "Ignition of accumulated unburned fuel due to inadequate purge or delayed ignition",
+      "Proper flame-scanner operation",
+      "Normal load changes"
+    ],
+    "correct": 1,
+    "explanation": "Furnace explosions almost always involve an accumulation of combustible fuel/air mixture that later finds an ignition source. Pre-purge, flame supervision, and proper light-off procedures exist specifically to prevent this."
+  },
+  {
+    "id": 3113,
+    "level": "1a",
+    "category": "Fuels & Fuel Handling",
+    "question": "Pulverized coal firing requires the coal to be ground to a fineness such that:",
+    "options": [
+      "About 70% passes a 200-mesh sieve",
+      "10% passes a 200-mesh sieve",
+      "It is no finer than rice grains",
+      "The grind has no effect on combustion"
+    ],
+    "correct": 0,
+    "explanation": "Typical pulverized coal firing targets roughly 70% through 200 mesh. Fine grinding exposes enough surface area for rapid combustion in suspension, similar in behavior to a gaseous fuel."
+  },
+  {
+    "id": 3114,
+    "level": "1a",
+    "category": "Refractory & Insulation",
+    "question": "Boiler setting refractory should be inspected during every outage for:",
+    "options": [
+      "Color change only",
+      "Cracks, spalling, slag buildup, and loss of anchoring",
+      "Weight only",
+      "Magnetic properties"
+    ],
+    "correct": 1,
+    "explanation": "Refractory degrades from thermal cycling, slag attack, and erosion. Inspections look for cracks, spalled faces, deteriorated anchors, and hot-spots from behind — left untreated these can expose pressure parts to direct flame impingement."
+  },
+  {
+    "id": 3115,
+    "level": "1a",
+    "category": "Emissions & Environmental",
+    "question": "Continuous Emission Monitoring Systems (CEMS) are typically required on larger units to measure:",
+    "options": [
+      "Feedwater hardness",
+      "Stack gases such as NOₓ, SO₂, CO, and O₂/CO₂ for regulatory reporting",
+      "Fuel oil viscosity",
+      "Steam drum water level"
+    ],
+    "correct": 1,
+    "explanation": "Title V and state air permits often require CEMS on large fossil units to continuously record stack concentrations of regulated pollutants. Data is reported to the regulatory authority on a defined schedule."
+  },
+  {
+    "id": 3116,
+    "level": "1a",
+    "category": "Auxiliaries",
+    "question": "An economizer is installed to:",
+    "options": [
+      "Cool the feedwater before entering the boiler",
+      "Recover heat from flue gas by preheating feedwater, improving overall efficiency",
+      "Remove dissolved oxygen",
+      "Superheat the steam"
+    ],
+    "correct": 1,
+    "explanation": "Economizers are finned tube banks in the flue-gas path downstream of the boiler. They transfer otherwise-lost stack heat into feedwater, typically raising thermal efficiency by 3–5%."
+  },
+  {
+    "id": 3117,
+    "level": "1a",
+    "category": "Controls & Instrumentation",
+    "question": "Three-element feedwater control uses which three inputs?",
+    "options": [
+      "Drum level, steam flow, and feedwater flow",
+      "Drum level, fuel flow, and air flow",
+      "Drum pressure, stack temperature, and feedwater flow",
+      "Drum level, O₂, and CO"
+    ],
+    "correct": 0,
+    "explanation": "Three-element control uses drum level (the controlled variable), steam flow (feed-forward for load changes), and feedwater flow (to correct for valve nonlinearity and feed pressure swings). It greatly outperforms single-element level control on swinging loads."
+  },
+  {
+    "id": 3118,
+    "level": "1a",
+    "category": "Draft Systems",
+    "question": "A balanced-draft boiler uses:",
+    "options": [
+      "Only an induced-draft fan",
+      "Only a forced-draft fan",
+      "Both a forced-draft and an induced-draft fan controlled to hold the furnace at slightly negative pressure",
+      "Natural draft only"
+    ],
+    "correct": 2,
+    "explanation": "Balanced draft keeps the furnace just below atmospheric pressure by coordinating FD (supplying combustion air) and ID (pulling flue gas through the back end). This prevents flue-gas leakage into the boiler room while still driving gas through the convection pass."
+  },
+  {
+    "id": 3119,
+    "level": "1a",
+    "category": "Boiler Testing",
+    "question": "The standard hydrostatic test pressure for a new ASME Section I power boiler is:",
+    "options": [
+      "Equal to MAWP",
+      "1.5 × MAWP",
+      "2.0 × MAWP",
+      "3.0 × MAWP"
+    ],
+    "correct": 1,
+    "explanation": "ASME Section I requires new-construction hydrostatic testing at 1.5 times the MAWP, held long enough to inspect all joints and pressure parts. The temperature must be high enough to avoid brittle-fracture conditions."
+  },
+  {
+    "id": 3120,
+    "level": "1a",
+    "category": "Water Level Control",
+    "question": "Try-cocks serve as:",
+    "options": [
+      "A primary control for feedwater flow",
+      "A secondary, independent means of verifying drum water level if the gauge glass is doubted",
+      "A blowdown device",
+      "Safety valves for the steam drum"
+    ],
+    "correct": 1,
+    "explanation": "Try-cocks are small manual valves at known elevations around the normal water level. Opening them to see whether steam or water discharges gives an independent check on gauge-glass indication, which is especially important if the glass is suspect."
   }
 ];
 
-// Total questions in this file: 274
-// Answer distribution — A:69  B:69  C:69  D:67
+// Total questions in this file: 289
+// Answer distribution — A:71  B:79  C:71  D:68

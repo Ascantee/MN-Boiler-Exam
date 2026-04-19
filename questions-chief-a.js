@@ -3836,8 +3836,190 @@ const QUESTIONS_CHIEF_A = [
     ],
     "correct": 3,
     "explanation": "Three-phase apparent power: S = √3 × V × I = 1.732 × 480 × 50 = 41,569 VA = 41.6 kVA. Note the √3 factor is required for three-phase calculations. Real power (kW) = kVA × power factor."
+  },
+  {
+    "id": 4102,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "A daily boiler log should, at minimum, record:",
+    "options": [
+      "Only steam pressure",
+      "Key operating parameters (pressures, temperatures, water level checks, blowdowns, tests of safety devices) plus any abnormal events",
+      "Only the operator's name",
+      "Only fuel consumption"
+    ],
+    "correct": 1,
+    "explanation": "The log is both an operational record and a legal document. MN Rules and good practice expect it to capture startup/shutdown events, routine readings, safety-device tests, blowdowns, maintenance, and any incidents — in enough detail to reconstruct operation."
+  },
+  {
+    "id": 4103,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "The chief engineer of a licensed plant is ultimately responsible for:",
+    "options": [
+      "Only paperwork",
+      "The safe operation, maintenance, and proper staffing of the boilers and associated equipment under his or her charge",
+      "Only training new operators",
+      "Procuring fuel"
+    ],
+    "correct": 1,
+    "explanation": "Under MN licensing rules, the chief engineer has overall responsibility for safe operation and maintenance of the equipment, compliance with statutes and rules, and ensuring the plant is manned by appropriately licensed personnel at all times required."
+  },
+  {
+    "id": 4104,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "Under the NBIC, an \"R\" stamp holder is authorized to perform:",
+    "options": [
+      "Original new-boiler construction only",
+      "Repairs and alterations to pressure-retaining items in accordance with NBIC Part 3",
+      "Only nondestructive examination",
+      "Only operator training"
+    ],
+    "correct": 1,
+    "explanation": "The NBIC \"R\" certificate of authorization qualifies an organization to perform code repairs and alterations on ASME-stamped and other pressure-retaining items, with inspection oversight and documentation per NBIC Part 3."
+  },
+  {
+    "id": 4105,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "The difference between a \"repair\" and an \"alteration\" under the NBIC is that an alteration:",
+    "options": [
+      "Is always smaller in scope than a repair",
+      "Changes the original design (e.g., MAWP, heating surface, pressure-retaining capacity) beyond what was in the original data report",
+      "Is performed only by the original manufacturer",
+      "Does not require an inspector"
+    ],
+    "correct": 1,
+    "explanation": "A repair restores the item to its original specified condition. An alteration changes design conditions (pressure rating, temperature, service, added nozzles that affect rating, etc.) and requires an \"R\" holder, an authorized inspector, and updated documentation."
+  },
+  {
+    "id": 4106,
+    "level": "chief_a",
+    "category": "Water Treatment",
+    "question": "Chemical cleaning (acid cleaning) of a boiler is performed to:",
+    "options": [
+      "Add scale to tubes for protection",
+      "Remove hardness scale, iron oxide, and deposits from waterside surfaces so heat transfer is restored",
+      "Replace the need for ongoing water treatment",
+      "Remove refractory"
+    ],
+    "correct": 1,
+    "explanation": "Scheduled acid cleaning (typically inhibited HCl or citric/EDTA solutions) dissolves waterside scale and corrosion products that have accumulated despite treatment, restoring clean metal surfaces. It is a specialized procedure with strict safety and disposal controls."
+  },
+  {
+    "id": 4107,
+    "level": "chief_a",
+    "category": "Boiler Calculations",
+    "question": "A combined-cycle plant's thermal efficiency is higher than a simple-cycle plant largely because the HRSG:",
+    "options": [
+      "Adds fuel to the gas-turbine exhaust",
+      "Recovers heat from gas-turbine exhaust to generate steam for a bottoming steam cycle",
+      "Cools the combustion air",
+      "Replaces the condenser"
+    ],
+    "correct": 1,
+    "explanation": "A Heat Recovery Steam Generator captures otherwise-wasted exhaust heat (~1,000 °F) and uses it to produce steam that drives a steam turbine — yielding combined-cycle efficiencies in the 55–60%+ range versus ~35% for a simple-cycle gas turbine alone."
+  },
+  {
+    "id": 4108,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "A cogeneration plant is distinguished from a conventional power plant in that it:",
+    "options": [
+      "Produces only electricity",
+      "Produces both useful thermal energy (process steam/heat) and electric power from the same fuel input",
+      "Uses only renewable fuels",
+      "Has no prime mover"
+    ],
+    "correct": 1,
+    "explanation": "Cogeneration (CHP) captures and uses the heat that a power-only plant would reject. Because both electricity and process heat are produced from one fuel stream, overall fuel utilization can exceed 70–80%."
+  },
+  {
+    "id": 4109,
+    "level": "chief_a",
+    "category": "Emergency Procedures",
+    "question": "On a catastrophic pressure-part failure, after securing the boiler the operator must also:",
+    "options": [
+      "Resume operation as soon as possible",
+      "Notify the chief engineer and the jurisdictional authority (state inspector) and preserve the scene for investigation",
+      "Discard the failed parts",
+      "Refire only if pressure returns to normal"
+    ],
+    "correct": 1,
+    "explanation": "MN statutes require reporting boiler accidents to the jurisdictional authority. The scene and failed components must be preserved until the inspector releases them, so root cause can be properly determined."
+  },
+  {
+    "id": 4110,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "Heavy fuel oil (No. 6) tank heating is typically maintained at a storage temperature of approximately:",
+    "options": [
+      "40 °F",
+      "100–120 °F to keep the oil pumpable",
+      "300 °F",
+      "Ambient only"
+    ],
+    "correct": 1,
+    "explanation": "Storage heaters keep No. 6 oil around 100–120 °F so it can be pumped. Separate suction/line heaters and burner-tip heaters raise it further to roughly 180–220 °F for proper atomizing viscosity."
+  },
+  {
+    "id": 4111,
+    "level": "chief_a",
+    "category": "ASME & Codes",
+    "question": "A Title V (Clean Air Act) operating permit is generally required for a boiler facility whose potential-to-emit for a regulated pollutant exceeds:",
+    "options": [
+      "1 ton/year",
+      "Major-source thresholds (commonly 100 tons/year, with lower limits for HAPs)",
+      "10,000 tons/year",
+      "There is no threshold"
+    ],
+    "correct": 1,
+    "explanation": "Title V applies to \"major sources\" as defined in the Clean Air Act — typically 100 tons/year of a criteria pollutant (lower in nonattainment areas) or 10/25 tons/year of individual/total HAPs. Boilers in such facilities must operate under the federal operating permit."
+  },
+  {
+    "id": 4112,
+    "level": "chief_a",
+    "category": "Boiler Testing",
+    "question": "A regenerative (Ljungström-type) air preheater transfers heat by:",
+    "options": [
+      "Circulating water between the flue gas and air",
+      "Rotating a heat-storage matrix alternately through flue gas and combustion air streams",
+      "Radiation only",
+      "Condensing steam into the airstream"
+    ],
+    "correct": 1,
+    "explanation": "Regenerative preheaters use a slowly rotating matrix of metal plates that absorbs heat while exposed to flue gas, then releases it to the combustion air on the other side. Compact and effective, but susceptible to fouling and air-side leakage."
+  },
+  {
+    "id": 4113,
+    "level": "chief_a",
+    "category": "Electrical",
+    "question": "In PID control, the integral action primarily:",
+    "options": [
+      "Responds to the rate of change of error",
+      "Eliminates steady-state offset by continuing to act as long as error exists",
+      "Adds a fixed bias to the output",
+      "Limits the output to a safe range"
+    ],
+    "correct": 1,
+    "explanation": "Proportional action alone leaves a steady-state offset. Integral action accumulates error over time and drives the offset to zero. Derivative action anticipates change based on rate of error."
+  },
+  {
+    "id": 4114,
+    "level": "chief_a",
+    "category": "Plant Management",
+    "question": "Compared to a cold start, a hot restart of a large boiler typically:",
+    "options": [
+      "Takes longer and requires a more conservative pressure-rise rate",
+      "Is faster because drums and headers are already near operating temperature, reducing thermal-stress limits",
+      "Requires a full hydrostatic test first",
+      "Requires draining the boiler"
+    ],
+    "correct": 1,
+    "explanation": "Thermal-stress limits on thick drums and headers are the usual constraint on startup rate. A hot restart begins with the metal already near operating temperature, so pressure and temperature can be ramped faster than a cold start from ambient."
   }
 ];
 
-// Total questions in this file: 271
-// Answer distribution — A:68  B:68  C:67  D:68
+// Total questions in this file: 284
+// Answer distribution — A:68  B:81  C:67  D:68
