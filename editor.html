@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MN Boiler — Question Editor</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy:     #1B2A4A;
+  --navy-l:   #2C5282;
+  --gold:     #D4A843;
+  --bg:       #F4F6FA;
+  --surface:  #FFFFFF;
+  --border:   #D1D9E6;
+  --text:     #1A202C;
+  --muted:    #64748B;
+  --green:    #166534;
+  --green-bg: #E6F4EA;
+  --red:      #C0392B;
+  --red-bg:   #FDEDEC;
+  --blue-bg:  #EBF0F8;
+  --r:        10px;
+  --sh:       0 2px 10px rgba(0,0,0,.09);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;font-size:14px}
+
+/* ─── HEADER ─────────────────────────────── */
+.hdr{
+  background:var(--navy);color:#fff;padding:0 20px;height:52px;
+  display:flex;align-items:center;justify-content:space-between;
+  position:sticky;top:0;z-index:200;box-shadow:0 2px 12px rgba(0,0,0,.3);
+}
+.hdr-l{display:flex;align-items:center;gap:11px}
+.logo{width:30px;height:30px;background:var(--gold);border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
+.hdr-title{font-size:14px;font-weight:700}
+.hdr-sub{font-size:10px;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:.06em}
+.hdr-r{display:flex;gap:7px;align-items:center}
+
+/* ─── BUTTONS ────────────────────────────── */
+.btn{padding:7px 14px;border-radius:7px;border:none;font-family:inherit;font-size:12px;font-weight:600;cursor:pointer;transition:.14s;display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.btn:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.btn:active{transform:translateY(0)}
+.btn:disabled{opacity:.4;cursor:not-allowed;transform:none;filter:none}
+.btn-gold {background:var(--gold);color:var(--navy)}
+.btn-navy {background:var(--navy-l);color:#fff}
+.btn-ghost{background:transparent;border:1.5px solid rgba(255,255,255,.3);color:#fff}
+.btn-sm   {padding:5px 11px;font-size:11px;border-radius:6px}
+.btn-xs   {padding:4px 9px;font-size:11px;border-radius:5px}
+.btn-save {background:#15803D;color:#fff}
+.btn-save:disabled{background:#ccc}
+.btn-del  {background:var(--red-bg);color:var(--red);border:1.5px solid #f5c6c2}
+
+/* ─── LAYOUT ─────────────────────────────── */
+.layout{display:grid;grid-template-columns:268px 1fr;min-height:calc(100vh - 52px)}
+
+/* ─── SIDEBAR ────────────────────────────── */
+.sb{background:var(--surface);border-right:1px solid var(--border);padding:14px 13px;position:sticky;top:52px;height:calc(100vh - 52px);overflow-y:auto}
+.sb-sec{margin-bottom:16px}
+.sb-lbl{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:7px}
+
+/* ─── TIER TILES ─────────────────────────── */
+.tier-tile{
+  background:var(--bg);border:1.5px solid var(--border);border-radius:9px;
+  padding:10px 11px;margin-bottom:7px;
+}
+.tier-tile.loaded {border-color:#86EFAC;background:#F0FDF4}
+.tier-tile.unsaved{border-color:var(--gold);background:#FFFBEB}
+.tier-tile.missing{border-color:#FCA5A5;background:#FEF2F2}
+
+.tile-top{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.tile-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;background:var(--border)}
+.tier-tile.loaded  .tile-dot{background:#22C55E}
+.tier-tile.unsaved .tile-dot{background:var(--gold)}
+.tier-tile.missing .tile-dot{background:#EF4444}
+.tile-info{flex:1;min-width:0}
+.tile-name{font-size:11px;font-weight:700;color:var(--navy)}
+.tile-meta{font-size:10px;color:var(--muted);margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.tile-btns{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+
+/* ─── STATS ──────────────────────────────── */
+.sg{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-bottom:9px}
+.sc{background:var(--blue-bg);border-radius:7px;padding:8px 10px;text-align:center}
+.sn{font-size:19px;font-weight:800;color:var(--navy)}
+.sl{font-size:9px;font-weight:700;color:var(--muted);text-transform:uppercase}
+
+/* ─── DIST BARS ──────────────────────────── */
+.dr{display:flex;align-items:center;gap:7px;margin-bottom:4px;font-size:11px}
+.dl{width:11px;font-weight:700;color:var(--navy)}
+.dt{flex:1;height:7px;background:var(--border);border-radius:3px;overflow:hidden}
+.df{height:100%;border-radius:3px;transition:width .4s}
+.dp{width:34px;text-align:right;color:var(--muted)}
+
+/* ─── FILTERS ────────────────────────────── */
+.fg{display:flex;flex-direction:column;gap:6px}
+.flt{width:100%;padding:7px 10px;border:1.5px solid var(--border);border-radius:7px;font-family:inherit;font-size:12px;background:var(--surface);color:var(--text)}
+.flt:focus{outline:none;border-color:var(--navy-l)}
+
+/* ─── EXPORT STRIP ───────────────────────── */
+.estrip{display:flex;flex-direction:column;gap:5px;padding:10px 11px;background:var(--blue-bg);border-radius:8px;border:1px solid var(--border)}
+.estrip-lbl{font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}
+
+/* ─── UNSAVED BANNER ─────────────────────── */
+.banner{background:#FFFBEB;border-bottom:1px solid #F6D860;padding:8px 20px;font-size:12px;color:#7B5E00;display:flex;align-items:center;gap:10px}
+.banner.hidden{display:none}
+
+/* ─── MAIN ───────────────────────────────── */
+.main{padding:16px 20px}
+.toolbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:7px}
+.qcount{font-size:12px;color:var(--muted);font-weight:500}
+.tw{border-radius:var(--r);box-shadow:var(--sh);overflow:hidden}
+table{width:100%;border-collapse:collapse;background:var(--surface)}
+thead tr{background:var(--navy)}
+thead th{padding:9px 12px;text-align:left;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#fff;white-space:nowrap}
+tbody tr{border-bottom:1px solid var(--border);transition:background .1s}
+tbody tr:hover{background:var(--blue-bg)}
+tbody tr:last-child{border-bottom:none}
+td{padding:9px 12px;font-size:12px;vertical-align:top}
+.tid{color:var(--muted);font-weight:600;width:42px}
+.badge{display:inline-block;padding:3px 7px;border-radius:5px;font-size:10px;font-weight:700;text-transform:uppercase}
+.b-special{background:#E0F2FE;color:#0369A1}
+.b-2a{background:#F0FDF4;color:#166534}
+.b-1a{background:#FEF3C7;color:#92400E}
+.b-chief_a{background:#FDF2F8;color:#9D174D}
+.cat{display:inline-block;background:var(--blue-bg);color:var(--navy-l);border-radius:4px;padding:2px 7px;font-size:10px;font-weight:600}
+.tq{max-width:280px;line-height:1.45}
+.tans{font-weight:800;font-size:13px;width:34px;text-align:center}
+.aA{color:#7C3AED}.aB{color:#0369A1}.aC{color:#166534}.aD{color:#B45309}
+.tact{white-space:nowrap;width:105px}
+.nores{text-align:center;padding:42px;color:var(--muted);font-size:14px}
+
+/* ─── MODAL ──────────────────────────────── */
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:300;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .17s}
+.ov.open{opacity:1;pointer-events:all}
+.modal{background:var(--surface);border-radius:13px;width:100%;max-width:650px;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,.22);transform:translateY(16px);transition:transform .17s}
+.ov.open .modal{transform:translateY(0)}
+.mh{padding:16px 20px 13px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.mt{font-size:15px;font-weight:700;color:var(--navy)}
+.mc{width:27px;height:27px;background:var(--bg);border:none;border-radius:50%;font-size:13px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--muted)}
+.mc:hover{background:var(--border)}
+.mb{padding:16px 20px}
+.mf{padding:13px 20px 17px;border-top:1px solid var(--border);display:flex;justify-content:flex-end;gap:7px}
+.fg2{margin-bottom:13px}
+label{display:block;font-size:11px;font-weight:600;color:var(--muted);margin-bottom:5px;text-transform:uppercase;letter-spacing:.04em}
+input[type=text],select,textarea{width:100%;padding:7px 10px;border:1.5px solid var(--border);border-radius:7px;font-family:inherit;font-size:12px;color:var(--text);background:var(--surface);transition:border-color .13s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--navy-l);box-shadow:0 0 0 3px rgba(44,82,130,.08)}
+textarea{resize:vertical;min-height:64px;line-height:1.5}
+.og{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.ow{position:relative}
+.ol{position:absolute;left:9px;top:50%;transform:translateY(-50%);font-weight:700;font-size:11px;color:var(--muted);pointer-events:none}
+.ow input{padding-left:25px}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.hint{font-size:10px;color:var(--muted);margin-top:3px}
+
+/* ─── PAGINATION ─────────────────────────── */
+.pag{display:flex;align-items:center;justify-content:center;gap:5px;margin-top:12px}
+.pb{width:28px;height:28px;border-radius:6px;border:1.5px solid var(--border);background:var(--surface);font-family:inherit;font-size:12px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.12s}
+.pb:hover{border-color:var(--navy-l);color:var(--navy-l)}
+.pb.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.pb:disabled{opacity:.35;cursor:not-allowed}
+
+/* ─── TOAST ──────────────────────────────── */
+.toast{position:fixed;bottom:20px;right:20px;background:var(--navy);color:#fff;padding:10px 17px;border-radius:9px;font-size:12px;font-weight:500;box-shadow:0 4px 18px rgba(0,0,0,.22);z-index:999;transform:translateY(70px);opacity:0;transition:.27s}
+.toast.show{transform:translateY(0);opacity:1}
+.toast.ok {background:#15803D}
+.toast.err{background:var(--red)}
+
+/* ─── FSAPI NOTICE ───────────────────────── */
+.fsapi-notice{
+  background:#EFF6FF;border:1px solid #BFDBFE;
+  border-radius:7px;padding:9px 12px;font-size:11px;
+  color:#1e40af;line-height:1.5;margin-top:7px;
+}
+.fsapi-notice.warn{background:#FFFBEB;border-color:#FDE68A;color:#92400E}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="hdr">
+  <div class="hdr-l">
+    <div class="logo">⚙</div>
+    <div>
+      <div class="hdr-title">MN Boiler — Question Editor</div>
+      <div class="hdr-sub">Open · Edit · Save Directly</div>
+    </div>
+  </div>
+  <div class="hdr-r">
+    <a href="index.html" class="btn btn-ghost btn-sm">← Back to Exam</a>
+    <button class="btn btn-gold btn-sm" onclick="openAdd()">+ Add Question</button>
+  </div>
+</header>
+
+<!-- UNSAVED BANNER -->
+<div class="banner hidden" id="banner">
+  ✏ Unsaved changes —
+  <button class="btn btn-xs btn-save" onclick="saveAll()">Save All Tiers</button>
+  <button class="btn btn-xs btn-navy" onclick="exportJS()">⬇ Download questions.js</button>
+</div>
+
+<div class="layout">
+
+<!-- ═══ SIDEBAR ══════════════════════════════════════ -->
+<aside class="sb">
+
+  <!-- TIER FILE MANAGEMENT -->
+  <div class="sb-sec">
+    <div class="sb-lbl">Question Files</div>
+    <div id="tierTiles"><!-- built by JS --></div>
+
+    <div id="fsapiNotice" class="fsapi-notice" style="display:none"></div>
+  </div>
+
+  <!-- STATS -->
+  <div class="sb-sec">
+    <div class="sb-lbl">Pool Summary</div>
+    <div class="sg">
+      <div class="sc"><div class="sn" id="sTotal">0</div><div class="sl">Total</div></div>
+      <div class="sc"><div class="sn" id="sShown">0</div><div class="sl">Shown</div></div>
+      <div class="sc"><div class="sn" id="sSp">0</div><div class="sl">Special</div></div>
+      <div class="sc"><div class="sn" id="s2a">0</div><div class="sl">2nd A</div></div>
+      <div class="sc"><div class="sn" id="s1a">0</div><div class="sl">1st A</div></div>
+      <div class="sc"><div class="sn" id="sCh">0</div><div class="sl">Chief A</div></div>
+    </div>
+  </div>
+
+  <!-- ANSWER BALANCE -->
+  <div class="sb-sec">
+    <div class="sb-lbl">Answer Balance</div>
+    <div id="distBars"></div>
+  </div>
+
+  <!-- CATEGORY HEALTH -->
+  <div class="sb-sec">
+    <div class="sb-lbl">Category Health</div>
+    <div id="catHealth"></div>
+  </div>
+
+  <!-- FILTERS -->
+  <div class="sb-sec">
+    <div class="sb-lbl">Filter &amp; Search</div>
+    <div class="fg">
+      <input class="flt" id="fS" type="text" placeholder="Search questions…" oninput="applyFilters()">
+      <select class="flt" id="fL" onchange="applyFilters()">
+        <option value="">All levels</option>
+        <option value="special">Special Engineer</option>
+        <option value="2a">2nd Class A</option>
+        <option value="1a">1st Class A</option>
+        <option value="chief_a">Chief A</option>
+      </select>
+      <select class="flt" id="fC" onchange="applyFilters()">
+        <option value="">All categories</option>
+      </select>
+      <select class="flt" id="fA" onchange="applyFilters()">
+        <option value="">Any answer</option>
+        <option value="0">Correct = A</option>
+        <option value="1">Correct = B</option>
+        <option value="2">Correct = C</option>
+        <option value="3">Correct = D</option>
+      </select>
+      <button class="btn btn-sm" style="background:var(--bg);border:1.5px solid var(--border);color:var(--muted)" onclick="clearFilters()">Clear Filters</button>
+    </div>
+  </div>
+
+  <!-- EXPORT -->
+  <div class="sb-sec">
+    <div class="estrip">
+      <div class="estrip-lbl">Export / Download</div>
+      <button class="btn btn-navy btn-sm" style="width:100%" onclick="exportJS()">⬇ Download questions.js</button>
+      <button class="btn btn-sm" style="width:100%;background:var(--green-bg);color:var(--green);border:1px solid #b7dfbe" onclick="exportTiers()">⬇ Download all tier files</button>
+      <button class="btn btn-sm" style="width:100%;background:var(--bg);border:1.5px solid var(--border);color:var(--muted)" onclick="exportJSON()">⬇ Download raw JSON</button>
+    </div>
+  </div>
+
+</aside>
+
+<!-- ═══ MAIN ═══════════════════════════════════════════ -->
+<main class="main">
+  <div class="toolbar">
+    <span class="qcount" id="qc">Loading…</span>
+    <select class="flt" style="width:auto" id="pgSz" onchange="changePgSz()">
+      <option value="25">25 per page</option>
+      <option value="50" selected>50 per page</option>
+      <option value="100">100 per page</option>
+      <option value="9999">Show all</option>
+    </select>
+  </div>
+  <div class="tw">
+    <table>
+      <thead><tr>
+        <th>ID</th><th>Level</th><th>Category</th>
+        <th>Question</th>
+        <th style="width:34px;text-align:center">Ans</th>
+        <th>Actions</th>
+      </tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+  <div id="nores" class="nores" style="display:none">No questions match your filters.</div>
+  <div class="pag" id="pag"></div>
+</main>
+</div>
+
+<!-- ADD/EDIT MODAL -->
+<div class="ov" id="editModal">
+  <div class="modal">
+    <div class="mh">
+      <div class="mt" id="mTitle">Add Question</div>
+      <button class="mc" onclick="closeM('editModal')">✕</button>
+    </div>
+    <div class="mb">
+      <input type="hidden" id="eId">
+      <div class="fr">
+        <div class="fg2">
+          <label>License Level *</label>
+          <select id="eLv">
+            <option value="special">Special Engineer</option>
+            <option value="2a">2nd Class A</option>
+            <option value="1a">1st Class A</option>
+            <option value="chief_a">Chief A</option>
+          </select>
+        </div>
+        <div class="fg2">
+          <label>Category *</label>
+          <select id="eCt">
+            <option>Safety Devices</option><option>Boiler Types</option>
+            <option>MN Statutes &amp; Rules</option><option>Water Treatment</option>
+            <option>Steam Generation</option><option>Combustion</option>
+            <option>Draft Systems</option><option>Heat Transfer</option>
+            <option>Boiler Calculations</option><option>Safety Valves</option>
+            <option>Operating Procedures</option><option>Turbines &amp; Engines</option>
+            <option>Electrical</option><option>Boiler Testing</option>
+            <option>ASME &amp; Codes</option><option>Water Level Control</option>
+            <option>Piping &amp; Valves</option><option>Bearings &amp; Governors</option>
+            <option>Layup &amp; Maintenance</option><option>Plant Management</option>
+          </select>
+        </div>
+      </div>
+      <div class="fg2">
+        <label>Question Text *</label>
+        <textarea id="eQ" rows="3" placeholder="Enter the full question…"></textarea>
+      </div>
+      <div class="fg2">
+        <label>Answer Options *</label>
+        <div class="og">
+          <div class="ow"><span class="ol">A</span><input type="text" id="eO0" placeholder="Option A"></div>
+          <div class="ow"><span class="ol">B</span><input type="text" id="eO1" placeholder="Option B"></div>
+          <div class="ow"><span class="ol">C</span><input type="text" id="eO2" placeholder="Option C"></div>
+          <div class="ow"><span class="ol">D</span><input type="text" id="eO3" placeholder="Option D"></div>
+        </div>
+      </div>
+      <div class="fg2">
+        <label>Correct Answer *</label>
+        <select id="eCr">
+          <option value="0">A — first option</option>
+          <option value="1">B — second option</option>
+          <option value="2">C — third option</option>
+          <option value="3">D — fourth option</option>
+        </select>
+        <div class="hint">Tip: vary A / B / C / D — don't always use the same position!</div>
+      </div>
+      <div class="fg2">
+        <label>Explanation *</label>
+        <textarea id="eEx" rows="4" placeholder="Why is this the correct answer? Include any code reference or key number."></textarea>
+      </div>
+    </div>
+    <div class="mf">
+      <button class="btn btn-sm" style="background:var(--bg);border:1.5px solid var(--border);color:var(--muted)" onclick="closeM('editModal')">Cancel</button>
+      <button class="btn btn-gold btn-sm" onclick="saveQ()">Save Question</button>
+    </div>
+  </div>
+</div>
+
+<!-- DELETE MODAL -->
+<div class="ov" id="delModal">
+  <div class="modal" style="max-width:400px">
+    <div class="mh">
+      <div class="mt">Delete Question?</div>
+      <button class="mc" onclick="closeM('delModal')">✕</button>
+    </div>
+    <div class="mb">
+      <p style="color:var(--muted);line-height:1.6" id="delPrev"></p>
+    </div>
+    <div class="mf">
+      <button class="btn btn-sm" style="background:var(--bg);border:1.5px solid var(--border);color:var(--muted)" onclick="closeM('delModal')">Cancel</button>
+      <button class="btn btn-sm" style="background:var(--red);color:#fff" onclick="doDelete()">Delete</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Hidden fallback file inputs -->
+<input type="file" id="fi_special"  accept=".js,.json" style="display:none" onchange="handleFallback(event,'special')">
+<input type="file" id="fi_2a"       accept=".js,.json" style="display:none" onchange="handleFallback(event,'2a')">
+<input type="file" id="fi_1a"       accept=".js,.json" style="display:none" onchange="handleFallback(event,'1a')">
+<input type="file" id="fi_chief_a"  accept=".js,.json" style="display:none" onchange="handleFallback(event,'chief_a')">
+
+<!-- ════════════════════════════════════════════════
+     STEP 1: Load all 4 tier question files
+     (these define const QUESTIONS_SPECIAL etc.)
+════════════════════════════════════════════════ -->
+<script src="questions-special.js"></script>
+<script src="questions-2a.js"></script>
+<script src="questions-1a.js"></script>
+<script src="questions-chief-a.js"></script>
+
+<!-- ════════════════════════════════════════════════
+     STEP 2: Bridge — capture const vars into window
+     MUST run immediately after the script tags above
+     (const is NOT on window[], this bridge fixes it)
+════════════════════════════════════════════════ -->
+<script>
+window._QB = {
+  special:  typeof QUESTIONS_SPECIAL  !== 'undefined' ? QUESTIONS_SPECIAL  : null,
+  '2a':     typeof QUESTIONS_2A       !== 'undefined' ? QUESTIONS_2A       : null,
+  '1a':     typeof QUESTIONS_1A       !== 'undefined' ? QUESTIONS_1A       : null,
+  chief_a:  typeof QUESTIONS_CHIEF_A  !== 'undefined' ? QUESTIONS_CHIEF_A  : null,
+};
+</script>
+
+<!-- ════════════════════════════════════════════════
+     STEP 3: Editor application
+════════════════════════════════════════════════ -->
+<script>
+/* ────────────────────────────────────────────
+   CONFIG
+──────────────────────────────────────────── */
+const TIERS = [
+  { key:'special',  label:'Special Engineer', file:'questions-special.js',  varName:'QUESTIONS_SPECIAL'  },
+  { key:'2a',       label:'2nd Class A',      file:'questions-2a.js',       varName:'QUESTIONS_2A'       },
+  { key:'1a',       label:'1st Class A',      file:'questions-1a.js',       varName:'QUESTIONS_1A'       },
+  { key:'chief_a',  label:'Chief A',          file:'questions-chief-a.js',  varName:'QUESTIONS_CHIEF_A'  },
+];
+const AL   = ['A','B','C','D'];
+const LABS = { special:'Special', '2a':'2A', '1a':'1A', chief_a:'Chief A' };
+const FSAPI = 'showOpenFilePicker' in window;
+
+// Canonical category list — the editor's dropdown mirrors this. Changes anywhere
+// outside this list are flagged on save so drift across tier files is caught.
+const CANONICAL_CATEGORIES = [
+  'Safety Devices','Boiler Types','MN Statutes & Rules','Water Treatment',
+  'Steam Generation','Combustion','Draft Systems','Heat Transfer',
+  'Boiler Calculations','Safety Valves','Operating Procedures','Turbines & Engines',
+  'Electrical','Boiler Testing','ASME & Codes','Water Level Control',
+  'Piping & Valves','Bearings & Governors','Layup & Maintenance','Plant Management'
+];
+const CANONICAL_SET = new Set(CANONICAL_CATEGORIES);
+
+/* ────────────────────────────────────────────
+   STATE
+──────────────────────────────────────────── */
+let questions   = [];
+let filtered    = [];
+let editingId   = null;
+let deleteId    = null;
+let page        = 1;
+let pgSz        = 50;
+let changed     = {};   // { tierKey: true }
+let handles     = {};   // { tierKey: FileSystemFileHandle }
+
+/* ────────────────────────────────────────────
+   INIT
+──────────────────────────────────────────── */
+window.addEventListener('DOMContentLoaded', () => {
+  buildTiles();
+  showFSAPINotice();
+
+  // Auto-load from bridge object (fixes const vs window[] bug)
+  let loaded = 0;
+  TIERS.forEach(t => {
+    const data = window._QB[t.key];
+    if (Array.isArray(data) && data.length > 0) {
+      questions = questions.concat(data);
+      loaded++;
+    }
+  });
+
+  buildCatFilter();
+  applyFilters();
+  updateSidebar();
+  updateTiles();
+
+  if (loaded > 0) {
+    toast(`${questions.length} questions loaded automatically.`, 'ok');
+  } else {
+    toast('No question files found. Use Open to load each tier.', 'err');
+  }
+});
+
+/* ────────────────────────────────────────────
+   TILES
+──────────────────────────────────────────── */
+function buildTiles() {
+  document.getElementById('tierTiles').innerHTML = TIERS.map(t => `
+    <div class="tier-tile" id="tile_${t.key}">
+      <div class="tile-top">
+        <div class="tile-dot" id="dot_${t.key}"></div>
+        <div class="tile-info">
+          <div class="tile-name">${t.label}</div>
+          <div class="tile-meta" id="meta_${t.key}">Checking…</div>
+        </div>
+      </div>
+      <div class="tile-btns">
+        <button class="btn btn-navy btn-xs" onclick="openTier('${t.key}')" title="Open a new file for this tier">
+          ${FSAPI ? '📂 Open' : '📂 Replace'}
+        </button>
+        <button class="btn btn-save btn-xs" id="save_${t.key}" onclick="saveTier('${t.key}')" disabled title="${FSAPI ? 'Save directly back to disk' : 'Download updated file'}">
+          ${FSAPI ? '💾 Save' : '⬇ Download'}
+        </button>
+      </div>
+    </div>
+  `).join('');
+}
+
+function updateTiles() {
+  TIERS.forEach(t => {
+    const tile  = document.getElementById('tile_' + t.key);
+    const meta  = document.getElementById('meta_' + t.key);
+    const saveB = document.getElementById('save_' + t.key);
+    const count = questions.filter(q => q.level === t.key).length;
+    const isChanged = changed[t.key];
+    const hasHandle = !!handles[t.key];
+
+    tile.className = 'tier-tile ' + (
+      isChanged ? 'unsaved' : count > 0 ? 'loaded' : 'missing'
+    );
+
+    meta.textContent = count > 0
+      ? `${count} questions${isChanged ? ' · unsaved changes' : ''}${hasHandle ? ' · linked to disk' : ''}`
+      : 'Not loaded — click Open';
+
+    // Enable Save if there's something to save
+    saveB.disabled = count === 0;
+    saveB.title = hasHandle
+      ? 'Write directly back to the file on your disk'
+      : FSAPI
+        ? 'Open a file first to enable direct save, or download below'
+        : 'Download updated file';
+  });
+}
+
+function showFSAPINotice() {
+  const el = document.getElementById('fsapiNotice');
+  if (FSAPI) {
+    el.className = 'fsapi-notice';
+    el.innerHTML = '✅ <strong>Direct save supported</strong> — click Open to link a file, then Save to write directly to disk.';
+  } else {
+    el.className = 'fsapi-notice warn';
+    el.innerHTML = '⚠ <strong>Direct save not available</strong> in this browser. Use the Download buttons and replace the files manually. Chrome/Edge support direct save.';
+  }
+  el.style.display = '';
+}
+
+/* ────────────────────────────────────────────
+   OPEN A TIER FILE
+──────────────────────────────────────────── */
+async function openTier(key) {
+  if (FSAPI) {
+    try {
+      const [handle] = await window.showOpenFilePicker({
+        types: [{ description: 'Question files', accept: { 'text/javascript': ['.js'], 'application/json': ['.json'] } }],
+        multiple: false
+      });
+      handles[key] = handle;
+      const file = await handle.getFile();
+      const text = await file.text();
+      loadTierData(key, text, file.name);
+    } catch (e) {
+      if (e.name !== 'AbortError') toast('Could not open file: ' + e.message, 'err');
+    }
+  } else {
+    document.getElementById('fi_' + key).click();
+  }
+}
+
+function handleFallback(event, key) {
+  const file = event.target.files[0];
+  if (!file) return;
+  event.target.value = '';
+  const reader = new FileReader();
+  reader.onload = e => loadTierData(key, e.target.result, file.name);
+  reader.readAsText(file);
+}
+
+function loadTierData(key, text, filename) {
+  const parsed = parseFile(text);
+  if (!parsed) return;
+
+  // Accept all questions if the file is a mixed set, or only matching tier
+  const tierQs = parsed.every(q => q.level === key)
+    ? parsed
+    : parsed.filter(q => q.level === key);
+
+  if (tierQs.length === 0) {
+    toast(`No "${key}" questions found in ${filename}.`, 'err');
+    return;
+  }
+
+  // Replace this tier in the flat array
+  questions = questions.filter(q => q.level !== key).concat(tierQs);
+  changed[key] = true;
+
+  updateTiles();
+  buildCatFilter();
+  applyFilters();
+  updateSidebar();
+  markUnsaved();
+  toast(`${LABS[key]}: ${tierQs.length} questions loaded from ${filename}.`, 'ok');
+}
+
+function parseFile(text) {
+  try {
+    if (text.trim().startsWith('[')) return JSON.parse(text);
+    const m = text.match(/(?:const|var|let)\s+\w+\s*=\s*(\[[\s\S]*?\n\]);/);
+    if (!m) throw new Error('No question array found in file.');
+    const arr = JSON.parse(m[1]);
+    const bad = arr.filter(q => !q.id || !q.level || !q.question || !q.options || q.correct === undefined);
+    if (bad.length) throw new Error(`${bad.length} questions missing required fields.`);
+    return arr;
+  } catch (e) {
+    toast('Parse error: ' + e.message, 'err');
+    return null;
+  }
+}
+
+/* ────────────────────────────────────────────
+   SAVE A TIER FILE
+──────────────────────────────────────────── */
+async function saveTier(key) {
+  const t   = TIERS.find(x => x.key === key);
+  const qs  = questions.filter(q => q.level === key);
+  const content = buildTierFile(t, qs);
+
+  if (FSAPI && handles[key]) {
+    try {
+      const writable = await handles[key].createWritable();
+      await writable.write(content);
+      await writable.close();
+      changed[key] = false;
+      updateTiles();
+      checkAllSaved();
+      toast(`✅ ${t.label} saved to disk (${qs.length} questions).`, 'ok');
+    } catch (e) {
+      toast('Save failed — ' + e.message + '. Try downloading instead.', 'err');
+    }
+  } else {
+    // No handle or no FSAPI — fall back to download
+    dl(t.file, content, 'text/javascript');
+    toast(`Downloaded ${t.file}. Replace it in your exam folder.`, 'ok');
+  }
+}
+
+async function saveAll() {
+  for (const t of TIERS) {
+    const qs = questions.filter(q => q.level === t.key);
+    if (qs.length === 0) continue;
+    await saveTier(t.key);
+  }
+}
+
+function checkAllSaved() {
+  if (Object.values(changed).every(v => !v)) {
+    document.getElementById('banner').classList.add('hidden');
+  }
+}
+
+function buildTierFile(t, qs) {
+  const dist = [0,0,0,0];
+  qs.forEach(q => dist[q.correct]++);
+  return [
+    `/*`,
+    ` =============================================================`,
+    ` MN BOILER OPERATOR LICENSE — PRACTICE EXAM QUESTIONS`,
+    ` License Tier: ${t.label}`,
+    ` =============================================================`,
+    ``,
+    ` HOW TO ADD A NEW QUESTION`,
+    ` -------------------------`,
+    ` 1. Find the last question in the array below (before the closing ];)`,
+    ` 2. Add a comma after its closing brace }  then paste your new question`,
+    ` 3. Use the next sequential ID number`,
+    ` 4. Set "level" to "${t.key}"`,
+    ` 5. Set "correct" to: 0=A, 1=B, 2=C, 3=D  — VARY this! Do not always pick B or C`,
+    ` 6. Write a clear explanation of WHY the answer is correct`,
+    ``,
+    ` TEMPLATE:`,
+    ` {`,
+    `   "id": 9999,`,
+    `   "level": "${t.key}",`,
+    `   "category": "Safety Devices",`,
+    `   "question": "Your question text here?",`,
+    `   "options": ["Option A", "Option B", "Option C", "Option D"],`,
+    `   "correct": 0,`,
+    `   "explanation": "Why the correct answer is correct."`,
+    ` }`,
+    ` =============================================================`,
+    `*/`,
+    ``,
+    `const ${t.varName} = ${JSON.stringify(qs, null, 2)};`,
+    ``,
+    `// Total: ${qs.length} | A:${dist[0]} B:${dist[1]} C:${dist[2]} D:${dist[3]}`,
+  ].join('\n');
+}
+
+/* ────────────────────────────────────────────
+   FILTER & RENDER
+──────────────────────────────────────────── */
+function buildCatFilter() {
+  const cats = [...new Set(questions.map(q => q.category))].sort();
+  const sel = document.getElementById('fC');
+  const cur = sel.value;
+  sel.innerHTML = '<option value="">All categories</option>' +
+    cats.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+  if (cats.includes(cur)) sel.value = cur;
+}
+
+function applyFilters() {
+  const s  = document.getElementById('fS').value.toLowerCase();
+  const lv = document.getElementById('fL').value;
+  const ct = document.getElementById('fC').value;
+  const an = document.getElementById('fA').value;
+
+  filtered = questions.filter(q => {
+    if (lv && q.level    !== lv)           return false;
+    if (ct && q.category !== ct)           return false;
+    if (an !== '' && q.correct !== +an)    return false;
+    if (s) {
+      const hay = (q.question+' '+q.category+' '+q.options.join(' ')+' '+q.explanation).toLowerCase();
+      if (!hay.includes(s)) return false;
+    }
+    return true;
+  });
+  page = 1;
+  renderTable();
+  updateSidebar();
+}
+
+function renderTable() {
+  const tbody = document.getElementById('tbody');
+  const nores = document.getElementById('nores');
+  if (!filtered.length) {
+    tbody.innerHTML = '';
+    nores.style.display = '';
+    document.getElementById('pag').innerHTML = '';
+    document.getElementById('qc').textContent = '0 questions';
+    return;
+  }
+  nores.style.display = 'none';
+
+  const start = (page-1)*pgSz;
+  const slice = pgSz >= 9999 ? filtered : filtered.slice(start, start+pgSz);
+  const end   = Math.min(start+pgSz, filtered.length);
+  document.getElementById('qc').textContent =
+    `Showing ${start+1}–${end} of ${filtered.length} question${filtered.length!==1?'s':''}`;
+
+  tbody.innerHTML = slice.map(q => {
+    const lt = AL[q.correct];
+    return `<tr>
+      <td class="tid">#${q.id}</td>
+      <td><span class="badge b-${q.level}">${LABS[q.level]||q.level}</span></td>
+      <td><span class="cat">${esc(q.category)}</span></td>
+      <td class="tq">${esc(q.question)}</td>
+      <td class="tans a${lt}">${lt}</td>
+      <td class="tact">
+        <button class="btn btn-navy btn-xs" style="margin-bottom:3px" onclick="openEdit(${q.id})">Edit</button>
+        <button class="btn btn-del btn-xs" onclick="openDel(${q.id})">Delete</button>
+      </td>
+    </tr>`;
+  }).join('');
+
+  renderPag();
+}
+
+function renderPag() {
+  if (pgSz >= 9999 || filtered.length <= pgSz) { document.getElementById('pag').innerHTML=''; return; }
+  const tp = Math.ceil(filtered.length/pgSz), cur = page;
+  const b=(lbl,pg,dis,act)=>`<button class="pb${act?' on':''}" ${dis?'disabled':''} onclick="gp(${pg})">${lbl}</button>`;
+  let h = b('«',1,cur===1,false)+b('‹',cur-1,cur===1,false);
+  const s=Math.max(1,cur-2),e=Math.min(tp,cur+2);
+  if(s>1)h+='<span style="padding:0 3px;color:var(--muted)">…</span>';
+  for(let p=s;p<=e;p++)h+=b(p,p,false,p===cur);
+  if(e<tp)h+='<span style="padding:0 3px;color:var(--muted)">…</span>';
+  h+=b('›',cur+1,cur===tp,false)+b('»',tp,cur===tp,false);
+  document.getElementById('pag').innerHTML=h;
+}
+
+function gp(p){page=p;renderTable();scrollTo(0,0)}
+function changePgSz(){pgSz=+document.getElementById('pgSz').value;applyFilters()}
+function clearFilters(){
+  ['fS','fL','fC','fA'].forEach(id=>{const el=document.getElementById(id);el.value=el.tagName==='INPUT'?'':''});
+  applyFilters();
+}
+
+function updateSidebar() {
+  document.getElementById('sTotal').textContent = questions.length;
+  document.getElementById('sShown').textContent = filtered.length;
+  document.getElementById('sSp').textContent    = questions.filter(q=>q.level==='special').length;
+  document.getElementById('s2a').textContent    = questions.filter(q=>q.level==='2a').length;
+  document.getElementById('s1a').textContent    = questions.filter(q=>q.level==='1a').length;
+  document.getElementById('sCh').textContent    = questions.filter(q=>q.level==='chief_a').length;
+
+  renderCategoryHealth();
+
+  const dist=[0,0,0,0], n=questions.length;
+  questions.forEach(q=>dist[q.correct]++);
+  const clr=['#7C3AED','#0369A1','#166534','#B45309'];
+  document.getElementById('distBars').innerHTML = dist.map((c,i)=>{
+    const pct=n?(c/n*100).toFixed(1):0;
+    return `<div class="dr">
+      <span class="dl">${AL[i]}</span>
+      <div class="dt"><div class="df" style="width:${pct}%;background:${clr[i]}"></div></div>
+      <span class="dp">${pct}%</span>
+    </div>`;
+  }).join('');
+}
+
+/* ────────────────────────────────────────────
+   ADD / EDIT
+──────────────────────────────────────────── */
+function openAdd() {
+  editingId = null;
+  document.getElementById('mTitle').textContent = 'Add Question';
+  ['eLv','eCt','eQ','eO0','eO1','eO2','eO3','eEx'].forEach(id => {
+    const el = document.getElementById(id);
+    if (id==='eLv') el.value='special'; else el.value='';
+  });
+  document.getElementById('eCr').value='0';
+  openM('editModal');
+}
+
+function openEdit(id) {
+  const q = questions.find(x=>x.id===id);
+  if (!q) return;
+  editingId = id;
+  document.getElementById('mTitle').textContent = `Edit Question #${id}`;
+  document.getElementById('eLv').value = q.level;
+  document.getElementById('eCt').value = q.category;
+  document.getElementById('eQ').value  = q.question;
+  [0,1,2,3].forEach(i=>document.getElementById('eO'+i).value=q.options[i]);
+  document.getElementById('eCr').value = q.correct;
+  document.getElementById('eEx').value = q.explanation;
+  openM('editModal');
+}
+
+function saveQ() {
+  const level = document.getElementById('eLv').value;
+  const cat   = document.getElementById('eCt').value.trim();
+  const qtext = document.getElementById('eQ').value.trim();
+  const opts  = [0,1,2,3].map(i=>document.getElementById('eO'+i).value.trim());
+  const corr  = +document.getElementById('eCr').value;
+  const expl  = document.getElementById('eEx').value.trim();
+
+  if (!qtext||opts.some(o=>!o)||!expl) { toast('Please fill in all fields.','err'); return; }
+  if (!cat) { toast('Category is required.','err'); return; }
+  if (!CANONICAL_SET.has(cat)) {
+    const ok = confirm(
+      `"${cat}" is not in the canonical category list. ` +
+      `Using non-canonical categories causes drift across tier files. ` +
+      `\n\nSave anyway?`
+    );
+    if (!ok) return;
+  }
+
+  if (editingId !== null) {
+    const idx = questions.findIndex(x=>x.id===editingId);
+    if (idx>-1) {
+      questions[idx] = { id:editingId, level, category:cat, question:qtext, options:opts, correct:corr, explanation:expl };
+      toast(`Question #${editingId} updated.`, 'ok');
+    }
+  } else {
+    const maxId = questions.reduce((m,q)=>Math.max(m,q.id),0);
+    questions.push({ id:maxId+1, level, category:cat, question:qtext, options:opts, correct:corr, explanation:expl });
+    toast(`Question #${maxId+1} added.`, 'ok');
+  }
+
+  changed[level] = true;
+  markUnsaved();
+  closeM('editModal');
+  buildCatFilter();
+  applyFilters();
+  updateTiles();
+}
+
+/* ────────────────────────────────────────────
+   DELETE
+──────────────────────────────────────────── */
+function openDel(id) {
+  deleteId = id;
+  const q = questions.find(x=>x.id===id);
+  document.getElementById('delPrev').textContent =
+    `Delete question #${id}: "${q?q.question.slice(0,120):''}…"?`;
+  openM('delModal');
+}
+
+function doDelete() {
+  if (deleteId===null) return;
+  const q = questions.find(x=>x.id===deleteId);
+  if (q) { changed[q.level]=true; markUnsaved(); }
+  questions = questions.filter(x=>x.id!==deleteId);
+  toast(`Question #${deleteId} deleted.`, 'ok');
+  deleteId=null;
+  closeM('delModal');
+  applyFilters();
+  updateTiles();
+}
+
+/* ────────────────────────────────────────────
+   UNSAVED STATE
+──────────────────────────────────────────── */
+function markUnsaved() {
+  document.getElementById('banner').classList.remove('hidden');
+}
+
+window.addEventListener('beforeunload', e => {
+  if (Object.values(changed).some(Boolean)) {
+    e.preventDefault();
+    e.returnValue = 'You have unsaved changes. Save or download before leaving.';
+  }
+});
+
+/* ────────────────────────────────────────────
+   EXPORT
+──────────────────────────────────────────── */
+function exportJS() {
+  dl('questions.js','const QUESTIONS = '+JSON.stringify(questions,null,2)+';\n','text/javascript');
+  toast('questions.js downloaded.','ok');
+}
+function exportTiers() {
+  TIERS.forEach(t=>{
+    const qs=questions.filter(q=>q.level===t.key);
+    dl(t.file,buildTierFile(t,qs),'text/javascript');
+  });
+  toast('4 tier files downloaded.','ok');
+}
+function exportJSON() {
+  dl('mn-boiler-questions.json',JSON.stringify(questions,null,2),'application/json');
+  toast('JSON downloaded.','ok');
+}
+function dl(name,content,type){
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([content],{type}));
+  a.download=name;a.click();URL.revokeObjectURL(a.href);
+}
+
+/* ────────────────────────────────────────────
+   MODAL + UTILS
+──────────────────────────────────────────── */
+function openM(id){document.getElementById(id).classList.add('open')}
+function closeM(id){document.getElementById(id).classList.remove('open')}
+document.querySelectorAll('.ov').forEach(o=>{
+  o.addEventListener('click',e=>{if(e.target===o)closeM(o.id)});
+});
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape')document.querySelectorAll('.ov.open').forEach(m=>m.classList.remove('open'));
+});
+
+let tT;
+function toast(msg,type=''){
+  const el=document.getElementById('toast');
+  el.textContent=msg;
+  el.className='toast show'+(type?' '+type:'');
+  clearTimeout(tT);
+  tT=setTimeout(()=>el.className='toast',3500);
+}
+
+function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+
+/* ────────────────────────────────────────────
+   CATEGORY HEALTH — flags questions whose
+   category isn't in the canonical list.
+──────────────────────────────────────────── */
+function renderCategoryHealth() {
+  const host = document.getElementById('catHealth');
+  if (!host) return;
+  const unknown = {};
+  questions.forEach(q => {
+    if (!CANONICAL_SET.has(q.category)) {
+      unknown[q.category] = (unknown[q.category] || 0) + 1;
+    }
+  });
+  const keys = Object.keys(unknown).sort();
+  if (keys.length === 0) {
+    host.innerHTML = '<div style="font-size:11px;color:var(--green);font-weight:600">✓ All categories are canonical.</div>';
+    return;
+  }
+  host.innerHTML =
+    '<div style="font-size:11px;color:var(--red);font-weight:700;margin-bottom:5px">' +
+    '⚠ ' + keys.length + ' non-canonical categor' + (keys.length===1?'y':'ies') + '</div>' +
+    keys.map(k =>
+      `<div style="font-size:10px;color:var(--muted);display:flex;justify-content:space-between;padding:2px 0">
+        <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(k)}">${esc(k)}</span>
+        <strong style="color:var(--red)">${unknown[k]}</strong>
+      </div>`
+    ).join('');
+}
+</script>
+<script data-pplx-inline-edit>
+(function(){
+  if(window===window.top)return;
+  function inlineAll(orig,clone){
+    if(orig.nodeType!==1)return;
+    try{
+      var cs=getComputedStyle(orig);
+      var t='';
+      for(var i=0;i<cs.length;i++){t+=cs[i]+':'+cs.getPropertyValue(cs[i])+';';}
+      clone.style.cssText=t;
+    }catch(e){}
+    var oc=orig.children,cc=clone.children;
+    for(var j=0;j<oc.length&&j<cc.length;j++){inlineAll(oc[j],cc[j]);}
+  }
+  function stripExternal(clone){
+    var imgs=clone.querySelectorAll('img');
+    for(var i=0;i<imgs.length;i++){
+      var s=imgs[i].getAttribute('src');
+      if(s&&!s.startsWith('data:'))imgs[i].removeAttribute('src');
+    }
+    var all=clone.querySelectorAll('*');
+    for(var i=0;i<all.length;i++){
+      var st=all[i].style.cssText;
+      if(st&&st.indexOf('url(')>=0){
+        all[i].style.cssText=st.replace(/url\(["']?(?!data:)[^)"']*["']?\)/gi,'none');
+      }
+    }
+  }
+  window.addEventListener('message',function(e){
+    if(!e.data||e.data.type!=='INLINE_EDIT_CAPTURE_REQUEST')return;
+    var scrollX=window.scrollX||window.pageXOffset||0;
+    var scrollY=window.scrollY||window.pageYOffset||0;
+    var w=window.innerWidth,h=window.innerHeight;
+    try{
+      var clone=document.documentElement.cloneNode(true);
+      var rm=clone.querySelectorAll('script,link[rel="stylesheet"],style');
+      for(var i=0;i<rm.length;i++){rm[i].remove();}
+      inlineAll(document.documentElement,clone);
+      stripExternal(clone);
+      var html=new XMLSerializer().serializeToString(clone);
+      var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'
+        +'<foreignObject width="100%" height="100%">'
+        +'<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+w+'px;height:'+h+'px;overflow:hidden">'
+        +'<div style="transform:translate(-'+scrollX+'px,-'+scrollY+'px);transform-origin:top left">'
+        +html+'</div></div></foreignObject></svg>';
+      var svgUrl='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+      var img=new Image();
+      img.onload=function(){
+        var c=document.createElement('canvas');c.width=w;c.height=h;
+        c.getContext('2d').drawImage(img,0,0);
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:c.toDataURL('image/png'),scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.onerror=function(){
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.src=svgUrl;
+    }catch(err){
+      window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+    }
+  });
+})();
+</script></body>
+</html>
